@@ -454,3 +454,21 @@ figcaption { margin-top: 5px; font-size: 13px; line-height: 1.35; color: var(--r
 .act-msg.err { color: var(--red); font-weight: 700; }
 .act-msg.ok { color: var(--ok); font-weight: 700; }
 .about p { line-height: 1.6; }
+
+/* ---------- languages ---------- */
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.langpick {
+  position: relative; display: flex; align-items: center; justify-content: center; min-width: 58px; height: 36px; padding: 0 12px;
+  border: 1.5px solid var(--red); border-radius: 18px; background: var(--red); color: #fff; font-weight: 700; font-size: 14px; cursor: pointer;
+}
+.langpick b::after { content: ' ▾'; font-size: 11px; }
+.langpick select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; font-size: 16px; }
+.langline { font-size: 14px; color: var(--text-2); margin: 0 0 10px; }
+.mtnote { margin: 10px 0 0; padding: 8px 10px; font-size: 13px; line-height: 1.45; background: var(--warn-bg); color: var(--warn-text); border-left: 4px solid #c77a12; }
+[dir="rtl"] .kind-aside .paras, [dir="rtl"] .mtnote { border-left: 0; }
+[dir="rtl"] .kind-verse .paras { border-left: 0; border-right: 3px solid var(--red); padding-left: 0; padding-right: 14px; }
+[dir="rtl"] .favlist blockquote, .favlist blockquote[dir="rtl"] { border-left: 0; border-right: 3px solid #d49a00; padding-left: 0; padding-right: 12px; }
+.reader[dir="rtl"] .player, .reader[dir="rtl"] .legend { direction: rtl; }
+:lang(zh) .paras, :lang(zh).paras { line-height: 1.8; }
+:lang(hi), :lang(pa) { line-height: 1.8; }
+:lang(ar) .paras { font-size: 19px; line-height: 1.9; }

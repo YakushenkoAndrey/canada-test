@@ -63,20 +63,26 @@ def check_blocks(lang: str, doc: dict) -> dict[str, str]:
 
 
 def main() -> int:
-    blocks = {lang: load(f"blocks.{lang}.json") for lang in ("en", "ru")}
+    langs = [L["code"] for L in (load("languages.json") or [])]
+    if "en" not in langs:
+        err("languages.json: English must be published")
+        langs = ["en"] + langs
+    blocks = {lang: load(f"blocks.{lang}.json") for lang in langs}
     ids = {lang: check_blocks(lang, d) if d else {} for lang, d in blocks.items()}
 
-    if blocks["en"] and blocks["ru"]:
+    for lang in langs:
+        if lang == "en" or not blocks["en"] or not blocks[lang]:
+            continue
         ch_en = [c["id"] for c in blocks["en"]["chapters"]]
-        ch_ru = [c["id"] for c in blocks["ru"]["chapters"]]
-        if ch_en != ch_ru:
-            err(f"chapter ids differ: en={ch_en} ru={ch_ru}")
-        if list(ids["en"]) != list(ids["ru"]):
-            only_en = sorted(set(ids["en"]) - set(ids["ru"]))
-            only_ru = sorted(set(ids["ru"]) - set(ids["en"]))
-            err(f"block ids differ (or order): only en={only_en} only ru={only_ru}")
+        ch_l = [c["id"] for c in blocks[lang]["chapters"]]
+        if ch_en != ch_l:
+            err(f"chapter ids differ: en={ch_en} {lang}={ch_l}")
+        if list(ids["en"]) != list(ids[lang]):
+            only_en = sorted(set(ids["en"]) - set(ids[lang]))
+            only_l = sorted(set(ids[lang]) - set(ids["en"]))
+            err(f"block ids differ (or order): only en={only_en} only {lang}={only_l}")
 
-    banks = {lang: load(f"questions.{lang}.json") or [] for lang in ("en", "ru")}
+    banks = {lang: load(f"questions.{lang}.json") or [] for lang in langs}
     for lang, qs in banks.items():
         seen = set()
         for q in qs:
@@ -96,11 +102,13 @@ def main() -> int:
                 err(f"{where}: answer {q['answer']!r} out of range")
             if not q.get("question", "").strip() or not q.get("explanation", "").strip():
                 err(f"{where}: empty question or explanation")
-            if lang == "ru":
-                if len(q.get("optionsRu", [])) != len(opts) or not q.get("questionRu"):
-                    err(f"{where}: questionRu/optionsRu missing or wrong length")
-    if {q["id"] for q in banks["en"]} != {q["id"] for q in banks["ru"]}:
-        err("question ids differ between EN and RU")
+            if lang != "en":
+                if q.get("missingTr"):
+                    err(f"{where}: no translation (content/questions/{lang}/{q['chapter']}.txt)")
+                elif len(q.get("optionsTr", [])) != len(opts) or not q.get("questionTr"):
+                    err(f"{where}: questionTr/optionsTr missing or wrong length")
+        if {q["id"] for q in qs} != {q["id"] for q in banks["en"]}:
+            err(f"question ids differ between en and {lang}")
 
     ont = load("ontario.json")
     if ont:
@@ -121,8 +129,9 @@ def main() -> int:
             if len(q.get("optionsRu", [])) != n or not q.get("questionRu") or not q.get("explanationRu") or not q.get("explanationEn"):
                 err(f"{where}: RU/EN fields missing")
 
-    for lang in ("en", "ru"):
-        fixes = load(f"tts-fixes.{lang}.json")
+    for lang in langs:
+        path = DATA / f"tts-fixes.{lang}.json"
+        fixes = load(path.name) if path.exists() else None
         if fixes is not None and not (isinstance(fixes, dict) and all(
                 isinstance(k, str) and isinstance(v, str) for k, v in fixes.items())):
             err(f"tts-fixes.{lang}.json must be an object of strings")
@@ -134,7 +143,7 @@ def main() -> int:
         for e in errors:
             print("  -", e)
         return 1
-    print(f"OK: {n_blocks} blocks, {n_facts} EN key facts, {len(banks['en'])} questions")
+    print(f"OK: {len(langs)} languages ({', '.join(langs)}), {n_blocks} blocks, {n_facts} EN key facts, {len(banks['en'])} questions")
     return 0
 
 

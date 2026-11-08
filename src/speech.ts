@@ -1,7 +1,8 @@
 // Speech engine on top of the Web Speech API.
 // Each sentence is a separate SpeechSynthesisUtterance (reliable highlighting, avoids the Chrome ~15 s cut-off).
 // Falls back to a silent "demo" mode that moves the highlight on a timer if no voice is available.
-import { settings, type Lang } from './store';
+import { L, langInfo, type Lang } from './langs';
+import { settings } from './store';
 import { wordLen, type Utt } from './text';
 
 export interface SpeakerListener {
@@ -43,8 +44,12 @@ export function onVoices(f: () => void): () => void {
 
 const norm = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-').toLowerCase();
 
+/** Locale prefixes for a language, e.g. ['zh-cn', 'cmn-cn', 'zh-tw', 'zh'] (lower case). */
+const prefixes = (lang: Lang) => langInfo(lang).tts.map((x) => x.toLowerCase());
+
 export function voicesFor(lang: Lang): SpeechSynthesisVoice[] {
-  return voices.filter((v) => norm(v).startsWith(lang));
+  const pre = prefixes(lang).map((x) => x.split('-')[0]);
+  return voices.filter((v) => pre.some((p) => norm(v) === p || norm(v).startsWith(p + '-')));
 }
 
 export function pickVoice(lang: Lang): SpeechSynthesisVoice | null {
@@ -53,8 +58,7 @@ export function pickVoice(lang: Lang): SpeechSynthesisVoice | null {
     const v = voices.find((x) => x.name === wanted);
     if (v) return v;
   }
-  const prefs = lang === 'en' ? ['en-ca', 'en-us', 'en-gb', 'en'] : ['ru-ru', 'ru'];
-  for (const p of prefs) {
+  for (const p of prefixes(lang)) {
     const list = voices.filter((x) => norm(x).startsWith(p) && !NOVELTY.test(x.name));
     if (list.length) return list.sort((a, b) => voiceScore(b) - voiceScore(a))[0];
   }
@@ -83,21 +87,36 @@ export function hasVoice(lang: Lang): boolean | null {
   return !!pickVoice(lang);
 }
 
-/** Short instruction (in Russian) how to get a voice for the language on this device. */
+/** Short instruction (in the interface language) how to get a voice for the language on this device. */
 export function voiceHelp(lang: Lang): string {
-  const name = lang === 'ru' ? 'русский' : 'английский';
+  const name = langInfo(lang).native;
   const ua = navigator.userAgent;
   if (/iPhone|iPad|iPod/.test(ua))
-    return `iPhone: «Настройки → Универсальный доступ → Устный контент → Голоса» — добавьте ${name} голос, затем перезагрузите страницу.`;
+    return L(
+      `iPhone: «Настройки → Универсальный доступ → Устный контент → Голоса» — добавьте голос «${name}», затем перезагрузите страницу.`,
+      `iPhone: Settings → Accessibility → Spoken Content → Voices — add a “${name}” voice, then reload the page.`,
+    );
   if (/Android/.test(ua))
-    return `Android: «Настройки → Специальные возможности → Синтез речи» — движок Google, в «Языке» скачайте ${name} голос, затем перезагрузите страницу.`;
+    return L(
+      `Android: «Настройки → Специальные возможности → Синтез речи» — движок Google, в «Языке» скачайте голос «${name}», затем перезагрузите страницу.`,
+      `Android: Settings → Accessibility → Text-to-speech — Google engine, download the “${name}” voice, then reload the page.`,
+    );
   if (/Edg\//.test(ua))
-    return `Windows: «Параметры → Время и язык → Речь → Добавить голоса» — добавьте ${name}, затем перезапустите браузер.`;
+    return L(
+      `Windows: «Параметры → Время и язык → Речь → Добавить голоса» — добавьте «${name}», затем перезапустите браузер.`,
+      `Windows: Settings → Time & language → Speech → Add voices — add “${name}”, then restart the browser.`,
+    );
   if (/Windows/.test(ua))
-    return `Windows: проще всего открыть сайт в Microsoft Edge — в нём есть онлайн-голоса на всех языках. Или «Параметры → Время и язык → Речь → Добавить голоса» — ${name}, затем перезапустите браузер.`;
+    return L(
+      `Windows: проще всего открыть сайт в Microsoft Edge — в нём есть онлайн-голоса на многих языках. Или «Параметры → Время и язык → Речь → Добавить голоса» — «${name}».`,
+      `Windows: the easiest is to open the site in Microsoft Edge — it has online voices for many languages. Or Settings → Time & language → Speech → Add voices — “${name}”.`,
+    );
   if (/Mac/.test(ua))
-    return `Mac: «Системные настройки → Универсальный доступ → Устный контент → Системный голос → Управление голосами» — добавьте ${name} голос.`;
-  return `Установите ${name} голос в настройках синтеза речи системы и перезагрузите страницу.`;
+    return L(
+      `Mac: «Системные настройки → Универсальный доступ → Устный контент → Системный голос → Управление голосами» — добавьте голос «${name}».`,
+      `Mac: System Settings → Accessibility → Spoken Content → System voice → Manage voices — add a “${name}” voice.`,
+    );
+  return L(`Установите голос «${name}» в настройках синтеза речи и перезагрузите страницу.`, `Install a “${name}” voice in your system text-to-speech settings and reload the page.`);
 }
 
 export type SpeakerState = 'idle' | 'playing' | 'paused';
@@ -297,7 +316,7 @@ class Speaker {
     let alive = false;
     try {
       const ut = new SpeechSynthesisUtterance(text);
-      ut.lang = this.lang === 'en' ? 'en-CA' : 'ru-RU';
+      ut.lang = langInfo(this.lang).tts[0];
       if (v) {
         ut.voice = v;
         ut.lang = v.lang;

@@ -1,0 +1,14 @@
+{
+ "_comment": "Brochure languages. A language is published only when content/<code>/ has every chapter. ui = interface language (ru or en). machine = machine translation (shown with a notice). tts = preferred voice locales in order.",
+ "languages": [
+  {"code": "en", "name": "English", "native": "English", "ui": "en", "dir": "ltr", "tts": ["en-CA", "en-US", "en-GB", "en"], "official": true},
+  {"code": "ru", "name": "Russian", "native": "Русский", "ui": "ru", "dir": "ltr", "tts": ["ru-RU", "ru"]},
+  {"code": "uk", "name": "Ukrainian", "native": "Українська", "ui": "en", "dir": "ltr", "tts": ["uk-UA", "uk"], "machine": true},
+  {"code": "es", "name": "Spanish", "native": "Español", "ui": "en", "dir": "ltr", "tts": ["es-MX", "es-US", "es-419", "es-ES", "es"], "machine": true},
+  {"code": "zh", "name": "Chinese (Simplified)", "native": "简体中文", "ui": "en", "dir": "ltr", "tts": ["zh-CN", "cmn-CN", "zh-TW", "zh"], "machine": true},
+  {"code": "hi", "name": "Hindi", "native": "हिन्दी", "ui": "en", "dir": "ltr", "tts": ["hi-IN", "hi"], "machine": true},
+  {"code": "pa", "name": "Punjabi", "native": "ਪੰਜਾਬੀ", "ui": "en", "dir": "ltr", "tts": ["pa-IN", "pa"], "machine": true},
+  {"code": "ar", "name": "Arabic", "native": "العربية", "ui": "en", "dir": "rtl", "tts": ["ar-SA", "ar-EG", "ar-001", "ar"], "machine": true},
+  {"code": "tl", "name": "Tagalog (Filipino)", "native": "Tagalog", "ui": "en", "dir": "ltr", "tts": ["fil-PH", "fil", "tl-PH", "tl"], "machine": true}
+ ]
+}

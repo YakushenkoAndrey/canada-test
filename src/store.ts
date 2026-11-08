@@ -18,7 +18,8 @@ export function save(key: string, value: unknown): void {
   }
 }
 
-export type Lang = 'en' | 'ru';
+/** Brochure language code ('en', 'ru', 'uk', ...). */
+export type Lang = string;
 
 export interface Settings {
   lang: Lang;
@@ -30,11 +31,19 @@ export interface Settings {
   showTranslation: boolean;
   examTimer: boolean;
   theme: 'light' | 'dark' | 'auto';
-  voices: Partial<Record<Lang, string>>;
+  /** interface language when reading the English brochure */
+  uiLang: 'ru' | 'en';
+  voices: Record<string, string>;
+}
+
+function defaultLang(): string {
+  const nav = (navigator.language || 'en').slice(0, 2).toLowerCase();
+  const map: Record<string, string> = { ru: 'ru', uk: 'uk', es: 'es', zh: 'zh', hi: 'hi', pa: 'pa', ar: 'ar', tl: 'tl', fil: 'tl' };
+  return map[nav] ?? 'en';
 }
 
 const DEFAULTS: Settings = {
-  lang: 'ru',
+  lang: defaultLang(),
   rate: 1,
   autoNext: true,
   readCaptions: false,
@@ -43,6 +52,7 @@ const DEFAULTS: Settings = {
   showTranslation: false,
   examTimer: true,
   theme: 'light',
+  uiLang: /^(ru|uk|be|kk)/i.test(navigator.language || '') ? 'ru' : 'en',
   voices: {},
 };
 

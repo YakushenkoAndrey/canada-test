@@ -137,22 +137,36 @@ def parse_questions(path: Path, cid: str) -> list[dict]:
     return out
 
 
+def parse_translations(path: Path) -> dict[str, dict]:
+    """Question translations for one language (content/questions/<lang>/<chapter>.txt), 4 lines each:
+
+        @q <number>
+        ? translated question
+        | option A | option B | option C | option D
+        = explanation in this language
+    """
+    lines = [l.rstrip() for l in path.read_text(encoding="utf-8").splitlines()]
+    lines = [l for l in lines if l.strip() and not l.lstrip().startswith("#")]
+    cid = path.stem
+    out: dict[str, dict] = {}
+    for i in range(0, len(lines), 4):
+        head, q, opts, ex = (lines[i:i + 4] + ["", "", "", ""])[:4]
+        if not head.startswith("@q ") or not q.startswith("?") or not opts.startswith("|") or not ex.startswith("="):
+            raise SystemExit(f"{path}: bad translation near {head!r}")
+        qid = f"q-{cid}-{int(head.split()[1]):03d}"
+        out[qid] = {"questionTr": q[1:].strip(),
+                    "optionsTr": [o.strip() for o in opts.strip().strip("|").split("|")],
+                    "explanation": ex[1:].strip()}
+    return out
+
+
 def main() -> int:
     order = json.loads((CONTENT / "chapters.json").read_text(encoding="utf-8"))["chapters"]
+    langs = json.loads((CONTENT / "languages.json").read_text(encoding="utf-8"))["languages"]
     DATA.mkdir(exist_ok=True)
-    for lang in ("en", "ru"):
-        chapters = []
-        for cid in order:
-            path = CONTENT / lang / f"{cid}.md"
-            if path.exists():
-                chapters.append(parse_chapter(path))
-        out = DATA / f"blocks.{lang}.json"
-        out.write_text(json.dumps({"chapters": chapters}, ensure_ascii=False, indent=1) + "\n",
-                       encoding="utf-8", newline="\n")
-        print(f"{out.relative_to(ROOT)}: {len(chapters)} chapters, "
-              f"{sum(len(c['blocks']) for c in chapters)} blocks")
 
-    q_en, q_ru = [], []
+    # Base question bank (English + Russian fields live in content/questions/<chapter>.txt|json).
+    base_q: list[dict] = []
     for cid in order:
         items = []
         path = CONTENT / "questions" / f"{cid}.json"
@@ -162,15 +176,49 @@ def main() -> int:
         if path.exists():
             items += parse_questions(path, cid)
         for q in items:
-            base = {"id": q["id"], "chapter": cid, "blockId": q["blockId"],
+            base_q.append({**q, "chapter": cid})
+
+    published = []
+    for L in langs:
+        lang = L["code"]
+        files = [CONTENT / lang / f"{cid}.md" for cid in order]
+        if not all(f.exists() for f in files):
+            have = sum(f.exists() for f in files)
+            if have:
+                print(f"{lang}: {have}/{len(order)} chapters - not published yet")
+            continue
+        chapters = [parse_chapter(f) for f in files]
+        out = DATA / f"blocks.{lang}.json"
+        out.write_text(json.dumps({"chapters": chapters}, ensure_ascii=False, indent=1) + "\n",
+                       encoding="utf-8", newline="\n")
+
+        tr: dict[str, dict] = {}
+        tdir = CONTENT / "questions" / lang
+        if tdir.is_dir():
+            for f in sorted(tdir.glob("*.txt")):
+                tr.update(parse_translations(f))
+        qs = []
+        for q in base_q:
+            item = {"id": q["id"], "chapter": q["chapter"], "blockId": q["blockId"],
                     "question": q["question"], "options": q["options"], "answer": q["answer"]}
-            q_en.append({**base, "explanation": q["explanationEn"]})
-            q_ru.append({**base, "explanation": q["explanationRu"],
-                         "questionRu": q["questionRu"], "optionsRu": q["optionsRu"]})
-    for lang, qs in (("en", q_en), ("ru", q_ru)):
-        out = DATA / f"questions.{lang}.json"
-        out.write_text(json.dumps(qs, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
-    print(f"data/questions.*.json: {len(q_en)} questions")
+            if lang == "en":
+                item["explanation"] = q["explanationEn"]
+            elif lang == "ru":
+                item.update(explanation=q["explanationRu"], questionTr=q["questionRu"], optionsTr=q["optionsRu"])
+            elif q["id"] in tr:
+                item.update(tr[q["id"]])
+            else:
+                item["explanation"] = q["explanationEn"]
+                item["missingTr"] = True
+            qs.append(item)
+        (DATA / f"questions.{lang}.json").write_text(json.dumps(qs, ensure_ascii=False, indent=1) + "\n",
+                                                    encoding="utf-8", newline="\n")
+        published.append({k: L[k] for k in L if not k.startswith("_")})
+        print(f"{lang}: {len(chapters)} chapters, {sum(len(c['blocks']) for c in chapters)} blocks, "
+              f"{len(qs)} questions ({sum(1 for q in qs if q.get('missingTr'))} without translation)")
+
+    (DATA / "languages.json").write_text(json.dumps(published, ensure_ascii=False, indent=1) + "\n",
+                                         encoding="utf-8", newline="\n")
     return 0
 
 

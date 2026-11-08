@@ -1,9 +1,6 @@
-import blocksEn from '../data/blocks.en.json';
-import blocksRu from '../data/blocks.ru.json';
-import questionsEn from '../data/questions.en.json';
-import questionsRu from '../data/questions.ru.json';
+// Brochure data. Each language is loaded on demand (one file per language) to keep the app small.
 import ontarioJson from '../data/ontario.json';
-import type { Lang } from './store';
+import { L, langInfo, type Lang } from './langs';
 
 export type FactType = 'date' | 'person' | 'number' | 'definition' | 'place' | 'symbol' | 'right-duty';
 
@@ -27,20 +24,31 @@ export interface Question {
   options: string[];
   answer: number;
   explanation: string;
-  questionRu?: string;
-  optionsRu?: string[];
+  /** question and options translated into the brochure language (not for EN) */
+  questionTr?: string;
+  optionsTr?: string[];
 }
 
-const BLOCKS: Record<Lang, Chapter[]> = {
-  en: (blocksEn as { chapters: Chapter[] }).chapters,
-  ru: (blocksRu as { chapters: Chapter[] }).chapters,
-};
-const QUESTIONS: Record<Lang, Question[]> = {
-  en: questionsEn as Question[],
-  ru: questionsRu as Question[],
-};
+const blockFiles = import.meta.glob<{ default: { chapters: Chapter[] } }>('../data/blocks.*.json');
+const questionFiles = import.meta.glob<{ default: Question[] }>('../data/questions.*.json');
 
-// Full table of contents of the brochure (pages by the English edition). Chapters without data are "coming soon".
+const BLOCKS: Record<Lang, Chapter[]> = {};
+const QUESTIONS: Record<Lang, Question[]> = {};
+
+/** Load a language's brochure and questions (cached). */
+export async function ensureLang(lang: Lang): Promise<void> {
+  if (BLOCKS[lang] && QUESTIONS[lang]) return;
+  const b = blockFiles[`../data/blocks.${lang}.json`];
+  const q = questionFiles[`../data/questions.${lang}.json`];
+  if (!b || !q) throw new Error(`language ${lang} is not available`);
+  const [bm, qm] = await Promise.all([b(), q()]);
+  BLOCKS[lang] = bm.default.chapters;
+  QUESTIONS[lang] = qm.default;
+}
+
+export const isLoaded = (lang: Lang) => !!BLOCKS[lang];
+
+// Table of contents (pages by the English edition).
 export const TOC: { id: string; en: string; ru: string; page: number }[] = [
   { id: 'oath', en: 'Message to Our Readers', ru: 'Обращение к читателям', page: 2 },
   { id: 'applying', en: 'Applying for Citizenship', ru: 'Подача заявления на гражданство', page: 6 },
@@ -56,16 +64,24 @@ export const TOC: { id: string; en: string; ru: string; page: number }[] = [
   { id: 'regions', en: 'Canada’s Regions', ru: 'Регионы Канады', page: 44 },
 ];
 
+/** Chapter title in the brochure language (falls back to English / Russian table). */
+export function chapterTitle(lang: Lang, id: string): string {
+  const c = BLOCKS[lang]?.find((x) => x.id === id);
+  if (c) return c.title;
+  const t = TOC.find((x) => x.id === id);
+  return t ? (lang === 'ru' ? t.ru : t.en) : id;
+}
+
 export function chapters(lang: Lang): Chapter[] {
-  return BLOCKS[lang];
+  return BLOCKS[lang] ?? [];
 }
 
 export function chapter(lang: Lang, id: string): Chapter | undefined {
-  return BLOCKS[lang].find((c) => c.id === id);
+  return chapters(lang).find((c) => c.id === id);
 }
 
 export function findBlock(lang: Lang, blockId: string): { chapter: Chapter; block: Block } | undefined {
-  for (const c of BLOCKS[lang]) {
+  for (const c of chapters(lang)) {
     const b = c.blocks.find((x) => x.id === blockId);
     if (b) return { chapter: c, block: b };
   }
@@ -73,7 +89,7 @@ export function findBlock(lang: Lang, blockId: string): { chapter: Chapter; bloc
 }
 
 export function questions(lang: Lang, chapterId?: string): Question[] {
-  return QUESTIONS[lang].filter((q) => !chapterId || q.chapter === chapterId);
+  return (QUESTIONS[lang] ?? []).filter((q) => !chapterId || q.chapter === chapterId);
 }
 
 export interface OntarioFact { en: string; ru: string; value: string; valueRu: string; source: string }
@@ -81,10 +97,10 @@ export const ontario = ontarioJson as {
   checked: string;
   recheckNote: string;
   facts: OntarioFact[];
-  questions: (Omit<Question, 'chapter' | 'blockId' | 'explanation'> & { explanationEn: string; explanationRu: string })[];
+  questions: { id: string; question: string; options: string[]; answer: number; explanationEn: string; explanationRu: string; questionRu: string; optionsRu: string[] }[];
 };
 
-/** Ontario / Brantford questions (not from the brochure; no blockId). */
+/** Ontario / Brantford questions (not from the brochure; no blockId). Russian and English only. */
 export function ontarioQuestions(lang: Lang): Question[] {
   return ontario.questions.map((q) => ({
     id: q.id,
@@ -94,8 +110,8 @@ export function ontarioQuestions(lang: Lang): Question[] {
     options: q.options,
     answer: q.answer,
     explanation: lang === 'ru' ? q.explanationRu : q.explanationEn,
-    questionRu: q.questionRu,
-    optionsRu: q.optionsRu,
+    questionTr: lang === 'ru' ? q.questionRu : undefined,
+    optionsTr: lang === 'ru' ? q.optionsRu : undefined,
   }));
 }
 
@@ -109,15 +125,39 @@ export function chapterProgress(c: Chapter, done: Record<string, number>): numbe
   return Math.round((c.blocks.filter((b) => done[b.id]).length / c.blocks.length) * 100);
 }
 
-export const FACT_LABELS: Record<string, string> = {
-  definition: 'Определение',
-  'right-duty': 'Право / обязанность',
-  place: 'Место',
-  number: 'Число',
-  date: 'Дата',
-  person: 'Народы и люди',
-  symbol: 'Символ',
-};
+export function factLabel(type: string): string {
+  const labels: Record<string, [string, string]> = {
+    definition: ['Определение', 'Definition'],
+    'right-duty': ['Право / обязанность', 'Right / duty'],
+    place: ['Место', 'Place'],
+    number: ['Число', 'Number'],
+    date: ['Дата', 'Date'],
+    person: ['Народы и люди', 'People'],
+    symbol: ['Символ', 'Symbol'],
+  };
+  const l = labels[type];
+  return l ? L(l[0], l[1]) : type;
+}
+export const FACT_TYPES = ['definition', 'right-duty', 'place', 'number', 'date', 'person', 'symbol'];
+
+/** Brochure "chrome" texts (kicker, footer) in the brochure language where we have them. */
+export function brochureKicker(lang: Lang): string {
+  return lang === 'ru' ? 'Откройте для себя Канаду' : 'Discover Canada';
+}
+export function brochureFooter(lang: Lang): string {
+  return lang === 'ru' ? 'Учебное пособие для подготовки к экзамену на гражданство' : 'Your Canadian Citizenship Study Guide';
+}
+/** Notice for unofficial translations, in the interface language. */
+export function translationNotice(lang: Lang): string {
+  const info = langInfo(lang);
+  if (info.official) return '';
+  if (info.machine)
+    return L(
+      `Машинный перевод (${info.native}), неофициальный — возможны неточности. Официальны только английская и французская версии.`,
+      `Machine translation (${info.native}), unofficial — it may contain mistakes. Only the English and French versions are official.`,
+    );
+  return L('Неофициальный перевод; официальны только английская и французская версии.', 'Unofficial translation; only the English and French versions are official.');
+}
 
 export function imgUrl(src: string): string {
   return import.meta.env.BASE_URL + src;

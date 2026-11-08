@@ -1,70 +1,90 @@
-import { FACT_LABELS } from '../content';
+import { chapter, factLabel, FACT_TYPES } from '../content';
+import { L, LANGS, langInfo, ui, type Lang } from '../langs';
 import { onVoices, pickVoice, speaker, voiceScore, voicesFor } from '../speech';
-import { resetAll, saveSettings, settings, type Lang } from '../store';
+import { resetAll, saveSettings, settings } from '../store';
 import { esc, speechOf } from '../text';
 import { applyTheme } from '../theme';
 
-const SAMPLE: Record<Lang, string> = {
-  en: 'Canada is known around the world as a strong and free country.',
-  ru: 'Канада известна во всём мире как сильная и свободная страна.',
-};
+/** A sample sentence in the language: the first sentence of "Who We Are". */
+function sample(lang: Lang): string {
+  const p = chapter(lang, 'who-we-are')?.blocks[0]?.paragraphs[0] ?? 'Canada is known around the world as a strong and free country.';
+  const m = /^.+?[.!?。।؟](\s|$)/u.exec(p);
+  return (m ? m[0] : p).trim();
+}
 
 function offlineStatus(): string {
   try {
     if ('serviceWorker' in navigator && navigator.serviceWorker.controller)
-      return '✓ Сайт сохранён на этом устройстве и открывается без интернета.';
+      return L('✓ Сайт сохранён на этом устройстве и открывается без интернета.', '✓ The site is saved on this device and opens without internet.');
   } catch {
     /* ignore */
   }
-  return 'Офлайн-режим включится после первой загрузки опубликованного сайта с интернетом (откройте его ещё раз — и всё сохранится).';
+  return L(
+    'Офлайн-режим включится после первой загрузки опубликованного сайта с интернетом (откройте его ещё раз — и всё сохранится).',
+    'Offline mode turns on after the published site has loaded once with internet (open it again and everything is saved).',
+  );
 }
 
-export function renderSettings(host: HTMLElement): () => void {
+export function renderSettings(host: HTMLElement, current: Lang): () => void {
   const draw = () => {
     const voiceSel = (lang: Lang) => {
       const list = voicesFor(lang).sort((a, b) => voiceScore(b) - voiceScore(a) || a.name.localeCompare(b.name));
       const cur = pickVoice(lang)?.name ?? '';
-      return `<label class="field"><span>Голос ${lang.toUpperCase()}</span>
+      return `<label class="field"><span>${L('Голос', 'Voice')}: ${esc(langInfo(lang).native)}</span>
         <select data-lang="${lang}">
-          ${list.length ? '' : '<option value="">Голосов не найдено</option>'}
+          ${list.length ? '' : `<option value="">${L('Голосов не найдено', 'No voices found')}</option>`}
           ${list.map((v) => `<option value="${esc(v.name)}" ${v.name === cur ? 'selected' : ''}>${voiceScore(v) >= 20 ? '★ ' : ''}${esc(v.name)} (${esc(v.lang)})</option>`).join('')}
         </select>
-        <button class="btn-small" type="button" data-test="${lang}">Проверить</button></label>`;
+        <button class="btn-small" type="button" data-test="${lang}">${L('Проверить', 'Test')}</button></label>`;
     };
     const tog = (key: 'autoNext' | 'readCaptions' | 'showLegend', label: string) =>
       `<label class="switch"><span>${label}</span><input type="checkbox" data-key="${key}" ${settings[key] ? 'checked' : ''}><i></i></label>`;
+    const voiceLangs = [...new Set([current, 'en'])].filter((l) => LANGS.some((x) => x.code === l));
     host.innerHTML = `<div class="page settings">
-      <div class="kicker">Настройки</div>
-      <h1 class="ptitle">Настройки</h1>
+      <div class="kicker">${L('Настройки', 'Settings')}</div>
+      <h1 class="ptitle">${L('Настройки', 'Settings')}</h1>
       <div class="redbar"></div>
-      <h2 class="sub">Озвучка</h2>
-      ${voiceSel('en')}
-      ${voiceSel('ru')}
-      <label class="field"><span>Скорость</span><select data-rate>
-        ${[0.8, 1, 1.2, 1.5].map((r) => `<option value="${r}" ${r === settings.rate ? 'selected' : ''}>${String(r).replace('.', ',')}×</option>`).join('')}
+      ${current === 'en' ? `<label class="field"><span>${L('Язык интерфейса', 'Interface language')}</span><select data-ui>
+        <option value="ru" ${settings.uiLang === 'ru' ? 'selected' : ''}>Русский</option>
+        <option value="en" ${settings.uiLang === 'en' ? 'selected' : ''}>English</option>
+      </select></label>` : ''}
+      <h2 class="sub">${L('Озвучка', 'Audio')}</h2>
+      ${voiceLangs.map(voiceSel).join('')}
+      <label class="field"><span>${L('Скорость', 'Speed')}</span><select data-rate>
+        ${[0.8, 1, 1.2, 1.5].map((r) => `<option value="${r}" ${r === settings.rate ? 'selected' : ''}>${ui() === 'ru' ? String(r).replace('.', ',') : r}×</option>`).join('')}
       </select></label>
-      ${tog('autoNext', 'Читать дальше: после блока начинать следующий')}
-      ${tog('readCaptions', 'Читать подписи к фото')}
-      ${tog('showLegend', 'Показывать легенду подсветки под блоками')}
-      <p class="muted small">★ — улучшенный голос, звучит естественнее; если он установлен, сайт выбирает его сам.
-      Если голоса нет в списке, установите его в системе: Android — «Настройки → Синтез речи (Google)», iPhone — «Настройки → Универсальный доступ → Устный контент → Голоса», Windows — «Параметры → Время и язык → Речь».</p>
-      <h2 class="sub">Оформление</h2>
-      <label class="field"><span>Тема</span><select data-theme>
-        ${[['light', 'Светлая (как брошюра)'], ['dark', 'Тёмная'], ['auto', 'Как в телефоне']]
+      ${tog('autoNext', L('Читать дальше: после блока начинать следующий', 'Keep reading: start the next section automatically'))}
+      ${tog('readCaptions', L('Читать подписи к фото', 'Read photo captions'))}
+      ${tog('showLegend', L('Показывать легенду подсветки под блоками', 'Show the highlight legend under sections'))}
+      <p class="muted small">${L(
+        '★ — улучшенный голос, звучит естественнее; если он установлен, сайт выбирает его сам. Если голоса нет в списке, установите его в системе: iPhone — «Настройки → Универсальный доступ → Устный контент → Голоса», Android — «Настройки → Синтез речи (Google)», Windows — «Параметры → Время и язык → Речь».',
+        '★ — enhanced voice, sounds more natural; the site picks it automatically when installed. If a voice is missing, install it in your system: iPhone — Settings → Accessibility → Spoken Content → Voices, Android — Settings → Text-to-speech (Google), Windows — Settings → Time & language → Speech.',
+      )}</p>
+      <h2 class="sub">${L('Оформление', 'Appearance')}</h2>
+      <label class="field"><span>${L('Тема', 'Theme')}</span><select data-theme>
+        ${[['light', L('Светлая (как брошюра)', 'Light (like the brochure)')], ['dark', L('Тёмная', 'Dark')], ['auto', L('Как в телефоне', 'Same as the phone')]]
           .map(([v, l]) => `<option value="${v}" ${settings.theme === v ? 'selected' : ''}>${l}</option>`)
           .join('')}
       </select></label>
-      <h2 class="sub">Без интернета и на экране «Домой»</h2>
+      <h2 class="sub">${L('Без интернета и на экране «Домой»', 'Offline and on the home screen')}</h2>
       <p class="offline-status">${offlineStatus()}</p>
-      <p class="muted small">Чтобы открыть сайт как приложение на iPhone: в Safari нажмите «Поделиться» → «На экран „Домой“». На Android в Chrome: меню ⋮ → «Добавить на главный экран». Озвучка без интернета работает, если голоса установлены на телефоне.</p>
-      <h2 class="sub">Цвета ключевых фактов</h2>
-      <div class="facts-legend">${Object.entries(FACT_LABELS).map(([t, l]) => `<span class="chip chip-${t}">${l}</span>`).join('')}</div>
-      <h2 class="sub">Данные</h2>
-      <button class="btn-ghost" type="button" data-reset>Сбросить прогресс и ответы</button>
+      <p class="muted small">${L(
+        'Чтобы открыть сайт как приложение на iPhone: в Safari нажмите «Поделиться» → «На экран „Домой“». На Android в Chrome: меню ⋮ → «Добавить на главный экран». Озвучка без интернета работает, если голоса установлены на телефоне.',
+        'To use the site like an app on iPhone: in Safari tap Share → Add to Home Screen. On Android in Chrome: menu ⋮ → Add to Home screen. Audio works offline when the voices are installed on the phone.',
+      )}</p>
+      <h2 class="sub">${L('Цвета ключевых фактов', 'Key fact colours')}</h2>
+      <div class="facts-legend">${FACT_TYPES.map((t) => `<span class="chip chip-${t}">${factLabel(t)}</span>`).join('')}</div>
+      <h2 class="sub">${L('Данные', 'Data')}</h2>
+      <button class="btn-ghost" type="button" data-reset>${L('Сбросить прогресс и ответы', 'Reset progress and answers')}</button>
     </div>`;
+    host.querySelector<HTMLSelectElement>('select[data-ui]')?.addEventListener('change', (e) => {
+      settings.uiLang = (e.target as HTMLSelectElement).value as 'ru' | 'en';
+      saveSettings();
+      location.reload();
+    });
     host.querySelectorAll<HTMLSelectElement>('select[data-lang]').forEach((s) =>
       s.addEventListener('change', () => {
-        settings.voices[s.dataset.lang as Lang] = s.value;
+        settings.voices[s.dataset.lang!] = s.value;
         saveSettings();
       }),
     );
@@ -85,13 +105,13 @@ export function renderSettings(host: HTMLElement): () => void {
     );
     host.querySelectorAll<HTMLButtonElement>('[data-test]').forEach((b) =>
       b.addEventListener('click', () => {
-        const lang = b.dataset.test as Lang;
+        const lang = b.dataset.test!;
         const noop = () => {};
-        speaker.start('test', lang, [speechOf(SAMPLE[lang], lang)], 0, { onIndex: noop, onWord: noop, onEnd: noop, onState: noop });
+        speaker.start('test', lang, [speechOf(sample(lang), lang)], 0, { onIndex: noop, onWord: noop, onEnd: noop, onState: noop });
       }),
     );
     host.querySelector('[data-reset]')!.addEventListener('click', () => {
-      if (confirm('Сбросить прогресс чтения, ответы и настройки?')) {
+      if (confirm(L('Сбросить прогресс чтения, ответы и настройки?', 'Reset reading progress, answers and settings?'))) {
         resetAll();
         location.reload();
       }

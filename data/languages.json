@@ -1,0 +1,27 @@
+[
+ {
+  "code": "en",
+  "name": "English",
+  "native": "English",
+  "ui": "en",
+  "dir": "ltr",
+  "tts": [
+   "en-CA",
+   "en-US",
+   "en-GB",
+   "en"
+  ],
+  "official": true
+ },
+ {
+  "code": "ru",
+  "name": "Russian",
+  "native": "Русский",
+  "ui": "ru",
+  "dir": "ltr",
+  "tts": [
+   "ru-RU",
+   "ru"
+  ]
+ }
+]

@@ -1,9 +1,9 @@
 // Text preparation: sentence splitting, speech text with a map back to the displayed text,
 // and rendering of one sentence with key facts / English insertions / current word.
-import fixesEn from '../data/tts-fixes.en.json';
-import fixesRu from '../data/tts-fixes.ru.json';
 import type { KeyFact } from './content';
-import type { Lang } from './store';
+import type { Lang } from './langs';
+
+const fixFiles = import.meta.glob<Record<string, string>>('../data/tts-fixes.*.json', { eager: true, import: 'default' });
 
 export interface Range { start: number; end: number }
 export interface Utt { speech: string; map: number[] }
@@ -25,14 +25,26 @@ const ABBR = new Set([
 /** Split a paragraph into sentence ranges (indices into the paragraph). */
 export function splitSentences(p: string): Range[] {
   const out: Range[] = [];
-  const re = /[.!?…]+["»”’)\]]*\s+/g;
+  // Latin/Cyrillic/Arabic: punctuation + space before a capital/digit/quote.
+  // Chinese (。！？) and Hindi/Punjabi (।) end a sentence by themselves.
+  const re = /[。！？][”」』）)]*\s*|[।॥]\s*|[.!?…؟]+["»”’)\]]*\s+/g;
   let start = 0;
   let m: RegExpExecArray | null;
   while ((m = re.exec(p))) {
     const next = p[m.index + m[0].length];
-    if (!next || !/[A-ZА-ЯЁ0-9«“"(\[‘]/.test(next)) continue;
-    const word = /([A-Za-zА-Яа-яЁё]+)$/.exec(p.slice(start, m.index))?.[1];
-    if (word && (ABBR.has(word) || (word.length === 1 && /[A-ZА-ЯЁ]/.test(word)))) continue;
+    if (next && /^[。！？।॥]/.test(m[0])) {
+      out.push({ start, end: m.index + m[0].trimEnd().length });
+      start = m.index + m[0].length;
+      continue;
+    }
+    if (m[0].startsWith('؟') || (next && /[؀-ۿ]/.test(next) && /[.!؟]/.test(m[0]))) {
+      out.push({ start, end: m.index + m[0].trimEnd().length });
+      start = m.index + m[0].length;
+      continue;
+    }
+    if (!next || !/[\p{Lu}\p{N}«“"(\[‘¿¡]/u.test(next)) continue;
+    const word = /(\p{L}+)$/u.exec(p.slice(start, m.index))?.[1];
+    if (word && (ABBR.has(word) || (word.length === 1 && /\p{Lu}/u.test(word)))) continue;
     out.push({ start, end: m.index + m[0].trimEnd().length });
     start = m.index + m[0].length;
   }
@@ -40,10 +52,10 @@ export function splitSentences(p: string): Range[] {
   return out;
 }
 
-const FIXES: Record<Lang, [string, string][]> = {
-  en: Object.entries(fixesEn as Record<string, string>).sort((a, b) => b[0].length - a[0].length),
-  ru: Object.entries(fixesRu as Record<string, string>).sort((a, b) => b[0].length - a[0].length),
-};
+function fixesFor(lang: Lang): [string, string][] {
+  const f = fixFiles[`../data/tts-fixes.${lang}.json`] ?? {};
+  return Object.entries(f).sort((a, b) => b[0].length - a[0].length);
+}
 
 const EN_IN_PARENS = /\s*\((?=[^)]*[A-Za-z])[^)]*\)/g;
 const BULLETS = /^\s*[•▪]\s*/g;
@@ -96,8 +108,8 @@ export function speechOf(text: string, lang: Lang): Utt {
   cut(BULLETS);
   cut(URLS);
   cut(PAGE_REFS);
-  if (lang === 'ru') cut(EN_IN_PARENS);
-  for (const [from, to] of FIXES[lang]) replace(from, to);
+  if (lang !== 'en') cut(EN_IN_PARENS);
+  for (const [from, to] of fixesFor(lang)) replace(from, to);
   return { speech: s, map };
 }
 
@@ -125,7 +137,7 @@ export function paragraphPieces(p: string, facts: KeyFact[], lang: Lang, k0: num
     for (const at of findAll(p, f.text)) factRanges.push({ start: at, end: at + f.text.length, type: f.type });
   }
   const enRanges: Range[] = [];
-  if (lang === 'ru') {
+  if (lang !== 'en') {
     const re = /\((?=[^)]*[A-Za-z])[^)]*\)/g;
     let m: RegExpExecArray | null;
     while ((m = re.exec(p))) enRanges.push({ start: m.index, end: m.index + m[0].length });

@@ -5,16 +5,17 @@ import '@fontsource/pt-serif/400.css';
 import '@fontsource/pt-serif/700.css';
 import './style.css';
 
-import { chapter } from './content';
+import { chapter, ensureLang } from './content';
 import { ICON } from './icons';
-import { saveSettings, settings, type Lang } from './store';
-import { applyTheme, watchTheme } from './theme';
-import { renderHome, tocHtml } from './views/home';
+import { isLang, L, LANGS, setUi, ui, uiFor, type Lang } from './langs';
 import { recheck } from './paywall';
+import { saveSettings, settings } from './store';
+import { applyTheme, watchTheme } from './theme';
 import { renderAbout } from './views/about';
+import { renderFavorites } from './views/favorites';
+import { renderHome, tocHtml } from './views/home';
 import { renderExam, renderMistakes, renderOntario, renderOntarioQuiz, renderPaywall, renderQuiz, renderQuizMenu } from './views/quiz';
 import { Reader } from './views/reader';
-import { renderFavorites } from './views/favorites';
 import { renderSettings } from './views/settings';
 
 // We scroll to the block from the URL ourselves; the browser's own restore would fight with it on reload.
@@ -26,51 +27,79 @@ try {
 
 applyTheme();
 watchTheme();
+if (!isLang(settings.lang)) settings.lang = 'en';
+setUi(uiFor(settings.lang));
 
 const app = document.getElementById('app')!;
 app.innerHTML = `
-  <header class="top">
-    <button class="icon-btn" id="menuBtn" type="button" aria-label="Оглавление">${ICON.menu}</button>
-    <a class="logo" href="#/">Discover Canada</a>
-    <div class="top-right">
-      <div class="langsw" role="group" aria-label="Язык брошюры">
-        <button type="button" data-lang="en">EN</button><button type="button" data-lang="ru">RU</button>
-      </div>
-      <a class="testbtn" href="#/quiz">Тест</a>
-    </div>
-  </header>
+  <header class="top"></header>
   <div class="layout">
     <main id="view"></main>
     <div class="strip" aria-hidden="true"><span>Discover Canada</span></div>
   </div>
   <div id="mini" class="mini" hidden></div>
-  <div id="drawer" class="drawer" hidden>
-    <nav class="drawer-panel" aria-label="Оглавление">
-      <div class="drawer-head"><b>Оглавление</b><button type="button" class="icon-btn" data-close aria-label="Закрыть">✕</button></div>
-      <ul class="toc"></ul>
-      <a class="dlink" href="#/">Главная</a>
-      <a class="dlink" href="#/quiz">Тест: экзамен, ошибки, главы</a>
-      <a class="dlink" href="#/favorites">★ Избранное</a>
-      <a class="dlink" href="#/ontario">Онтарио и Брантфорд</a>
-      <a class="dlink" href="#/settings">Настройки</a>
-      <a class="dlink" href="#/about">О сайте и условия</a>
-    </nav>
-  </div>`;
+  <div id="drawer" class="drawer" hidden></div>`;
 
+const top = app.querySelector<HTMLElement>('.top')!;
 const view = document.getElementById('view')!;
 const drawer = document.getElementById('drawer')!;
 let reader: Reader | null = null;
 let cleanup: (() => void) | null = null;
 let readerKey = '';
+let shellUi = '';
+
+/** Header and side menu, re-rendered when the interface language changes. */
+function renderShell() {
+  if (shellUi === ui() + settings.lang) return;
+  shellUi = ui() + settings.lang;
+  top.innerHTML = `
+    <button class="icon-btn" id="menuBtn" type="button" aria-label="${L('Оглавление', 'Contents')}">${ICON.menu}</button>
+    <a class="logo" href="#/">Discover Canada</a>
+    <div class="top-right">
+      <label class="langpick" title="${L('Язык брошюры', 'Brochure language')}">
+        <span class="sr">${L('Язык брошюры', 'Brochure language')}</span>
+        <select aria-label="${L('Язык брошюры', 'Brochure language')}">
+          ${LANGS.map((l) => `<option value="${l.code}" ${l.code === settings.lang ? 'selected' : ''}>${l.code.toUpperCase()} · ${l.native}</option>`).join('')}
+        </select>
+        <b aria-hidden="true">${settings.lang.toUpperCase()}</b>
+      </label>
+      <a class="testbtn" href="#/quiz">${L('Тест', 'Test')}</a>
+    </div>`;
+  drawer.innerHTML = `
+    <nav class="drawer-panel" aria-label="${L('Оглавление', 'Contents')}">
+      <div class="drawer-head"><b>${L('Оглавление', 'Contents')}</b><button type="button" class="icon-btn" data-close aria-label="${L('Закрыть', 'Close')}">✕</button></div>
+      <ul class="toc"></ul>
+      <a class="dlink" href="#/">${L('Главная', 'Home')}</a>
+      <a class="dlink" href="#/quiz">${L('Тест: экзамен, ошибки, главы', 'Tests: exam, mistakes, chapters')}</a>
+      <a class="dlink" href="#/favorites">${L('★ Избранное', '★ Favourites')}</a>
+      <a class="dlink" href="#/ontario">${L('Онтарио и Брантфорд', 'Ontario and Brantford')}</a>
+      <a class="dlink" href="#/settings">${L('Настройки', 'Settings')}</a>
+      <a class="dlink" href="#/about">${L('О сайте и условия', 'About and terms')}</a>
+    </nav>`;
+  top.querySelector('#menuBtn')!.addEventListener('click', () => {
+    drawer.querySelector('.toc')!.innerHTML = tocHtml(settings.lang);
+    drawer.hidden = false;
+  });
+  top.querySelector<HTMLSelectElement>('.langpick select')!.addEventListener('change', (e) => {
+    const lang = (e.target as HTMLSelectElement).value;
+    if (lang === settings.lang) return;
+    if (reader) {
+      // Same place in the other language (block ids are identical in every language).
+      const block = reader.currentBlockId();
+      location.hash = `#/${lang}/${reader.chapter.id}${block ? '/' + block : ''}`;
+    } else {
+      setLang(lang);
+      void route();
+    }
+  });
+}
 
 function setLang(lang: Lang) {
   settings.lang = lang;
   saveSettings();
-  document.documentElement.lang = lang;
-  document.querySelectorAll<HTMLElement>('.langsw [data-lang]').forEach((b) => {
-    b.classList.toggle('on', b.dataset.lang === lang);
-    b.setAttribute('aria-pressed', String(b.dataset.lang === lang));
-  });
+  setUi(uiFor(lang));
+  document.documentElement.lang = ui();
+  renderShell();
 }
 
 function leave() {
@@ -81,16 +110,28 @@ function leave() {
   cleanup = null;
 }
 
-function route() {
+let routeSeq = 0;
+async function route() {
+  const seq = ++routeSeq;
   const [path, query = ''] = location.hash.replace(/^#\/?/, '').split('?');
   const parts = path.split('/').filter(Boolean);
   const params = new URLSearchParams(query);
   drawer.hidden = true;
 
-  if (parts[0] === 'en' || parts[0] === 'ru') {
-    const lang = parts[0] as Lang;
-    setLang(lang);
-    const ch = chapter(lang, parts[1] ?? '') ?? undefined;
+  const brochure = isLang(parts[0]) ? parts[0] : null;
+  const lang = brochure ?? settings.lang;
+  try {
+    await ensureLang(lang);
+    if (lang !== 'en') await ensureLang('en');
+  } catch {
+    view.innerHTML = `<div class="page"><p class="muted">${L('Не удалось загрузить язык. Проверьте интернет.', 'Could not load the language. Check your internet connection.')}</p></div>`;
+    return;
+  }
+  if (seq !== routeSeq) return; // a newer navigation started meanwhile
+  setLang(lang);
+
+  if (brochure) {
+    const ch = chapter(lang, parts[1] ?? '');
     if (!ch) {
       leave();
       renderHome(view, lang);
@@ -110,45 +151,26 @@ function route() {
   leave();
   window.scrollTo(0, 0);
   if (parts[0] === 'quiz') {
-    cleanup = parts[1] ? renderQuiz(view, settings.lang, parts[1]) : renderQuizMenu(view, settings.lang);
+    cleanup = parts[1] ? renderQuiz(view, lang, parts[1]) : renderQuizMenu(view, lang);
   } else if (parts[0] === 'exam') {
-    cleanup = renderExam(view, settings.lang);
+    cleanup = renderExam(view, lang);
   } else if (parts[0] === 'mistakes') {
-    cleanup = renderMistakes(view, settings.lang);
+    cleanup = renderMistakes(view, lang);
   } else if (parts[0] === 'ontario') {
-    cleanup = parts[1] === 'quiz' ? renderOntarioQuiz(view, settings.lang) : renderOntario(view, settings.lang);
+    cleanup = parts[1] === 'quiz' ? renderOntarioQuiz(view, lang) : renderOntario(view, lang);
   } else if (parts[0] === 'unlock') {
     cleanup = renderPaywall(view);
   } else if (parts[0] === 'about') {
     cleanup = renderAbout(view);
   } else if (parts[0] === 'favorites') {
-    cleanup = renderFavorites(view, settings.lang);
+    cleanup = renderFavorites(view);
   } else if (parts[0] === 'settings') {
-    cleanup = renderSettings(view);
+    cleanup = renderSettings(view, lang);
   } else {
-    renderHome(view, settings.lang);
+    renderHome(view, lang);
   }
 }
 
-document.querySelectorAll<HTMLElement>('.langsw [data-lang]').forEach((b) =>
-  b.addEventListener('click', () => {
-    const lang = b.dataset.lang as Lang;
-    if (lang === settings.lang) return;
-    if (reader) {
-      // Same place in the other language (block ids are identical in EN and RU).
-      const block = reader.currentBlockId();
-      location.hash = `#/${lang}/${reader.chapter.id}${block ? '/' + block : ''}`;
-    } else {
-      setLang(lang);
-      route();
-    }
-  }),
-);
-
-document.getElementById('menuBtn')!.addEventListener('click', () => {
-  drawer.querySelector('.toc')!.innerHTML = tocHtml(settings.lang);
-  drawer.hidden = false;
-});
 drawer.addEventListener('click', (e) => {
   const t = e.target as HTMLElement;
   if (t === drawer || t.closest('[data-close]')) drawer.hidden = true;
@@ -166,7 +188,7 @@ if (import.meta.env.PROD && 'serviceWorker' in navigator) {
   });
 }
 
-window.addEventListener('hashchange', route);
+window.addEventListener('hashchange', () => void route());
 void recheck();
-setLang(settings.lang);
-route();
+renderShell();
+void route();
