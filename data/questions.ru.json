@@ -1153,5 +1153,950 @@
    "Из азиатских стран",
    "Из Южной Америки"
   ]
+ },
+ {
+  "id": "q-history-001",
+  "chapter": "history",
+  "blockId": "history-01",
+  "question": "Why did European explorers call the native peoples “Indians”?",
+  "options": [
+   "Because they came from India",
+   "Because of their language",
+   "Because the first explorers thought they had reached the East Indies",
+   "Because of the colour of their clothes"
+  ],
+  "answer": 2,
+  "explanation": "Первые исследователи думали, что достигли Ост-Индии, отсюда и название «индейцы».",
+  "questionRu": "Почему европейцы назвали коренных жителей «индейцами»?",
+  "optionsRu": [
+   "Потому что те пришли из Индии",
+   "Из-за их языка",
+   "Потому что первые исследователи думали, что достигли Ост-Индии",
+   "Из-за цвета их одежды"
+  ]
+ },
+ {
+  "id": "q-history-002",
+  "chapter": "history",
+  "blockId": "history-01",
+  "question": "Which Aboriginal people were nomadic, following the bison (buffalo) herd?",
+  "options": [
+   "The Huron-Wendat",
+   "The Sioux",
+   "The Inuit",
+   "The Iroquois"
+  ],
+  "answer": 1,
+  "explanation": "Кочевниками, следовавшими за бизонами, были сиу.",
+  "questionRu": "Какой коренной народ кочевал, следуя за стадами бизонов?",
+  "optionsRu": [
+   "Гуроны-вендаты",
+   "Сиу",
+   "Инуиты",
+   "Ирокезы"
+  ]
+ },
+ {
+  "id": "q-history-003",
+  "chapter": "history",
+  "blockId": "history-02",
+  "question": "Who were the first Europeans to reach Canada?",
+  "options": [
+   "The Vikings",
+   "The French",
+   "The Spanish",
+   "The English"
+  ],
+  "answer": 0,
+  "explanation": "Викинги из Исландии 1000 лет назад достигли Лабрадора и Ньюфаундленда (поселение Л’Анс-о-Медоуз).",
+  "questionRu": "Кто из европейцев первым достиг Канады?",
+  "optionsRu": [
+   "Викинги",
+   "Французы",
+   "Испанцы",
+   "Англичане"
+  ]
+ },
+ {
+  "id": "q-history-004",
+  "chapter": "history",
+  "blockId": "history-02",
+  "question": "Who was the first to draw a map of Canada’s East Coast, in 1497?",
+  "options": [
+   "Jacques Cartier",
+   "Samuel de Champlain",
+   "Henry Hudson",
+   "John Cabot"
+  ],
+  "answer": 3,
+  "explanation": "Джон Кабот (1497) — первая карта восточного побережья Канады.",
+  "questionRu": "Кто в 1497 году первым составил карту восточного побережья Канады?",
+  "optionsRu": [
+   "Жак Картье",
+   "Самюэль де Шамплен",
+   "Генри Гудзон",
+   "Джон Кабот"
+  ]
+ },
+ {
+  "id": "q-history-005",
+  "chapter": "history",
+  "blockId": "history-03",
+  "question": "Where does the name “Canada” come from?",
+  "options": [
+   "From a French word meaning “north”",
+   "From the Iroquoian word “kanata,” meaning “village”",
+   "From the name of an English king",
+   "From an Inuit word meaning “land”"
+  ],
+  "answer": 1,
+  "explanation": "Картье услышал ирокезское слово kanata — «деревня».",
+  "questionRu": "Откуда происходит название «Канада»?",
+  "optionsRu": [
+   "От французского слова «север»",
+   "От ирокезского слова «каната» — «деревня»",
+   "От имени английского короля",
+   "От инуитского слова «земля»"
+  ]
+ },
+ {
+  "id": "q-history-006",
+  "chapter": "history",
+  "blockId": "history-03",
+  "question": "Who made three voyages across the Atlantic between 1534 and 1542, claiming the land for King Francis I of France?",
+  "options": [
+   "Jacques Cartier",
+   "John Cabot",
+   "Count Frontenac",
+   "Pierre de Monts"
+  ],
+  "answer": 0,
+  "explanation": "Жак Картье — три плавания, первый европеец на реке Святого Лаврентия.",
+  "questionRu": "Кто в 1534–1542 годах совершил три плавания через Атлантику для короля Франции Франциска I?",
+  "optionsRu": [
+   "Жак Картье",
+   "Джон Кабот",
+   "Граф Фронтенак",
+   "Пьер де Мон"
+  ]
+ },
+ {
+  "id": "q-history-007",
+  "chapter": "history",
+  "blockId": "history-04",
+  "question": "When was the first European settlement north of Florida established, and by whom?",
+  "options": [
+   "1497, by John Cabot",
+   "1534, by Jacques Cartier",
+   "1604, by Pierre de Monts and Samuel de Champlain",
+   "1759, by James Wolfe"
+  ],
+  "answer": 2,
+  "explanation": "1604 год, Пьер де Мон и Самюэль де Шамплен (остров Сент-Круа, затем Пор-Руаяль в Акадии).",
+  "questionRu": "Когда и кем было основано первое европейское поселение к северу от Флориды?",
+  "optionsRu": [
+   "В 1497 году Джоном Каботом",
+   "В 1534 году Жаком Картье",
+   "В 1604 году Пьером де Моном и Самюэлем де Шампленом",
+   "В 1759 году Джеймсом Вольфом"
+  ]
+ },
+ {
+  "id": "q-history-008",
+  "chapter": "history",
+  "blockId": "history-04",
+  "question": "In what year did Champlain build a fortress at what is now Québec City?",
+  "options": [
+   "1604",
+   "1608",
+   "1670",
+   "1701"
+  ],
+  "answer": 1,
+  "explanation": "Крепость Квебек — 1608 год.",
+  "questionRu": "В каком году Шамплен построил крепость на месте нынешнего города Квебек?",
+  "optionsRu": [
+   "1604",
+   "1608",
+   "1670",
+   "1701"
+  ]
+ },
+ {
+  "id": "q-history-009",
+  "chapter": "history",
+  "blockId": "history-04",
+  "question": "What drove the fur-trade economy of New France?",
+  "options": [
+   "Demand for buffalo meat",
+   "Demand for timber in England",
+   "The gold rush",
+   "Demand for beaver pelts in Europe"
+  ],
+  "answer": 3,
+  "explanation": "Пушная торговля держалась на спросе на бобровые шкурки в Европе.",
+  "questionRu": "Что было движущей силой экономики пушной торговли в Новой Франции?",
+  "optionsRu": [
+   "Спрос на мясо бизонов",
+   "Спрос на лес в Англии",
+   "Золотая лихорадка",
+   "Спрос на бобровые шкурки в Европе"
+  ]
+ },
+ {
+  "id": "q-history-010",
+  "chapter": "history",
+  "blockId": "history-05",
+  "question": "What did King Charles II of England grant the Hudson’s Bay Company in 1670?",
+  "options": [
+   "Exclusive trading rights over the watershed draining into Hudson Bay",
+   "The right to govern Quebec",
+   "Ownership of the St. Lawrence River",
+   "The right to build a railway"
+  ],
+  "answer": 0,
+  "explanation": "В 1670 году компания получила исключительные торговые права на бассейн Гудзонова залива.",
+  "questionRu": "Что король Карл II предоставил Компании Гудзонова залива в 1670 году?",
+  "optionsRu": [
+   "Исключительные торговые права на бассейн рек, впадающих в Гудзонов залив",
+   "Право управлять Квебеком",
+   "Владение рекой Святого Лаврентия",
+   "Право строить железную дорогу"
+  ]
+ },
+ {
+  "id": "q-history-011",
+  "chapter": "history",
+  "blockId": "history-05",
+  "question": "What were the skilled men who travelled by canoe in the fur trade called?",
+  "options": [
+   "Loyalists",
+   "Habitants",
+   "Voyageurs and coureurs des bois",
+   "Mounties"
+  ],
+  "answer": 2,
+  "explanation": "Это вояжёры и «лесные бегуны» — voyageurs и coureurs des bois.",
+  "questionRu": "Как называли умелых людей, путешествовавших на каноэ в пушной торговле?",
+  "optionsRu": [
+   "Лоялисты",
+   "Абитаны",
+   "Вояжёры (voyageurs) и «лесные бегуны» (coureurs des bois)",
+   "Маунтис"
+  ]
+ },
+ {
+  "id": "q-history-012",
+  "chapter": "history",
+  "blockId": "history-05",
+  "question": "In 1759, which battle marked the end of France’s empire in America?",
+  "options": [
+   "The Battle of Queenston Heights",
+   "The Battle of the Plains of Abraham",
+   "The Battle of Vimy Ridge",
+   "The Battle of Châteauguay"
+  ],
+  "answer": 1,
+  "explanation": "Битва на Равнинах Авраама у Квебека, 1759 год; погибли Вольф и Монкальм.",
+  "questionRu": "Какая битва в 1759 году ознаменовала конец французской империи в Америке?",
+  "optionsRu": [
+   "Битва при Квинстон-Хайтс",
+   "Битва на Равнинах Авраама",
+   "Битва за хребет Вими",
+   "Битва при Шатоге"
+  ]
+ },
+ {
+  "id": "q-history-013",
+  "chapter": "history",
+  "blockId": "history-06",
+  "question": "What were the French-speaking Catholic people of the Province of Quebec called?",
+  "options": [
+   "Loyalists",
+   "Métis",
+   "Acadians",
+   "Habitants or Canadiens"
+  ],
+  "answer": 3,
+  "explanation": "Их называли habitants или Canadiens.",
+  "questionRu": "Как называли франкоязычных католиков провинции Квебек?",
+  "optionsRu": [
+   "Лоялисты",
+   "Метисы",
+   "Акадийцы",
+   "Абитаны или канадьены"
+  ]
+ },
+ {
+  "id": "q-history-014",
+  "chapter": "history",
+  "blockId": "history-07",
+  "question": "What did the Quebec Act of 1774 do?",
+  "options": [
+   "Allowed religious freedom for Catholics, let them hold public office, and restored French civil law while keeping British criminal law",
+   "Abolished slavery",
+   "Created Upper and Lower Canada",
+   "Gave women the vote"
+  ],
+  "answer": 0,
+  "explanation": "Квебекский акт: свобода вероисповедания для католиков, право на должности, французское гражданское право и британское уголовное.",
+  "questionRu": "Что сделал Квебекский акт 1774 года?",
+  "optionsRu": [
+   "Дал католикам свободу вероисповедания и право занимать должности, восстановил французское гражданское право при британском уголовном",
+   "Отменил рабство",
+   "Создал Верхнюю и Нижнюю Канаду",
+   "Дал женщинам право голоса"
+  ]
+ },
+ {
+  "id": "q-history-015",
+  "chapter": "history",
+  "blockId": "history-08",
+  "question": "Who were the United Empire Loyalists?",
+  "options": [
+   "French settlers in Acadia",
+   "People loyal to the Crown who fled the American Revolution to settle in Nova Scotia and Quebec",
+   "Soldiers who fought in the War of 1812",
+   "Fur traders of the Hudson’s Bay Company"
+  ],
+  "answer": 1,
+  "explanation": "Более 40 000 лоялистов, верных Короне, бежали от Американской революции.",
+  "questionRu": "Кто такие лоялисты Объединённой империи?",
+  "optionsRu": [
+   "Французские поселенцы в Акадии",
+   "Люди, верные Короне, бежавшие от Американской революции в Новую Шотландию и Квебек",
+   "Солдаты войны 1812 года",
+   "Торговцы Компании Гудзонова залива"
+  ]
+ },
+ {
+  "id": "q-history-016",
+  "chapter": "history",
+  "blockId": "history-08",
+  "question": "Who led thousands of Loyalist Mohawk Indians into Canada?",
+  "options": [
+   "Chief Tecumseh",
+   "Louis Riel",
+   "Joseph Brant",
+   "Gabriel Dumont"
+  ],
+  "answer": 2,
+  "explanation": "Это Джозеф Брант.",
+  "questionRu": "Кто привёл в Канаду тысячи индейцев-могавков, верных Короне?",
+  "optionsRu": [
+   "Вождь Текумсе",
+   "Луи Риэль",
+   "Джозеф Брант",
+   "Габриэль Дюмон"
+  ]
+ },
+ {
+  "id": "q-history-017",
+  "chapter": "history",
+  "blockId": "history-09",
+  "question": "Where and when was the first representative assembly elected?",
+  "options": [
+   "Halifax, Nova Scotia, in 1758",
+   "Québec City in 1608",
+   "Toronto in 1791",
+   "Ottawa in 1867"
+  ],
+  "answer": 0,
+  "explanation": "Первое представительное собрание — Галифакс, 1758 год.",
+  "questionRu": "Где и когда было избрано первое представительное собрание?",
+  "optionsRu": [
+   "В Галифаксе (Новая Шотландия) в 1758 году",
+   "В Квебеке в 1608 году",
+   "В Торонто в 1791 году",
+   "В Оттаве в 1867 году"
+  ]
+ },
+ {
+  "id": "q-history-018",
+  "chapter": "history",
+  "blockId": "history-09",
+  "question": "What did the Constitutional Act of 1791 do?",
+  "options": [
+   "United the colonies into the Dominion of Canada",
+   "Abolished slavery",
+   "Gave Catholics the right to vote",
+   "Divided the Province of Quebec into Upper Canada and Lower Canada"
+  ],
+  "answer": 3,
+  "explanation": "Акт 1791 года создал Верхнюю (позже Онтарио) и Нижнюю (позже Квебек) Канаду с выборными собраниями.",
+  "questionRu": "Что сделал Конституционный акт 1791 года?",
+  "optionsRu": [
+   "Объединил колонии в Доминион Канада",
+   "Отменил рабство",
+   "Дал католикам право голоса",
+   "Разделил провинцию Квебек на Верхнюю и Нижнюю Канаду"
+  ]
+ },
+ {
+  "id": "q-history-019",
+  "chapter": "history",
+  "blockId": "history-10",
+  "question": "In 1793, Upper Canada became the first province in the British Empire to move toward abolition of slavery. Who led it?",
+  "options": [
+   "Sir Guy Carleton",
+   "Lieutenant Governor John Graves Simcoe",
+   "Lord Durham",
+   "Sir John A. Macdonald"
+  ],
+  "answer": 1,
+  "explanation": "Джон Грейвз Симко, вице-губернатор Верхней Канады, основатель Йорка (Торонто).",
+  "questionRu": "Под чьим руководством Верхняя Канада в 1793 году первой в Империи встала на путь отмены рабства?",
+  "optionsRu": [
+   "Сэра Гая Карлтона",
+   "Вице-губернатора Джона Грейвза Симко",
+   "Лорда Дарема",
+   "Сэра Джона А. Макдональда"
+  ]
+ },
+ {
+  "id": "q-history-020",
+  "chapter": "history",
+  "blockId": "history-10",
+  "question": "What was the Underground Railroad?",
+  "options": [
+   "The first railway in Canada",
+   "A subway in Montreal",
+   "A Christian anti-slavery network that helped slaves escape from the United States to Canada",
+   "A secret military supply route"
+  ],
+  "answer": 2,
+  "explanation": "Это сеть противников рабства, по которой тысячи рабов бежали в Канаду.",
+  "questionRu": "Что такое «Подземная железная дорога» (Underground Railroad)?",
+  "optionsRu": [
+   "Первая железная дорога Канады",
+   "Метро Монреаля",
+   "Христианская сеть противников рабства, помогавшая рабам бежать из США в Канаду",
+   "Тайный военный путь снабжения"
+  ]
+ },
+ {
+  "id": "q-history-021",
+  "chapter": "history",
+  "blockId": "history-12",
+  "question": "Who burned down the White House in 1814 in retaliation for the burning of York?",
+  "options": [
+   "Sir Isaac Brock",
+   "Chief Tecumseh",
+   "Charles de Salaberry",
+   "Major-General Robert Ross"
+  ],
+  "answer": 3,
+  "explanation": "Экспедиция генерал-майора Роберта Росса из Новой Шотландии сожгла Белый дом.",
+  "questionRu": "Кто в 1814 году сжёг Белый дом в ответ на сожжение Йорка?",
+  "optionsRu": [
+   "Сэр Айзек Брок",
+   "Вождь Текумсе",
+   "Шарль де Салаберри",
+   "Генерал-майор Роберт Росс"
+  ]
+ },
+ {
+  "id": "q-history-022",
+  "chapter": "history",
+  "blockId": "history-12",
+  "question": "What was an important outcome of the War of 1812?",
+  "options": [
+   "It ensured that Canada would remain independent of the United States",
+   "Canada joined the United States",
+   "France regained Quebec",
+   "Canada became a republic"
+  ],
+  "answer": 0,
+  "explanation": "Война 1812 года обеспечила независимость Канады от США; от неё отчасти и нынешняя граница.",
+  "questionRu": "Каков важный итог войны 1812 года?",
+  "optionsRu": [
+   "Канада осталась независимой от США",
+   "Канада вошла в состав США",
+   "Франция вернула себе Квебек",
+   "Канада стала республикой"
+  ]
+ },
+ {
+  "id": "q-history-023",
+  "chapter": "history",
+  "blockId": "history-12",
+  "question": "Who defeated 4,000 American invaders at Châteauguay in 1813 with 460 soldiers?",
+  "options": [
+   "Sir Isaac Brock",
+   "Laura Secord",
+   "Lieutenant-Colonel Charles de Salaberry",
+   "The Duke of Wellington"
+  ],
+  "answer": 2,
+  "explanation": "Шарль де Салаберри с солдатами, в основном канадьенами.",
+  "questionRu": "Кто в 1813 году с 460 солдатами отбросил 4000 американцев у Шатоге?",
+  "optionsRu": [
+   "Сэр Айзек Брок",
+   "Лора Секорд",
+   "Подполковник Шарль де Салаберри",
+   "Герцог Веллингтон"
+  ]
+ },
+ {
+  "id": "q-history-024",
+  "chapter": "history",
+  "blockId": "history-13",
+  "question": "What did Lord Durham recommend after the Rebellions of 1837–38?",
+  "options": [
+   "Independence for Quebec",
+   "That Upper and Lower Canada be merged and given responsible government",
+   "Joining the United States",
+   "Abolishing the monarchy"
+  ],
+  "answer": 1,
+  "explanation": "Дарем предложил объединение двух Канад и ответственное правительство.",
+  "questionRu": "Что рекомендовал лорд Дарем после восстаний 1837–1838 годов?",
+  "optionsRu": [
+   "Независимость Квебека",
+   "Объединить Верхнюю и Нижнюю Канаду и дать им ответственное правительство",
+   "Присоединиться к США",
+   "Отменить монархию"
+  ]
+ },
+ {
+  "id": "q-history-025",
+  "chapter": "history",
+  "blockId": "history-14",
+  "question": "What is responsible government?",
+  "options": [
+   "If the government loses a confidence vote in the assembly, it must resign",
+   "The Queen chooses all ministers",
+   "Judges are elected by the people",
+   "Each province has its own army"
+  ],
+  "answer": 0,
+  "explanation": "Правительство, потерявшее доверие собрания, обязано уйти в отставку.",
+  "questionRu": "Что такое ответственное правительство?",
+  "optionsRu": [
+   "Если правительство проигрывает голосование о доверии в собрании, оно уходит в отставку",
+   "Королева выбирает всех министров",
+   "Судей избирает народ",
+   "У каждой провинции своя армия"
+  ]
+ },
+ {
+  "id": "q-history-026",
+  "chapter": "history",
+  "blockId": "history-14",
+  "question": "Which was the first British North American colony to attain full responsible government?",
+  "options": [
+   "Upper Canada",
+   "Quebec",
+   "Nova Scotia",
+   "Newfoundland"
+  ],
+  "answer": 2,
+  "explanation": "Новая Шотландия, 1847–1848 годы.",
+  "questionRu": "Какая колония Британской Северной Америки первой получила полное ответственное правительство?",
+  "optionsRu": [
+   "Верхняя Канада",
+   "Квебек",
+   "Новая Шотландия",
+   "Ньюфаундленд"
+  ]
+ },
+ {
+  "id": "q-history-027",
+  "chapter": "history",
+  "blockId": "history-14",
+  "question": "Who became the first leader of a responsible government in the Canadas?",
+  "options": [
+   "Sir John A. Macdonald",
+   "Sir Louis-Hippolyte La Fontaine",
+   "Lord Elgin",
+   "Joseph Howe"
+  ],
+  "answer": 1,
+  "explanation": "Луи-Ипполит Лафонтен, защитник прав французского языка, 1849 год.",
+  "questionRu": "Кто стал первым главой ответственного правительства в Канадах?",
+  "optionsRu": [
+   "Сэр Джон А. Макдональд",
+   "Сэр Луи-Ипполит Лафонтен",
+   "Лорд Элгин",
+   "Джозеф Хау"
+  ]
+ },
+ {
+  "id": "q-history-028",
+  "chapter": "history",
+  "blockId": "history-15",
+  "question": "Which four provinces formed the Dominion of Canada in 1867?",
+  "options": [
+   "Ontario, Quebec, Manitoba and British Columbia",
+   "Nova Scotia, New Brunswick, PEI and Newfoundland",
+   "Ontario, Quebec, New Brunswick and Nova Scotia",
+   "Quebec, Ontario, Alberta and Saskatchewan"
+  ],
+  "answer": 2,
+  "explanation": "В 1867 году: Онтарио, Квебек, Нью-Брансуик и Новая Шотландия.",
+  "questionRu": "Какие четыре провинции образовали Доминион Канада в 1867 году?",
+  "optionsRu": [
+   "Онтарио, Квебек, Манитоба и Британская Колумбия",
+   "Новая Шотландия, Нью-Брансуик, ОПЭ и Ньюфаундленд",
+   "Онтарио, Квебек, Нью-Брансуик и Новая Шотландия",
+   "Квебек, Онтарио, Альберта и Саскачеван"
+  ]
+ },
+ {
+  "id": "q-history-029",
+  "chapter": "history",
+  "blockId": "history-15",
+  "question": "When was the Dominion of Canada officially born?",
+  "options": [
+   "July 1, 1867",
+   "July 1, 1982",
+   "November 11, 1918",
+   "January 11, 1815"
+  ],
+  "answer": 0,
+  "explanation": "1 июля 1867 года; до 1982 года — «День Доминиона», сейчас — День Канады.",
+  "questionRu": "Когда официально родился Доминион Канада?",
+  "optionsRu": [
+   "1 июля 1867 года",
+   "1 июля 1982 года",
+   "11 ноября 1918 года",
+   "11 января 1815 года"
+  ]
+ },
+ {
+  "id": "q-history-030",
+  "chapter": "history",
+  "blockId": "history-15",
+  "question": "Who are the Fathers of Confederation?",
+  "options": [
+   "The first explorers of Canada",
+   "Representatives who worked together from 1864 to 1867 to establish a new country",
+   "The first Mounted Police officers",
+   "The first prime ministers of each province"
+  ],
+  "answer": 1,
+  "explanation": "Представители Новой Шотландии, Нью-Брансуика и Провинции Канада, создавшие страну в 1864–1867 годах.",
+  "questionRu": "Кто такие Отцы Конфедерации?",
+  "optionsRu": [
+   "Первые исследователи Канады",
+   "Представители, в 1864–1867 годах создавшие новую страну",
+   "Первые конные полицейские",
+   "Первые премьеры провинций"
+  ]
+ },
+ {
+  "id": "q-history-031",
+  "chapter": "history",
+  "blockId": "history-16",
+  "question": "Who suggested the term “Dominion of Canada” in 1864?",
+  "options": [
+   "Sir John A. Macdonald",
+   "Sir George-Étienne Cartier",
+   "Queen Victoria",
+   "Sir Leonard Tilley"
+  ],
+  "answer": 3,
+  "explanation": "Сэр Леонард Тилли из Нью-Брансуика, вдохновлённый 72-м псалмом.",
+  "questionRu": "Кто предложил термин «Доминион Канада» в 1864 году?",
+  "optionsRu": [
+   "Сэр Джон А. Макдональд",
+   "Сэр Жорж-Этьен Картье",
+   "Королева Виктория",
+   "Сэр Леонард Тилли"
+  ]
+ },
+ {
+  "id": "q-history-032",
+  "chapter": "history",
+  "blockId": "history-17",
+  "question": "Which was the last province to join Canada, in 1949?",
+  "options": [
+   "British Columbia",
+   "Prince Edward Island",
+   "Newfoundland and Labrador",
+   "Alberta"
+  ],
+  "answer": 2,
+  "explanation": "Ньюфаундленд и Лабрадор — 1949 год (территория Нунавут — 1999 год).",
+  "questionRu": "Какая провинция последней вошла в Канаду, в 1949 году?",
+  "optionsRu": [
+   "Британская Колумбия",
+   "Остров Принца Эдуарда",
+   "Ньюфаундленд и Лабрадор",
+   "Альберта"
+  ]
+ },
+ {
+  "id": "q-history-033",
+  "chapter": "history",
+  "blockId": "history-18",
+  "question": "Who was Canada’s first Prime Minister?",
+  "options": [
+   "Sir John Alexander Macdonald",
+   "Sir Wilfrid Laurier",
+   "Sir George-Étienne Cartier",
+   "Sir Robert Borden"
+  ],
+  "answer": 0,
+  "explanation": "Сэр Джон А. Макдональд (1867); его портрет — на 10-долларовой банкноте, 11 января — его день.",
+  "questionRu": "Кто был первым премьер-министром Канады?",
+  "optionsRu": [
+   "Сэр Джон Александр Макдональд",
+   "Сэр Уилфрид Лорье",
+   "Сэр Жорж-Этьен Картье",
+   "Сэр Роберт Борден"
+  ]
+ },
+ {
+  "id": "q-history-034",
+  "chapter": "history",
+  "blockId": "history-19",
+  "question": "Who led the Métis armed uprising and seized Fort Garry in 1869?",
+  "options": [
+   "Gabriel Dumont",
+   "Louis Riel",
+   "Sam Steele",
+   "Joseph Brant"
+  ],
+  "answer": 1,
+  "explanation": "Луи Риэль; многие считают его героем и отцом Манитобы.",
+  "questionRu": "Кто возглавил вооружённое восстание метисов и захватил Форт-Гэрри в 1869 году?",
+  "optionsRu": [
+   "Габриэль Дюмон",
+   "Луи Риэль",
+   "Сэм Стил",
+   "Джозеф Брант"
+  ]
+ },
+ {
+  "id": "q-history-035",
+  "chapter": "history",
+  "blockId": "history-19",
+  "question": "Why did Prime Minister Macdonald establish the North West Mounted Police in 1873?",
+  "options": [
+   "To build the railway",
+   "To collect taxes",
+   "To pacify the West and assist in negotiations with the Indians",
+   "To fight in the Boer War"
+  ],
+  "answer": 2,
+  "explanation": "СЗКП создана для порядка на Западе и переговоров с индейцами; сегодня это КККП.",
+  "questionRu": "Зачем Макдональд создал Северо-Западную конную полицию в 1873 году?",
+  "optionsRu": [
+   "Чтобы строить железную дорогу",
+   "Чтобы собирать налоги",
+   "Чтобы установить порядок на Западе и помогать в переговорах с индейцами",
+   "Чтобы воевать в Англо-бурской войне"
+  ]
+ },
+ {
+  "id": "q-history-036",
+  "chapter": "history",
+  "blockId": "history-20",
+  "question": "When was the last spike of the Canadian Pacific Railway driven?",
+  "options": [
+   "November 7, 1885",
+   "July 1, 1867",
+   "June 6, 1944",
+   "April 9, 1917"
+  ],
+  "answer": 0,
+  "explanation": "7 ноября 1885 года, Дональд Смит (лорд Страткона).",
+  "questionRu": "Когда был забит последний костыль Канадской Тихоокеанской железной дороги?",
+  "optionsRu": [
+   "7 ноября 1885 года",
+   "1 июля 1867 года",
+   "6 июня 1944 года",
+   "9 апреля 1917 года"
+  ]
+ },
+ {
+  "id": "q-history-037",
+  "chapter": "history",
+  "blockId": "history-21",
+  "question": "Who was the first French-Canadian prime minister since Confederation?",
+  "options": [
+   "Sir George-Étienne Cartier",
+   "Louis-Hippolyte La Fontaine",
+   "Sir John A. Macdonald",
+   "Sir Wilfrid Laurier"
+  ],
+  "answer": 3,
+  "explanation": "Сэр Уилфрид Лорье; его портрет — на 5-долларовой банкноте.",
+  "questionRu": "Кто стал первым со времён Конфедерации премьер-министром-франкоканадцем?",
+  "optionsRu": [
+   "Сэр Жорж-Этьен Картье",
+   "Луи-Ипполит Лафонтен",
+   "Сэр Джон А. Макдональд",
+   "Сэр Уилфрид Лорье"
+  ]
+ },
+ {
+  "id": "q-history-038",
+  "chapter": "history",
+  "blockId": "history-22",
+  "question": "Which battle in April 1917 secured the Canadians’ reputation as the “shock troops of the British Empire”?",
+  "options": [
+   "The Battle of Amiens",
+   "The Battle of Vimy Ridge",
+   "The Battle of the Atlantic",
+   "D-Day"
+  ],
+  "answer": 1,
+  "explanation": "Хребет Вими, апрель 1917 года; 9 апреля — День Вими.",
+  "questionRu": "Какая битва в апреле 1917 года закрепила за канадцами славу «ударных войск Британской империи»?",
+  "optionsRu": [
+   "Битва при Амьене",
+   "Битва за хребет Вими",
+   "Битва за Атлантику",
+   "День «Д»"
+  ]
+ },
+ {
+  "id": "q-history-039",
+  "chapter": "history",
+  "blockId": "history-23",
+  "question": "Who was the first woman MP, elected in 1921?",
+  "options": [
+   "Dr. Emily Stowe",
+   "Thérèse Casgrain",
+   "Agnes Macphail",
+   "Laura Secord"
+  ],
+  "answer": 2,
+  "explanation": "Агнес Макфейл, фермер и учитель.",
+  "questionRu": "Кто в 1921 году стал первой женщиной — членом парламента?",
+  "optionsRu": [
+   "Доктор Эмили Стоу",
+   "Тереза Касгрейн",
+   "Агнес Макфейл",
+   "Лора Секорд"
+  ]
+ },
+ {
+  "id": "q-history-040",
+  "chapter": "history",
+  "blockId": "history-23",
+  "question": "Which was the first province to grant voting rights to women, in 1916?",
+  "options": [
+   "Manitoba",
+   "Quebec",
+   "Ontario",
+   "Nova Scotia"
+  ],
+  "answer": 0,
+  "explanation": "Манитоба (1916); Квебек — только в 1940 году.",
+  "questionRu": "Какая провинция первой дала женщинам право голоса, в 1916 году?",
+  "optionsRu": [
+   "Манитоба",
+   "Квебек",
+   "Онтарио",
+   "Новая Шотландия"
+  ]
+ },
+ {
+  "id": "q-history-041",
+  "chapter": "history",
+  "blockId": "history-24",
+  "question": "What do Canadians do on Remembrance Day, November 11?",
+  "options": [
+   "Celebrate the birth of Canada",
+   "Vote in elections",
+   "Honour the Queen’s birthday",
+   "Wear the red poppy and observe a moment of silence at the 11th hour of the 11th day of the 11th month"
+  ],
+  "answer": 3,
+  "explanation": "Красный мак и минута молчания в 11:00 11 ноября.",
+  "questionRu": "Что делают канадцы в День памяти, 11 ноября?",
+  "optionsRu": [
+   "Празднуют рождение Канады",
+   "Голосуют на выборах",
+   "Отмечают день рождения Королевы",
+   "Носят красный мак и соблюдают минуту молчания в 11-й час 11-го дня 11-го месяца"
+  ]
+ },
+ {
+  "id": "q-history-042",
+  "chapter": "history",
+  "blockId": "history-24",
+  "question": "Who wrote the poem “In Flanders Fields”?",
+  "options": [
+   "Sir Arthur Currie",
+   "Lieutenant-Colonel John McCrae",
+   "Agnes Macphail",
+   "Phil Edwards"
+  ],
+  "answer": 1,
+  "explanation": "Военный врач подполковник Джон Маккрей, 1915 год.",
+  "questionRu": "Кто написал стихотворение «На полях Фландрии» (In Flanders Fields)?",
+  "optionsRu": [
+   "Сэр Артур Карри",
+   "Подполковник Джон Маккрей",
+   "Агнес Макфейл",
+   "Фил Эдвардс"
+  ]
+ },
+ {
+  "id": "q-history-043",
+  "chapter": "history",
+  "blockId": "history-25",
+  "question": "When was the Bank of Canada created?",
+  "options": [
+   "1867",
+   "1929",
+   "1934",
+   "1945"
+  ],
+  "answer": 2,
+  "explanation": "Банк Канады создан в 1934 году, во время Великой депрессии.",
+  "questionRu": "Когда был создан Банк Канады?",
+  "optionsRu": [
+   "1867",
+   "1929",
+   "1934",
+   "1945"
+  ]
+ },
+ {
+  "id": "q-history-044",
+  "chapter": "history",
+  "blockId": "history-27",
+  "question": "On D-Day, June 6, 1944, which beach did Canadian troops capture?",
+  "options": [
+   "Omaha Beach",
+   "Juno Beach",
+   "Dieppe",
+   "Gold Beach"
+  ],
+  "answer": 1,
+  "explanation": "15 000 канадцев взяли участок «Джуно»; примерно каждый десятый солдат союзников был канадцем.",
+  "questionRu": "Какой участок побережья взяли канадцы в день «Д», 6 июня 1944 года?",
+  "optionsRu": [
+   "Омаха",
+   "Джуно (Juno Beach)",
+   "Дьепп",
+   "Голд"
+  ]
+ },
+ {
+  "id": "q-history-045",
+  "chapter": "history",
+  "blockId": "history-26",
+  "question": "What size was Canada’s navy at the end of the Second World War?",
+  "options": [
+   "The third-largest navy in the world",
+   "The largest navy in the world",
+   "The smallest in the Commonwealth",
+   "Canada had no navy"
+  ],
+  "answer": 0,
+  "explanation": "После войны у Канады был третий по величине флот в мире.",
+  "questionRu": "Каким по величине был флот Канады в конце Второй мировой войны?",
+  "optionsRu": [
+   "Третьим по величине в мире",
+   "Крупнейшим в мире",
+   "Самым маленьким в Содружестве",
+   "У Канады не было флота"
+  ]
  }
 ]

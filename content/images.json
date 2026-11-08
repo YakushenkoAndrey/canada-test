@@ -139,5 +139,141 @@
   "rights/p9-nijmegen.jpg": {
     "page": 9,
     "xref": 319
+  },
+  "history/p14-encampment.jpg": {
+    "page": 14,
+    "xref": 376
+  },
+  "history/p14-cabot.jpg": {
+    "page": 14,
+    "xref": 383
+  },
+  "history/p14-cartier.jpg": {
+    "page": 14,
+    "xref": 378
+  },
+  "history/p15-frontenac.jpg": {
+    "page": 15,
+    "xref": 371
+  },
+  "history/p15-iberville.jpg": {
+    "page": 15,
+    "xref": 380
+  },
+  "history/p15-carleton.jpg": {
+    "page": 15,
+    "xref": 373
+  },
+  "history/p16-assembly.jpg": {
+    "page": 16,
+    "xref": 390
+  },
+  "history/p16-simcoe.jpg": {
+    "page": 16,
+    "xref": 388
+  },
+  "history/p16-shadd-cary.jpg": {
+    "page": 16,
+    "xref": 386
+  },
+  "history/p17-shannon.jpg": {
+    "page": 17,
+    "xref": 392
+  },
+  "history/p17-brock-tecumseh.jpg": {
+    "page": 17,
+    "xref": 394
+  },
+  "history/p17-militiaman.jpg": {
+    "page": 17,
+    "xref": 384
+  },
+  "history/p17-wellington.jpg": {
+    "page": 17,
+    "xref": 396
+  },
+  "history/p17-secord.jpg": {
+    "page": 17,
+    "xref": 398
+  },
+  "history/p18-lafontaine.jpg": {
+    "page": 18,
+    "xref": 414
+  },
+  "history/p18-fathers.jpg": {
+    "page": 18,
+    "xref": 404
+  },
+  "history/p18-dollar.jpg": {
+    "page": 18,
+    "xref": 402
+  },
+  "history/p19-macdonald.jpg": {
+    "page": 19,
+    "xref": 411
+  },
+  "history/p19-fort-garry.jpg": {
+    "page": 19,
+    "xref": 409
+  },
+  "history/p19-steele.jpg": {
+    "page": 19,
+    "xref": 401
+  },
+  "history/p19-dumont.jpg": {
+    "page": 19,
+    "xref": 412
+  },
+  "history/p20-pacific-express.jpg": {
+    "page": 20,
+    "xref": 424
+  },
+  "history/p20-chinese-camp.jpg": {
+    "page": 20,
+    "xref": 423
+  },
+  "history/p21-vimy.jpg": {
+    "page": 21,
+    "xref": 432
+  },
+  "history/p21-fort-garry-horse.jpg": {
+    "page": 21,
+    "xref": 428
+  },
+  "history/p21-currie.jpg": {
+    "page": 21,
+    "xref": 426
+  },
+  "history/p21-cap-badge.jpg": {
+    "page": 21,
+    "xref": 430
+  },
+  "history/p21-macphail.jpg": {
+    "page": 21,
+    "xref": 434
+  },
+  "history/p21-nurse.jpg": {
+    "page": 21,
+    "xref": 420
+  },
+  "history/p22-remembrance.jpg": {
+    "page": 22,
+    "xref": 441
+  },
+  "history/p22-scouts.jpg": {
+    "page": 22,
+    "xref": 439
+  },
+  "history/p22-edwards.jpg": {
+    "page": 22,
+    "xref": 437
+  },
+  "history/p23-red-cross.jpg": {
+    "page": 23,
+    "xref": 443
+  },
+  "history/p23-juno.jpg": {
+    "page": 23,
+    "xref": 445
   }
 }

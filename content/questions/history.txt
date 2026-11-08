@@ -1,0 +1,359 @@
+@q 1 history-01 2
+Why did European explorers call the native peoples “Indians”?
+| Because they came from India | Because of their language | Because the first explorers thought they had reached the East Indies | Because of the colour of their clothes
+= Europeans called them Indians because the first explorers thought they had reached the East Indies.
+? Почему европейцы назвали коренных жителей «индейцами»?
+| Потому что те пришли из Индии | Из-за их языка | Потому что первые исследователи думали, что достигли Ост-Индии | Из-за цвета их одежды
+= Первые исследователи думали, что достигли Ост-Индии, отсюда и название «индейцы».
+
+@q 2 history-01 1
+Which Aboriginal people were nomadic, following the bison (buffalo) herd?
+| The Huron-Wendat | The Sioux | The Inuit | The Iroquois
+= The Sioux were nomadic, following the bison (buffalo) herd. The Huron-Wendat and Iroquois were farmers and hunters; the Cree and Dene were hunter-gatherers.
+? Какой коренной народ кочевал, следуя за стадами бизонов?
+| Гуроны-вендаты | Сиу | Инуиты | Ирокезы
+= Кочевниками, следовавшими за бизонами, были сиу.
+
+@q 3 history-02 0
+Who were the first Europeans to reach Canada?
+| The Vikings | The French | The Spanish | The English
+= The Vikings from Iceland who colonized Greenland 1,000 years ago also reached Labrador and the island of Newfoundland. Their settlement, l’Anse aux Meadows, is a World Heritage site.
+? Кто из европейцев первым достиг Канады?
+| Викинги | Французы | Испанцы | Англичане
+= Викинги из Исландии 1000 лет назад достигли Лабрадора и Ньюфаундленда (поселение Л’Анс-о-Медоуз).
+
+@q 4 history-02 3
+Who was the first to draw a map of Canada’s East Coast, in 1497?
+| Jacques Cartier | Samuel de Champlain | Henry Hudson | John Cabot
+= European exploration began in earnest in 1497 with the expedition of John Cabot, who was the first to draw a map of Canada’s East Coast.
+? Кто в 1497 году первым составил карту восточного побережья Канады?
+| Жак Картье | Самюэль де Шамплен | Генри Гудзон | Джон Кабот
+= Джон Кабот (1497) — первая карта восточного побережья Канады.
+
+@q 5 history-03 1
+Where does the name “Canada” come from?
+| From a French word meaning “north” | From the Iroquoian word “kanata,” meaning “village” | From the name of an English king | From an Inuit word meaning “land”
+= Jacques Cartier heard two captured guides speak the Iroquoian word kanata, meaning “village.” By the 1550s, the name of Canada began appearing on maps.
+? Откуда происходит название «Канада»?
+| От французского слова «север» | От ирокезского слова «каната» — «деревня» | От имени английского короля | От инуитского слова «земля»
+= Картье услышал ирокезское слово kanata — «деревня».
+
+@q 6 history-03 0
+Who made three voyages across the Atlantic between 1534 and 1542, claiming the land for King Francis I of France?
+| Jacques Cartier | John Cabot | Count Frontenac | Pierre de Monts
+= Between 1534 and 1542, Jacques Cartier made three voyages, claiming the land for King Francis I of France. He was the first European to explore the St. Lawrence River.
+? Кто в 1534–1542 годах совершил три плавания через Атлантику для короля Франции Франциска I?
+| Жак Картье | Джон Кабот | Граф Фронтенак | Пьер де Мон
+= Жак Картье — три плавания, первый европеец на реке Святого Лаврентия.
+
+@q 7 history-04 2
+When was the first European settlement north of Florida established, and by whom?
+| 1497, by John Cabot | 1534, by Jacques Cartier | 1604, by Pierre de Monts and Samuel de Champlain | 1759, by James Wolfe
+= In 1604, French explorers Pierre de Monts and Samuel de Champlain established the first European settlement north of Florida — first on St. Croix Island, then at Port-Royal, in Acadia.
+? Когда и кем было основано первое европейское поселение к северу от Флориды?
+| В 1497 году Джоном Каботом | В 1534 году Жаком Картье | В 1604 году Пьером де Моном и Самюэлем де Шампленом | В 1759 году Джеймсом Вольфом
+= 1604 год, Пьер де Мон и Самюэль де Шамплен (остров Сент-Круа, затем Пор-Руаяль в Акадии).
+
+@q 8 history-04 1
+In what year did Champlain build a fortress at what is now Québec City?
+| 1604 | 1608 | 1670 | 1701
+= In 1608 Champlain built a fortress at what is now Québec City.
+? В каком году Шамплен построил крепость на месте нынешнего города Квебек?
+| 1604 | 1608 | 1670 | 1701
+= Крепость Квебек — 1608 год.
+
+@q 9 history-04 3
+What drove the fur-trade economy of New France?
+| Demand for buffalo meat | Demand for timber in England | The gold rush | Demand for beaver pelts in Europe
+= The French and Aboriginal people collaborated in the vast fur-trade economy, driven by the demand for beaver pelts in Europe.
+? Что было движущей силой экономики пушной торговли в Новой Франции?
+| Спрос на мясо бизонов | Спрос на лес в Англии | Золотая лихорадка | Спрос на бобровые шкурки в Европе
+= Пушная торговля держалась на спросе на бобровые шкурки в Европе.
+
+@q 10 history-05 0
+What did King Charles II of England grant the Hudson’s Bay Company in 1670?
+| Exclusive trading rights over the watershed draining into Hudson Bay | The right to govern Quebec | Ownership of the St. Lawrence River | The right to build a railway
+= In 1670, King Charles II granted the Hudson’s Bay Company exclusive trading rights over the watershed draining into Hudson Bay.
+? Что король Карл II предоставил Компании Гудзонова залива в 1670 году?
+| Исключительные торговые права на бассейн рек, впадающих в Гудзонов залив | Право управлять Квебеком | Владение рекой Святого Лаврентия | Право строить железную дорогу
+= В 1670 году компания получила исключительные торговые права на бассейн Гудзонова залива.
+
+@q 11 history-05 2
+What were the skilled men who travelled by canoe in the fur trade called?
+| Loyalists | Habitants | Voyageurs and coureurs des bois | Mounties
+= The skilled and courageous men who travelled by canoe were called voyageurs and coureurs des bois, and formed strong alliances with First Nations.
+? Как называли умелых людей, путешествовавших на каноэ в пушной торговле?
+| Лоялисты | Абитаны | Вояжёры (voyageurs) и «лесные бегуны» (coureurs des bois) | Маунтис
+= Это вояжёры и «лесные бегуны» — voyageurs и coureurs des bois.
+
+@q 12 history-05 1
+In 1759, which battle marked the end of France’s empire in America?
+| The Battle of Queenston Heights | The Battle of the Plains of Abraham | The Battle of Vimy Ridge | The Battle of Châteauguay
+= In 1759, the British defeated the French in the Battle of the Plains of Abraham at Québec City. Both commanders, Wolfe and Montcalm, were killed.
+? Какая битва в 1759 году ознаменовала конец французской империи в Америке?
+| Битва при Квинстон-Хайтс | Битва на Равнинах Авраама | Битва за хребет Вими | Битва при Шатоге
+= Битва на Равнинах Авраама у Квебека, 1759 год; погибли Вольф и Монкальм.
+
+@q 13 history-06 3
+What were the French-speaking Catholic people of the Province of Quebec called?
+| Loyalists | Métis | Acadians | Habitants or Canadiens
+= The French-speaking Catholic people, known as habitants or Canadiens, strove to preserve their way of life.
+? Как называли франкоязычных католиков провинции Квебек?
+| Лоялисты | Метисы | Акадийцы | Абитаны или канадьены
+= Их называли habitants или Canadiens.
+
+@q 14 history-07 0
+What did the Quebec Act of 1774 do?
+| Allowed religious freedom for Catholics, let them hold public office, and restored French civil law while keeping British criminal law | Abolished slavery | Created Upper and Lower Canada | Gave women the vote
+= The Quebec Act allowed religious freedom for Catholics, permitted them to hold public office, and restored French civil law while maintaining British criminal law.
+? Что сделал Квебекский акт 1774 года?
+| Дал католикам свободу вероисповедания и право занимать должности, восстановил французское гражданское право при британском уголовном | Отменил рабство | Создал Верхнюю и Нижнюю Канаду | Дал женщинам право голоса
+= Квебекский акт: свобода вероисповедания для католиков, право на должности, французское гражданское право и британское уголовное.
+
+@q 15 history-08 1
+Who were the United Empire Loyalists?
+| French settlers in Acadia | People loyal to the Crown who fled the American Revolution to settle in Nova Scotia and Quebec | Soldiers who fought in the War of 1812 | Fur traders of the Hudson’s Bay Company
+= More than 40,000 people loyal to the Crown, called “Loyalists,” fled the oppression of the American Revolution to settle in Nova Scotia and Quebec.
+? Кто такие лоялисты Объединённой империи?
+| Французские поселенцы в Акадии | Люди, верные Короне, бежавшие от Американской революции в Новую Шотландию и Квебек | Солдаты войны 1812 года | Торговцы Компании Гудзонова залива
+= Более 40 000 лоялистов, верных Короне, бежали от Американской революции.
+
+@q 16 history-08 2
+Who led thousands of Loyalist Mohawk Indians into Canada?
+| Chief Tecumseh | Louis Riel | Joseph Brant | Gabriel Dumont
+= Joseph Brant led thousands of Loyalist Mohawk Indians into Canada.
+? Кто привёл в Канаду тысячи индейцев-могавков, верных Короне?
+| Вождь Текумсе | Луи Риэль | Джозеф Брант | Габриэль Дюмон
+= Это Джозеф Брант.
+
+@q 17 history-09 0
+Where and when was the first representative assembly elected?
+| Halifax, Nova Scotia, in 1758 | Québec City in 1608 | Toronto in 1791 | Ottawa in 1867
+= The first representative assembly was elected in Halifax, Nova Scotia, in 1758.
+? Где и когда было избрано первое представительное собрание?
+| В Галифаксе (Новая Шотландия) в 1758 году | В Квебеке в 1608 году | В Торонто в 1791 году | В Оттаве в 1867 году
+= Первое представительное собрание — Галифакс, 1758 год.
+
+@q 18 history-09 3
+What did the Constitutional Act of 1791 do?
+| United the colonies into the Dominion of Canada | Abolished slavery | Gave Catholics the right to vote | Divided the Province of Quebec into Upper Canada and Lower Canada
+= The Constitutional Act of 1791 divided the Province of Quebec into Upper Canada (later Ontario) and Lower Canada (later Quebec), and granted legislative assemblies elected by the people.
+? Что сделал Конституционный акт 1791 года?
+| Объединил колонии в Доминион Канада | Отменил рабство | Дал католикам право голоса | Разделил провинцию Квебек на Верхнюю и Нижнюю Канаду
+= Акт 1791 года создал Верхнюю (позже Онтарио) и Нижнюю (позже Квебек) Канаду с выборными собраниями.
+
+@q 19 history-10 1
+In 1793, Upper Canada became the first province in the British Empire to move toward abolition of slavery. Who led it?
+| Sir Guy Carleton | Lieutenant Governor John Graves Simcoe | Lord Durham | Sir John A. Macdonald
+= In 1793, Upper Canada, led by Lieutenant Governor John Graves Simcoe, became the first province in the Empire to move toward abolition.
+? Под чьим руководством Верхняя Канада в 1793 году первой в Империи встала на путь отмены рабства?
+| Сэра Гая Карлтона | Вице-губернатора Джона Грейвза Симко | Лорда Дарема | Сэра Джона А. Макдональда
+= Джон Грейвз Симко, вице-губернатор Верхней Канады, основатель Йорка (Торонто).
+
+@q 20 history-10 2
+What was the Underground Railroad?
+| The first railway in Canada | A subway in Montreal | A Christian anti-slavery network that helped slaves escape from the United States to Canada | A secret military supply route
+= Thousands of slaves escaped from the United States and settled in Canada via the Underground Railroad, a Christian anti-slavery network.
+? Что такое «Подземная железная дорога» (Underground Railroad)?
+| Первая железная дорога Канады | Метро Монреаля | Христианская сеть противников рабства, помогавшая рабам бежать из США в Канаду | Тайный военный путь снабжения
+= Это сеть противников рабства, по которой тысячи рабов бежали в Канаду.
+
+@q 21 history-12 3
+Who burned down the White House in 1814 in retaliation for the burning of York?
+| Sir Isaac Brock | Chief Tecumseh | Charles de Salaberry | Major-General Robert Ross
+= In 1814, Major-General Robert Ross led an expedition from Nova Scotia that burned down the White House and other public buildings in Washington, D.C.
+? Кто в 1814 году сжёг Белый дом в ответ на сожжение Йорка?
+| Сэр Айзек Брок | Вождь Текумсе | Шарль де Салаберри | Генерал-майор Роберт Росс
+= Экспедиция генерал-майора Роберта Росса из Новой Шотландии сожгла Белый дом.
+
+@q 22 history-12 0
+What was an important outcome of the War of 1812?
+| It ensured that Canada would remain independent of the United States | Canada joined the United States | France regained Quebec | Canada became a republic
+= The present-day Canada-U.S.A. border is partly an outcome of the War of 1812, which ensured that Canada would remain independent of the United States.
+? Каков важный итог войны 1812 года?
+| Канада осталась независимой от США | Канада вошла в состав США | Франция вернула себе Квебек | Канада стала республикой
+= Война 1812 года обеспечила независимость Канады от США; от неё отчасти и нынешняя граница.
+
+@q 23 history-12 2
+Who defeated 4,000 American invaders at Châteauguay in 1813 with 460 soldiers?
+| Sir Isaac Brock | Laura Secord | Lieutenant-Colonel Charles de Salaberry | The Duke of Wellington
+= In 1813, Lieutenant-Colonel Charles de Salaberry and 460 soldiers, mostly French Canadiens, turned back 4,000 American invaders at Châteauguay, south of Montreal.
+? Кто в 1813 году с 460 солдатами отбросил 4000 американцев у Шатоге?
+| Сэр Айзек Брок | Лора Секорд | Подполковник Шарль де Салаберри | Герцог Веллингтон
+= Шарль де Салаберри с солдатами, в основном канадьенами.
+
+@q 24 history-13 1
+What did Lord Durham recommend after the Rebellions of 1837–38?
+| Independence for Quebec | That Upper and Lower Canada be merged and given responsible government | Joining the United States | Abolishing the monarchy
+= Lord Durham recommended that Upper and Lower Canada be merged and given responsible government.
+? Что рекомендовал лорд Дарем после восстаний 1837–1838 годов?
+| Независимость Квебека | Объединить Верхнюю и Нижнюю Канаду и дать им ответственное правительство | Присоединиться к США | Отменить монархию
+= Дарем предложил объединение двух Канад и ответственное правительство.
+
+@q 25 history-14 0
+What is responsible government?
+| If the government loses a confidence vote in the assembly, it must resign | The Queen chooses all ministers | Judges are elected by the people | Each province has its own army
+= Responsible government is the system that we have today: if the government loses a confidence vote in the assembly it must resign.
+? Что такое ответственное правительство?
+| Если правительство проигрывает голосование о доверии в собрании, оно уходит в отставку | Королева выбирает всех министров | Судей избирает народ | У каждой провинции своя армия
+= Правительство, потерявшее доверие собрания, обязано уйти в отставку.
+
+@q 26 history-14 2
+Which was the first British North American colony to attain full responsible government?
+| Upper Canada | Quebec | Nova Scotia | Newfoundland
+= The first British North American colony to attain full responsible government was Nova Scotia in 1847–48.
+? Какая колония Британской Северной Америки первой получила полное ответственное правительство?
+| Верхняя Канада | Квебек | Новая Шотландия | Ньюфаундленд
+= Новая Шотландия, 1847–1848 годы.
+
+@q 27 history-14 1
+Who became the first leader of a responsible government in the Canadas?
+| Sir John A. Macdonald | Sir Louis-Hippolyte La Fontaine | Lord Elgin | Joseph Howe
+= La Fontaine, a champion of democracy and French language rights, became the first leader of a responsible government in the Canadas (in 1849).
+? Кто стал первым главой ответственного правительства в Канадах?
+| Сэр Джон А. Макдональд | Сэр Луи-Ипполит Лафонтен | Лорд Элгин | Джозеф Хау
+= Луи-Ипполит Лафонтен, защитник прав французского языка, 1849 год.
+
+@q 28 history-15 2
+Which four provinces formed the Dominion of Canada in 1867?
+| Ontario, Quebec, Manitoba and British Columbia | Nova Scotia, New Brunswick, PEI and Newfoundland | Ontario, Quebec, New Brunswick and Nova Scotia | Quebec, Ontario, Alberta and Saskatchewan
+= Ontario and Quebec, together with New Brunswick and Nova Scotia, formed the new country called the Dominion of Canada in 1867.
+? Какие четыре провинции образовали Доминион Канада в 1867 году?
+| Онтарио, Квебек, Манитоба и Британская Колумбия | Новая Шотландия, Нью-Брансуик, ОПЭ и Ньюфаундленд | Онтарио, Квебек, Нью-Брансуик и Новая Шотландия | Квебек, Онтарио, Альберта и Саскачеван
+= В 1867 году: Онтарио, Квебек, Нью-Брансуик и Новая Шотландия.
+
+@q 29 history-15 0
+When was the Dominion of Canada officially born?
+| July 1, 1867 | July 1, 1982 | November 11, 1918 | January 11, 1815
+= The Dominion of Canada was officially born on July 1, 1867. Until 1982 July 1 was called Dominion Day; today it is Canada Day.
+? Когда официально родился Доминион Канада?
+| 1 июля 1867 года | 1 июля 1982 года | 11 ноября 1918 года | 11 января 1815 года
+= 1 июля 1867 года; до 1982 года — «День Доминиона», сейчас — День Канады.
+
+@q 30 history-15 1
+Who are the Fathers of Confederation?
+| The first explorers of Canada | Representatives who worked together from 1864 to 1867 to establish a new country | The first Mounted Police officers | The first prime ministers of each province
+= From 1864 to 1867, representatives of Nova Scotia, New Brunswick and the Province of Canada worked together to establish a new country. These men are known as the Fathers of Confederation.
+? Кто такие Отцы Конфедерации?
+| Первые исследователи Канады | Представители, в 1864–1867 годах создавшие новую страну | Первые конные полицейские | Первые премьеры провинций
+= Представители Новой Шотландии, Нью-Брансуика и Провинции Канада, создавшие страну в 1864–1867 годах.
+
+@q 31 history-16 3
+Who suggested the term “Dominion of Canada” in 1864?
+| Sir John A. Macdonald | Sir George-Étienne Cartier | Queen Victoria | Sir Leonard Tilley
+= Sir Leonard Tilley, a Father of Confederation from New Brunswick, suggested the term Dominion of Canada in 1864, inspired by Psalm 72.
+? Кто предложил термин «Доминион Канада» в 1864 году?
+| Сэр Джон А. Макдональд | Сэр Жорж-Этьен Картье | Королева Виктория | Сэр Леонард Тилли
+= Сэр Леонард Тилли из Нью-Брансуика, вдохновлённый 72-м псалмом.
+
+@q 32 history-17 2
+Which was the last province to join Canada, in 1949?
+| British Columbia | Prince Edward Island | Newfoundland and Labrador | Alberta
+= Newfoundland and Labrador joined Canada in 1949. Nunavut (a territory) was created in 1999.
+? Какая провинция последней вошла в Канаду, в 1949 году?
+| Британская Колумбия | Остров Принца Эдуарда | Ньюфаундленд и Лабрадор | Альберта
+= Ньюфаундленд и Лабрадор — 1949 год (территория Нунавут — 1999 год).
+
+@q 33 history-18 0
+Who was Canada’s first Prime Minister?
+| Sir John Alexander Macdonald | Sir Wilfrid Laurier | Sir George-Étienne Cartier | Sir Robert Borden
+= In 1867, Sir John Alexander Macdonald, a Father of Confederation, became Canada’s first Prime Minister. His portrait is on the $10 bill.
+? Кто был первым премьер-министром Канады?
+| Сэр Джон Александр Макдональд | Сэр Уилфрид Лорье | Сэр Жорж-Этьен Картье | Сэр Роберт Борден
+= Сэр Джон А. Макдональд (1867); его портрет — на 10-долларовой банкноте, 11 января — его день.
+
+@q 34 history-19 1
+Who led the Métis armed uprising and seized Fort Garry in 1869?
+| Gabriel Dumont | Louis Riel | Sam Steele | Joseph Brant
+= When Canada took over the northwest from the Hudson’s Bay Company in 1869, the Métis were not consulted. Louis Riel led an armed uprising and seized Fort Garry.
+? Кто возглавил вооружённое восстание метисов и захватил Форт-Гэрри в 1869 году?
+| Габриэль Дюмон | Луи Риэль | Сэм Стил | Джозеф Брант
+= Луи Риэль; многие считают его героем и отцом Манитобы.
+
+@q 35 history-19 2
+Why did Prime Minister Macdonald establish the North West Mounted Police in 1873?
+| To build the railway | To collect taxes | To pacify the West and assist in negotiations with the Indians | To fight in the Boer War
+= After the first Métis uprising, Macdonald established the NWMP in 1873 to pacify the West and assist in negotiations with the Indians. Today the RCMP is the national police force.
+? Зачем Макдональд создал Северо-Западную конную полицию в 1873 году?
+| Чтобы строить железную дорогу | Чтобы собирать налоги | Чтобы установить порядок на Западе и помогать в переговорах с индейцами | Чтобы воевать в Англо-бурской войне
+= СЗКП создана для порядка на Западе и переговоров с индейцами; сегодня это КККП.
+
+@q 36 history-20 0
+When was the last spike of the Canadian Pacific Railway driven?
+| November 7, 1885 | July 1, 1867 | June 6, 1944 | April 9, 1917
+= On November 7, 1885, Donald Smith (Lord Strathcona) drove the last spike of the CPR, a powerful symbol of unity.
+? Когда был забит последний костыль Канадской Тихоокеанской железной дороги?
+| 7 ноября 1885 года | 1 июля 1867 года | 6 июня 1944 года | 9 апреля 1917 года
+= 7 ноября 1885 года, Дональд Смит (лорд Страткона).
+
+@q 37 history-21 3
+Who was the first French-Canadian prime minister since Confederation?
+| Sir George-Étienne Cartier | Louis-Hippolyte La Fontaine | Sir John A. Macdonald | Sir Wilfrid Laurier
+= Sir Wilfrid Laurier became the first French-Canadian prime minister since Confederation and encouraged immigration to the West. His portrait is on the $5 bill.
+? Кто стал первым со времён Конфедерации премьер-министром-франкоканадцем?
+| Сэр Жорж-Этьен Картье | Луи-Ипполит Лафонтен | Сэр Джон А. Макдональд | Сэр Уилфрид Лорье
+= Сэр Уилфрид Лорье; его портрет — на 5-долларовой банкноте.
+
+@q 38 history-22 1
+Which battle in April 1917 secured the Canadians’ reputation as the “shock troops of the British Empire”?
+| The Battle of Amiens | The Battle of Vimy Ridge | The Battle of the Atlantic | D-Day
+= The Canadian Corps captured Vimy Ridge in April 1917, securing the Canadians’ reputation for valour. April 9 is celebrated as Vimy Day.
+? Какая битва в апреле 1917 года закрепила за канадцами славу «ударных войск Британской империи»?
+| Битва при Амьене | Битва за хребет Вими | Битва за Атлантику | День «Д»
+= Хребет Вими, апрель 1917 года; 9 апреля — День Вими.
+
+@q 39 history-23 2
+Who was the first woman MP, elected in 1921?
+| Dr. Emily Stowe | Thérèse Casgrain | Agnes Macphail | Laura Secord
+= In 1921 Agnes Macphail, a farmer and teacher, became the first woman MP.
+? Кто в 1921 году стал первой женщиной — членом парламента?
+| Доктор Эмили Стоу | Тереза Касгрейн | Агнес Макфейл | Лора Секорд
+= Агнес Макфейл, фермер и учитель.
+
+@q 40 history-23 0
+Which was the first province to grant voting rights to women, in 1916?
+| Manitoba | Quebec | Ontario | Nova Scotia
+= In 1916, Manitoba became the first province to grant voting rights to women. Quebec granted women the vote in 1940.
+? Какая провинция первой дала женщинам право голоса, в 1916 году?
+| Манитоба | Квебек | Онтарио | Новая Шотландия
+= Манитоба (1916); Квебек — только в 1940 году.
+
+@q 41 history-24 3
+What do Canadians do on Remembrance Day, November 11?
+| Celebrate the birth of Canada | Vote in elections | Honour the Queen’s birthday | Wear the red poppy and observe a moment of silence at the 11th hour of the 11th day of the 11th month
+= Canadians wear the red poppy and observe a moment of silence at the 11th hour of the 11th day of the 11th month to honour veterans and the fallen.
+? Что делают канадцы в День памяти, 11 ноября?
+| Празднуют рождение Канады | Голосуют на выборах | Отмечают день рождения Королевы | Носят красный мак и соблюдают минуту молчания в 11-й час 11-го дня 11-го месяца
+= Красный мак и минута молчания в 11:00 11 ноября.
+
+@q 42 history-24 1
+Who wrote the poem “In Flanders Fields”?
+| Sir Arthur Currie | Lieutenant-Colonel John McCrae | Agnes Macphail | Phil Edwards
+= Canadian medical officer Lieutenant-Colonel John McCrae composed the poem “In Flanders Fields” in 1915; it is often recited on Remembrance Day.
+? Кто написал стихотворение «На полях Фландрии» (In Flanders Fields)?
+| Сэр Артур Карри | Подполковник Джон Маккрей | Агнес Макфейл | Фил Эдвардс
+= Военный врач подполковник Джон Маккрей, 1915 год.
+
+@q 43 history-25 2
+When was the Bank of Canada created?
+| 1867 | 1929 | 1934 | 1945
+= The Bank of Canada, a central bank to manage the money supply and bring stability to the financial system, was created in 1934.
+? Когда был создан Банк Канады?
+| 1867 | 1929 | 1934 | 1945
+= Банк Канады создан в 1934 году, во время Великой депрессии.
+
+@q 44 history-27 1
+On D-Day, June 6, 1944, which beach did Canadian troops capture?
+| Omaha Beach | Juno Beach | Dieppe | Gold Beach
+= In the invasion of Normandy on June 6, 1944, 15,000 Canadian troops stormed and captured Juno Beach from the German Army.
+? Какой участок побережья взяли канадцы в день «Д», 6 июня 1944 года?
+| Омаха | Джуно (Juno Beach) | Дьепп | Голд
+= 15 000 канадцев взяли участок «Джуно»; примерно каждый десятый солдат союзников был канадцем.
+
+@q 45 history-26 0
+What size was Canada’s navy at the end of the Second World War?
+| The third-largest navy in the world | The largest navy in the world | The smallest in the Commonwealth | Canada had no navy
+= At the end of the Second World War, Canada had the third-largest navy in the world.
+? Каким по величине был флот Канады в конце Второй мировой войны?
+| Третьим по величине в мире | Крупнейшим в мире | Самым маленьким в Содружестве | У Канады не было флота
+= После войны у Канады был третий по величине флот в мире.
