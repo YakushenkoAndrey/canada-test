@@ -102,6 +102,25 @@ def main() -> int:
     if {q["id"] for q in banks["en"]} != {q["id"] for q in banks["ru"]}:
         err("question ids differ between EN and RU")
 
+    ont = load("ontario.json")
+    if ont:
+        if not str(ont.get("checked", "")).startswith("20"):
+            err("ontario.json: 'checked' date missing")
+        for f in ont.get("facts", []):
+            if not (f.get("value") and f.get("valueRu") and str(f.get("source", "")).startswith("https://")):
+                err(f"ontario.json: fact {f.get('en')!r} needs value, valueRu and https source")
+        qids = set()
+        for q in ont.get("questions", []):
+            where = f"ontario.json/{q.get('id')}"
+            if q["id"] in qids:
+                err(f"{where}: duplicate id")
+            qids.add(q["id"])
+            n = len(q["options"])
+            if n < 2 or len(set(q["options"])) != n or not 0 <= q["answer"] < n:
+                err(f"{where}: bad options/answer")
+            if len(q.get("optionsRu", [])) != n or not q.get("questionRu") or not q.get("explanationRu") or not q.get("explanationEn"):
+                err(f"{where}: RU/EN fields missing")
+
     for lang in ("en", "ru"):
         fixes = load(f"tts-fixes.{lang}.json")
         if fixes is not None and not (isinstance(fixes, dict) and all(
