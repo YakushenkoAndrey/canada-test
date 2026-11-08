@@ -7,7 +7,7 @@ import { esc } from '../text';
 import { trackEvent } from '../analytics';
 
 /** Web3Forms access key (https://web3forms.com). Empty = the form is hidden. The key is safe to publish. */
-export const WEB3FORMS_KEY = '';
+export const WEB3FORMS_KEY = 'c34569d8-5674-4291-9c51-c7f4e081d5ca';
 export const feedbackOn = (): boolean => !!WEB3FORMS_KEY;
 
 type Opt = { id: string; ru: string; en: string; uk: string };
