@@ -49,3 +49,7 @@ python tools/validate.py                                       # проверк�
 
 Перед каждым пушем: `python tools/validate.py` и `npm run build`.
 Каждый пуш в `main` публикуется на GitHub Pages через `.github/workflows/deploy.yml`.
+
+## Статистика посещений
+
+GoatCounter (без cookies, баннер согласия не нужен). Включается кодом сайта в `src/analytics.ts` (`GOATCOUNTER_CODE`), пустая строка — выключено. Считаются страницы (глава брошюры, тесты, разделы) и события: `lang/<код>`, `ui/<код>`, `city/<id>`, `exam/passed|failed|time-up`. Статистика: https://<код>.goatcounter.com

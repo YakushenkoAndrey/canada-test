@@ -1,4 +1,5 @@
 // "О сайте": disclaimer, purchase terms, refunds and privacy.
+import { GOATCOUNTER_CODE } from '../analytics';
 import { L } from '../langs';
 import { PAYWALL, paywallOn } from '../paywall';
 
@@ -45,10 +46,16 @@ export function renderAbout(host: HTMLElement): () => void {
     )}</p>` : ''}
 
     <h2 class="sub">${L('Конфиденциальность', 'Privacy', 'Конфіденційність')}</h2>
-    <p>${L(
-      'Сайт не использует аккаунты, рекламу, счётчики и cookies. Прогресс чтения, ответы, избранное и настройки хранятся только в вашем браузере на этом устройстве.',
-      'The site uses no accounts, ads, trackers or cookies. Reading progress, answers, favourites and settings are stored only in your browser on this device.', 'Сайт не використовує акаунтів, реклами, лічильників і cookies. Прогрес читання, відповіді, обране та налаштування зберігаються лише у вашому браузері на цьому пристрої.',
-    )}
+    <p>${GOATCOUNTER_CODE
+      ? L(
+          'Сайт не использует аккаунты, рекламу и cookies. Для общей статистики посещений подключён GoatCounter: он считает просмотры страниц, страну, язык браузера и тип устройства, не хранит IP-адреса и не узнаёт посетителей. Прогресс чтения, ответы, избранное и настройки хранятся только в вашем браузере на этом устройстве.',
+          'The site uses no accounts, ads or cookies. For overall visit statistics it uses GoatCounter: it counts page views, country, browser language and device type, does not store IP addresses and does not identify visitors. Reading progress, answers, favourites and settings are stored only in your browser on this device.',
+          'Сайт не використовує акаунтів, реклами і cookies. Для загальної статистики відвідувань підключено GoatCounter: він рахує перегляди сторінок, країну, мову браузера й тип пристрою, не зберігає IP-адрес і не впізнає відвідувачів. Прогрес читання, відповіді, обране та налаштування зберігаються лише у вашому браузері на цьому пристрої.',
+        )
+      : L(
+          'Сайт не использует аккаунты, рекламу, счётчики и cookies. Прогресс чтения, ответы, избранное и настройки хранятся только в вашем браузере на этом устройстве.',
+          'The site uses no accounts, ads, trackers or cookies. Reading progress, answers, favourites and settings are stored only in your browser on this device.', 'Сайт не використовує акаунтів, реклами, лічильників і cookies. Прогрес читання, відповіді, обране та налаштування зберігаються лише у вашому браузері на цьому пристрої.',
+        )}
     ${paywallOn() ? L('При активации и периодической проверке ключа сайт отправляет ключ и название устройства в Lemon Squeezy; данные оплаты (карта, e-mail) обрабатывает только Lemon Squeezy.', 'When activating and periodically re-checking a key, the site sends the key and a device label to Lemon Squeezy; payment data (card, e-mail) is handled only by Lemon Squeezy.', 'Під час активації та періодичної перевірки ключа сайт надсилає ключ і назву пристрою в Lemon Squeezy; платіжні дані (картку, e-mail) обробляє лише Lemon Squeezy.') : ''}
     ${L('Озвучка работает средствами вашего телефона или компьютера.', 'Audio uses the voices of your own phone or computer.', 'Озвучення працює засобами вашого телефона або комп’ютера.')}</p>
 

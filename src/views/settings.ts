@@ -4,6 +4,7 @@ import { onVoices, pickVoice, speaker, voiceScore, voicesFor } from '../speech';
 import { resetAll, saveSettings, settings } from '../store';
 import { esc, speechOf } from '../text';
 import { applyTheme } from '../theme';
+import { trackEvent } from '../analytics';
 
 /** A sample sentence in the language: the first sentence of "Who We Are". */
 function sample(lang: Lang): string {
@@ -78,6 +79,7 @@ export function renderSettings(host: HTMLElement, current: Lang): () => void {
     </div>`;
     host.querySelector<HTMLSelectElement>('select[data-ui]')?.addEventListener('change', (e) => {
       settings.uiLang = (e.target as HTMLSelectElement).value as Ui;
+      trackEvent(`ui/${settings.uiLang}`);
       saveSettings();
       location.reload();
     });

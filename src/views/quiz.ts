@@ -16,6 +16,7 @@ import {
   paywallOn,
   unlockInfo,
 } from '../paywall';
+import { trackEvent } from '../analytics';
 import { addAttempt, attempts, dueAt, isMistake, recordAnswer, saveSettings, settings, weightOf } from '../store';
 import { esc } from '../text';
 
@@ -354,6 +355,7 @@ function runSession(host: HTMLElement, lang: Lang, o: SessionOpts): Cleanup {
     const secs = Math.round((Date.now() - started) / 1000);
     const passed = correct >= need;
     if (exam) addAttempt({ t: Date.now(), score: correct, total, passed, secs, lang, timeUp });
+    if (exam) trackEvent(passed ? 'exam/passed' : timeUp ? 'exam/time-up' : 'exam/failed');
     const pct = total ? Math.round((correct / total) * 100) : 0;
     let verdict: string;
     if (exam) {
@@ -526,6 +528,7 @@ export function renderLocal(host: HTMLElement, lang: Lang): Cleanup {
   </div>`;
     host.querySelector<HTMLSelectElement>('select[data-city]')!.addEventListener('change', (e) => {
       settings.city = (e.target as HTMLSelectElement).value;
+      trackEvent(`city/${settings.city}`);
       saveSettings();
       draw();
     });

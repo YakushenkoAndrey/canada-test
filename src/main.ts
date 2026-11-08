@@ -5,6 +5,7 @@ import '@fontsource/pt-serif/400.css';
 import '@fontsource/pt-serif/700.css';
 import './style.css';
 
+import { initAnalytics, trackEvent, trackPage } from './analytics';
 import { chapter, ensureLang } from './content';
 import { ICON } from './icons';
 import { isLang, L, LANGS, setUi, ui, uiFor, type Lang } from './langs';
@@ -95,6 +96,7 @@ function renderShell() {
 }
 
 function setLang(lang: Lang) {
+  if (settings.lang !== lang) trackEvent(`lang/${lang}`);
   settings.lang = lang;
   saveSettings();
   setUi(uiFor(lang));
@@ -130,6 +132,8 @@ async function route() {
   }
   if (seq !== routeSeq) return; // a newer navigation started meanwhile
   setLang(lang);
+  // Statistics: chapter level for the brochure (not every section), first two parts elsewhere.
+  trackPage(brochure ? `/${lang}/${parts[1] ?? ''}` : `/${parts.slice(0, 2).join('/')}`);
 
   if (brochure) {
     const ch = chapter(lang, parts[1] ?? '');
@@ -190,6 +194,7 @@ if (import.meta.env.PROD && 'serviceWorker' in navigator) {
   });
 }
 
+initAnalytics();
 window.addEventListener('hashchange', () => void route());
 void recheck();
 renderShell();
