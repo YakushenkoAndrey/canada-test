@@ -2,6 +2,7 @@ import blocksEn from '../data/blocks.en.json';
 import blocksRu from '../data/blocks.ru.json';
 import questionsEn from '../data/questions.en.json';
 import questionsRu from '../data/questions.ru.json';
+import ontarioJson from '../data/ontario.json';
 import type { Lang } from './store';
 
 export type FactType = 'date' | 'person' | 'number' | 'definition' | 'place' | 'symbol' | 'right-duty';
@@ -73,6 +74,34 @@ export function findBlock(lang: Lang, blockId: string): { chapter: Chapter; bloc
 
 export function questions(lang: Lang, chapterId?: string): Question[] {
   return QUESTIONS[lang].filter((q) => !chapterId || q.chapter === chapterId);
+}
+
+export interface OntarioFact { en: string; ru: string; value: string; valueRu: string; source: string }
+export const ontario = ontarioJson as {
+  checked: string;
+  recheckNote: string;
+  facts: OntarioFact[];
+  questions: (Omit<Question, 'chapter' | 'blockId' | 'explanation'> & { explanationEn: string; explanationRu: string })[];
+};
+
+/** Ontario / Brantford questions (not from the brochure; no blockId). */
+export function ontarioQuestions(lang: Lang): Question[] {
+  return ontario.questions.map((q) => ({
+    id: q.id,
+    chapter: 'ontario',
+    blockId: '',
+    question: q.question,
+    options: q.options,
+    answer: q.answer,
+    explanation: lang === 'ru' ? q.explanationRu : q.explanationEn,
+    questionRu: q.questionRu,
+    optionsRu: q.optionsRu,
+  }));
+}
+
+/** Size of a chapter's text, used to give the mock exam a proportional share of questions. */
+export function chapterSize(c: Chapter): number {
+  return c.blocks.reduce((s, b) => s + b.paragraphs.reduce((t, p) => t + p.length, 0), 0);
 }
 
 export function chapterProgress(c: Chapter, done: Record<string, number>): number {

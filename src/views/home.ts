@@ -25,8 +25,9 @@ export function renderHome(host: HTMLElement, lang: Lang) {
     ${last && lastCh ? `<a class="btn-main continue" href="#/${last.lang}/${last.chapter}/${last.block}">Продолжить: ${esc(lastCh.title)} →</a>` : ''}
     <h2 class="sub">Оглавление</h2>
     <ul class="toc">${tocHtml(lang)}</ul>
-    <a class="btn-ghost wide" href="#/quiz">Тренировка по главам →</a>
-    <p class="muted small">Вся брошюра: 12 глав, ключевые факты и тренировка по каждой главе. Пробный экзамен, «Мои ошибки» и раздел Ontario появятся на этапе 3.
+    <a class="btn-main wide" href="#/exam">Пробный экзамен →</a>
+    <a class="btn-ghost wide" href="#/quiz">Все тесты и «Мои ошибки» →</a>
+    <p class="muted small">Вся брошюра: 12 глав, ключевые факты, тренировка по главам, пробный экзамен, «Мои ошибки» и раздел «Онтарио и Брантфорд».
     ${lang === 'ru' ? '<br>Неофициальный перевод; официальны только английская и французская версии.' : ''}</p>
   </div>`;
 }

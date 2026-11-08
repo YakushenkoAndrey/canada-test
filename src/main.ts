@@ -9,7 +9,7 @@ import { chapter } from './content';
 import { ICON } from './icons';
 import { saveSettings, settings, type Lang } from './store';
 import { renderHome, tocHtml } from './views/home';
-import { renderQuiz, renderQuizMenu } from './views/quiz';
+import { renderExam, renderMistakes, renderOntario, renderOntarioQuiz, renderQuiz, renderQuizMenu } from './views/quiz';
 import { Reader } from './views/reader';
 import { renderSettings } from './views/settings';
 
@@ -100,8 +100,13 @@ function route() {
   leave();
   window.scrollTo(0, 0);
   if (parts[0] === 'quiz') {
-    if (parts[1]) renderQuiz(view, settings.lang, parts[1]);
-    else renderQuizMenu(view, settings.lang);
+    cleanup = parts[1] ? renderQuiz(view, settings.lang, parts[1]) : renderQuizMenu(view, settings.lang);
+  } else if (parts[0] === 'exam') {
+    cleanup = renderExam(view, settings.lang);
+  } else if (parts[0] === 'mistakes') {
+    cleanup = renderMistakes(view, settings.lang);
+  } else if (parts[0] === 'ontario') {
+    cleanup = parts[1] === 'quiz' ? renderOntarioQuiz(view, settings.lang) : renderOntario(view, settings.lang);
   } else if (parts[0] === 'settings') {
     cleanup = renderSettings(view);
   } else {
