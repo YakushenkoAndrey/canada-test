@@ -197,6 +197,10 @@ figcaption { margin-top: 5px; font-size: 13px; line-height: 1.35; color: var(--r
 .lg-word { height: 0 !important; border-bottom: 3px solid var(--hl-word); }
 .lg-key { background: var(--kf-bg); }
 .lg-read { color: var(--text-read); }
+.voicewarn {
+  margin: 4px 0 6px; padding: 10px 12px; border-left: 4px solid #c77a12; background: #fdf3e3;
+  font-size: 14px; line-height: 1.45; color: #5a3a08;
+}
 .simnote { margin-top: 8px; font-size: 12px; color: var(--text-2); font-style: italic; line-height: 1.4; }
 
 /* "Только главное" */

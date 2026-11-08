@@ -61,12 +61,38 @@ export function pickVoice(lang: Lang): SpeechSynthesisVoice | null {
   return null;
 }
 
+/** null = voice list not loaded yet (unknown), otherwise whether this device has a voice for the language. */
+export function hasVoice(lang: Lang): boolean | null {
+  if (!synth) return false;
+  if (!voices.length) return null;
+  return !!pickVoice(lang);
+}
+
+/** Short instruction (in Russian) how to get a voice for the language on this device. */
+export function voiceHelp(lang: Lang): string {
+  const name = lang === 'ru' ? 'русский' : 'английский';
+  const ua = navigator.userAgent;
+  if (/iPhone|iPad|iPod/.test(ua))
+    return `iPhone: «Настройки → Универсальный доступ → Устный контент → Голоса» — добавьте ${name} голос, затем перезагрузите страницу.`;
+  if (/Android/.test(ua))
+    return `Android: «Настройки → Специальные возможности → Синтез речи» — движок Google, в «Языке» скачайте ${name} голос, затем перезагрузите страницу.`;
+  if (/Edg\//.test(ua))
+    return `Windows: «Параметры → Время и язык → Речь → Добавить голоса» — добавьте ${name}, затем перезапустите браузер.`;
+  if (/Windows/.test(ua))
+    return `Windows: проще всего открыть сайт в Microsoft Edge — в нём есть онлайн-голоса на всех языках. Или «Параметры → Время и язык → Речь → Добавить голоса» — ${name}, затем перезапустите браузер.`;
+  if (/Mac/.test(ua))
+    return `Mac: «Системные настройки → Универсальный доступ → Устный контент → Системный голос → Управление голосами» — добавьте ${name} голос.`;
+  return `Установите ${name} голос в настройках синтеза речи системы и перезагрузите страницу.`;
+}
+
 export type SpeakerState = 'idle' | 'playing' | 'paused';
 
 class Speaker {
   state: SpeakerState = 'idle';
   /** true = no working voice, highlight moves silently on a timer */
   sim = !synth;
+  /** why sim mode is on: no voice for the language on this device, or the engine failed */
+  simReason: 'novoice' | 'error' | null = synth ? null : 'error';
   owner: string | null = null;
   k = -1;
   count = 0;
@@ -91,6 +117,13 @@ class Speaker {
     this.count = utts.length;
     this.listener = listener;
     this.state = 'playing';
+    // Never read text with a voice of another language (an English voice reads only the digits
+    // of Russian text). If the voice list is loaded and has no voice for this language -> silent mode.
+    if (synth && this.simReason !== 'error') {
+      const missing = voices.length > 0 && !pickVoice(lang);
+      this.sim = missing;
+      this.simReason = missing ? 'novoice' : null;
+    }
     if (prev && prev !== listener) prev.onState();
     listener.onState();
     this.speakFrom(Math.max(0, Math.min(k, utts.length - 1)), 0);
@@ -211,6 +244,7 @@ class Speaker {
   private goSim(k: number, from: number) {
     this.halt();
     this.sim = true;
+    this.simReason = 'error';
     this.listener?.onState();
     this.speakFrom(k, from);
   }
@@ -236,11 +270,19 @@ class Speaker {
       this.simulate(k, from, tok);
       return;
     }
+    const v = pickVoice(this.lang);
+    if (!v && voices.length > 0) {
+      // Voice list arrived and has no voice for this language: switch to silent mode.
+      this.sim = true;
+      this.simReason = 'novoice';
+      this.listener?.onState();
+      this.simulate(k, from, tok);
+      return;
+    }
     let alive = false;
     try {
       const ut = new SpeechSynthesisUtterance(text);
       ut.lang = this.lang === 'en' ? 'en-CA' : 'ru-RU';
-      const v = pickVoice(this.lang);
       if (v) {
         ut.voice = v;
         ut.lang = v.lang;

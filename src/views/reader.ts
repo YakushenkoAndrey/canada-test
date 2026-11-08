@@ -1,7 +1,7 @@
 // Chapter reader: blocks with photos, per-block player, highlighting, "Только главное" mode and the mini-player.
 import { FACT_LABELS, imgUrl, type Block, type Chapter } from '../content';
 import { ICON } from '../icons';
-import { speaker, type SpeakerListener } from '../speech';
+import { hasVoice, onVoices, speaker, voiceHelp, type SpeakerListener } from '../speech';
 import { markDone, progress, saveSettings, setLastPlace, settings, type Lang } from '../store';
 import { esc, paragraphPieces, pieceHtml, simplePiece, type Piece } from '../text';
 
@@ -173,7 +173,7 @@ class BlockView {
       <span class="pinfo">${sentencesLabel(sentences)}</span>
       <button class="btn-done" type="button" aria-pressed="false" title="Отметить как прочитанное">${ICON.check}<span>Прочитано</span></button>
     </div>
-    <div class="simnote" hidden>Голос недоступен — подсветка идёт в демо-режиме, без звука. Проверьте голоса в «Настройках».</div>
+    <div class="simnote" hidden></div>
     ${settings.showLegend ? LEGEND : ''}
     </div>`;
 
@@ -241,7 +241,14 @@ class BlockView {
     this.el.querySelector('.pinfo')!.textContent = active
       ? `Предложение ${speaker.k + 1} из ${this.pieces.length}`
       : sentencesLabel(this.pieces.length);
-    this.el.querySelector<HTMLElement>('.simnote')!.hidden = !(active && speaker.sim);
+    const note = this.el.querySelector<HTMLElement>('.simnote')!;
+    note.hidden = !(active && speaker.sim);
+    if (!note.hidden) {
+      note.textContent =
+        speaker.simReason === 'novoice'
+          ? `На этом устройстве нет голоса для языка ${this.lang.toUpperCase()}, поэтому подсветка идёт без звука. ${voiceHelp(this.lang)}`
+          : 'Голос не отвечает — подсветка идёт в демо-режиме, без звука. Проверьте голоса в «Настройках».';
+    }
     const done = !!progress[this.block.id];
     const d = this.el.querySelector<HTMLElement>('.btn-done')!;
     d.classList.toggle('on', done);
@@ -264,6 +271,7 @@ export class Reader {
   private mini: HTMLElement;
   private observer: IntersectionObserver | null = null;
   private visible = new Set<string>();
+  private offVoices: () => void = () => {};
 
   constructor(
     host: HTMLElement,
@@ -280,6 +288,7 @@ export class Reader {
         <div class="kicker">${kicker} · стр. ${pages}</div>
         <h1>${esc(chapter.title)}</h1>
         <div class="redbar"></div>
+        <div class="voicewarn" role="status" hidden></div>
         <label class="switch"><span>Только главное</span><input type="checkbox" ${settings.factsOnly ? 'checked' : ''}><i></i></label>
         <div class="facts-legend">${Object.entries(FACT_LABELS)
           .map(([t, l]) => `<span class="chip chip-${t}">${l}</span>`)
@@ -302,6 +311,16 @@ export class Reader {
     });
     this.mini.hidden = false;
     document.body.classList.add('has-mini');
+    const warn = () => {
+      const el = host.querySelector<HTMLElement>('.voicewarn');
+      if (!el) return;
+      const missing = hasVoice(lang) === false;
+      el.hidden = !missing;
+      if (missing)
+        el.innerHTML = `<b>На этом устройстве нет ${lang === 'ru' ? 'русского' : 'английского'} голоса</b> — текст не будет озвучиваться, только подсветка. ${esc(voiceHelp(lang))}`;
+    };
+    warn();
+    this.offVoices = onVoices(warn);
     this.updateMini();
     if ('IntersectionObserver' in window) {
       this.observer = new IntersectionObserver((entries) => {
@@ -318,6 +337,7 @@ export class Reader {
   }
 
   destroy() {
+    this.offVoices();
     speaker.stop();
     this.observer?.disconnect();
     this.mini.hidden = true;
