@@ -115,8 +115,8 @@ def main() -> int:
         if not str(ont.get("checked", "")).startswith("20"):
             err("ontario.json: 'checked' date missing")
         for f in ont.get("facts", []):
-            if not (f.get("value") and f.get("valueRu") and str(f.get("source", "")).startswith("https://")):
-                err(f"ontario.json: fact {f.get('en')!r} needs value, valueRu and https source")
+            if not (f.get("value") and f.get("valueRu") and f.get("valueUk") and f.get("ru") and f.get("uk") and str(f.get("source", "")).startswith("https://")):
+                err(f"ontario.json: fact {f.get('en')!r} needs ru/uk labels, value, valueRu, valueUk and https source")
         qids = set()
         for q in ont.get("questions", []):
             where = f"ontario.json/{q.get('id')}"
@@ -128,6 +128,8 @@ def main() -> int:
                 err(f"{where}: bad options/answer")
             if len(q.get("optionsRu", [])) != n or not q.get("questionRu") or not q.get("explanationRu") or not q.get("explanationEn"):
                 err(f"{where}: RU/EN fields missing")
+            if len(q.get("optionsUk", [])) != n or not q.get("questionUk") or not q.get("explanationUk"):
+                err(f"{where}: UK fields missing")
 
     for lang in langs:
         path = DATA / f"tts-fixes.{lang}.json"

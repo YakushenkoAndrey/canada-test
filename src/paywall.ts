@@ -75,22 +75,22 @@ function deviceName(): string {
 /** Activate a key on this device. Returns an error message in Russian, or null on success. */
 export async function activate(rawKey: string): Promise<string | null> {
   const key = rawKey.trim();
-  if (!/^[0-9A-Za-z-]{8,}$/.test(key)) return L('Проверьте ключ: его можно скопировать из письма о покупке.', 'Check the key: you can copy it from the purchase e-mail.');
+  if (!/^[0-9A-Za-z-]{8,}$/.test(key)) return L('Проверьте ключ: его можно скопировать из письма о покупке.', 'Check the key: you can copy it from the purchase e-mail.', 'Перевірте ключ: його можна скопіювати з листа про покупку.');
   let r;
   try {
     r = await call('activate', { license_key: key, instance_name: deviceName() });
   } catch {
-    return L('Нет связи с сервисом оплаты. Проверьте интернет и попробуйте ещё раз.', 'Cannot reach the payment service. Check your internet connection and try again.');
+    return L('Нет связи с сервисом оплаты. Проверьте интернет и попробуйте ещё раз.', 'Cannot reach the payment service. Check your internet connection and try again.', 'Немає зв’язку з сервісом оплати. Перевірте інтернет і спробуйте ще раз.');
   }
   const d = r.data;
   if (!d.activated || !d.instance?.id) {
     const e = (d.error ?? '').toLowerCase();
-    if (e.includes('activation limit')) return L(`Ключ уже активирован на ${PAYWALL.devices} устройствах — это максимум. Напишите в поддержку, если сменили телефон.`, `The key is already active on ${PAYWALL.devices} devices — the maximum. Contact support if you changed your phone.`);
-    if (e.includes('not found')) return L('Такой ключ не найден. Скопируйте его из письма о покупке целиком.', 'Key not found. Copy the whole key from the purchase e-mail.');
-    if (e.includes('disabled') || e.includes('expired')) return L('Этот ключ отключён (например, после возврата денег).', 'This key is disabled (for example, after a refund).');
-    return L('Не удалось активировать ключ', 'Could not activate the key') + (d.error ? `: ${d.error}` : '') + '.';
+    if (e.includes('activation limit')) return L(`Ключ уже активирован на ${PAYWALL.devices} устройствах — это максимум. Напишите в поддержку, если сменили телефон.`, `The key is already active on ${PAYWALL.devices} devices — the maximum. Contact support if you changed your phone.`, `Ключ уже активовано на ${PAYWALL.devices} пристроях — це максимум. Напишіть у підтримку, якщо змінили телефон.`);
+    if (e.includes('not found')) return L('Такой ключ не найден. Скопируйте его из письма о покупке целиком.', 'Key not found. Copy the whole key from the purchase e-mail.', 'Такий ключ не знайдено. Скопіюйте його з листа про покупку повністю.');
+    if (e.includes('disabled') || e.includes('expired')) return L('Этот ключ отключён (например, после возврата денег).', 'This key is disabled (for example, after a refund).', 'Цей ключ вимкнено (наприклад, після повернення коштів).');
+    return L('Не удалось активировать ключ', 'Could not activate the key', 'Не вдалося активувати ключ') + (d.error ? `: ${d.error}` : '') + '.';
   }
-  if (wrongProduct(d)) return L('Этот ключ от другого продукта.', 'This key belongs to another product.');
+  if (wrongProduct(d)) return L('Этот ключ от другого продукта.', 'This key belongs to another product.', 'Цей ключ від іншого продукту.');
   unlock = { key, instanceId: d.instance.id, checked: Date.now(), email: d.meta?.customer_email };
   save('unlock', unlock);
   return null;

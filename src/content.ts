@@ -92,15 +92,16 @@ export function questions(lang: Lang, chapterId?: string): Question[] {
   return (QUESTIONS[lang] ?? []).filter((q) => !chapterId || q.chapter === chapterId);
 }
 
-export interface OntarioFact { en: string; ru: string; value: string; valueRu: string; source: string }
+export interface OntarioFact { en: string; ru: string; uk: string; value: string; valueRu: string; valueUk: string; source: string }
 export const ontario = ontarioJson as {
   checked: string;
   recheckNote: string;
+  recheckNoteUk: string;
   facts: OntarioFact[];
-  questions: { id: string; question: string; options: string[]; answer: number; explanationEn: string; explanationRu: string; questionRu: string; optionsRu: string[] }[];
+  questions: { id: string; question: string; options: string[]; answer: number; explanationEn: string; explanationRu: string; questionRu: string; optionsRu: string[]; explanationUk: string; questionUk: string; optionsUk: string[] }[];
 };
 
-/** Ontario / Brantford questions (not from the brochure; no blockId). Russian and English only. */
+/** Ontario / Brantford questions (not from the brochure; no blockId). English, with Russian and Ukrainian translations. */
 export function ontarioQuestions(lang: Lang): Question[] {
   return ontario.questions.map((q) => ({
     id: q.id,
@@ -109,9 +110,9 @@ export function ontarioQuestions(lang: Lang): Question[] {
     question: q.question,
     options: q.options,
     answer: q.answer,
-    explanation: lang === 'ru' ? q.explanationRu : q.explanationEn,
-    questionTr: lang === 'ru' ? q.questionRu : undefined,
-    optionsTr: lang === 'ru' ? q.optionsRu : undefined,
+    explanation: lang === 'ru' ? q.explanationRu : lang === 'uk' ? q.explanationUk : q.explanationEn,
+    questionTr: lang === 'ru' ? q.questionRu : lang === 'uk' ? q.questionUk : undefined,
+    optionsTr: lang === 'ru' ? q.optionsRu : lang === 'uk' ? q.optionsUk : undefined,
   }));
 }
 
@@ -126,26 +127,30 @@ export function chapterProgress(c: Chapter, done: Record<string, number>): numbe
 }
 
 export function factLabel(type: string): string {
-  const labels: Record<string, [string, string]> = {
-    definition: ['Определение', 'Definition'],
-    'right-duty': ['Право / обязанность', 'Right / duty'],
-    place: ['Место', 'Place'],
-    number: ['Число', 'Number'],
-    date: ['Дата', 'Date'],
-    person: ['Народы и люди', 'People'],
-    symbol: ['Символ', 'Symbol'],
+  const labels: Record<string, [string, string, string]> = {
+    definition: ['Определение', 'Definition', 'Визначення'],
+    'right-duty': ['Право / обязанность', 'Right / duty', 'Право / обов’язок'],
+    place: ['Место', 'Place', 'Місце'],
+    number: ['Число', 'Number', 'Число'],
+    date: ['Дата', 'Date', 'Дата'],
+    person: ['Народы и люди', 'People', 'Народи й люди'],
+    symbol: ['Символ', 'Symbol', 'Символ'],
   };
   const l = labels[type];
-  return l ? L(l[0], l[1]) : type;
+  return l ? L(l[0], l[1], l[2]) : type;
 }
 export const FACT_TYPES = ['definition', 'right-duty', 'place', 'number', 'date', 'person', 'symbol'];
 
 /** Brochure "chrome" texts (kicker, footer) in the brochure language where we have them. */
 export function brochureKicker(lang: Lang): string {
-  return lang === 'ru' ? 'Откройте для себя Канаду' : 'Discover Canada';
+  return lang === 'ru' ? 'Откройте для себя Канаду' : lang === 'uk' ? 'Відкрийте для себе Канаду' : 'Discover Canada';
 }
 export function brochureFooter(lang: Lang): string {
-  return lang === 'ru' ? 'Учебное пособие для подготовки к экзамену на гражданство' : 'Your Canadian Citizenship Study Guide';
+  return lang === 'ru'
+    ? 'Учебное пособие для подготовки к экзамену на гражданство'
+    : lang === 'uk'
+      ? 'Навчальний посібник для підготовки до іспиту на громадянство'
+      : 'Your Canadian Citizenship Study Guide';
 }
 /** Notice for unofficial translations, in the interface language. */
 export function translationNotice(lang: Lang): string {
@@ -154,9 +159,9 @@ export function translationNotice(lang: Lang): string {
   if (info.machine)
     return L(
       `Машинный перевод (${info.native}), неофициальный — возможны неточности. Официальны только английская и французская версии.`,
-      `Machine translation (${info.native}), unofficial — it may contain mistakes. Only the English and French versions are official.`,
+      `Machine translation (${info.native}), unofficial — it may contain mistakes. Only the English and French versions are official.`, `Машинний переклад (${info.native}), неофіційний — можливі неточності. Офіційні лише англійська та французька версії.`,
     );
-  return L('Неофициальный перевод; официальны только английская и французская версии.', 'Unofficial translation; only the English and French versions are official.');
+  return L('Неофициальный перевод; официальны только английская и французская версии.', 'Unofficial translation; only the English and French versions are official.', 'Неофіційний переклад; офіційні лише англійська та французька версії.');
 }
 
 export function imgUrl(src: string): string {

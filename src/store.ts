@@ -32,7 +32,7 @@ export interface Settings {
   examTimer: boolean;
   theme: 'light' | 'dark' | 'auto';
   /** interface language when reading the English brochure */
-  uiLang: 'ru' | 'en';
+  uiLang: 'ru' | 'en' | 'uk';
   voices: Record<string, string>;
 }
 
@@ -52,7 +52,7 @@ const DEFAULTS: Settings = {
   showTranslation: false,
   examTimer: true,
   theme: 'light',
-  uiLang: /^(ru|uk|be|kk)/i.test(navigator.language || '') ? 'ru' : 'en',
+  uiLang: /^uk/i.test(navigator.language || '') ? 'uk' : /^(ru|be|kk)/i.test(navigator.language || '') ? 'ru' : 'en',
   voices: {},
 };
 

@@ -1,9 +1,9 @@
 {
- "_comment": "Brochure languages. A language is published only when content/<code>/ has every chapter. ui = interface language (ru or en). machine = machine translation (shown with a notice). tts = preferred voice locales in order.",
+ "_comment": "Brochure languages. A language is published only when content/<code>/ has every chapter. ui = interface language (ru, en or uk). machine = machine translation (shown with a notice). tts = preferred voice locales in order.",
  "languages": [
   {"code": "en", "name": "English", "native": "English", "ui": "en", "dir": "ltr", "tts": ["en-CA", "en-US", "en-GB", "en"], "official": true},
   {"code": "ru", "name": "Russian", "native": "Русский", "ui": "ru", "dir": "ltr", "tts": ["ru-RU", "ru"]},
-  {"code": "uk", "name": "Ukrainian", "native": "Українська", "ui": "en", "dir": "ltr", "tts": ["uk-UA", "uk"], "machine": true},
+  {"code": "uk", "name": "Ukrainian", "native": "Українська", "ui": "uk", "dir": "ltr", "tts": ["uk-UA", "uk"], "machine": true},
   {"code": "es", "name": "Spanish", "native": "Español", "ui": "en", "dir": "ltr", "tts": ["es-MX", "es-US", "es-419", "es-ES", "es"], "machine": true},
   {"code": "zh", "name": "Chinese (Simplified)", "native": "简体中文", "ui": "en", "dir": "ltr", "tts": ["zh-CN", "cmn-CN", "zh-TW", "zh"], "machine": true},
   {"code": "hi", "name": "Hindi", "native": "हिन्दी", "ui": "en", "dir": "ltr", "tts": ["hi-IN", "hi"], "machine": true},

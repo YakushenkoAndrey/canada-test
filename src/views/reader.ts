@@ -29,13 +29,13 @@ export function toast(msg: string): void {
 }
 
 const sentencesLabel = nSentences;
-const rateLabel = () => L(String(settings.rate).replace('.', ','), String(settings.rate)) + '×';
+const rateLabel = () => L(String(settings.rate).replace('.', ','), String(settings.rate), String(settings.rate).replace('.', ',')) + '×';
 
 const legend = () => `<div class="legend">
-  <span><i class="lg-now"></i>${L('звучит сейчас', 'reading now')}</span>
-  <span><i class="lg-word"></i>${L('текущее слово', 'current word')}</span>
-  <span><i class="lg-key"></i>${L('ключевой факт', 'key fact')}</span>
-  <span><b class="lg-read">Aa</b>${L('уже прочитано', 'already read')}</span>
+  <span><i class="lg-now"></i>${L('звучит сейчас', 'reading now', 'звучить зараз')}</span>
+  <span><i class="lg-word"></i>${L('текущее слово', 'current word', 'поточне слово')}</span>
+  <span><i class="lg-key"></i>${L('ключевой факт', 'key fact', 'ключовий факт')}</span>
+  <span><b class="lg-read">Aa</b>${L('уже прочитано', 'already read', 'уже прочитано')}</span>
 </div>`;
 
 /** A playable sequence of pieces rendered inside `root` as [data-k] spans. */
@@ -182,11 +182,11 @@ class BlockView {
     html += '</div>';
     const sentences = this.pieces.length;
     html += `<div class="player">
-      <button class="btn-play" type="button">${ICON.play}<span>${L('Слушать', 'Listen')}</span></button>
-      <button class="btn-round btn-stop" type="button" aria-label="${L('Стоп', 'Stop')}">${ICON.stop}</button>
-      <button class="btn-round btn-rate" type="button" aria-label="${L('Скорость', 'Speed')}">${rateLabel()}</button>
+      <button class="btn-play" type="button">${ICON.play}<span>${L('Слушать', 'Listen', 'Слухати')}</span></button>
+      <button class="btn-round btn-stop" type="button" aria-label="${L('Стоп', 'Stop', 'Стоп')}">${ICON.stop}</button>
+      <button class="btn-round btn-rate" type="button" aria-label="${L('Скорость', 'Speed', 'Швидкість')}">${rateLabel()}</button>
       <span class="pinfo">${sentencesLabel(sentences)}</span>
-      <button class="btn-done" type="button" aria-pressed="false" title="${L('Отметить как прочитанное', 'Mark as read')}">${ICON.check}<span>${L('Прочитано', 'Read')}</span></button>
+      <button class="btn-done" type="button" aria-pressed="false" title="${L('Отметить как прочитанное', 'Mark as read', 'Позначити як прочитане')}">${ICON.check}<span>${L('Прочитано', 'Read', 'Прочитано')}</span></button>
     </div>
     <div class="simnote" hidden></div>
     ${settings.showLegend ? legend() : ''}
@@ -197,18 +197,18 @@ class BlockView {
     this.factPieces = withFacts.map((p, i) => ({ ...p, k: i }));
     html += `<div class="facts">
       <div class="facts-head"><h2>${esc(this.title)}</h2>
-        ${this.factPieces.length ? `<button class="btn-round btn-facts" type="button" aria-label="${L('Озвучить факты блока', 'Read the key facts aloud')}">${ICON.speaker}</button>` : ''}
+        ${this.factPieces.length ? `<button class="btn-round btn-facts" type="button" aria-label="${L('Озвучить факты блока', 'Read the key facts aloud', 'Озвучити факти блоку')}">${ICON.speaker}</button>` : ''}
       </div>
       <ul class="factlist">${this.factPieces
         .map((p) => {
           const types = [...new Set(p.facts.map((f) => f.type))];
           const saved = isFavorite(p.text, b.id, lang);
           return `<li><div class="frow"><div class="chips">${types.map((t) => `<span class="chip chip-${t}">${factLabel(t)}</span>`).join('')}</div>
-            <button class="btn-star${saved ? ' on' : ''}" type="button" data-fk="${p.k}" aria-label="${L('В избранное', 'Add to favourites')}" aria-pressed="${saved}">${saved ? '★' : '☆'}</button></div>
+            <button class="btn-star${saved ? ' on' : ''}" type="button" data-fk="${p.k}" aria-label="${L('В избранное', 'Add to favourites', 'До обраного')}" aria-pressed="${saved}">${saved ? '★' : '☆'}</button></div>
             <div class="ftext"><span class="s" data-k="${p.k}">${pieceHtml(p)}</span></div></li>`;
         })
         .join('')}</ul>
-      <a class="readfull" href="#/${lang}/${this.chapter.id}/${b.id}">${L('Читать полностью →', 'Read the full text →')}</a>
+      <a class="readfull" href="#/${lang}/${this.chapter.id}/${b.id}">${L('Читать полностью →', 'Read the full text →', 'Читати повністю →')}</a>
     </div>`;
     if (!this.factPieces.length) this.el.classList.add('nofacts');
     this.el.innerHTML = html;
@@ -244,8 +244,8 @@ class BlockView {
       btn.addEventListener('click', () => {
         const p = this.factPieces[Number(btn.dataset.fk)];
         if (!p) return;
-        if (addFavorite({ text: p.text, blockId: this.block.id, chapter: this.chapter.id, lang: this.lang })) toast(L('★ Добавлено в избранное', '★ Added to favourites'));
-        else toast(L('Уже в избранном', 'Already in favourites'));
+        if (addFavorite({ text: p.text, blockId: this.block.id, chapter: this.chapter.id, lang: this.lang })) toast(L('★ Добавлено в избранное', '★ Added to favourites', '★ Додано до обраного'));
+        else toast(L('Уже в избранном', 'Already in favourites', 'Уже в обраному'));
         btn.classList.add('on');
         btn.textContent = '★';
         btn.setAttribute('aria-pressed', 'true');
@@ -264,18 +264,18 @@ class BlockView {
     const btn = this.el.querySelector<HTMLElement>('.btn-play')!;
     btn.classList.toggle('on', active);
     btn.innerHTML = playing
-      ? `${ICON.pause}<span>${L('Пауза', 'Pause')}</span>`
-      : `${ICON.play}<span>${active && speaker.state === 'paused' ? L('Продолжить', 'Resume') : L('Слушать', 'Listen')}</span>`;
+      ? `${ICON.pause}<span>${L('Пауза', 'Pause', 'Пауза')}</span>`
+      : `${ICON.play}<span>${active && speaker.state === 'paused' ? L('Продолжить', 'Resume', 'Продовжити') : L('Слушать', 'Listen', 'Слухати')}</span>`;
     this.el.querySelector('.pinfo')!.textContent = active
-      ? L(`Предложение ${speaker.k + 1} из ${this.pieces.length}`, `Sentence ${speaker.k + 1} of ${this.pieces.length}`)
+      ? L(`Предложение ${speaker.k + 1} из ${this.pieces.length}`, `Sentence ${speaker.k + 1} of ${this.pieces.length}`, `Речення ${speaker.k + 1} з ${this.pieces.length}`)
       : sentencesLabel(this.pieces.length);
     const note = this.el.querySelector<HTMLElement>('.simnote')!;
     note.hidden = !(active && speaker.sim);
     if (!note.hidden) {
       note.textContent =
         speaker.simReason === 'novoice'
-          ? L(`На этом устройстве нет голоса для языка «${langInfo(this.lang).native}», поэтому подсветка идёт без звука. `, `This device has no “${langInfo(this.lang).native}” voice, so the text is highlighted without sound. `) + voiceHelp(this.lang)
-          : L('Голос не отвечает — подсветка идёт в демо-режиме, без звука. Проверьте голоса в «Настройках».', 'The voice does not respond — highlighting runs silently. Check the voices in Settings.');
+          ? L(`На этом устройстве нет голоса для языка «${langInfo(this.lang).native}», поэтому подсветка идёт без звука. `, `This device has no “${langInfo(this.lang).native}” voice, so the text is highlighted without sound. `, `На цьому пристрої немає голосу для мови «${langInfo(this.lang).native}», тому підсвічування йде без звуку. `) + voiceHelp(this.lang)
+          : L('Голос не отвечает — подсветка идёт в демо-режиме, без звука. Проверьте голоса в «Настройках».', 'The voice does not respond — highlighting runs silently. Check the voices in Settings.', 'Голос не відповідає — підсвічування йде в демо-режимі, без звуку. Перевірте голоси в «Налаштуваннях».');
     }
     const done = !!progress[this.block.id];
     const d = this.el.querySelector<HTMLElement>('.btn-done')!;
@@ -315,18 +315,18 @@ export class Reader {
     const notice = translationNotice(lang);
     host.innerHTML = `<article class="reader ${settings.factsOnly ? 'facts-mode' : ''}" lang="${lang}" dir="${langInfo(lang).dir}">
       <header class="ch-head">
-        <div class="kicker">${kicker} · ${L('стр.', 'p.')} ${pages}</div>
+        <div class="kicker">${kicker} · ${L('стр.', 'p.', 'с.')} ${pages}</div>
         <h1>${esc(chapter.title)}</h1>
         <div class="redbar"></div>
         <div class="voicewarn" role="status" hidden></div>
-        <label class="switch"><span>${L('Только главное', 'Key facts only')}</span><input type="checkbox" ${settings.factsOnly ? 'checked' : ''}><i></i></label>
+        <label class="switch"><span>${L('Только главное', 'Key facts only', 'Лише головне')}</span><input type="checkbox" ${settings.factsOnly ? 'checked' : ''}><i></i></label>
         <div class="facts-legend">${FACT_TYPES.map((t) => `<span class="chip chip-${t}">${factLabel(t)}</span>`).join('')}</div>
         ${notice && langInfo(lang).machine ? `<p class="mtnote">${esc(notice)}</p>` : ''}
       </header>
       <div class="blocks"></div>
       <footer class="pagefoot"><span>${footer}</span><b>${pages}</b></footer>
       ${notice ? `<p class="unofficial">${esc(notice)}</p>` : ''}
-      <a class="to-quiz" href="#/quiz/${chapter.id}">${L('Проверить себя: вопросы по главе →', 'Test yourself: questions on this chapter →')}</a>
+      <a class="to-quiz" href="#/quiz/${chapter.id}">${L('Проверить себя: вопросы по главе →', 'Test yourself: questions on this chapter →', 'Перевірити себе: питання з розділу →')}</a>
     </article>`;
     this.bindMini();
     const list = host.querySelector('.blocks')!;
@@ -346,7 +346,7 @@ export class Reader {
       const missing = hasVoice(lang) === false;
       el.hidden = !missing;
       if (missing)
-        el.innerHTML = `<b>${esc(L(`На этом устройстве нет голоса «${langInfo(lang).native}»`, `No “${langInfo(lang).native}” voice on this device`))}</b> — ${esc(L('текст не будет озвучиваться, только подсветка.', 'the text will be highlighted without sound.'))} ${esc(voiceHelp(lang))}`;
+        el.innerHTML = `<b>${esc(L(`На этом устройстве нет голоса «${langInfo(lang).native}»`, `No “${langInfo(lang).native}” voice on this device`, `На цьому пристрої немає голосу «${langInfo(lang).native}»`))}</b> — ${esc(L('текст не будет озвучиваться, только подсветка.', 'the text will be highlighted without sound.', 'текст не озвучуватиметься, лише підсвічуватиметься.'))} ${esc(voiceHelp(lang))}`;
     };
     warn();
     this.offVoices = onVoices(warn);
@@ -372,7 +372,7 @@ export class Reader {
     btn.type = 'button';
     btn.className = 'favbtn';
     btn.hidden = true;
-    btn.textContent = L('★ В избранное', '★ Add to favourites');
+    btn.textContent = L('★ В избранное', '★ Add to favourites', '★ До обраного');
     document.body.appendChild(btn);
     let picked: { text: string; blockId: string } | null = null;
     const onSel = () => {
@@ -391,7 +391,7 @@ export class Reader {
     btn.addEventListener('pointerdown', (e) => e.preventDefault()); // keep the selection
     btn.addEventListener('click', () => {
       if (!picked) return;
-      toast(addFavorite({ ...picked, chapter: this.chapter.id, lang: this.lang }) ? L('★ Добавлено в избранное', '★ Added to favourites') : L('Уже в избранном', 'Already in favourites'));
+      toast(addFavorite({ ...picked, chapter: this.chapter.id, lang: this.lang }) ? L('★ Добавлено в избранное', '★ Added to favourites', '★ Додано до обраного') : L('Уже в избранном', 'Already in favourites', 'Уже в обраному'));
       window.getSelection()?.removeAllRanges();
       btn.hidden = true;
       picked = null;
@@ -471,12 +471,12 @@ export class Reader {
       <div class="mrow">
         <div class="minfo"><div class="mtitle"></div><div class="msub"></div></div>
         <div class="mbtns">
-          <button type="button" class="m-pb" aria-label="${L('Предыдущий блок', 'Previous section')}">${ICON.prevBlock}</button>
-          <button type="button" class="m-ps" aria-label="${L('Предыдущее предложение', 'Previous sentence')}">${ICON.prev}</button>
-          <button type="button" class="m-toggle" aria-label="${L('Слушать', 'Listen')}">${ICON.play}</button>
-          <button type="button" class="m-ns" aria-label="${L('Следующее предложение', 'Next sentence')}">${ICON.next}</button>
-          <button type="button" class="m-nb" aria-label="${L('Следующий блок', 'Next section')}">${ICON.nextBlock}</button>
-          <button type="button" class="m-stop" aria-label="${L('Стоп', 'Stop')}">${ICON.stop}</button>
+          <button type="button" class="m-pb" aria-label="${L('Предыдущий блок', 'Previous section', 'Попередній блок')}">${ICON.prevBlock}</button>
+          <button type="button" class="m-ps" aria-label="${L('Предыдущее предложение', 'Previous sentence', 'Попереднє речення')}">${ICON.prev}</button>
+          <button type="button" class="m-toggle" aria-label="${L('Слушать', 'Listen', 'Слухати')}">${ICON.play}</button>
+          <button type="button" class="m-ns" aria-label="${L('Следующее предложение', 'Next sentence', 'Наступне речення')}">${ICON.next}</button>
+          <button type="button" class="m-nb" aria-label="${L('Следующий блок', 'Next section', 'Наступний блок')}">${ICON.nextBlock}</button>
+          <button type="button" class="m-stop" aria-label="${L('Стоп', 'Stop', 'Стоп')}">${ICON.stop}</button>
         </div>
       </div>`;
     const on = (sel: string, f: () => void) => m.querySelector(sel)!.addEventListener('click', f);
@@ -509,12 +509,12 @@ export class Reader {
     const v = this.activeView();
     const m = this.mini;
     const playing = !!v && speaker.state === 'playing';
-    m.querySelector('.mtitle')!.textContent = v ? v.title : L('Ничего не звучит', 'Nothing is playing');
+    m.querySelector('.mtitle')!.textContent = v ? v.title : L('Ничего не звучит', 'Nothing is playing', 'Нічого не звучить');
     m.querySelector('.msub')!.textContent = v
-      ? L(`Предложение ${speaker.k + 1} из ${speaker.count}`, `Sentence ${speaker.k + 1} of ${speaker.count}`) + (speaker.state === 'paused' ? L(' · пауза', ' · paused') : '')
-      : L('Нажмите «Слушать» под блоком', 'Tap “Listen” under a section');
+      ? L(`Предложение ${speaker.k + 1} из ${speaker.count}`, `Sentence ${speaker.k + 1} of ${speaker.count}`, `Речення ${speaker.k + 1} з ${speaker.count}`) + (speaker.state === 'paused' ? L(' · пауза', ' · paused', ' · пауза') : '')
+      : L('Нажмите «Слушать» под блоком', 'Tap “Listen” under a section', 'Натисніть «Слухати» під блоком');
     m.querySelector('.m-toggle')!.innerHTML = playing ? ICON.pause : ICON.play;
-    m.querySelector('.m-toggle')!.setAttribute('aria-label', playing ? L('Пауза', 'Pause') : L('Слушать', 'Listen'));
+    m.querySelector('.m-toggle')!.setAttribute('aria-label', playing ? L('Пауза', 'Pause', 'Пауза') : L('Слушать', 'Listen', 'Слухати'));
     const pct = v && speaker.count ? Math.round(((speaker.k + 1) / speaker.count) * 100) : 0;
     m.querySelector<HTMLElement>('.mbar i')!.style.width = pct + '%';
     m.querySelectorAll<HTMLButtonElement>('.m-ps,.m-ns,.m-stop').forEach((b) => (b.disabled = !v));

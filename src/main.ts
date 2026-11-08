@@ -53,28 +53,28 @@ function renderShell() {
   if (shellUi === ui() + settings.lang) return;
   shellUi = ui() + settings.lang;
   top.innerHTML = `
-    <button class="icon-btn" id="menuBtn" type="button" aria-label="${L('Оглавление', 'Contents')}">${ICON.menu}</button>
+    <button class="icon-btn" id="menuBtn" type="button" aria-label="${L('Оглавление', 'Contents', 'Зміст')}">${ICON.menu}</button>
     <a class="logo" href="#/">Discover Canada</a>
     <div class="top-right">
-      <label class="langpick" title="${L('Язык брошюры', 'Brochure language')}">
-        <span class="sr">${L('Язык брошюры', 'Brochure language')}</span>
-        <select aria-label="${L('Язык брошюры', 'Brochure language')}">
+      <label class="langpick" title="${L('Язык брошюры', 'Brochure language', 'Мова брошури')}">
+        <span class="sr">${L('Язык брошюры', 'Brochure language', 'Мова брошури')}</span>
+        <select aria-label="${L('Язык брошюры', 'Brochure language', 'Мова брошури')}">
           ${LANGS.map((l) => `<option value="${l.code}" ${l.code === settings.lang ? 'selected' : ''}>${l.code.toUpperCase()} · ${l.native}</option>`).join('')}
         </select>
         <b aria-hidden="true">${settings.lang.toUpperCase()}</b>
       </label>
-      <a class="testbtn" href="#/quiz">${L('Тест', 'Test')}</a>
+      <a class="testbtn" href="#/quiz">${L('Тест', 'Test', 'Тест')}</a>
     </div>`;
   drawer.innerHTML = `
-    <nav class="drawer-panel" aria-label="${L('Оглавление', 'Contents')}">
-      <div class="drawer-head"><b>${L('Оглавление', 'Contents')}</b><button type="button" class="icon-btn" data-close aria-label="${L('Закрыть', 'Close')}">✕</button></div>
+    <nav class="drawer-panel" aria-label="${L('Оглавление', 'Contents', 'Зміст')}">
+      <div class="drawer-head"><b>${L('Оглавление', 'Contents', 'Зміст')}</b><button type="button" class="icon-btn" data-close aria-label="${L('Закрыть', 'Close', 'Закрити')}">✕</button></div>
       <ul class="toc"></ul>
-      <a class="dlink" href="#/">${L('Главная', 'Home')}</a>
-      <a class="dlink" href="#/quiz">${L('Тест: экзамен, ошибки, главы', 'Tests: exam, mistakes, chapters')}</a>
-      <a class="dlink" href="#/favorites">${L('★ Избранное', '★ Favourites')}</a>
-      <a class="dlink" href="#/ontario">${L('Онтарио и Брантфорд', 'Ontario and Brantford')}</a>
-      <a class="dlink" href="#/settings">${L('Настройки', 'Settings')}</a>
-      <a class="dlink" href="#/about">${L('О сайте и условия', 'About and terms')}</a>
+      <a class="dlink" href="#/">${L('Главная', 'Home', 'Головна')}</a>
+      <a class="dlink" href="#/quiz">${L('Тест: экзамен, ошибки, главы', 'Tests: exam, mistakes, chapters', 'Тест: іспит, помилки, розділи')}</a>
+      <a class="dlink" href="#/favorites">${L('★ Избранное', '★ Favourites', '★ Обране')}</a>
+      <a class="dlink" href="#/ontario">${L('Онтарио и Брантфорд', 'Ontario and Brantford', 'Онтаріо і Брантфорд')}</a>
+      <a class="dlink" href="#/settings">${L('Настройки', 'Settings', 'Налаштування')}</a>
+      <a class="dlink" href="#/about">${L('О сайте и условия', 'About and terms', 'Про сайт і умови')}</a>
     </nav>`;
   top.querySelector('#menuBtn')!.addEventListener('click', () => {
     drawer.querySelector('.toc')!.innerHTML = tocHtml(settings.lang);
@@ -99,6 +99,7 @@ function setLang(lang: Lang) {
   saveSettings();
   setUi(uiFor(lang));
   document.documentElement.lang = ui();
+  document.title = `Discover Canada — ${L('подготовка к тесту', 'citizenship test prep', 'підготовка до тесту')}`;
   renderShell();
 }
 
@@ -124,7 +125,7 @@ async function route() {
     await ensureLang(lang);
     if (lang !== 'en') await ensureLang('en');
   } catch {
-    view.innerHTML = `<div class="page"><p class="muted">${L('Не удалось загрузить язык. Проверьте интернет.', 'Could not load the language. Check your internet connection.')}</p></div>`;
+    view.innerHTML = `<div class="page"><p class="muted">${L('Не удалось загрузить язык. Проверьте интернет.', 'Could not load the language. Check your internet connection.', 'Не вдалося завантажити мову. Перевірте інтернет.')}</p></div>`;
     return;
   }
   if (seq !== routeSeq) return; // a newer navigation started meanwhile

@@ -94,29 +94,29 @@ export function voiceHelp(lang: Lang): string {
   if (/iPhone|iPad|iPod/.test(ua))
     return L(
       `iPhone: «Настройки → Универсальный доступ → Устный контент → Голоса» — добавьте голос «${name}», затем перезагрузите страницу.`,
-      `iPhone: Settings → Accessibility → Spoken Content → Voices — add a “${name}” voice, then reload the page.`,
+      `iPhone: Settings → Accessibility → Spoken Content → Voices — add a “${name}” voice, then reload the page.`, `iPhone: «Параметри → Доступність → Озвучений вміст → Голоси» — додайте голос «${name}», потім перезавантажте сторінку.`,
     );
   if (/Android/.test(ua))
     return L(
       `Android: «Настройки → Специальные возможности → Синтез речи» — движок Google, в «Языке» скачайте голос «${name}», затем перезагрузите страницу.`,
-      `Android: Settings → Accessibility → Text-to-speech — Google engine, download the “${name}” voice, then reload the page.`,
+      `Android: Settings → Accessibility → Text-to-speech — Google engine, download the “${name}” voice, then reload the page.`, `Android: «Налаштування → Спеціальні можливості → Синтез мовлення» — рушій Google, у «Мові» завантажте голос «${name}», потім перезавантажте сторінку.`,
     );
   if (/Edg\//.test(ua))
     return L(
       `Windows: «Параметры → Время и язык → Речь → Добавить голоса» — добавьте «${name}», затем перезапустите браузер.`,
-      `Windows: Settings → Time & language → Speech → Add voices — add “${name}”, then restart the browser.`,
+      `Windows: Settings → Time & language → Speech → Add voices — add “${name}”, then restart the browser.`, `Windows: «Параметри → Час і мова → Мовлення → Додати голоси» — додайте «${name}», потім перезапустіть браузер.`,
     );
   if (/Windows/.test(ua))
     return L(
       `Windows: проще всего открыть сайт в Microsoft Edge — в нём есть онлайн-голоса на многих языках. Или «Параметры → Время и язык → Речь → Добавить голоса» — «${name}».`,
-      `Windows: the easiest is to open the site in Microsoft Edge — it has online voices for many languages. Or Settings → Time & language → Speech → Add voices — “${name}”.`,
+      `Windows: the easiest is to open the site in Microsoft Edge — it has online voices for many languages. Or Settings → Time & language → Speech → Add voices — “${name}”.`, `Windows: найпростіше відкрити сайт у Microsoft Edge — у ньому є онлайн-голоси багатьма мовами. Або «Параметри → Час і мова → Мовлення → Додати голоси» — «${name}».`,
     );
   if (/Mac/.test(ua))
     return L(
       `Mac: «Системные настройки → Универсальный доступ → Устный контент → Системный голос → Управление голосами» — добавьте голос «${name}».`,
-      `Mac: System Settings → Accessibility → Spoken Content → System voice → Manage voices — add a “${name}” voice.`,
+      `Mac: System Settings → Accessibility → Spoken Content → System voice → Manage voices — add a “${name}” voice.`, `Mac: «Системні параметри → Доступність → Озвучений вміст → Системний голос → Керувати голосами» — додайте голос «${name}».`,
     );
-  return L(`Установите голос «${name}» в настройках синтеза речи и перезагрузите страницу.`, `Install a “${name}” voice in your system text-to-speech settings and reload the page.`);
+  return L(`Установите голос «${name}» в настройках синтеза речи и перезагрузите страницу.`, `Install a “${name}” voice in your system text-to-speech settings and reload the page.`, `Установіть голос «${name}» у налаштуваннях синтезу мовлення і перезавантажте сторінку.`);
 }
 
 export type SpeakerState = 'idle' | 'playing' | 'paused';

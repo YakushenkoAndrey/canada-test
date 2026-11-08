@@ -1,10 +1,17 @@
 // Brochure languages (published ones come from data/languages.json, written by tools/build_data.py)
-// and the interface language (Russian or English).
+// and the interface language (Russian, English or Ukrainian).
 import languagesJson from '../data/languages.json';
 import { settings } from './store';
 
 export type Lang = string;
-export type Ui = 'ru' | 'en';
+export type Ui = 'ru' | 'en' | 'uk';
+
+/** Interface languages offered in Settings (for the English brochure). */
+export const UIS: { code: Ui; native: string }[] = [
+  { code: 'en', native: 'English' },
+  { code: 'ru', native: 'Русский' },
+  { code: 'uk', native: 'Українська' },
+];
 
 export interface LangInfo {
   code: string;
@@ -27,10 +34,10 @@ export function isLang(code: string | undefined): code is Lang {
   return !!code && LANGS.some((l) => l.code === code);
 }
 
-/** Interface language for a brochure language: RU brochure -> Russian, EN -> user's choice, others -> English. */
+/** Interface language for a brochure language: RU -> Russian, UK -> Ukrainian, EN -> user's choice, others -> English. */
 export function uiFor(lang: Lang): Ui {
   const info = langInfo(lang);
-  if (info.code === 'en') return settings.uiLang;
+  if (info.code === 'en') return UIS.some((u) => u.code === settings.uiLang) ? settings.uiLang : 'en';
   return info.ui;
 }
 
@@ -43,20 +50,26 @@ export function ui(): Ui {
   return current;
 }
 
-/** Inline translation: L('Русский текст', 'English text'). */
-export function L(ru: string, en: string): string {
-  return current === 'ru' ? ru : en;
+/** Inline translation: L('Русский текст', 'English text', 'Український текст'). */
+export function L(ru: string, en: string, uk: string): string {
+  return current === 'ru' ? ru : current === 'uk' ? uk : en;
 }
 
-/** Russian/English plural helper. */
-export function plural(n: number, ru: [string, string, string], en: [string, string]): string {
+/** Locale for dates in the interface language. */
+export function uiLocale(): string {
+  return current === 'ru' ? 'ru-RU' : current === 'uk' ? 'uk-UA' : 'en-CA';
+}
+
+/** Plural helper: Russian and Ukrainian have three forms (1 / 2–4 / 5+), English two. */
+export function plural(n: number, ru: [string, string, string], en: [string, string], uk: [string, string, string]): string {
   if (current === 'en') return n === 1 ? en[0] : en[1];
+  const f = current === 'uk' ? uk : ru;
   const m10 = n % 10;
   const m100 = n % 100;
-  if (m10 === 1 && m100 !== 11) return ru[0];
-  if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return ru[1];
-  return ru[2];
+  if (m10 === 1 && m100 !== 11) return f[0];
+  if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return f[1];
+  return f[2];
 }
 
-export const nQuestions = (n: number) => `${n} ${plural(n, ['вопрос', 'вопроса', 'вопросов'], ['question', 'questions'])}`;
-export const nSentences = (n: number) => `${n} ${plural(n, ['предложение', 'предложения', 'предложений'], ['sentence', 'sentences'])}`;
+export const nQuestions = (n: number) => `${n} ${plural(n, ['вопрос', 'вопроса', 'вопросов'], ['question', 'questions'], ['питання', 'питання', 'питань'])}`;
+export const nSentences = (n: number) => `${n} ${plural(n, ['предложение', 'предложения', 'предложений'], ['sentence', 'sentences'], ['речення', 'речення', 'речень'])}`;
