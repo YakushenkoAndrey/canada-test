@@ -2,10 +2,30 @@
 import { FACT_LABELS, imgUrl, type Block, type Chapter } from '../content';
 import { ICON } from '../icons';
 import { hasVoice, onVoices, speaker, voiceHelp, type SpeakerListener } from '../speech';
-import { markDone, progress, saveSettings, setLastPlace, settings, type Lang } from '../store';
+import { addFavorite, favorites, markDone, progress, saveSettings, setLastPlace, settings, type Lang } from '../store';
 import { esc, paragraphPieces, pieceHtml, simplePiece, type Piece } from '../text';
 
 const RATES = [0.8, 1, 1.2, 1.5];
+
+function isFavorite(text: string, blockId: string, lang: Lang): boolean {
+  const t = text.replace(/\s+/g, ' ').trim();
+  return favorites.some((f) => f.text === t && f.blockId === blockId && f.lang === lang);
+}
+
+/** Short message at the bottom of the screen. */
+export function toast(msg: string): void {
+  let el = document.getElementById('toast');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'toast';
+    el.setAttribute('role', 'status');
+    document.body.appendChild(el);
+  }
+  el.textContent = msg;
+  el.classList.add('show');
+  window.clearTimeout(Number(el.dataset.t));
+  el.dataset.t = String(window.setTimeout(() => el!.classList.remove('show'), 1800));
+}
 
 export function plural(n: number, one: string, few: string, many: string): string {
   const m10 = n % 10;
@@ -188,7 +208,9 @@ class BlockView {
       <ul class="factlist">${this.factPieces
         .map((p) => {
           const types = [...new Set(p.facts.map((f) => f.type))];
-          return `<li><div class="chips">${types.map((t) => `<span class="chip chip-${t}">${FACT_LABELS[t] ?? t}</span>`).join('')}</div>
+          const saved = isFavorite(p.text, b.id, lang);
+          return `<li><div class="frow"><div class="chips">${types.map((t) => `<span class="chip chip-${t}">${FACT_LABELS[t] ?? t}</span>`).join('')}</div>
+            <button class="btn-star${saved ? ' on' : ''}" type="button" data-fk="${p.k}" aria-label="В избранное" aria-pressed="${saved}">${saved ? '★' : '☆'}</button></div>
             <div class="ftext"><span class="s" data-k="${p.k}">${pieceHtml(p)}</span></div></li>`;
         })
         .join('')}</ul>
@@ -224,6 +246,17 @@ class BlockView {
       if (this.factTrack!.active) speaker.toggle();
       else this.factTrack!.play(0);
     });
+    this.el.querySelectorAll<HTMLButtonElement>('.btn-star').forEach((btn) =>
+      btn.addEventListener('click', () => {
+        const p = this.factPieces[Number(btn.dataset.fk)];
+        if (!p) return;
+        if (addFavorite({ text: p.text, blockId: this.block.id, chapter: this.chapter.id, lang: this.lang })) toast('★ Добавлено в избранное');
+        else toast('Уже в избранном');
+        btn.classList.add('on');
+        btn.textContent = '★';
+        btn.setAttribute('aria-pressed', 'true');
+      }),
+    );
     q('.readfull').addEventListener('click', (e) => {
       e.preventDefault();
       this.reader.setFactsOnly(false);
@@ -273,6 +306,7 @@ export class Reader {
   private observer: IntersectionObserver | null = null;
   private visible = new Set<string>();
   private offVoices: () => void = () => {};
+  private offSelection: () => void = () => {};
 
   constructor(
     host: HTMLElement,
@@ -322,6 +356,7 @@ export class Reader {
     };
     warn();
     this.offVoices = onVoices(warn);
+    this.bindSelection();
     this.updateMini();
     if ('IntersectionObserver' in window) {
       this.observer = new IntersectionObserver((entries) => {
@@ -337,7 +372,45 @@ export class Reader {
     }
   }
 
+  /** Select a phrase in the text -> "★ В избранное" button. */
+  private bindSelection() {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'favbtn';
+    btn.hidden = true;
+    btn.textContent = '★ В избранное';
+    document.body.appendChild(btn);
+    let picked: { text: string; blockId: string } | null = null;
+    const onSel = () => {
+      const sel = window.getSelection();
+      const text = sel?.toString().trim() ?? '';
+      const node = sel && sel.rangeCount ? sel.getRangeAt(0).commonAncestorContainer : null;
+      const el = node ? (node.nodeType === 1 ? (node as Element) : node.parentElement) : null;
+      const block = el?.closest<HTMLElement>('.block');
+      if (text.length >= 2 && block && this.root.contains(block) && !el?.closest('.player')) {
+        picked = { text, blockId: block.dataset.id! };
+        btn.hidden = false;
+      } else if (!text) {
+        btn.hidden = true;
+      }
+    };
+    btn.addEventListener('pointerdown', (e) => e.preventDefault()); // keep the selection
+    btn.addEventListener('click', () => {
+      if (!picked) return;
+      toast(addFavorite({ ...picked, chapter: this.chapter.id, lang: this.lang }) ? '★ Добавлено в избранное' : 'Уже в избранном');
+      window.getSelection()?.removeAllRanges();
+      btn.hidden = true;
+      picked = null;
+    });
+    document.addEventListener('selectionchange', onSel);
+    this.offSelection = () => {
+      document.removeEventListener('selectionchange', onSel);
+      btn.remove();
+    };
+  }
+
   destroy() {
+    this.offSelection();
     this.offVoices();
     speaker.stop();
     this.observer?.disconnect();

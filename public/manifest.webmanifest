@@ -1,0 +1,16 @@
+{
+  "name": "Discover Canada — подготовка к тесту",
+  "short_name": "Discover Canada",
+  "description": "Брошюра Discover Canada (EN и RU) с озвучкой, ключевыми фактами и тестами.",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#871619",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

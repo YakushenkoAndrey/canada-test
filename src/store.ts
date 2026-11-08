@@ -29,6 +29,7 @@ export interface Settings {
   factsOnly: boolean;
   showTranslation: boolean;
   examTimer: boolean;
+  theme: 'light' | 'dark' | 'auto';
   voices: Partial<Record<Lang, string>>;
 }
 
@@ -41,6 +42,7 @@ const DEFAULTS: Settings = {
   factsOnly: false,
   showTranslation: false,
   examTimer: true,
+  theme: 'light',
   voices: {},
 };
 
@@ -110,6 +112,24 @@ export function weightOf(qid: string): number {
 
 export function dueAt(qid: string): number {
   return mistakes[qid]?.due ?? 0;
+}
+
+// Favourites: phrases the user saved from the brochure (newest first).
+export interface Favorite { id: string; text: string; blockId: string; chapter: string; lang: Lang; t: number }
+export const favorites: Favorite[] = load('favorites', []);
+
+export function addFavorite(f: Omit<Favorite, 'id' | 't'>): boolean {
+  const text = f.text.replace(/\s+/g, ' ').trim();
+  if (!text || favorites.some((x) => x.text === text && x.blockId === f.blockId && x.lang === f.lang)) return false;
+  favorites.unshift({ ...f, text, id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), t: Date.now() });
+  save('favorites', favorites);
+  return true;
+}
+
+export function removeFavorite(id: string): void {
+  const i = favorites.findIndex((x) => x.id === id);
+  if (i >= 0) favorites.splice(i, 1);
+  save('favorites', favorites);
 }
 
 // Mock exam attempts (newest first).

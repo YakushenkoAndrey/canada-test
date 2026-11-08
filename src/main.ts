@@ -8,9 +8,11 @@ import './style.css';
 import { chapter } from './content';
 import { ICON } from './icons';
 import { saveSettings, settings, type Lang } from './store';
+import { applyTheme, watchTheme } from './theme';
 import { renderHome, tocHtml } from './views/home';
 import { renderExam, renderMistakes, renderOntario, renderOntarioQuiz, renderQuiz, renderQuizMenu } from './views/quiz';
 import { Reader } from './views/reader';
+import { renderFavorites } from './views/favorites';
 import { renderSettings } from './views/settings';
 
 // We scroll to the block from the URL ourselves; the browser's own restore would fight with it on reload.
@@ -19,6 +21,9 @@ try {
 } catch {
   /* ignore */
 }
+
+applyTheme();
+watchTheme();
 
 const app = document.getElementById('app')!;
 app.innerHTML = `
@@ -42,7 +47,9 @@ app.innerHTML = `
       <div class="drawer-head"><b>Оглавление</b><button type="button" class="icon-btn" data-close aria-label="Закрыть">✕</button></div>
       <ul class="toc"></ul>
       <a class="dlink" href="#/">Главная</a>
-      <a class="dlink" href="#/quiz">Тест: тренировка по главам</a>
+      <a class="dlink" href="#/quiz">Тест: экзамен, ошибки, главы</a>
+      <a class="dlink" href="#/favorites">★ Избранное</a>
+      <a class="dlink" href="#/ontario">Онтарио и Брантфорд</a>
       <a class="dlink" href="#/settings">Настройки</a>
     </nav>
   </div>`;
@@ -107,6 +114,8 @@ function route() {
     cleanup = renderMistakes(view, settings.lang);
   } else if (parts[0] === 'ontario') {
     cleanup = parts[1] === 'quiz' ? renderOntarioQuiz(view, settings.lang) : renderOntario(view, settings.lang);
+  } else if (parts[0] === 'favorites') {
+    cleanup = renderFavorites(view, settings.lang);
   } else if (parts[0] === 'settings') {
     cleanup = renderSettings(view);
   } else {
@@ -140,6 +149,15 @@ drawer.addEventListener('click', (e) => {
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') drawer.hidden = true;
 });
+
+// Offline mode: the service worker caches the whole site (built only for production).
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register(import.meta.env.BASE_URL + 'sw.js').catch(() => {
+      /* offline mode unavailable: the site still works online */
+    });
+  });
+}
 
 window.addEventListener('hashchange', route);
 setLang(settings.lang);
