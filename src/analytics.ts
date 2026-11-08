@@ -3,7 +3,7 @@
 //
 // To turn on: register at goatcounter.com, pick a site code (e.g. "discover-canada"),
 // put it below, then build and push.
-export const GOATCOUNTER_CODE = '';
+export const GOATCOUNTER_CODE = 'discover-canada';
 
 interface GoatCounter {
   count: (o: { path: string; title?: string; event?: boolean }) => void;
