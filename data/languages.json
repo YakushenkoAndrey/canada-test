@@ -23,5 +23,17 @@
    "ru-RU",
    "ru"
   ]
+ },
+ {
+  "code": "uk",
+  "name": "Ukrainian",
+  "native": "Українська",
+  "ui": "en",
+  "dir": "ltr",
+  "tts": [
+   "uk-UA",
+   "uk"
+  ],
+  "machine": true
  }
 ]
