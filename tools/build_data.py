@@ -29,6 +29,25 @@ DATA = ROOT / "data"
 KEY_RE = re.compile(r"\[\[([^\]|]+)\|([a-z-]+)\]\]")
 
 
+def jpeg_size(path: Path) -> tuple[int, int]:
+    """(width, height) of a JPEG file, read from its SOF marker; (0, 0) if unknown."""
+    try:
+        data = path.read_bytes()
+    except OSError:
+        return 0, 0
+    i = 2
+    while i + 9 < len(data):
+        if data[i] != 0xFF:
+            i += 1
+            continue
+        marker = data[i + 1]
+        length = int.from_bytes(data[i + 2:i + 4], "big")
+        if marker in (0xC0, 0xC1, 0xC2):
+            return int.from_bytes(data[i + 7:i + 9], "big"), int.from_bytes(data[i + 5:i + 7], "big")
+        i += 2 + length
+    return 0, 0
+
+
 def parse_chapter(path: Path) -> dict:
     chapter: dict = {"blocks": []}
     block = None
@@ -67,7 +86,9 @@ def parse_chapter(path: Path) -> dict:
                 block["heading"] = rest
             elif cmd == "img":
                 src, _, caption = rest.partition(" ")
-                block["images"].append({"src": f"img/{chapter['id']}/{src}", "caption": caption.strip()})
+                rel = f"img/{chapter['id']}/{src}"
+                w, h = jpeg_size(ROOT / "public" / rel)
+                block["images"].append({"src": rel, "caption": caption.strip(), "w": w, "h": h})
             else:
                 raise SystemExit(f"{path}:{lineno}: unknown command @{cmd}")
         elif not line.strip():
@@ -88,7 +109,8 @@ def main() -> int:
             if path.exists():
                 chapters.append(parse_chapter(path))
         out = DATA / f"blocks.{lang}.json"
-        out.write_text(json.dumps({"chapters": chapters}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        out.write_text(json.dumps({"chapters": chapters}, ensure_ascii=False, indent=1) + "\n",
+                       encoding="utf-8", newline="\n")
         print(f"{out.relative_to(ROOT)}: {len(chapters)} chapters, "
               f"{sum(len(c['blocks']) for c in chapters)} blocks")
 
@@ -105,7 +127,7 @@ def main() -> int:
                          "questionRu": q["questionRu"], "optionsRu": q["optionsRu"]})
     for lang, qs in (("en", q_en), ("ru", q_ru)):
         out = DATA / f"questions.{lang}.json"
-        out.write_text(json.dumps(qs, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        out.write_text(json.dumps(qs, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
     print(f"data/questions.*.json: {len(q_en)} questions")
     return 0
 

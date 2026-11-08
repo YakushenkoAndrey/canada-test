@@ -51,19 +51,27 @@
      "images": [
       {
        "src": "img/who-we-are/p10-metis.jpg",
-       "caption": "Métis from Alberta"
+       "caption": "Métis from Alberta",
+       "w": 175,
+       "h": 279
       },
       {
        "src": "img/who-we-are/p10-cree.jpg",
-       "caption": "Cree dancer"
+       "caption": "Cree dancer",
+       "w": 176,
+       "h": 237
       },
       {
        "src": "img/who-we-are/p10-inuit-children.jpg",
-       "caption": "Inuit children in Iqaluit, Nunavut"
+       "caption": "Inuit children in Iqaluit, Nunavut",
+       "w": 240,
+       "h": 313
       },
       {
        "src": "img/who-we-are/p10-bill-reid.jpg",
-       "caption": "Haida artist Bill Reid carves a totem pole"
+       "caption": "Haida artist Bill Reid carves a totem pole",
+       "w": 595,
+       "h": 308
       }
      ],
      "paragraphs": [
@@ -183,7 +191,9 @@
      "images": [
       {
        "src": "img/who-we-are/p11-buchan.jpg",
-       "caption": ""
+       "caption": "",
+       "w": 173,
+       "h": 232
       }
      ],
      "paragraphs": [
@@ -208,19 +218,27 @@
      "images": [
       {
        "src": "img/who-we-are/p11-st-patricks.jpg",
-       "caption": "St. Patrick’s Day Parade, Montreal, Quebec"
+       "caption": "St. Patrick’s Day Parade, Montreal, Quebec",
+       "w": 212,
+       "h": 272
       },
       {
        "src": "img/who-we-are/p11-highland.jpg",
-       "caption": "Highland dancer at Glengarry Highland Games, Maxville, Ontario"
+       "caption": "Highland dancer at Glengarry Highland Games, Maxville, Ontario",
+       "w": 212,
+       "h": 273
       },
       {
        "src": "img/who-we-are/p11-fete-nationale.jpg",
-       "caption": "Celebrating Fête Nationale, Gatineau, Quebec"
+       "caption": "Celebrating Fête Nationale, Gatineau, Quebec",
+       "w": 212,
+       "h": 272
       },
       {
        "src": "img/who-we-are/p11-acadian-fiddler.jpg",
-       "caption": "Acadian fiddler, Village of Grande-Anse, New Brunswick"
+       "caption": "Acadian fiddler, Village of Grande-Anse, New Brunswick",
+       "w": 231,
+       "h": 272
       }
      ],
      "paragraphs": [
@@ -305,43 +323,63 @@
      "images": [
       {
        "src": "img/who-we-are/p12-celebration.jpg",
-       "caption": "Celebration of Cultures, Edmonton, Alberta"
+       "caption": "Celebration of Cultures, Edmonton, Alberta",
+       "w": 845,
+       "h": 363
       },
       {
        "src": "img/who-we-are/p12-ismaili.jpg",
-       "caption": "Ismaili Muslims in the Calgary Stampede, Alberta"
+       "caption": "Ismaili Muslims in the Calgary Stampede, Alberta",
+       "w": 221,
+       "h": 168
       },
       {
        "src": "img/who-we-are/p12-caribbean.jpg",
-       "caption": "Caribbean cultural festival, Toronto, Ontario"
+       "caption": "Caribbean cultural festival, Toronto, Ontario",
+       "w": 212,
+       "h": 168
       },
       {
        "src": "img/who-we-are/p12-pysanka.jpg",
-       "caption": "Ukrainian Pysanka Festival, Vegreville, Alberta"
+       "caption": "Ukrainian Pysanka Festival, Vegreville, Alberta",
+       "w": 212,
+       "h": 168
       },
       {
        "src": "img/who-we-are/p12-polish-dancers.jpg",
-       "caption": "Young Polish dancers in Oliver, British Columbia"
+       "caption": "Young Polish dancers in Oliver, British Columbia",
+       "w": 212,
+       "h": 168
       },
       {
        "src": "img/who-we-are/p12-pipes.jpg",
-       "caption": "Pipes and drums in Ottawa"
+       "caption": "Pipes and drums in Ottawa",
+       "w": 175,
+       "h": 208
       },
       {
        "src": "img/who-we-are/p13-christmas.jpg",
-       "caption": "Christmas in Gatineau"
+       "caption": "Christmas in Gatineau",
+       "w": 212,
+       "h": 168
       },
       {
        "src": "img/who-we-are/p13-veterans.jpg",
-       "caption": "Chinese-Canadian war veterans"
+       "caption": "Chinese-Canadian war veterans",
+       "w": 212,
+       "h": 168
       },
       {
        "src": "img/who-we-are/p13-notre-dame.jpg",
-       "caption": "Notre-Dame-des-Victoires, Québec City"
+       "caption": "Notre-Dame-des-Victoires, Québec City",
+       "w": 212,
+       "h": 168
       },
       {
        "src": "img/who-we-are/p13-chinese-new-year.jpg",
-       "caption": "Chinese New Year celebration, Vancouver"
+       "caption": "Chinese New Year celebration, Vancouver",
+       "w": 233,
+       "h": 167
       }
      ],
      "paragraphs": [
@@ -400,7 +438,9 @@
      "images": [
       {
        "src": "img/who-we-are/p13-turner-bailey.jpg",
-       "caption": ""
+       "caption": "",
+       "w": 348,
+       "h": 514
       }
      ],
      "paragraphs": [
