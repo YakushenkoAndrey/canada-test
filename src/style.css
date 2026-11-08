@@ -394,6 +394,23 @@ figcaption { margin-top: 5px; font-size: 13px; line-height: 1.35; color: var(--r
 .field span { flex: 0 0 100%; }
 .field select { flex: 1 1 200px; min-height: 44px; font: inherit; font-weight: 400; border: 1.5px solid var(--border); border-radius: 8px; padding: 0 8px; background: var(--surface); max-width: 100%; }
 
+/* ---------- feedback ---------- */
+.fb fieldset { border: 0; padding: 0; margin: 16px 0; }
+.fb legend { font-weight: 700; font-size: 15px; margin-bottom: 8px; padding: 0; }
+.stars { display: flex; gap: 4px; }
+.star { border: 0; background: none; font-size: 34px; line-height: 1; color: var(--text-2); cursor: pointer; padding: 4px; min-width: 44px; min-height: 44px; }
+.star.on { color: #d69a0f; }
+.pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.pill { border: 1.5px solid var(--border); background: var(--surface); color: var(--text); border-radius: 999px; padding: 8px 14px; min-height: 40px; font: inherit; font-size: 15px; cursor: pointer; }
+.pill.on { border-color: var(--red); background: var(--red); color: #fff; }
+.fb-text { display: block; font-weight: 700; font-size: 15px; }
+.fb-text span { display: block; margin-bottom: 8px; }
+.fb textarea { width: 100%; box-sizing: border-box; font: inherit; font-weight: 400; border: 1.5px solid var(--border); border-radius: 8px; padding: 10px; background: var(--surface); color: var(--text); resize: vertical; }
+.fb .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.fb-msg { min-height: 1.4em; margin: 8px 0; }
+.fb-msg.err { color: var(--red); }
+.fb-invite { margin-top: 14px; }
+
 /* ---------- wider screens ---------- */
 @media (min-width: 700px) {
   #view { padding: 26px 70px 50px 24px; }
