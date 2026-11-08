@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Who We Are — EN</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&amp;family=PT+Serif:wght@700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#B5121B}a:hover{color:#7E0C12}
+button{font-family:inherit}
+</style>
+</helmet>
+<div style="width:390px;height:1720px;position:relative;overflow:hidden;background:#fff;font-family:'PT Sans',sans-serif;color:#1E1E1E"><header style="display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 10px;border-bottom:3px solid #B5121B;background:#fff;position:relative;z-index:2"><button aria-label="Оглавление" style="width:44px;height:44px;border:0;background:transparent;display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button><div style="font-family:'PT Serif',serif;font-weight:700;font-size:16px;color:#B5121B">Discover Canada</div><div style="display:flex;align-items:center;gap:8px"><div style="display:flex;border:1.5px solid #B5121B;border-radius:20px;overflow:hidden"><a href="Main.dc.html" style="background:#B5121B;color:#fff;display:flex;align-items:center;justify-content:center;width:46px;height:36px;font-weight:700;font-size:14px;text-decoration:none">EN</a><a href="RU.dc.html" style="background:#fff;color:#B5121B;display:flex;align-items:center;justify-content:center;width:46px;height:36px;font-weight:700;font-size:14px;text-decoration:none">RU</a></div><a href="Quiz.dc.html" style="display:flex;align-items:center;height:36px;padding:0 10px;border-radius:18px;background:#1E1E1E;color:#fff;font-size:14px;font-weight:700;text-decoration:none">Тест</a></div></header><div aria-hidden="true" style="position:absolute;top:0;right:0;bottom:0;width:36px;background:#FBF1F0;overflow:hidden;display:flex;justify-content:center"><div style="writing-mode:vertical-rl;font-family:'PT Serif',serif;font-weight:700;font-size:34px;letter-spacing:8px;color:#EBC6C2;padding-top:130px;white-space:nowrap">Discover Canada</div></div><main style="padding:18px 52px 120px 18px;display:flex;flex-direction:column;gap:22px"><div><div style="font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:#5C5C5C">Discover Canada · стр. 10</div><h1 style="margin:6px 0 0;font-family:'PT Serif',serif;font-size:38px;line-height:1.1;color:#B5121B">Who We Are</h1><div style="width:64px;height:4px;background:#B5121B;margin-top:12px"></div><p style="margin:14px 0 0;font-size:17px;line-height:1.65">Canada is known around the world as a strong and free country. Its three founding peoples are Aboriginal, French and British.</p></div><figure style="margin:0"><div style="height:190px;background:repeating-linear-gradient(135deg,#F1ECEB 0 12px,#F8F5F4 12px 24px);border:1px solid #E2D8D6;display:flex;align-items:center;justify-content:center;font-size:13px;color:#5C5C5C">Фото со стр. 10 брошюры</div><figcaption style="margin-top:6px;font-size:13px;font-style:italic;color:#4A4A4A">Photo caption from the guide goes here.</figcaption></figure><section aria-label="Aboriginal Peoples" style="border-left:0"><h2 style="margin:0 0 8px;font-size:22px;color:#B5121B">Aboriginal Peoples</h2><p style="margin:0;font-size:17px;line-height:1.65;color:#1E1E1E"><sc-for list="{{sentences}}" as="s" hint-placeholder-count="5"><span style="{{s.sstyle}}"><sc-for list="{{s.segs}}" as="g" hint-placeholder-count="2"><span style="{{g.style}}">{{g.t}}</span></sc-for></span></sc-for></p><div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:14px;padding-top:12px;border-top:1px solid #EADAD8"><button onClick="{{toggle}}" style="display:flex;align-items:center;gap:8px;height:44px;padding:0 18px 0 14px;border:0;border-radius:22px;background:#B5121B;color:#fff;font-size:15px;font-weight:700;cursor:pointer"><sc-if value="{{showPlay}}" hint-placeholder-val="{{ true }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></sc-if><sc-if value="{{showPause}}" hint-placeholder-val="{{ false }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><rect x="6" y="4.5" width="4" height="15" rx="1"/><rect x="14" y="4.5" width="4" height="15" rx="1"/></svg></sc-if>{{playLabel}}</button><button onClick="{{stop}}" aria-label="Стоп" style="display:flex;align-items:center;justify-content:center;gap:6px;height:44px;border-radius:22px;border:1.5px solid #C9B8B6;background:#fff;color:#1E1E1E;font-size:14px;font-weight:700;cursor:pointer;width:44px;padding:0"><svg width="14" height="14" viewBox="0 0 24 24" fill="#1E1E1E" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="2"/></svg></button><button onClick="{{cycleRate}}" aria-label="Скорость" style="display:flex;align-items:center;justify-content:center;gap:6px;height:44px;border-radius:22px;border:1.5px solid #C9B8B6;background:#fff;color:#1E1E1E;font-size:14px;font-weight:700;cursor:pointer;padding:0 12px">{{rateLabel}}</button><span style="margin-left:auto;font-size:13px;color:#5C5C5C">{{progress}}</span></div><div style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:10px;font-size:12px;color:#5C5C5C"><span style="display:flex;align-items:center;gap:5px"><span style="width:14px;height:10px;background:#DCEAFB;border-radius:2px"></span>звучит сейчас</span><span style="display:flex;align-items:center;gap:5px"><span style="width:14px;height:0;border-bottom:3px solid #1D5FBF"></span>текущее слово</span><span style="display:flex;align-items:center;gap:5px"><span style="width:14px;height:10px;background:#FADBD8;border-radius:2px"></span>ключевой факт</span><span style="display:flex;align-items:center;gap:5px"><span style="color:#767676;font-weight:700">Aa</span>уже прочитано</span></div><sc-if value="{{sim}}" hint-placeholder-val="{{ false }}"><div style="margin-top:8px;font-size:12px;color:#5C5C5C;font-style:italic">Голос в этом окне недоступен — подсветка идёт в демо-режиме, без звука.</div></sc-if></section><aside style="background:#F5EFE6;border-top:4px solid #B5121B;padding:14px 16px"><div style="font-size:16px;font-weight:700;color:#B5121B;margin-bottom:6px">Founding peoples</div><p style="margin:0;font-size:15px;line-height:1.55">Canada has <span style="background:#FADBD8;color:#8E1015;font-weight:700;border-radius:2px;padding:0 1px">three founding peoples</span>: Aboriginal, French and British.</p></aside><section><h2 style="margin:0 0 8px;font-size:22px;color:#B5121B">English and French</h2><p style="margin:0;font-size:17px;line-height:1.65">Canada has <span style="background:#FADBD8;color:#8E1015;font-weight:700;border-radius:2px;padding:0 1px">two official languages</span>: English and French. <span style="background:#FADBD8;color:#8E1015;font-weight:700;border-radius:2px;padding:0 1px">New Brunswick</span> is the only officially bilingual province.</p><div style="display:flex;align-items:center;gap:8px;margin-top:14px;padding-top:12px;border-top:1px solid #EADAD8"><button style="display:flex;align-items:center;gap:8px;height:44px;padding:0 18px 0 14px;border:1.5px solid #B5121B;border-radius:22px;background:#fff;color:#B5121B;font-size:15px;font-weight:700;cursor:pointer"><svg width="16" height="16" viewBox="0 0 24 24" fill="#B5121B" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg>Слушать</button><span style="margin-left:auto;font-size:13px;color:#5C5C5C">2 предложения</span></div></section><footer style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #DDD;padding-top:8px;font-size:12px;color:#5C5C5C"><span style="font-style:italic">Your Canadian Citizenship Study Guide</span><span style="font-weight:700;color:#1E1E1E">10</span></footer></main><div style="position:absolute;left:0;right:0;bottom:0;background:#232323;color:#fff;z-index:3"><div style="background:#4A4A4A;height:3px"><div style="{{barStyle}}"></div></div><div style="display:flex;align-items:center;gap:4px;padding:8px 10px 10px 16px"><div style="flex:1;min-width:0"><div style="font-size:14px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{miniTitle}}</div><div style="font-size:12px;color:#CFCFCF">{{miniSub}}</div></div><button onClick="{{prev}}" aria-label="Предыдущее предложение" style="width:44px;height:44px;border:0;border-radius:22px;background:transparent;display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 6 9 12 15 18"/></svg></button><button onClick="{{toggle}}" aria-label="Слушать" style="width:44px;height:44px;border:0;border-radius:22px;background:transparent;display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0;background:#fff"><sc-if value="{{showPlay}}" hint-placeholder-val="{{ true }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="#232323" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></sc-if><sc-if value="{{showPause}}" hint-placeholder-val="{{ false }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="#232323" aria-hidden="true"><rect x="6" y="4.5" width="4" height="15" rx="1"/><rect x="14" y="4.5" width="4" height="15" rx="1"/></svg></sc-if></button><button onClick="{{next}}" aria-label="Следующее предложение" style="width:44px;height:44px;border:0;border-radius:22px;background:transparent;display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 6 15 12 9 18"/></svg></button><button onClick="{{stop}}" aria-label="Стоп" style="width:44px;height:44px;border:0;border-radius:22px;background:transparent;display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0"><svg width="14" height="14" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="2"/></svg></button></div></div></div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":1720}}'>
+
+const D = {"lang": "en", "sentences": ["Aboriginal peoples lived in what is now Canada for thousands of years before the first Europeans arrived.", "The Constitution of Canada recognizes Aboriginal rights and treaty rights.", "The term Aboriginal peoples refers to three distinct groups: First Nations, Inuit and Métis.", "Most Inuit live in small communities in the Arctic.", "The Métis are a distinct people of mixed Aboriginal and European ancestry."], "keys": ["treaty rights", "First Nations, Inuit and Métis", "the Arctic", "mixed Aboriginal and European ancestry"], "blockTitle": "Aboriginal Peoples", "ui": {"play": "Слушать", "pause": "Пауза", "resume": "Продолжить", "stop": "Стоп", "speed": "Скорость", "prev": "Предыдущее предложение", "next": "Следующее предложение", "count": "{m} предложений", "of": "Предложение {n} из {m}", "idle": "Ничего не звучит", "idleSub": "Нажмите «Слушать» под блоком", "lgNow": "звучит сейчас", "lgWord": "текущее слово", "lgKey": "ключевой факт", "lgRead": "уже прочитано", "simNote": "Голос в этом окне недоступен — подсветка идёт в демо-режиме, без звука."}};
+function stripMap(t){
+  if(D.lang!=='ru') { const m=[]; for(let i=0;i<t.length;i++) m.push(i); return {speak:t,map:m}; }
+  const re=/\s*\((?=[^)]*[A-Za-z])[^)]*\)/g; let out='',map=[],last=0,m;
+  while((m=re.exec(t))){ for(let i=last;i<m.index;i++){out+=t[i];map.push(i);} last=m.index+m[0].length; }
+  for(let i=last;i<t.length;i++){out+=t[i];map.push(i);}
+  return {speak:out,map:map};
+}
+function enRanges(t){ const r=[]; if(D.lang!=='ru') return r; const re=/\((?=[^)]*[A-Za-z])[^)]*\)/g; let m; while((m=re.exec(t))) r.push([m.index,m.index+m[0].length,'e']); return r; }
+function wordLen(s,i){ const m=/^\S+/.exec(s.slice(i)); return m?m[0].length:1; }
+function segStyle(f,status){
+  const read=status==='read'; const s={color: read?'#767676':'#1E1E1E'};
+  if(f.e){ s.fontStyle='italic'; s.color= read?'#767676':'#5C5C5C'; }
+  if(f.k){ s.background= read?'#F6EAE9':'#FADBD8'; s.color= read?'#8F4A45':'#8E1015'; s.fontWeight=700; s.borderRadius='2px'; s.padding='0 1px'; }
+  if(f.w){ s.textDecoration='underline'; s.textDecorationThickness='3px'; s.textUnderlineOffset='4px'; s.textDecorationColor='#1D5FBF'; }
+  return s;
+}
+const RATES=[0.8,1,1.2,1.5];
+class Component extends DCLogic {
+  constructor(props){ super(props); this.state={cur:-1,playing:false,paused:false,ws:-1,wl:0,rate:1,sim:false}; this.token=0; this.timer=null; this.map=null; this.pausedFlag=false; this.resumeFn=null; }
+  componentWillUnmount(){ this.halt(); }
+  halt(){ this.token++; if(this.timer){clearTimeout(this.timer); this.timer=null;} try{ if(window.speechSynthesis) window.speechSynthesis.cancel(); }catch(e){} }
+  voice(){ try{ const vs=window.speechSynthesis.getVoices()||[]; const pref=D.lang==='ru'?['ru']:['en-ca','en-us','en']; for(const p of pref){ const v=vs.find(v=>v.lang&&v.lang.replace('_','-').toLowerCase().indexOf(p)===0); if(v) return v; } }catch(e){} return null; }
+  play(i){
+    this.halt(); const tok=this.token; this.pausedFlag=false; this.resumeFn=null;
+    if(i<0||i>=D.sentences.length){ this.setState({cur:-1,playing:false,paused:false,ws:-1,wl:0}); return; }
+    const sm=stripMap(D.sentences[i]); this.map=sm.map;
+    this.setState({cur:i,playing:true,paused:false,ws:-1,wl:0});
+    const synth=window.speechSynthesis;
+    if(!synth||this.state.sim){ this.simulate(i,tok,sm); return; }
+    let started=false;
+    try{
+      const u=new SpeechSynthesisUtterance(sm.speak);
+      u.lang=D.lang==='ru'?'ru-RU':'en-CA'; const v=this.voice(); if(v) u.voice=v; u.rate=this.state.rate;
+      u.onstart=()=>{ started=true; };
+      u.onboundary=(e)=>{ if(tok!==this.token) return; if(e.name&&e.name!=='word') return; started=true; this.setState({ws:e.charIndex, wl:e.charLength||wordLen(sm.speak,e.charIndex)}); };
+      u.onend=()=>{ if(tok!==this.token) return; this.play(i+1); };
+      u.onerror=()=>{ if(tok!==this.token) return; this.token++; const t2=this.token; this.setState({sim:true}); this.simulate(i,t2,sm); };
+      synth.speak(u);
+      this.timer=setTimeout(()=>{ if(tok===this.token && !started){ try{synth.cancel();}catch(e){} this.token++; const t2=this.token; this.setState({sim:true}); this.simulate(i,t2,sm); } },2200);
+    }catch(e){ this.setState({sim:true}); this.simulate(i,tok,sm); }
+  }
+  simulate(i,tok,sm){
+    const words=[]; const re=/\S+/g; let m; while((m=re.exec(sm.speak))) words.push([m.index,m[0].length]);
+    const step=(k)=>{
+      if(tok!==this.token) return;
+      if(this.pausedFlag){ this.resumeFn=()=>step(k); return; }
+      if(k>=words.length){ this.play(i+1); return; }
+      this.setState({ws:words[k][0], wl:words[k][1]});
+      this.timer=setTimeout(()=>step(k+1), (230+words[k][1]*38)/this.state.rate);
+    };
+    step(0);
+  }
+  renderVals(){
+    const st=this.state, U=D.ui, n=D.sentences.length;
+    const toggle=()=>{
+      if(!st.playing){ this.play(st.cur>=0?st.cur:0); return; }
+      if(st.paused){ this.pausedFlag=false; this.setState({paused:false});
+        if(st.sim){ const f=this.resumeFn; this.resumeFn=null; if(f) f(); } else { try{window.speechSynthesis.resume();}catch(e){} } }
+      else { this.pausedFlag=true; this.setState({paused:true}); if(!st.sim){ try{window.speechSynthesis.pause();}catch(e){} } }
+    };
+    const stop=()=>{ this.halt(); this.pausedFlag=false; this.setState({cur:-1,playing:false,paused:false,ws:-1,wl:0}); };
+    const prev=()=>{ this.play(Math.max(0,(st.cur<0?0:st.cur-1))); };
+    const next=()=>{ if(st.cur+1<n) this.play(st.cur+1); };
+    const cycleRate=()=>{ const r=RATES[(RATES.indexOf(st.rate)+1)%RATES.length]; this.setState({rate:r}); };
+    const sentences=D.sentences.map((t,idx)=>{
+      const status= st.cur<0?'ahead': idx<st.cur?'read': idx===st.cur?'cur':'ahead';
+      const R=[];
+      D.keys.forEach(k=>{ const p=t.indexOf(k); if(p>=0) R.push([p,p+k.length,'k']); });
+      enRanges(t).forEach(r=>R.push(r));
+      if(idx===st.cur && st.ws>=0 && this.map && this.map.length){
+        const a=this.map[Math.min(st.ws,this.map.length-1)]; const b=this.map[Math.min(st.ws+Math.max(st.wl,1)-1,this.map.length-1)]+1; R.push([a,b,'w']);
+      }
+      const B=new Set([0,t.length]); R.forEach(r=>{B.add(r[0]);B.add(r[1]);});
+      const pts=[...B].sort((x,y)=>x-y); const segs=[];
+      for(let j=0;j<pts.length-1;j++){ const a=pts[j], b=pts[j+1]; if(b<=a) continue; const f={};
+        R.forEach(r=>{ if(r[0]<=a && r[1]>=b) f[r[2]]=true; });
+        segs.push({t:t.slice(a,b), style:segStyle(f,status)}); }
+      if(segs.length) segs[segs.length-1].t+=' ';
+      const sstyle= status==='cur' ? {background:'#DCEAFB',borderRadius:'3px',boxDecorationBreak:'clone',WebkitBoxDecorationBreak:'clone',padding:'2px 0'} : {};
+      return {segs:segs, sstyle:sstyle};
+    });
+    const progress= st.cur<0 ? U.count.replace('{m}',n) : U.of.replace('{n}',st.cur+1).replace('{m}',n);
+    const pct = st.cur<0 ? '0%' : Math.round((st.cur+1)/n*100)+'%';
+    return { sentences, toggle, stop, prev, next, cycleRate,
+      showPause: st.playing && !st.paused, showPlay: !(st.playing && !st.paused),
+      playLabel: !st.playing ? U.play : (st.paused ? U.resume : U.pause),
+      rateLabel: String(st.rate).replace('.',',')+'×', progress, sim: st.sim,
+      miniTitle: st.playing ? D.blockTitle : U.idle, miniSub: st.playing ? progress : U.idleSub, barStyle:{width:pct,height:'3px',background:'#F28B82'} };
+  }
+}
+
+</script>
+</body>
+</html>
