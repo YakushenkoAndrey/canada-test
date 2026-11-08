@@ -275,5 +275,81 @@
   "history/p23-juno.jpg": {
     "page": 23,
     "xref": 445
+  },
+  "modern/p24-toronto.jpg": {
+    "page": 24,
+    "xref": 455
+  },
+  "modern/p24-researcher.jpg": {
+    "page": 24,
+    "xref": 457
+  },
+  "modern/p25-sabre.jpg": {
+    "page": 25,
+    "xref": 453
+  },
+  "modern/p25-vietnamese.jpg": {
+    "page": 25,
+    "xref": 451
+  },
+  "modern/p25-jack-pine.jpg": {
+    "page": 25,
+    "xref": 447
+  },
+  "modern/p25-cirque.jpg": {
+    "page": 25,
+    "xref": 449
+  },
+  "modern/p26-bailey.jpg": {
+    "page": 26,
+    "xref": 66
+  },
+  "modern/p26-petitclerc.jpg": {
+    "page": 26,
+    "xref": 74
+  },
+  "modern/p26-fox.jpg": {
+    "page": 26,
+    "xref": 76
+  },
+  "modern/p26-gretzky.jpg": {
+    "page": 26,
+    "xref": 78
+  },
+  "modern/p26-le-may-doan.jpg": {
+    "page": 26,
+    "xref": 62
+  },
+  "modern/p26-football.jpg": {
+    "page": 26,
+    "xref": 64
+  },
+  "modern/p26-tewksbury.jpg": {
+    "page": 26,
+    "xref": 80
+  },
+  "modern/p26-henderson.jpg": {
+    "page": 26,
+    "xref": 68
+  },
+  "modern/p26-canadarm.jpg": {
+    "page": 26,
+    "xref": 70
+  },
+  "modern/p27-banting.jpg": {
+    "page": 27,
+    "xref": 88
+  },
+  "government/p28-queen-parliament.jpg": {
+    "page": 28,
+    "xref": 465
+  },
+  "government/p28-parliament-hill.jpg": {
+    "page": 28,
+    "xref": 463
+  },
+  "government/p29-johnston.jpg": {
+    "page": 29,
+    "xref": 461
   }
 }

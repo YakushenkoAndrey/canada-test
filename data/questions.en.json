@@ -1398,5 +1398,663 @@
   ],
   "answer": 0,
   "explanation": "At the end of the Second World War, Canada had the third-largest navy in the world."
+ },
+ {
+  "id": "q-modern-001",
+  "chapter": "modern",
+  "blockId": "modern-01",
+  "question": "What discovery in 1947 began Canada’s modern energy industry?",
+  "options": [
+   "Natural gas in Nova Scotia",
+   "Oil in Alberta",
+   "Uranium in Saskatchewan",
+   "Coal in British Columbia"
+  ],
+  "answer": 1,
+  "explanation": "The discovery of oil in Alberta in 1947 began Canada’s modern energy industry."
+ },
+ {
+  "id": "q-modern-002",
+  "chapter": "modern",
+  "blockId": "modern-01",
+  "question": "When was unemployment insurance (now “employment insurance”) introduced by the federal government?",
+  "options": [
+   "1927",
+   "1965",
+   "1940",
+   "1951"
+  ],
+  "answer": 2,
+  "explanation": "Unemployment insurance (now called “employment insurance”) was introduced in 1940. Old Age Security was devised in 1927, and the Canada and Quebec Pension Plans in 1965."
+ },
+ {
+  "id": "q-modern-003",
+  "chapter": "modern",
+  "blockId": "modern-01",
+  "question": "Who provides publicly funded education in Canada?",
+  "options": [
+   "The provinces and territories",
+   "The federal government",
+   "Municipalities only",
+   "Religious organizations"
+  ],
+  "answer": 0,
+  "explanation": "Publicly funded education is provided by the provinces and territories."
+ },
+ {
+  "id": "q-modern-004",
+  "chapter": "modern",
+  "blockId": "modern-02",
+  "question": "Which military alliance did Canada form with other democratic countries of the West during the Cold War?",
+  "options": [
+   "NORAD",
+   "The United Nations",
+   "La Francophonie",
+   "NATO"
+  ],
+  "answer": 3,
+  "explanation": "Canada joined with other democratic countries of the West to form the North Atlantic Treaty Organization (NATO), a military alliance, and with the United States in NORAD."
+ },
+ {
+  "id": "q-modern-005",
+  "chapter": "modern",
+  "blockId": "modern-02",
+  "question": "What is NORAD?",
+  "options": [
+   "A UN peacekeeping force",
+   "The North American Aerospace Defence Command, with the United States",
+   "A trade agreement",
+   "A Canadian navy fleet"
+  ],
+  "answer": 1,
+  "explanation": "Canada joined with the United States in the North American Aerospace Defence Command (NORAD)."
+ },
+ {
+  "id": "q-modern-006",
+  "chapter": "modern",
+  "blockId": "modern-02",
+  "question": "In which war did Canada participate in the UN operation defending South Korea?",
+  "options": [
+   "The Vietnam War",
+   "The Second World War",
+   "The Korean War (1950–53)",
+   "The Boer War"
+  ],
+  "answer": 2,
+  "explanation": "Canada participated in the UN operation defending South Korea in the Korean War (1950–53), with 500 dead and 1,000 wounded."
+ },
+ {
+  "id": "q-modern-007",
+  "chapter": "modern",
+  "blockId": "modern-03",
+  "question": "What is the era of rapid change in Quebec in the 1960s known as?",
+  "options": [
+   "The Quiet Revolution",
+   "The Great Upheaval",
+   "The Roaring Twenties",
+   "The Dirty Thirties"
+  ],
+  "answer": 0,
+  "explanation": "Quebec experienced an era of rapid change in the 1960s known as the Quiet Revolution."
+ },
+ {
+  "id": "q-modern-008",
+  "chapter": "modern",
+  "blockId": "modern-03",
+  "question": "What does the Official Languages Act (1969) guarantee?",
+  "options": [
+   "That only French is used in Quebec",
+   "French and English services in the federal government across Canada",
+   "That all Canadians must speak both languages",
+   "Free language classes for everyone"
+  ],
+  "answer": 1,
+  "explanation": "The Official Languages Act (1969) guarantees French and English services in the federal government across Canada."
+ },
+ {
+  "id": "q-modern-009",
+  "chapter": "modern",
+  "blockId": "modern-03",
+  "question": "In which years were the two referendums on Quebec sovereignty defeated?",
+  "options": [
+   "1970 and 1982",
+   "1969 and 1990",
+   "1976 and 1999",
+   "1980 and 1995"
+  ],
+  "answer": 3,
+  "explanation": "The movement for Quebec sovereignty was defeated in a referendum in 1980 and again in a second referendum in 1995."
+ },
+ {
+  "id": "q-modern-010",
+  "chapter": "modern",
+  "blockId": "modern-03",
+  "question": "What is La Francophonie, which Canada helped found in 1970?",
+  "options": [
+   "A Quebec political party",
+   "A French-language TV network",
+   "An international association of French-speaking countries",
+   "A royal commission"
+  ],
+  "answer": 2,
+  "explanation": "In 1970, Canada helped found La Francophonie, an international association of French-speaking countries."
+ },
+ {
+  "id": "q-modern-011",
+  "chapter": "modern",
+  "blockId": "modern-04",
+  "question": "When were Aboriginal people granted the vote?",
+  "options": [
+   "1918",
+   "1960",
+   "1948",
+   "1982"
+  ],
+  "answer": 1,
+  "explanation": "In 1948 the last Canadians of Asian descent (Japanese-Canadians) gained the vote. Aboriginal people were granted the vote in 1960."
+ },
+ {
+  "id": "q-modern-012",
+  "chapter": "modern",
+  "blockId": "modern-04",
+  "question": "Who may vote in Canada today?",
+  "options": [
+   "Every citizen over the age of 18",
+   "Only property owners",
+   "Every resident over 16",
+   "Only citizens born in Canada"
+  ],
+  "answer": 0,
+  "explanation": "Today every citizen over the age of 18 may vote."
+ },
+ {
+  "id": "q-modern-013",
+  "chapter": "modern",
+  "blockId": "modern-04",
+  "question": "About how many refugees escaped Soviet tyranny in Hungary in 1956 and came to Canada?",
+  "options": [
+   "5,000",
+   "50,000",
+   "37,000",
+   "100,000"
+  ],
+  "answer": 2,
+  "explanation": "Canada welcomed about 37,000 who escaped Soviet tyranny in Hungary in 1956, and over 50,000 Vietnamese after 1975."
+ },
+ {
+  "id": "q-modern-014",
+  "chapter": "modern",
+  "blockId": "modern-05",
+  "question": "For what is Canada historically perhaps best known in the visual arts?",
+  "options": [
+   "The Automatistes",
+   "Cirque du Soleil",
+   "Inuit soapstone sculpture",
+   "The Group of Seven, founded in 1920"
+  ],
+  "answer": 3,
+  "explanation": "In the visual arts, Canada is historically perhaps best known for the Group of Seven, founded in 1920, who painted rugged wilderness landscapes."
+ },
+ {
+  "id": "q-modern-015",
+  "chapter": "modern",
+  "blockId": "modern-05",
+  "question": "Who painted the forests and Aboriginal artifacts of the West Coast?",
+  "options": [
+   "Emily Carr",
+   "Kenojuak Ashevak",
+   "Jean-Paul Riopelle",
+   "Tom Thomson"
+  ],
+  "answer": 0,
+  "explanation": "Emily Carr painted the forests and Aboriginal artifacts of the West Coast."
+ },
+ {
+  "id": "q-modern-016",
+  "chapter": "modern",
+  "blockId": "modern-06",
+  "question": "Who invented basketball, and when?",
+  "options": [
+   "Wayne Gretzky in 1979",
+   "Canadian James Naismith in 1891",
+   "Lord Grey in 1909",
+   "Terry Fox in 1980"
+  ],
+  "answer": 1,
+  "explanation": "Basketball was invented by Canadian James Naismith in 1891."
+ },
+ {
+  "id": "q-modern-017",
+  "chapter": "modern",
+  "blockId": "modern-06",
+  "question": "What was the “Marathon of Hope”?",
+  "options": [
+   "An Olympic race in 1996",
+   "A wheelchair trip around the world",
+   "Terry Fox’s cross-country run in 1980 to raise money for cancer research",
+   "A hockey tournament"
+  ],
+  "answer": 2,
+  "explanation": "In 1980, Terry Fox, who lost his right leg to cancer, began a cross-country run, the “Marathon of Hope,” to raise money for cancer research."
+ },
+ {
+  "id": "q-modern-018",
+  "chapter": "modern",
+  "blockId": "modern-06",
+  "question": "What is Canada’s national sport mentioned in the guide, in which Canadian teams have dominated the world?",
+  "options": [
+   "Lacrosse",
+   "Canadian football",
+   "Basketball",
+   "Ice hockey"
+  ],
+  "answer": 3,
+  "explanation": "In the national sport of ice hockey, Canadian teams have dominated the world."
+ },
+ {
+  "id": "q-modern-019",
+  "chapter": "modern",
+  "blockId": "modern-08",
+  "question": "Who discovered insulin?",
+  "options": [
+   "Sir Frederick Banting and Charles Best",
+   "Alexander Graham Bell",
+   "Dr. Wilder Penfield",
+   "Dr. John A. Hopps"
+  ],
+  "answer": 0,
+  "explanation": "Sir Frederick Banting of Toronto and Charles Best discovered insulin, a hormone to treat diabetes that has saved 16 million lives worldwide."
+ },
+ {
+  "id": "q-modern-020",
+  "chapter": "modern",
+  "blockId": "modern-08",
+  "question": "Who invented the worldwide system of standard time zones?",
+  "options": [
+   "Reginald Fessenden",
+   "Joseph-Armand Bombardier",
+   "Sir Sandford Fleming",
+   "Alexander Graham Bell"
+  ],
+  "answer": 2,
+  "explanation": "Sir Sandford Fleming invented the worldwide system of standard time zones."
+ },
+ {
+  "id": "q-modern-021",
+  "chapter": "modern",
+  "blockId": "modern-08",
+  "question": "What did Joseph-Armand Bombardier invent?",
+  "options": [
+   "The telephone",
+   "The snowmobile",
+   "The pacemaker",
+   "The Canadarm"
+  ],
+  "answer": 1,
+  "explanation": "Joseph-Armand Bombardier invented the snowmobile, a light-weight winter vehicle."
+ },
+ {
+  "id": "q-modern-022",
+  "chapter": "modern",
+  "blockId": "modern-08",
+  "question": "Who invented the first cardiac pacemaker?",
+  "options": [
+   "Sir Frederick Banting",
+   "Dr. Wilder Penfield",
+   "Mike Lazaridis",
+   "Dr. John A. Hopps"
+  ],
+  "answer": 3,
+  "explanation": "Dr. John A. Hopps invented the first cardiac pacemaker."
+ },
+ {
+  "id": "q-government-001",
+  "chapter": "government",
+  "blockId": "government-01",
+  "question": "What are the three key facts about Canada’s system of government?",
+  "options": [
+   "Federal state, parliamentary democracy and constitutional monarchy",
+   "Republic, democracy and federation",
+   "Monarchy, dictatorship and democracy",
+   "Unitary state, presidential system and monarchy"
+  ],
+  "answer": 0,
+  "explanation": "There are three key facts about Canada’s system of government: our country is a federal state, a parliamentary democracy and a constitutional monarchy."
+ },
+ {
+  "id": "q-government-002",
+  "chapter": "government",
+  "blockId": "government-02",
+  "question": "Which of these is a responsibility of the federal government?",
+  "options": [
+   "Education",
+   "Defence",
+   "Highways",
+   "Health"
+  ],
+  "answer": 1,
+  "explanation": "The federal government is responsible for defence, foreign policy, interprovincial trade and communications, currency, navigation, criminal law and citizenship."
+ },
+ {
+  "id": "q-government-003",
+  "chapter": "government",
+  "blockId": "government-02",
+  "question": "Which of these is a provincial responsibility?",
+  "options": [
+   "Foreign policy",
+   "Currency",
+   "Education",
+   "Citizenship"
+  ],
+  "answer": 2,
+  "explanation": "The provinces are responsible for municipal government, education, health, natural resources, property and civil rights, and highways."
+ },
+ {
+  "id": "q-government-004",
+  "chapter": "government",
+  "blockId": "government-02",
+  "question": "Which areas do the federal government and the provinces share?",
+  "options": [
+   "Defence and foreign policy",
+   "Education and health",
+   "Currency and navigation",
+   "Agriculture and immigration"
+  ],
+  "answer": 3,
+  "explanation": "The federal government and the provinces share jurisdiction over agriculture and immigration."
+ },
+ {
+  "id": "q-government-005",
+  "chapter": "government",
+  "blockId": "government-02",
+  "question": "What is the British North America Act now known as?",
+  "options": [
+   "The Constitution Act, 1867",
+   "The Canadian Charter of Rights and Freedoms",
+   "The Quebec Act",
+   "The Official Languages Act"
+  ],
+  "answer": 0,
+  "explanation": "The responsibilities of the federal and provincial governments were defined in 1867 in the British North America Act, now known as the Constitution Act, 1867."
+ },
+ {
+  "id": "q-government-006",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "What are the three parts of Parliament?",
+  "options": [
+   "The Prime Minister, the Cabinet and the Senate",
+   "The House of Commons, the Supreme Court and the Governor General",
+   "The Sovereign (Queen or King), the Senate and the House of Commons",
+   "The provinces, the territories and the federal government"
+  ],
+  "answer": 2,
+  "explanation": "Parliament has three parts: the Sovereign (Queen or King), the Senate and the House of Commons."
+ },
+ {
+  "id": "q-government-007",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "How are senators chosen?",
+  "options": [
+   "Elected by the people every four years",
+   "Appointed by the Governor General on the advice of the Prime Minister",
+   "Chosen by provincial premiers",
+   "Elected by members of the House of Commons"
+  ],
+  "answer": 1,
+  "explanation": "Senators are appointed by the Governor General on the advice of the Prime Minister and serve until age 75."
+ },
+ {
+  "id": "q-government-008",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "Until what age do senators serve?",
+  "options": [
+   "65",
+   "70",
+   "For life",
+   "75"
+  ],
+  "answer": 3,
+  "explanation": "Senators serve until age 75."
+ },
+ {
+  "id": "q-government-009",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "Who selects the Cabinet ministers?",
+  "options": [
+   "The Prime Minister",
+   "The Governor General",
+   "The Senate",
+   "The voters"
+  ],
+  "answer": 0,
+  "explanation": "In the federal government, the Prime Minister selects the Cabinet ministers and is responsible for the operations and policy of the government."
+ },
+ {
+  "id": "q-government-010",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "What must happen before a bill can become law in Canada?",
+  "options": [
+   "The Prime Minister must sign it",
+   "It must be approved by a referendum",
+   "It must be passed by both chambers and receive royal assent",
+   "The Supreme Court must approve it"
+  ],
+  "answer": 2,
+  "explanation": "No bill can become law until it has been passed by both chambers and has received royal assent, granted by the Governor General on behalf of the Sovereign."
+ },
+ {
+  "id": "q-government-011",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "What happens if Cabinet ministers are defeated in a non-confidence vote?",
+  "options": [
+   "The Senate takes over",
+   "They have to resign",
+   "The Queen dissolves the provinces",
+   "Nothing happens"
+  ],
+  "answer": 1,
+  "explanation": "Cabinet ministers must retain the “confidence of the House” and have to resign if they are defeated in a non-confidence vote."
+ },
+ {
+  "id": "q-government-012",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "How often are members of the House of Commons traditionally elected?",
+  "options": [
+   "Every four years",
+   "Every two years",
+   "Every five years",
+   "Every six years"
+  ],
+  "answer": 0,
+  "explanation": "The House of Commons is made up of members of Parliament elected by the people, traditionally every four years."
+ },
+ {
+  "id": "q-government-013",
+  "chapter": "government",
+  "blockId": "government-04",
+  "question": "What is the last step for a bill to become law?",
+  "options": [
+   "First Reading",
+   "Committee Stage",
+   "Third Reading",
+   "Royal Assent"
+  ],
+  "answer": 3,
+  "explanation": "The final step is Royal Assent: the bill receives royal assent after being passed by both Houses."
+ },
+ {
+  "id": "q-government-014",
+  "chapter": "government",
+  "blockId": "government-04",
+  "question": "At which stage do committee members study a bill clause by clause?",
+  "options": [
+   "Second Reading",
+   "Committee Stage",
+   "Report Stage",
+   "Royal Assent"
+  ],
+  "answer": 1,
+  "explanation": "Step 3, Committee Stage: committee members study the bill clause by clause."
+ },
+ {
+  "id": "q-government-015",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "Who is Canada’s Head of State?",
+  "options": [
+   "The Prime Minister",
+   "The Governor General",
+   "A hereditary Sovereign (Queen or King)",
+   "The Chief Justice"
+  ],
+  "answer": 2,
+  "explanation": "As a constitutional monarchy, Canada’s Head of State is a hereditary Sovereign (Queen or King). The head of government is the Prime Minister."
+ },
+ {
+  "id": "q-government-016",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "Who is the head of government in Canada, actually directing the governing of the country?",
+  "options": [
+   "The Prime Minister",
+   "The Sovereign",
+   "The Governor General",
+   "The Speaker of the House"
+  ],
+  "answer": 0,
+  "explanation": "There is a clear distinction between the head of state — the Sovereign — and the head of government — the Prime Minister, who actually directs the governing of the country."
+ },
+ {
+  "id": "q-government-017",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "Who represents the Sovereign in Canada?",
+  "options": [
+   "The Prime Minister",
+   "The Governor General",
+   "The Premier",
+   "The Commissioner"
+  ],
+  "answer": 1,
+  "explanation": "The Sovereign is represented in Canada by the Governor General, appointed on the advice of the Prime Minister, usually for five years."
+ },
+ {
+  "id": "q-government-018",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "Who represents the Sovereign in each province?",
+  "options": [
+   "The Premier",
+   "The Mayor",
+   "The Commissioner",
+   "The Lieutenant Governor"
+  ],
+  "answer": 3,
+  "explanation": "In each of the ten provinces, the Sovereign is represented by the Lieutenant Governor, appointed by the Governor General on the advice of the Prime Minister."
+ },
+ {
+  "id": "q-government-019",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "What is the head of a provincial government called?",
+  "options": [
+   "Prime Minister",
+   "Lieutenant Governor",
+   "Premier",
+   "Commissioner"
+  ],
+  "answer": 2,
+  "explanation": "In each province, the Premier has a role similar to that of the Prime Minister in the federal government."
+ },
+ {
+  "id": "q-government-020",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "Who represents the federal government in the three territories?",
+  "options": [
+   "The Commissioner",
+   "The Lieutenant Governor",
+   "The Premier",
+   "The Governor General"
+  ],
+  "answer": 0,
+  "explanation": "In the three territories, the Commissioner represents the federal government and plays a ceremonial role."
+ },
+ {
+  "id": "q-government-021",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "What are the three branches of government?",
+  "options": [
+   "Federal, provincial and municipal",
+   "Executive, Legislative and Judicial",
+   "Senate, House of Commons and Cabinet",
+   "Police, courts and prisons"
+  ],
+  "answer": 1,
+  "explanation": "The three branches of government are the Executive, Legislative and Judicial."
+ },
+ {
+  "id": "q-government-022",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "What are members of the provincial legislature called in Ontario, for example?",
+  "options": [
+   "MPs",
+   "Senators",
+   "MNAs",
+   "MPPs (members of the Provincial Parliament)"
+  ],
+  "answer": 3,
+  "explanation": "Members of provincial legislatures are called MLAs, MNAs, MPPs or MHAs, depending on the province or territory. (In Ontario they are MPPs.)"
+ },
+ {
+  "id": "q-government-023",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "As Head of the Commonwealth, the Sovereign links Canada to how many other nations?",
+  "options": [
+   "10",
+   "25",
+   "53",
+   "100"
+  ],
+  "answer": 2,
+  "explanation": "As Head of the Commonwealth, the Sovereign links Canada to 53 other nations that cooperate to advance social, economic and cultural progress."
+ },
+ {
+  "id": "q-government-024",
+  "chapter": "government",
+  "blockId": "government-06",
+  "question": "How many judges sit on the Supreme Court of Canada?",
+  "options": [
+   "Nine",
+   "Seven",
+   "Twelve",
+   "Five"
+  ],
+  "answer": 0,
+  "explanation": "The Supreme Court of Canada has nine judges appointed by the Governor General."
+ },
+ {
+  "id": "q-government-025",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "Who should participate in Canada’s democracy by voting?",
+  "options": [
+   "Only citizens over 21",
+   "Canadians aged 18 or more",
+   "All residents over 16",
+   "Only property owners"
+  ],
+  "answer": 1,
+  "explanation": "It is important for Canadians aged 18 or more to participate in their democracy by voting in federal, provincial or territorial and municipal elections."
  }
 ]

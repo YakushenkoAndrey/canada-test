@@ -1,0 +1,100 @@
+@chapter modern
+@title Modern Canada
+@pages 24-27
+
+@block modern-01 section 24
+@heading Trade and economic growth
+@img p24-toronto.jpg Toronto’s business district: Canada’s financial capital
+@img p24-researcher.jpg A medical researcher
+Postwar Canada enjoyed record prosperity and material progress. The world’s restrictive trading policies in the Depression era were opened up by such treaties as the [[General Agreement on Tariffs and Trade (GATT), now the World Trade Organization (WTO)|definition]]. The [[discovery of oil in Alberta in 1947|date]] began Canada’s modern energy industry. In [[1951|date]], for the first time, a majority of Canadians were able to afford adequate food, shelter and clothing. Between 1945 and 1970, as Canada drew closer to the United States and other trading partners, the country enjoyed one of the strongest economies among industrialized nations. Today, Canadians enjoy [[one of the world’s highest standards of living|definition]]—maintained by the hard work of Canadians and by trade with other nations, in particular the [[United States|place]].
+
+As prosperity grew, so did the ability to support social assistance programs. The [[Canada Health Act|symbol]] ensures common elements and a basic standard of coverage. [[Unemployment insurance (now called “employment insurance”)|definition]] was introduced by the federal government in [[1940|date]]. [[Old Age Security|definition]] was devised as early as [[1927|date]], and the [[Canada and Quebec Pension Plans in 1965|date]]. [[Publicly funded education is provided by the provinces and territories|right-duty]].
+
+@block modern-02 section 24
+@heading International engagement
+@img p25-sabre.jpg F-86 Sabre, Royal Canadian Air Force
+Like Australia, New Zealand and other countries, Canada developed its autonomy gradually with a capacity to make significant contributions internationally.
+
+The [[Cold War|definition]] began when several liberated countries of eastern Europe became part of a Communist bloc controlled by the Soviet Union under the dictator Josef Stalin. Canada joined with other democratic countries of the West to form the [[North Atlantic Treaty Organization (NATO)|definition]], a military alliance, and with the United States in the [[North American Aerospace Defence Command (NORAD)|definition]].
+
+Canada joined international organizations such as the [[United Nations (UN)|definition]]. It participated in the UN operation defending South Korea in the [[Korean War (1950–53)|date]], with 500 dead and 1,000 wounded. Canada has taken part in numerous [[UN peacekeeping missions|definition]] in places as varied as Egypt, Cyprus and Haiti, as well as in other international security operations such as those in the former Yugoslavia and Afghanistan.
+
+@block modern-03 section 24
+@heading Canada and Quebec
+French-Canadian society and culture flourished in the postwar years. Quebec experienced an era of rapid change in the 1960s known as the [[Quiet Revolution|definition]]. Many Quebecers sought to separate from Canada. In 1963 Parliament established the [[Royal Commission on Bilingualism and Biculturalism|definition]]. This led to the [[Official Languages Act (1969)|date]], which guarantees French and English services in the federal government across Canada. In [[1970|date]], Canada helped found [[La Francophonie|definition]], an international association of French-speaking countries.
+
+The movement for Quebec sovereignty gained strength but was defeated in a referendum in the province in [[1980|date]]. After much negotiation, in [[1982 the Constitution was amended without the agreement of Quebec|date]]. Though sovereignty was again defeated in a second referendum in [[1995|date]], the autonomy of Quebec within Canada remains a lively topic—part of the dynamic that continues to shape our country.
+
+@block modern-04 section 25
+@heading A Changing Society
+@img p25-vietnamese.jpg Vietnamese Canadian parade
+As social values changed over more than 50 years, Canada became a more flexible and open society. Many took advantage of expanding secondary and postsecondary educational opportunities and a growing number of women entered the professional work force.
+
+Most Canadians of Asian descent had in the past been denied the vote in federal and provincial elections. In [[1948|date]] the last of these, the [[Japanese-Canadians|person]], gained the right to vote. [[Aboriginal people were granted the vote in 1960|date]]. Today [[every citizen over the age of 18 may vote|right-duty]].
+
+Canada welcomed thousands of refugees from Communist oppression, including about [[37,000 who escaped Soviet tyranny in Hungary in 1956|number]]. With the Communist victory in the Vietnam War in 1975, many Vietnamese fled, including [[over 50,000|number]] who sought refuge in Canada.
+
+The idea of [[multiculturalism|definition]], as a result of 19th- and 20th-century immigration, gained a new impetus. By the 1960s, [[one-third of Canadians|number]] had origins that were neither British nor French, and took pride in preserving their distinct culture in the Canadian fabric. Today, diversity enriches Canadians’ lives, particularly in our cities.
+
+@block modern-05 section 25
+@heading Arts and culture in Canada
+@img p25-jack-pine.jpg The Jack Pine, Tom Thomson
+@img p25-cirque.jpg Cirque du Soleil
+Canadian artists have a long history of achievement in which Canadians take pride. Artists from all regions reflect and define our culture and forms of creative expression and have achieved greatness both at home and abroad.
+
+Canadians have made significant contributions to literature in English and in French. Novelists, poets, historians, educators and musicians have had a significant cultural impact. Men and women of letters included Stephen Leacock, Louis Hémon, Sir Charles G.D. Roberts, Pauline Johnson, Émile Nelligan, Robertson Davies, Margaret Laurence and Mordecai Richler. Musicians such as Sir Ernest MacMillan and Healey Willan won renown in Canada and abroad. Writers such as Joy Kogawa, Michael Ondaatje and Rohinton Mistry have diversified Canada’s literary experience.
+
+In the visual arts, Canada is historically perhaps best known for the [[Group of Seven, founded in 1920|date]], who developed a style of painting to capture the rugged wilderness landscapes. [[Emily Carr|person]] painted the forests and Aboriginal artifacts of the West Coast. [[Les Automatistes|definition]] of Quebec were pioneers of modern abstract art in the 1950s, most notably [[Jean-Paul Riopelle|person]]. Quebec’s Louis-Philippe Hébert was a celebrated sculptor of historical figures. [[Kenojuak Ashevak|person]] pioneered modern Inuit art with etchings, prints and soapstone sculptures.
+
+Canada has a long and respected performing arts history, with a network of regional theatres and world-renowned performing arts companies.
+
+The films of [[Denys Arcand|person]] have been popular in Quebec and across the country, and have won international awards. Other noteworthy Canadian filmmakers include Norman Jewison and Atom Egoyan. Canadian television has had a popular following.
+
+@block modern-06 text 26
+@img p26-bailey.jpg Donovan Bailey
+@img p26-petitclerc.jpg Chantal Petitclerc
+@img p26-fox.jpg Terry Fox
+@img p26-gretzky.jpg Wayne Gretzky
+@img p26-le-may-doan.jpg Catriona Le May Doan carries the flag after winning a gold medal in speed skating at the 2002 Olympic Winter Games
+@img p26-football.jpg Canadian football is a popular game that differs in a number of ways from American football. Professional teams in the Canadian Football League (CFL) compete for the championship Grey Cup, donated by Lord Grey, the Governor General, in 1909
+@img p26-tewksbury.jpg Mark Tewksbury, Olympic gold medallist and prominent activist for gay and lesbian Canadians
+@img p26-henderson.jpg In 1972, Paul Henderson scored the winning goal for Canada in the Canada-Soviet Summit Series. This goal is often referred to as “the goal heard around the world”
+Sports have flourished as all provinces and territories have produced amateur and professional star athletes and Olympic medal winners. [[Basketball was invented by Canadian James Naismith in 1891|date]]. Many major league sports boast Canadian talent and in the [[national sport of ice hockey|symbol]], Canadian teams have dominated the world. In 1996 at the Olympic Summer Games, [[Donovan Bailey|person]] became a world record sprinter and double Olympic gold medallist. [[Chantal Petitclerc|person]] became a world champion wheelchair racer and Paralympic gold medalist. One of the greatest hockey players of all time, [[Wayne Gretzky|person]], played for the Edmonton Oilers from 1979 to 1988.
+
+In [[1980, Terry Fox|person]], a British Columbian who lost his right leg to cancer at the age of 18, began a cross-country run, the “[[Marathon of Hope|definition]],” to raise money for cancer research. He became a hero to Canadians. While he did not finish the run and ultimately lost his battle with cancer, his legacy continues through yearly fundraising events in his name. In 1985, fellow British Columbian [[Rick Hansen|person]] circled the globe in a wheelchair to raise funds for spinal cord research.
+
+@block modern-07 text 26
+@img p26-canadarm.jpg Canadarm2
+Canadian advances in science and technology are world renowned and have changed the way the world communicates and does business. [[Marshall McLuhan and Harold Innis|person]] were pioneer thinkers. Science and research in Canada have won international recognition and attracted world-class students, academics and entrepreneurs engaged in medical research, telecommunications and other fields. Since [[1989|date]], the [[Canadian Space Agency|definition]] and Canadian astronauts have participated in space exploration, often using the Canadian-designed and built [[Canadarm|symbol]]. Gerhard Herzberg, a refugee from Nazi Germany, John Polanyi, Sidney Altman, Richard E. Taylor, Michael Smith and Bertram Brockhouse were [[Nobel Prize-winning scientists|definition]].
+
+@block modern-08 aside 27
+@heading Great Canadian Discoveries and Inventions
+@img p27-banting.jpg Sir Frederick Banting of Toronto and Charles Best discovered insulin, a hormone to treat diabetes that has saved 16 million lives worldwide
+Canadians have made various discoveries and inventions. Some of the most famous are listed below.
+
+• [[Alexander Graham Bell|person]] — hit on the idea of the [[telephone|symbol]] at his summer house in Canada.
+
+• [[Joseph-Armand Bombardier|person]] — invented the [[snowmobile|symbol]], a light-weight winter vehicle.
+
+• [[Sir Sandford Fleming|person]] — invented the worldwide system of [[standard time zones|symbol]].
+
+• [[Matthew Evans and Henry Woodward|person]] — together invented the [[first electric light bulb|symbol]] and later sold the patent to Thomas Edison who, more famously, commercialized the light bulb.
+
+• [[Reginald Fessenden|person]] — contributed to the invention of [[radio|symbol]], sending the first wireless voice message in the world.
+
+• [[Dr. Wilder Penfield|person]] — was a pioneering brain surgeon at McGill University in Montreal, and was known as “[[the greatest living Canadian|definition]].”
+
+• [[Dr. John A. Hopps|person]] — invented the first [[cardiac pacemaker|symbol]], used today to save the lives of people with heart disorders.
+
+• [[SPAR Aerospace / National Research Council|person]] — invented the [[Canadarm|symbol]], a robotic arm used in outer space.
+
+• [[Mike Lazaridis and Jim Balsillie|person]] — of Research in Motion (RIM) — a wireless communications company known for its most famous invention: the [[BlackBerry|symbol]].
+
+[[Sir Frederick Banting|person]] of Toronto and Charles Best discovered [[insulin|symbol]], a hormone to treat diabetes that has saved 16 million lives worldwide.
+
+@block modern-09 text 27
+Want to learn more about Canada’s history? Visit a museum or [[national historic site|definition]]! Through artifacts, works of art, stories, images and documents, museums explore the diverse events and accomplishments that formed Canada’s history. Museums can be found in almost every city and town across Canada. National historic sites are located in all provinces and territories and include such diverse places as battlefields, archaeological sites, buildings and sacred spaces.
+
+The prosperity and diversity of our country depend on all Canadians working together to face challenges of the future. In seeking to become a citizen, you are joining a country that, with your active participation, will continue to grow and thrive.
+
+How will you make your contribution to Canada?

@@ -1,0 +1,175 @@
+@q 1 modern-01 1
+What discovery in 1947 began Canada’s modern energy industry?
+| Natural gas in Nova Scotia | Oil in Alberta | Uranium in Saskatchewan | Coal in British Columbia
+= The discovery of oil in Alberta in 1947 began Canada’s modern energy industry.
+? Какое открытие в 1947 году положило начало современной энергетике Канады?
+| Газ в Новой Шотландии | Нефть в Альберте | Уран в Саскачеване | Уголь в Британской Колумбии
+= Открытие нефти в Альберте в 1947 году.
+
+@q 2 modern-01 2
+When was unemployment insurance (now “employment insurance”) introduced by the federal government?
+| 1927 | 1965 | 1940 | 1951
+= Unemployment insurance (now called “employment insurance”) was introduced in 1940. Old Age Security was devised in 1927, and the Canada and Quebec Pension Plans in 1965.
+? Когда федеральное правительство ввело страхование по безработице (ныне «страхование занятости»)?
+| 1927 | 1965 | 1940 | 1951
+= 1940 — страхование по безработице; 1927 — пенсия по старости; 1965 — пенсионные планы Канады и Квебека.
+
+@q 3 modern-01 0
+Who provides publicly funded education in Canada?
+| The provinces and territories | The federal government | Municipalities only | Religious organizations
+= Publicly funded education is provided by the provinces and territories.
+? Кто обеспечивает государственное бесплатное образование в Канаде?
+| Провинции и территории | Федеральное правительство | Только муниципалитеты | Религиозные организации
+= Бесплатное образование — ответственность провинций и территорий.
+
+@q 4 modern-02 3
+Which military alliance did Canada form with other democratic countries of the West during the Cold War?
+| NORAD | The United Nations | La Francophonie | NATO
+= Canada joined with other democratic countries of the West to form the North Atlantic Treaty Organization (NATO), a military alliance, and with the United States in NORAD.
+? Какой военный союз Канада создала с демократическими странами Запада в годы холодной войны?
+| НОРАД | ООН | Франкофония | НАТО
+= НАТО — с западными странами; НОРАД — с США.
+
+@q 5 modern-02 1
+What is NORAD?
+| A UN peacekeeping force | The North American Aerospace Defence Command, with the United States | A trade agreement | A Canadian navy fleet
+= Canada joined with the United States in the North American Aerospace Defence Command (NORAD).
+? Что такое НОРАД (NORAD)?
+| Миротворческие силы ООН | Командование воздушно-космической обороны Северной Америки (с США) | Торговое соглашение | Флот ВМС Канады
+= NORAD — совместное с США командование воздушно-космической обороны.
+
+@q 6 modern-02 2
+In which war did Canada participate in the UN operation defending South Korea?
+| The Vietnam War | The Second World War | The Korean War (1950–53) | The Boer War
+= Canada participated in the UN operation defending South Korea in the Korean War (1950–53), with 500 dead and 1,000 wounded.
+? В какой войне Канада участвовала в операции ООН по защите Южной Кореи?
+| Во Вьетнамской войне | Во Второй мировой войне | В Корейской войне (1950–1953) | В Англо-бурской войне
+= Корейская война 1950–1953: 500 погибших, 1000 раненых.
+
+@q 7 modern-03 0
+What is the era of rapid change in Quebec in the 1960s known as?
+| The Quiet Revolution | The Great Upheaval | The Roaring Twenties | The Dirty Thirties
+= Quebec experienced an era of rapid change in the 1960s known as the Quiet Revolution.
+? Как называется эпоха быстрых перемен в Квебеке в 1960-х годах?
+| Тихая революция | Великое изгнание | Ревущие двадцатые | Грязные тридцатые
+= «Тихая революция» (Quiet Revolution).
+
+@q 8 modern-03 1
+What does the Official Languages Act (1969) guarantee?
+| That only French is used in Quebec | French and English services in the federal government across Canada | That all Canadians must speak both languages | Free language classes for everyone
+= The Official Languages Act (1969) guarantees French and English services in the federal government across Canada.
+? Что гарантирует Закон об официальных языках (1969)?
+| Что в Квебеке используется только французский | Услуги федерального правительства на французском и английском по всей Канаде | Что все канадцы обязаны знать оба языка | Бесплатные языковые курсы для всех
+= Федеральные услуги на обоих официальных языках по всей стране.
+
+@q 9 modern-03 3
+In which years were the two referendums on Quebec sovereignty defeated?
+| 1970 and 1982 | 1969 and 1990 | 1976 and 1999 | 1980 and 1995
+= The movement for Quebec sovereignty was defeated in a referendum in 1980 and again in a second referendum in 1995.
+? В каких годах на референдумах проиграла идея суверенитета Квебека?
+| 1970 и 1982 | 1969 и 1990 | 1976 и 1999 | 1980 и 1995
+= Референдумы 1980 и 1995 годов.
+
+@q 10 modern-03 2
+What is La Francophonie, which Canada helped found in 1970?
+| A Quebec political party | A French-language TV network | An international association of French-speaking countries | A royal commission
+= In 1970, Canada helped found La Francophonie, an international association of French-speaking countries.
+? Что такое Франкофония, которую Канада помогла основать в 1970 году?
+| Партия Квебека | Франкоязычный телеканал | Международная ассоциация франкоязычных стран | Королевская комиссия
+= Франкофония — международная ассоциация франкоязычных стран.
+
+@q 11 modern-04 1
+When were Aboriginal people granted the vote?
+| 1918 | 1960 | 1948 | 1982
+= In 1948 the last Canadians of Asian descent (Japanese-Canadians) gained the vote. Aboriginal people were granted the vote in 1960.
+? Когда коренные народы получили право голоса?
+| 1918 | 1960 | 1948 | 1982
+= Коренные народы — 1960; канадцы японского происхождения — 1948.
+
+@q 12 modern-04 0
+Who may vote in Canada today?
+| Every citizen over the age of 18 | Only property owners | Every resident over 16 | Only citizens born in Canada
+= Today every citizen over the age of 18 may vote.
+? Кто может голосовать в Канаде сегодня?
+| Каждый гражданин старше 18 лет | Только собственники | Каждый житель старше 16 | Только граждане, родившиеся в Канаде
+= Голосовать может каждый гражданин старше 18 лет.
+
+@q 13 modern-04 2
+About how many refugees escaped Soviet tyranny in Hungary in 1956 and came to Canada?
+| 5,000 | 50,000 | 37,000 | 100,000
+= Canada welcomed about 37,000 who escaped Soviet tyranny in Hungary in 1956, and over 50,000 Vietnamese after 1975.
+? Сколько беженцев из Венгрии (1956) приняла Канада?
+| 5000 | 50 000 | 37 000 | 100 000
+= Около 37 000 венгров в 1956 году; более 50 000 вьетнамцев после 1975 года.
+
+@q 14 modern-05 3
+For what is Canada historically perhaps best known in the visual arts?
+| The Automatistes | Cirque du Soleil | Inuit soapstone sculpture | The Group of Seven, founded in 1920
+= In the visual arts, Canada is historically perhaps best known for the Group of Seven, founded in 1920, who painted rugged wilderness landscapes.
+? Чем Канада исторически наиболее известна в изобразительном искусстве?
+| «Автоматистами» | Cirque du Soleil | Скульптурой инуитов | «Группой семи», основанной в 1920 году
+= «Группа семи» (1920) — пейзажи дикой природы.
+
+@q 15 modern-05 0
+Who painted the forests and Aboriginal artifacts of the West Coast?
+| Emily Carr | Kenojuak Ashevak | Jean-Paul Riopelle | Tom Thomson
+= Emily Carr painted the forests and Aboriginal artifacts of the West Coast.
+? Кто писал леса и предметы культуры коренных народов Западного побережья?
+| Эмили Карр | Кенохуак Ашевак | Жан-Поль Риопель | Том Томсон
+= Эмили Карр.
+
+@q 16 modern-06 1
+Who invented basketball, and when?
+| Wayne Gretzky in 1979 | Canadian James Naismith in 1891 | Lord Grey in 1909 | Terry Fox in 1980
+= Basketball was invented by Canadian James Naismith in 1891.
+? Кто и когда изобрёл баскетбол?
+| Уэйн Гретцки в 1979 | Канадец Джеймс Нейсмит в 1891 | Лорд Грей в 1909 | Терри Фокс в 1980
+= Джеймс Нейсмит, 1891 год.
+
+@q 17 modern-06 2
+What was the “Marathon of Hope”?
+| An Olympic race in 1996 | A wheelchair trip around the world | Terry Fox’s cross-country run in 1980 to raise money for cancer research | A hockey tournament
+= In 1980, Terry Fox, who lost his right leg to cancer, began a cross-country run, the “Marathon of Hope,” to raise money for cancer research.
+? Что такое «Марафон надежды»?
+| Олимпийский забег 1996 года | Кругосветное путешествие на коляске | Бег Терри Фокса через страну в 1980 году ради исследований рака | Хоккейный турнир
+= Терри Фокс в 1980 году бежал через Канаду, собирая деньги на исследования рака.
+
+@q 18 modern-06 3
+What is Canada’s national sport mentioned in the guide, in which Canadian teams have dominated the world?
+| Lacrosse | Canadian football | Basketball | Ice hockey
+= In the national sport of ice hockey, Canadian teams have dominated the world.
+? Какой национальный вид спорта, в котором доминируют канадские команды, упоминается в пособии?
+| Лакросс | Канадский футбол | Баскетбол | Хоккей с шайбой
+= Хоккей с шайбой.
+
+@q 19 modern-08 0
+Who discovered insulin?
+| Sir Frederick Banting and Charles Best | Alexander Graham Bell | Dr. Wilder Penfield | Dr. John A. Hopps
+= Sir Frederick Banting of Toronto and Charles Best discovered insulin, a hormone to treat diabetes that has saved 16 million lives worldwide.
+? Кто открыл инсулин?
+| Сэр Фредерик Бантинг и Чарльз Бест | Александр Грейам Белл | Доктор Уайлдер Пенфилд | Доктор Джон А. Хоппс
+= Бантинг и Бест; инсулин спас 16 миллионов жизней.
+
+@q 20 modern-08 2
+Who invented the worldwide system of standard time zones?
+| Reginald Fessenden | Joseph-Armand Bombardier | Sir Sandford Fleming | Alexander Graham Bell
+= Sir Sandford Fleming invented the worldwide system of standard time zones.
+? Кто изобрёл всемирную систему стандартных часовых поясов?
+| Реджиналд Фессенден | Жозеф-Арман Бомбардье | Сэр Сэндфорд Флеминг | Александр Грейам Белл
+= Сэр Сэндфорд Флеминг.
+
+@q 21 modern-08 1
+What did Joseph-Armand Bombardier invent?
+| The telephone | The snowmobile | The pacemaker | The Canadarm
+= Joseph-Armand Bombardier invented the snowmobile, a light-weight winter vehicle.
+? Что изобрёл Жозеф-Арман Бомбардье?
+| Телефон | Снегоход | Кардиостимулятор | «Канадарм»
+= Бомбардье — снегоход.
+
+@q 22 modern-08 3
+Who invented the first cardiac pacemaker?
+| Sir Frederick Banting | Dr. Wilder Penfield | Mike Lazaridis | Dr. John A. Hopps
+= Dr. John A. Hopps invented the first cardiac pacemaker.
+? Кто изобрёл первый кардиостимулятор?
+| Сэр Фредерик Бантинг | Доктор Уайлдер Пенфилд | Майк Лазаридис | Доктор Джон А. Хоппс
+= Доктор Джон А. Хоппс.

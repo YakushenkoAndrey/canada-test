@@ -2098,5 +2098,992 @@
    "Самым маленьким в Содружестве",
    "У Канады не было флота"
   ]
+ },
+ {
+  "id": "q-modern-001",
+  "chapter": "modern",
+  "blockId": "modern-01",
+  "question": "What discovery in 1947 began Canada’s modern energy industry?",
+  "options": [
+   "Natural gas in Nova Scotia",
+   "Oil in Alberta",
+   "Uranium in Saskatchewan",
+   "Coal in British Columbia"
+  ],
+  "answer": 1,
+  "explanation": "Открытие нефти в Альберте в 1947 году.",
+  "questionRu": "Какое открытие в 1947 году положило начало современной энергетике Канады?",
+  "optionsRu": [
+   "Газ в Новой Шотландии",
+   "Нефть в Альберте",
+   "Уран в Саскачеване",
+   "Уголь в Британской Колумбии"
+  ]
+ },
+ {
+  "id": "q-modern-002",
+  "chapter": "modern",
+  "blockId": "modern-01",
+  "question": "When was unemployment insurance (now “employment insurance”) introduced by the federal government?",
+  "options": [
+   "1927",
+   "1965",
+   "1940",
+   "1951"
+  ],
+  "answer": 2,
+  "explanation": "1940 — страхование по безработице; 1927 — пенсия по старости; 1965 — пенсионные планы Канады и Квебека.",
+  "questionRu": "Когда федеральное правительство ввело страхование по безработице (ныне «страхование занятости»)?",
+  "optionsRu": [
+   "1927",
+   "1965",
+   "1940",
+   "1951"
+  ]
+ },
+ {
+  "id": "q-modern-003",
+  "chapter": "modern",
+  "blockId": "modern-01",
+  "question": "Who provides publicly funded education in Canada?",
+  "options": [
+   "The provinces and territories",
+   "The federal government",
+   "Municipalities only",
+   "Religious organizations"
+  ],
+  "answer": 0,
+  "explanation": "Бесплатное образование — ответственность провинций и территорий.",
+  "questionRu": "Кто обеспечивает государственное бесплатное образование в Канаде?",
+  "optionsRu": [
+   "Провинции и территории",
+   "Федеральное правительство",
+   "Только муниципалитеты",
+   "Религиозные организации"
+  ]
+ },
+ {
+  "id": "q-modern-004",
+  "chapter": "modern",
+  "blockId": "modern-02",
+  "question": "Which military alliance did Canada form with other democratic countries of the West during the Cold War?",
+  "options": [
+   "NORAD",
+   "The United Nations",
+   "La Francophonie",
+   "NATO"
+  ],
+  "answer": 3,
+  "explanation": "НАТО — с западными странами; НОРАД — с США.",
+  "questionRu": "Какой военный союз Канада создала с демократическими странами Запада в годы холодной войны?",
+  "optionsRu": [
+   "НОРАД",
+   "ООН",
+   "Франкофония",
+   "НАТО"
+  ]
+ },
+ {
+  "id": "q-modern-005",
+  "chapter": "modern",
+  "blockId": "modern-02",
+  "question": "What is NORAD?",
+  "options": [
+   "A UN peacekeeping force",
+   "The North American Aerospace Defence Command, with the United States",
+   "A trade agreement",
+   "A Canadian navy fleet"
+  ],
+  "answer": 1,
+  "explanation": "NORAD — совместное с США командование воздушно-космической обороны.",
+  "questionRu": "Что такое НОРАД (NORAD)?",
+  "optionsRu": [
+   "Миротворческие силы ООН",
+   "Командование воздушно-космической обороны Северной Америки (с США)",
+   "Торговое соглашение",
+   "Флот ВМС Канады"
+  ]
+ },
+ {
+  "id": "q-modern-006",
+  "chapter": "modern",
+  "blockId": "modern-02",
+  "question": "In which war did Canada participate in the UN operation defending South Korea?",
+  "options": [
+   "The Vietnam War",
+   "The Second World War",
+   "The Korean War (1950–53)",
+   "The Boer War"
+  ],
+  "answer": 2,
+  "explanation": "Корейская война 1950–1953: 500 погибших, 1000 раненых.",
+  "questionRu": "В какой войне Канада участвовала в операции ООН по защите Южной Кореи?",
+  "optionsRu": [
+   "Во Вьетнамской войне",
+   "Во Второй мировой войне",
+   "В Корейской войне (1950–1953)",
+   "В Англо-бурской войне"
+  ]
+ },
+ {
+  "id": "q-modern-007",
+  "chapter": "modern",
+  "blockId": "modern-03",
+  "question": "What is the era of rapid change in Quebec in the 1960s known as?",
+  "options": [
+   "The Quiet Revolution",
+   "The Great Upheaval",
+   "The Roaring Twenties",
+   "The Dirty Thirties"
+  ],
+  "answer": 0,
+  "explanation": "«Тихая революция» (Quiet Revolution).",
+  "questionRu": "Как называется эпоха быстрых перемен в Квебеке в 1960-х годах?",
+  "optionsRu": [
+   "Тихая революция",
+   "Великое изгнание",
+   "Ревущие двадцатые",
+   "Грязные тридцатые"
+  ]
+ },
+ {
+  "id": "q-modern-008",
+  "chapter": "modern",
+  "blockId": "modern-03",
+  "question": "What does the Official Languages Act (1969) guarantee?",
+  "options": [
+   "That only French is used in Quebec",
+   "French and English services in the federal government across Canada",
+   "That all Canadians must speak both languages",
+   "Free language classes for everyone"
+  ],
+  "answer": 1,
+  "explanation": "Федеральные услуги на обоих официальных языках по всей стране.",
+  "questionRu": "Что гарантирует Закон об официальных языках (1969)?",
+  "optionsRu": [
+   "Что в Квебеке используется только французский",
+   "Услуги федерального правительства на французском и английском по всей Канаде",
+   "Что все канадцы обязаны знать оба языка",
+   "Бесплатные языковые курсы для всех"
+  ]
+ },
+ {
+  "id": "q-modern-009",
+  "chapter": "modern",
+  "blockId": "modern-03",
+  "question": "In which years were the two referendums on Quebec sovereignty defeated?",
+  "options": [
+   "1970 and 1982",
+   "1969 and 1990",
+   "1976 and 1999",
+   "1980 and 1995"
+  ],
+  "answer": 3,
+  "explanation": "Референдумы 1980 и 1995 годов.",
+  "questionRu": "В каких годах на референдумах проиграла идея суверенитета Квебека?",
+  "optionsRu": [
+   "1970 и 1982",
+   "1969 и 1990",
+   "1976 и 1999",
+   "1980 и 1995"
+  ]
+ },
+ {
+  "id": "q-modern-010",
+  "chapter": "modern",
+  "blockId": "modern-03",
+  "question": "What is La Francophonie, which Canada helped found in 1970?",
+  "options": [
+   "A Quebec political party",
+   "A French-language TV network",
+   "An international association of French-speaking countries",
+   "A royal commission"
+  ],
+  "answer": 2,
+  "explanation": "Франкофония — международная ассоциация франкоязычных стран.",
+  "questionRu": "Что такое Франкофония, которую Канада помогла основать в 1970 году?",
+  "optionsRu": [
+   "Партия Квебека",
+   "Франкоязычный телеканал",
+   "Международная ассоциация франкоязычных стран",
+   "Королевская комиссия"
+  ]
+ },
+ {
+  "id": "q-modern-011",
+  "chapter": "modern",
+  "blockId": "modern-04",
+  "question": "When were Aboriginal people granted the vote?",
+  "options": [
+   "1918",
+   "1960",
+   "1948",
+   "1982"
+  ],
+  "answer": 1,
+  "explanation": "Коренные народы — 1960; канадцы японского происхождения — 1948.",
+  "questionRu": "Когда коренные народы получили право голоса?",
+  "optionsRu": [
+   "1918",
+   "1960",
+   "1948",
+   "1982"
+  ]
+ },
+ {
+  "id": "q-modern-012",
+  "chapter": "modern",
+  "blockId": "modern-04",
+  "question": "Who may vote in Canada today?",
+  "options": [
+   "Every citizen over the age of 18",
+   "Only property owners",
+   "Every resident over 16",
+   "Only citizens born in Canada"
+  ],
+  "answer": 0,
+  "explanation": "Голосовать может каждый гражданин старше 18 лет.",
+  "questionRu": "Кто может голосовать в Канаде сегодня?",
+  "optionsRu": [
+   "Каждый гражданин старше 18 лет",
+   "Только собственники",
+   "Каждый житель старше 16",
+   "Только граждане, родившиеся в Канаде"
+  ]
+ },
+ {
+  "id": "q-modern-013",
+  "chapter": "modern",
+  "blockId": "modern-04",
+  "question": "About how many refugees escaped Soviet tyranny in Hungary in 1956 and came to Canada?",
+  "options": [
+   "5,000",
+   "50,000",
+   "37,000",
+   "100,000"
+  ],
+  "answer": 2,
+  "explanation": "Около 37 000 венгров в 1956 году; более 50 000 вьетнамцев после 1975 года.",
+  "questionRu": "Сколько беженцев из Венгрии (1956) приняла Канада?",
+  "optionsRu": [
+   "5000",
+   "50 000",
+   "37 000",
+   "100 000"
+  ]
+ },
+ {
+  "id": "q-modern-014",
+  "chapter": "modern",
+  "blockId": "modern-05",
+  "question": "For what is Canada historically perhaps best known in the visual arts?",
+  "options": [
+   "The Automatistes",
+   "Cirque du Soleil",
+   "Inuit soapstone sculpture",
+   "The Group of Seven, founded in 1920"
+  ],
+  "answer": 3,
+  "explanation": "«Группа семи» (1920) — пейзажи дикой природы.",
+  "questionRu": "Чем Канада исторически наиболее известна в изобразительном искусстве?",
+  "optionsRu": [
+   "«Автоматистами»",
+   "Cirque du Soleil",
+   "Скульптурой инуитов",
+   "«Группой семи», основанной в 1920 году"
+  ]
+ },
+ {
+  "id": "q-modern-015",
+  "chapter": "modern",
+  "blockId": "modern-05",
+  "question": "Who painted the forests and Aboriginal artifacts of the West Coast?",
+  "options": [
+   "Emily Carr",
+   "Kenojuak Ashevak",
+   "Jean-Paul Riopelle",
+   "Tom Thomson"
+  ],
+  "answer": 0,
+  "explanation": "Эмили Карр.",
+  "questionRu": "Кто писал леса и предметы культуры коренных народов Западного побережья?",
+  "optionsRu": [
+   "Эмили Карр",
+   "Кенохуак Ашевак",
+   "Жан-Поль Риопель",
+   "Том Томсон"
+  ]
+ },
+ {
+  "id": "q-modern-016",
+  "chapter": "modern",
+  "blockId": "modern-06",
+  "question": "Who invented basketball, and when?",
+  "options": [
+   "Wayne Gretzky in 1979",
+   "Canadian James Naismith in 1891",
+   "Lord Grey in 1909",
+   "Terry Fox in 1980"
+  ],
+  "answer": 1,
+  "explanation": "Джеймс Нейсмит, 1891 год.",
+  "questionRu": "Кто и когда изобрёл баскетбол?",
+  "optionsRu": [
+   "Уэйн Гретцки в 1979",
+   "Канадец Джеймс Нейсмит в 1891",
+   "Лорд Грей в 1909",
+   "Терри Фокс в 1980"
+  ]
+ },
+ {
+  "id": "q-modern-017",
+  "chapter": "modern",
+  "blockId": "modern-06",
+  "question": "What was the “Marathon of Hope”?",
+  "options": [
+   "An Olympic race in 1996",
+   "A wheelchair trip around the world",
+   "Terry Fox’s cross-country run in 1980 to raise money for cancer research",
+   "A hockey tournament"
+  ],
+  "answer": 2,
+  "explanation": "Терри Фокс в 1980 году бежал через Канаду, собирая деньги на исследования рака.",
+  "questionRu": "Что такое «Марафон надежды»?",
+  "optionsRu": [
+   "Олимпийский забег 1996 года",
+   "Кругосветное путешествие на коляске",
+   "Бег Терри Фокса через страну в 1980 году ради исследований рака",
+   "Хоккейный турнир"
+  ]
+ },
+ {
+  "id": "q-modern-018",
+  "chapter": "modern",
+  "blockId": "modern-06",
+  "question": "What is Canada’s national sport mentioned in the guide, in which Canadian teams have dominated the world?",
+  "options": [
+   "Lacrosse",
+   "Canadian football",
+   "Basketball",
+   "Ice hockey"
+  ],
+  "answer": 3,
+  "explanation": "Хоккей с шайбой.",
+  "questionRu": "Какой национальный вид спорта, в котором доминируют канадские команды, упоминается в пособии?",
+  "optionsRu": [
+   "Лакросс",
+   "Канадский футбол",
+   "Баскетбол",
+   "Хоккей с шайбой"
+  ]
+ },
+ {
+  "id": "q-modern-019",
+  "chapter": "modern",
+  "blockId": "modern-08",
+  "question": "Who discovered insulin?",
+  "options": [
+   "Sir Frederick Banting and Charles Best",
+   "Alexander Graham Bell",
+   "Dr. Wilder Penfield",
+   "Dr. John A. Hopps"
+  ],
+  "answer": 0,
+  "explanation": "Бантинг и Бест; инсулин спас 16 миллионов жизней.",
+  "questionRu": "Кто открыл инсулин?",
+  "optionsRu": [
+   "Сэр Фредерик Бантинг и Чарльз Бест",
+   "Александр Грейам Белл",
+   "Доктор Уайлдер Пенфилд",
+   "Доктор Джон А. Хоппс"
+  ]
+ },
+ {
+  "id": "q-modern-020",
+  "chapter": "modern",
+  "blockId": "modern-08",
+  "question": "Who invented the worldwide system of standard time zones?",
+  "options": [
+   "Reginald Fessenden",
+   "Joseph-Armand Bombardier",
+   "Sir Sandford Fleming",
+   "Alexander Graham Bell"
+  ],
+  "answer": 2,
+  "explanation": "Сэр Сэндфорд Флеминг.",
+  "questionRu": "Кто изобрёл всемирную систему стандартных часовых поясов?",
+  "optionsRu": [
+   "Реджиналд Фессенден",
+   "Жозеф-Арман Бомбардье",
+   "Сэр Сэндфорд Флеминг",
+   "Александр Грейам Белл"
+  ]
+ },
+ {
+  "id": "q-modern-021",
+  "chapter": "modern",
+  "blockId": "modern-08",
+  "question": "What did Joseph-Armand Bombardier invent?",
+  "options": [
+   "The telephone",
+   "The snowmobile",
+   "The pacemaker",
+   "The Canadarm"
+  ],
+  "answer": 1,
+  "explanation": "Бомбардье — снегоход.",
+  "questionRu": "Что изобрёл Жозеф-Арман Бомбардье?",
+  "optionsRu": [
+   "Телефон",
+   "Снегоход",
+   "Кардиостимулятор",
+   "«Канадарм»"
+  ]
+ },
+ {
+  "id": "q-modern-022",
+  "chapter": "modern",
+  "blockId": "modern-08",
+  "question": "Who invented the first cardiac pacemaker?",
+  "options": [
+   "Sir Frederick Banting",
+   "Dr. Wilder Penfield",
+   "Mike Lazaridis",
+   "Dr. John A. Hopps"
+  ],
+  "answer": 3,
+  "explanation": "Доктор Джон А. Хоппс.",
+  "questionRu": "Кто изобрёл первый кардиостимулятор?",
+  "optionsRu": [
+   "Сэр Фредерик Бантинг",
+   "Доктор Уайлдер Пенфилд",
+   "Майк Лазаридис",
+   "Доктор Джон А. Хоппс"
+  ]
+ },
+ {
+  "id": "q-government-001",
+  "chapter": "government",
+  "blockId": "government-01",
+  "question": "What are the three key facts about Canada’s system of government?",
+  "options": [
+   "Federal state, parliamentary democracy and constitutional monarchy",
+   "Republic, democracy and federation",
+   "Monarchy, dictatorship and democracy",
+   "Unitary state, presidential system and monarchy"
+  ],
+  "answer": 0,
+  "explanation": "Федеративное государство, парламентская демократия, конституционная монархия.",
+  "questionRu": "Каковы три ключевых факта о системе правления Канады?",
+  "optionsRu": [
+   "Федеративное государство, парламентская демократия и конституционная монархия",
+   "Республика, демократия и федерация",
+   "Монархия, диктатура и демократия",
+   "Унитарное государство, президентская система и монархия"
+  ]
+ },
+ {
+  "id": "q-government-002",
+  "chapter": "government",
+  "blockId": "government-02",
+  "question": "Which of these is a responsibility of the federal government?",
+  "options": [
+   "Education",
+   "Defence",
+   "Highways",
+   "Health"
+  ],
+  "answer": 1,
+  "explanation": "Федеральные: оборона, внешняя политика, межпровинциальная торговля и связь, валюта, судоходство, уголовное право, гражданство.",
+  "questionRu": "Что из перечисленного — полномочие федерального правительства?",
+  "optionsRu": [
+   "Образование",
+   "Оборона",
+   "Автомагистрали",
+   "Здравоохранение"
+  ]
+ },
+ {
+  "id": "q-government-003",
+  "chapter": "government",
+  "blockId": "government-02",
+  "question": "Which of these is a provincial responsibility?",
+  "options": [
+   "Foreign policy",
+   "Currency",
+   "Education",
+   "Citizenship"
+  ],
+  "answer": 2,
+  "explanation": "Провинции: муниципальное управление, образование, здравоохранение, природные ресурсы, имущественные и гражданские права, автомагистрали.",
+  "questionRu": "Что из перечисленного — полномочие провинций?",
+  "optionsRu": [
+   "Внешняя политика",
+   "Денежная система",
+   "Образование",
+   "Гражданство"
+  ]
+ },
+ {
+  "id": "q-government-004",
+  "chapter": "government",
+  "blockId": "government-02",
+  "question": "Which areas do the federal government and the provinces share?",
+  "options": [
+   "Defence and foreign policy",
+   "Education and health",
+   "Currency and navigation",
+   "Agriculture and immigration"
+  ],
+  "answer": 3,
+  "explanation": "Совместные: сельское хозяйство и иммиграция.",
+  "questionRu": "Какими сферами федеральное правительство и провинции ведают совместно?",
+  "optionsRu": [
+   "Обороной и внешней политикой",
+   "Образованием и здравоохранением",
+   "Валютой и судоходством",
+   "Сельским хозяйством и иммиграцией"
+  ]
+ },
+ {
+  "id": "q-government-005",
+  "chapter": "government",
+  "blockId": "government-02",
+  "question": "What is the British North America Act now known as?",
+  "options": [
+   "The Constitution Act, 1867",
+   "The Canadian Charter of Rights and Freedoms",
+   "The Quebec Act",
+   "The Official Languages Act"
+  ],
+  "answer": 0,
+  "explanation": "Ныне это Конституционный акт 1867 года.",
+  "questionRu": "Как сейчас называется Акт о Британской Северной Америке?",
+  "optionsRu": [
+   "Конституционный акт 1867 года",
+   "Канадская хартия прав и свобод",
+   "Квебекский акт",
+   "Закон об официальных языках"
+  ]
+ },
+ {
+  "id": "q-government-006",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "What are the three parts of Parliament?",
+  "options": [
+   "The Prime Minister, the Cabinet and the Senate",
+   "The House of Commons, the Supreme Court and the Governor General",
+   "The Sovereign (Queen or King), the Senate and the House of Commons",
+   "The provinces, the territories and the federal government"
+  ],
+  "answer": 2,
+  "explanation": "Парламент: Суверен, Сенат, Палата общин.",
+  "questionRu": "Из каких трёх частей состоит Парламент?",
+  "optionsRu": [
+   "Премьер-министр, Кабинет и Сенат",
+   "Палата общин, Верховный суд и генерал-губернатор",
+   "Суверен (Королева или Король), Сенат и Палата общин",
+   "Провинции, территории и федеральное правительство"
+  ]
+ },
+ {
+  "id": "q-government-007",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "How are senators chosen?",
+  "options": [
+   "Elected by the people every four years",
+   "Appointed by the Governor General on the advice of the Prime Minister",
+   "Chosen by provincial premiers",
+   "Elected by members of the House of Commons"
+  ],
+  "answer": 1,
+  "explanation": "Сенаторов назначает генерал-губернатор по совету премьер-министра; служат до 75 лет.",
+  "questionRu": "Как выбирают сенаторов?",
+  "optionsRu": [
+   "Избирает народ раз в четыре года",
+   "Назначает генерал-губернатор по рекомендации премьер-министра",
+   "Выбирают премьеры провинций",
+   "Избирают депутаты Палаты общин"
+  ]
+ },
+ {
+  "id": "q-government-008",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "Until what age do senators serve?",
+  "options": [
+   "65",
+   "70",
+   "For life",
+   "75"
+  ],
+  "answer": 3,
+  "explanation": "Сенаторы служат до 75 лет.",
+  "questionRu": "До какого возраста служат сенаторы?",
+  "optionsRu": [
+   "До 65",
+   "До 70",
+   "Пожизненно",
+   "До 75"
+  ]
+ },
+ {
+  "id": "q-government-009",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "Who selects the Cabinet ministers?",
+  "options": [
+   "The Prime Minister",
+   "The Governor General",
+   "The Senate",
+   "The voters"
+  ],
+  "answer": 0,
+  "explanation": "Министров Кабинета выбирает премьер-министр.",
+  "questionRu": "Кто подбирает министров Кабинета?",
+  "optionsRu": [
+   "Премьер-министр",
+   "Генерал-губернатор",
+   "Сенат",
+   "Избиратели"
+  ]
+ },
+ {
+  "id": "q-government-010",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "What must happen before a bill can become law in Canada?",
+  "options": [
+   "The Prime Minister must sign it",
+   "It must be approved by a referendum",
+   "It must be passed by both chambers and receive royal assent",
+   "The Supreme Court must approve it"
+  ],
+  "answer": 2,
+  "explanation": "Принятие обеими палатами и королевская санкция генерал-губернатора от имени Суверена.",
+  "questionRu": "Что нужно, чтобы законопроект стал законом в Канаде?",
+  "optionsRu": [
+   "Подпись премьер-министра",
+   "Одобрение на референдуме",
+   "Принятие обеими палатами и королевская санкция",
+   "Одобрение Верховного суда"
+  ]
+ },
+ {
+  "id": "q-government-011",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "What happens if Cabinet ministers are defeated in a non-confidence vote?",
+  "options": [
+   "The Senate takes over",
+   "They have to resign",
+   "The Queen dissolves the provinces",
+   "Nothing happens"
+  ],
+  "answer": 1,
+  "explanation": "Без «доверия Палаты» правительство уходит в отставку.",
+  "questionRu": "Что происходит, если министры проигрывают голосование о недоверии?",
+  "optionsRu": [
+   "Власть переходит к Сенату",
+   "Они обязаны уйти в отставку",
+   "Королева распускает провинции",
+   "Ничего"
+  ]
+ },
+ {
+  "id": "q-government-012",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "How often are members of the House of Commons traditionally elected?",
+  "options": [
+   "Every four years",
+   "Every two years",
+   "Every five years",
+   "Every six years"
+  ],
+  "answer": 0,
+  "explanation": "Традиционно раз в четыре года.",
+  "questionRu": "Как часто традиционно избираются депутаты Палаты общин?",
+  "optionsRu": [
+   "Раз в четыре года",
+   "Раз в два года",
+   "Раз в пять лет",
+   "Раз в шесть лет"
+  ]
+ },
+ {
+  "id": "q-government-013",
+  "chapter": "government",
+  "blockId": "government-04",
+  "question": "What is the last step for a bill to become law?",
+  "options": [
+   "First Reading",
+   "Committee Stage",
+   "Third Reading",
+   "Royal Assent"
+  ],
+  "answer": 3,
+  "explanation": "Последний, 7-й этап — королевская санкция.",
+  "questionRu": "Какой последний этап прохождения законопроекта?",
+  "optionsRu": [
+   "Первое чтение",
+   "Стадия комитета",
+   "Третье чтение",
+   "Королевская санкция"
+  ]
+ },
+ {
+  "id": "q-government-014",
+  "chapter": "government",
+  "blockId": "government-04",
+  "question": "At which stage do committee members study a bill clause by clause?",
+  "options": [
+   "Second Reading",
+   "Committee Stage",
+   "Report Stage",
+   "Royal Assent"
+  ],
+  "answer": 1,
+  "explanation": "Этап 3 — стадия комитета.",
+  "questionRu": "На каком этапе члены комитета изучают законопроект постатейно?",
+  "optionsRu": [
+   "Второе чтение",
+   "Стадия комитета",
+   "Стадия доклада",
+   "Королевская санкция"
+  ]
+ },
+ {
+  "id": "q-government-015",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "Who is Canada’s Head of State?",
+  "options": [
+   "The Prime Minister",
+   "The Governor General",
+   "A hereditary Sovereign (Queen or King)",
+   "The Chief Justice"
+  ],
+  "answer": 2,
+  "explanation": "Глава государства — Суверен; глава правительства — премьер-министр.",
+  "questionRu": "Кто глава государства Канада?",
+  "optionsRu": [
+   "Премьер-министр",
+   "Генерал-губернатор",
+   "Наследственный Суверен (Королева или Король)",
+   "Главный судья"
+  ]
+ },
+ {
+  "id": "q-government-016",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "Who is the head of government in Canada, actually directing the governing of the country?",
+  "options": [
+   "The Prime Minister",
+   "The Sovereign",
+   "The Governor General",
+   "The Speaker of the House"
+  ],
+  "answer": 0,
+  "explanation": "Глава правительства — премьер-министр.",
+  "questionRu": "Кто глава правительства, фактически руководящий страной?",
+  "optionsRu": [
+   "Премьер-министр",
+   "Суверен",
+   "Генерал-губернатор",
+   "Спикер Палаты"
+  ]
+ },
+ {
+  "id": "q-government-017",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "Who represents the Sovereign in Canada?",
+  "options": [
+   "The Prime Minister",
+   "The Governor General",
+   "The Premier",
+   "The Commissioner"
+  ],
+  "answer": 1,
+  "explanation": "Генерал-губернатор, обычно на пять лет.",
+  "questionRu": "Кто представляет Суверена в Канаде?",
+  "optionsRu": [
+   "Премьер-министр",
+   "Генерал-губернатор",
+   "Премьер провинции",
+   "Комиссар"
+  ]
+ },
+ {
+  "id": "q-government-018",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "Who represents the Sovereign in each province?",
+  "options": [
+   "The Premier",
+   "The Mayor",
+   "The Commissioner",
+   "The Lieutenant Governor"
+  ],
+  "answer": 3,
+  "explanation": "В провинциях — вице-губернатор.",
+  "questionRu": "Кто представляет Суверена в каждой провинции?",
+  "optionsRu": [
+   "Премьер",
+   "Мэр",
+   "Комиссар",
+   "Вице-губернатор"
+  ]
+ },
+ {
+  "id": "q-government-019",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "What is the head of a provincial government called?",
+  "options": [
+   "Prime Minister",
+   "Lieutenant Governor",
+   "Premier",
+   "Commissioner"
+  ],
+  "answer": 2,
+  "explanation": "Премьер (Premier) — аналог премьер-министра в провинции.",
+  "questionRu": "Как называется глава правительства провинции?",
+  "optionsRu": [
+   "Премьер-министр",
+   "Вице-губернатор",
+   "Премьер (Premier)",
+   "Комиссар"
+  ]
+ },
+ {
+  "id": "q-government-020",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "Who represents the federal government in the three territories?",
+  "options": [
+   "The Commissioner",
+   "The Lieutenant Governor",
+   "The Premier",
+   "The Governor General"
+  ],
+  "answer": 0,
+  "explanation": "Комиссар, роль церемониальная.",
+  "questionRu": "Кто представляет федеральное правительство в трёх территориях?",
+  "optionsRu": [
+   "Комиссар",
+   "Вице-губернатор",
+   "Премьер",
+   "Генерал-губернатор"
+  ]
+ },
+ {
+  "id": "q-government-021",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "What are the three branches of government?",
+  "options": [
+   "Federal, provincial and municipal",
+   "Executive, Legislative and Judicial",
+   "Senate, House of Commons and Cabinet",
+   "Police, courts and prisons"
+  ],
+  "answer": 1,
+  "explanation": "Исполнительная, законодательная, судебная.",
+  "questionRu": "Какие три ветви власти существуют?",
+  "optionsRu": [
+   "Федеральная, провинциальная и муниципальная",
+   "Исполнительная, законодательная и судебная",
+   "Сенат, Палата общин и Кабинет",
+   "Полиция, суды и тюрьмы"
+  ]
+ },
+ {
+  "id": "q-government-022",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "What are members of the provincial legislature called in Ontario, for example?",
+  "options": [
+   "MPs",
+   "Senators",
+   "MNAs",
+   "MPPs (members of the Provincial Parliament)"
+  ],
+  "answer": 3,
+  "explanation": "В зависимости от провинции: MLA, MNA, MPP или MHA; в Онтарио — MPP.",
+  "questionRu": "Как, например, называют членов законодательного органа в Онтарио?",
+  "optionsRu": [
+   "MP",
+   "Сенаторы",
+   "MNA",
+   "MPP (члены Провинциального парламента)"
+  ]
+ },
+ {
+  "id": "q-government-023",
+  "chapter": "government",
+  "blockId": "government-05",
+  "question": "As Head of the Commonwealth, the Sovereign links Canada to how many other nations?",
+  "options": [
+   "10",
+   "25",
+   "53",
+   "100"
+  ],
+  "answer": 2,
+  "explanation": "С 53 другими странами Содружества.",
+  "questionRu": "Со сколькими странами Суверен как глава Содружества связывает Канаду?",
+  "optionsRu": [
+   "10",
+   "25",
+   "53",
+   "100"
+  ]
+ },
+ {
+  "id": "q-government-024",
+  "chapter": "government",
+  "blockId": "government-06",
+  "question": "How many judges sit on the Supreme Court of Canada?",
+  "options": [
+   "Nine",
+   "Seven",
+   "Twelve",
+   "Five"
+  ],
+  "answer": 0,
+  "explanation": "Девять судей, назначаемых генерал-губернатором.",
+  "questionRu": "Сколько судей в Верховном суде Канады?",
+  "optionsRu": [
+   "Девять",
+   "Семь",
+   "Двенадцать",
+   "Пять"
+  ]
+ },
+ {
+  "id": "q-government-025",
+  "chapter": "government",
+  "blockId": "government-03",
+  "question": "Who should participate in Canada’s democracy by voting?",
+  "options": [
+   "Only citizens over 21",
+   "Canadians aged 18 or more",
+   "All residents over 16",
+   "Only property owners"
+  ],
+  "answer": 1,
+  "explanation": "Канадцам в возрасте 18 лет и старше.",
+  "questionRu": "Кому важно участвовать в демократии, голосуя на выборах?",
+  "optionsRu": [
+   "Только гражданам старше 21",
+   "Канадцам 18 лет и старше",
+   "Всем жителям старше 16",
+   "Только собственникам"
+  ]
  }
 ]

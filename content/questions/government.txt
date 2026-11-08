@@ -1,0 +1,199 @@
+@q 1 government-01 0
+What are the three key facts about Canada’s system of government?
+| Federal state, parliamentary democracy and constitutional monarchy | Republic, democracy and federation | Monarchy, dictatorship and democracy | Unitary state, presidential system and monarchy
+= There are three key facts about Canada’s system of government: our country is a federal state, a parliamentary democracy and a constitutional monarchy.
+? Каковы три ключевых факта о системе правления Канады?
+| Федеративное государство, парламентская демократия и конституционная монархия | Республика, демократия и федерация | Монархия, диктатура и демократия | Унитарное государство, президентская система и монархия
+= Федеративное государство, парламентская демократия, конституционная монархия.
+
+@q 2 government-02 1
+Which of these is a responsibility of the federal government?
+| Education | Defence | Highways | Health
+= The federal government is responsible for defence, foreign policy, interprovincial trade and communications, currency, navigation, criminal law and citizenship.
+? Что из перечисленного — полномочие федерального правительства?
+| Образование | Оборона | Автомагистрали | Здравоохранение
+= Федеральные: оборона, внешняя политика, межпровинциальная торговля и связь, валюта, судоходство, уголовное право, гражданство.
+
+@q 3 government-02 2
+Which of these is a provincial responsibility?
+| Foreign policy | Currency | Education | Citizenship
+= The provinces are responsible for municipal government, education, health, natural resources, property and civil rights, and highways.
+? Что из перечисленного — полномочие провинций?
+| Внешняя политика | Денежная система | Образование | Гражданство
+= Провинции: муниципальное управление, образование, здравоохранение, природные ресурсы, имущественные и гражданские права, автомагистрали.
+
+@q 4 government-02 3
+Which areas do the federal government and the provinces share?
+| Defence and foreign policy | Education and health | Currency and navigation | Agriculture and immigration
+= The federal government and the provinces share jurisdiction over agriculture and immigration.
+? Какими сферами федеральное правительство и провинции ведают совместно?
+| Обороной и внешней политикой | Образованием и здравоохранением | Валютой и судоходством | Сельским хозяйством и иммиграцией
+= Совместные: сельское хозяйство и иммиграция.
+
+@q 5 government-02 0
+What is the British North America Act now known as?
+| The Constitution Act, 1867 | The Canadian Charter of Rights and Freedoms | The Quebec Act | The Official Languages Act
+= The responsibilities of the federal and provincial governments were defined in 1867 in the British North America Act, now known as the Constitution Act, 1867.
+? Как сейчас называется Акт о Британской Северной Америке?
+| Конституционный акт 1867 года | Канадская хартия прав и свобод | Квебекский акт | Закон об официальных языках
+= Ныне это Конституционный акт 1867 года.
+
+@q 6 government-03 2
+What are the three parts of Parliament?
+| The Prime Minister, the Cabinet and the Senate | The House of Commons, the Supreme Court and the Governor General | The Sovereign (Queen or King), the Senate and the House of Commons | The provinces, the territories and the federal government
+= Parliament has three parts: the Sovereign (Queen or King), the Senate and the House of Commons.
+? Из каких трёх частей состоит Парламент?
+| Премьер-министр, Кабинет и Сенат | Палата общин, Верховный суд и генерал-губернатор | Суверен (Королева или Король), Сенат и Палата общин | Провинции, территории и федеральное правительство
+= Парламент: Суверен, Сенат, Палата общин.
+
+@q 7 government-03 1
+How are senators chosen?
+| Elected by the people every four years | Appointed by the Governor General on the advice of the Prime Minister | Chosen by provincial premiers | Elected by members of the House of Commons
+= Senators are appointed by the Governor General on the advice of the Prime Minister and serve until age 75.
+? Как выбирают сенаторов?
+| Избирает народ раз в четыре года | Назначает генерал-губернатор по рекомендации премьер-министра | Выбирают премьеры провинций | Избирают депутаты Палаты общин
+= Сенаторов назначает генерал-губернатор по совету премьер-министра; служат до 75 лет.
+
+@q 8 government-03 3
+Until what age do senators serve?
+| 65 | 70 | For life | 75
+= Senators serve until age 75.
+? До какого возраста служат сенаторы?
+| До 65 | До 70 | Пожизненно | До 75
+= Сенаторы служат до 75 лет.
+
+@q 9 government-03 0
+Who selects the Cabinet ministers?
+| The Prime Minister | The Governor General | The Senate | The voters
+= In the federal government, the Prime Minister selects the Cabinet ministers and is responsible for the operations and policy of the government.
+? Кто подбирает министров Кабинета?
+| Премьер-министр | Генерал-губернатор | Сенат | Избиратели
+= Министров Кабинета выбирает премьер-министр.
+
+@q 10 government-03 2
+What must happen before a bill can become law in Canada?
+| The Prime Minister must sign it | It must be approved by a referendum | It must be passed by both chambers and receive royal assent | The Supreme Court must approve it
+= No bill can become law until it has been passed by both chambers and has received royal assent, granted by the Governor General on behalf of the Sovereign.
+? Что нужно, чтобы законопроект стал законом в Канаде?
+| Подпись премьер-министра | Одобрение на референдуме | Принятие обеими палатами и королевская санкция | Одобрение Верховного суда
+= Принятие обеими палатами и королевская санкция генерал-губернатора от имени Суверена.
+
+@q 11 government-03 1
+What happens if Cabinet ministers are defeated in a non-confidence vote?
+| The Senate takes over | They have to resign | The Queen dissolves the provinces | Nothing happens
+= Cabinet ministers must retain the “confidence of the House” and have to resign if they are defeated in a non-confidence vote.
+? Что происходит, если министры проигрывают голосование о недоверии?
+| Власть переходит к Сенату | Они обязаны уйти в отставку | Королева распускает провинции | Ничего
+= Без «доверия Палаты» правительство уходит в отставку.
+
+@q 12 government-03 0
+How often are members of the House of Commons traditionally elected?
+| Every four years | Every two years | Every five years | Every six years
+= The House of Commons is made up of members of Parliament elected by the people, traditionally every four years.
+? Как часто традиционно избираются депутаты Палаты общин?
+| Раз в четыре года | Раз в два года | Раз в пять лет | Раз в шесть лет
+= Традиционно раз в четыре года.
+
+@q 13 government-04 3
+What is the last step for a bill to become law?
+| First Reading | Committee Stage | Third Reading | Royal Assent
+= The final step is Royal Assent: the bill receives royal assent after being passed by both Houses.
+? Какой последний этап прохождения законопроекта?
+| Первое чтение | Стадия комитета | Третье чтение | Королевская санкция
+= Последний, 7-й этап — королевская санкция.
+
+@q 14 government-04 1
+At which stage do committee members study a bill clause by clause?
+| Second Reading | Committee Stage | Report Stage | Royal Assent
+= Step 3, Committee Stage: committee members study the bill clause by clause.
+? На каком этапе члены комитета изучают законопроект постатейно?
+| Второе чтение | Стадия комитета | Стадия доклада | Королевская санкция
+= Этап 3 — стадия комитета.
+
+@q 15 government-05 2
+Who is Canada’s Head of State?
+| The Prime Minister | The Governor General | A hereditary Sovereign (Queen or King) | The Chief Justice
+= As a constitutional monarchy, Canada’s Head of State is a hereditary Sovereign (Queen or King). The head of government is the Prime Minister.
+? Кто глава государства Канада?
+| Премьер-министр | Генерал-губернатор | Наследственный Суверен (Королева или Король) | Главный судья
+= Глава государства — Суверен; глава правительства — премьер-министр.
+
+@q 16 government-05 0
+Who is the head of government in Canada, actually directing the governing of the country?
+| The Prime Minister | The Sovereign | The Governor General | The Speaker of the House
+= There is a clear distinction between the head of state — the Sovereign — and the head of government — the Prime Minister, who actually directs the governing of the country.
+? Кто глава правительства, фактически руководящий страной?
+| Премьер-министр | Суверен | Генерал-губернатор | Спикер Палаты
+= Глава правительства — премьер-министр.
+
+@q 17 government-05 1
+Who represents the Sovereign in Canada?
+| The Prime Minister | The Governor General | The Premier | The Commissioner
+= The Sovereign is represented in Canada by the Governor General, appointed on the advice of the Prime Minister, usually for five years.
+? Кто представляет Суверена в Канаде?
+| Премьер-министр | Генерал-губернатор | Премьер провинции | Комиссар
+= Генерал-губернатор, обычно на пять лет.
+
+@q 18 government-05 3
+Who represents the Sovereign in each province?
+| The Premier | The Mayor | The Commissioner | The Lieutenant Governor
+= In each of the ten provinces, the Sovereign is represented by the Lieutenant Governor, appointed by the Governor General on the advice of the Prime Minister.
+? Кто представляет Суверена в каждой провинции?
+| Премьер | Мэр | Комиссар | Вице-губернатор
+= В провинциях — вице-губернатор.
+
+@q 19 government-05 2
+What is the head of a provincial government called?
+| Prime Minister | Lieutenant Governor | Premier | Commissioner
+= In each province, the Premier has a role similar to that of the Prime Minister in the federal government.
+? Как называется глава правительства провинции?
+| Премьер-министр | Вице-губернатор | Премьер (Premier) | Комиссар
+= Премьер (Premier) — аналог премьер-министра в провинции.
+
+@q 20 government-05 0
+Who represents the federal government in the three territories?
+| The Commissioner | The Lieutenant Governor | The Premier | The Governor General
+= In the three territories, the Commissioner represents the federal government and plays a ceremonial role.
+? Кто представляет федеральное правительство в трёх территориях?
+| Комиссар | Вице-губернатор | Премьер | Генерал-губернатор
+= Комиссар, роль церемониальная.
+
+@q 21 government-05 1
+What are the three branches of government?
+| Federal, provincial and municipal | Executive, Legislative and Judicial | Senate, House of Commons and Cabinet | Police, courts and prisons
+= The three branches of government are the Executive, Legislative and Judicial.
+? Какие три ветви власти существуют?
+| Федеральная, провинциальная и муниципальная | Исполнительная, законодательная и судебная | Сенат, Палата общин и Кабинет | Полиция, суды и тюрьмы
+= Исполнительная, законодательная, судебная.
+
+@q 22 government-05 3
+What are members of the provincial legislature called in Ontario, for example?
+| MPs | Senators | MNAs | MPPs (members of the Provincial Parliament)
+= Members of provincial legislatures are called MLAs, MNAs, MPPs or MHAs, depending on the province or territory. (In Ontario they are MPPs.)
+? Как, например, называют членов законодательного органа в Онтарио?
+| MP | Сенаторы | MNA | MPP (члены Провинциального парламента)
+= В зависимости от провинции: MLA, MNA, MPP или MHA; в Онтарио — MPP.
+
+@q 23 government-05 2
+As Head of the Commonwealth, the Sovereign links Canada to how many other nations?
+| 10 | 25 | 53 | 100
+= As Head of the Commonwealth, the Sovereign links Canada to 53 other nations that cooperate to advance social, economic and cultural progress.
+? Со сколькими странами Суверен как глава Содружества связывает Канаду?
+| 10 | 25 | 53 | 100
+= С 53 другими странами Содружества.
+
+@q 24 government-06 0
+How many judges sit on the Supreme Court of Canada?
+| Nine | Seven | Twelve | Five
+= The Supreme Court of Canada has nine judges appointed by the Governor General.
+? Сколько судей в Верховном суде Канады?
+| Девять | Семь | Двенадцать | Пять
+= Девять судей, назначаемых генерал-губернатором.
+
+@q 25 government-03 1
+Who should participate in Canada’s democracy by voting?
+| Only citizens over 21 | Canadians aged 18 or more | All residents over 16 | Only property owners
+= It is important for Canadians aged 18 or more to participate in their democracy by voting in federal, provincial or territorial and municipal elections.
+? Кому важно участвовать в демократии, голосуя на выборах?
+| Только гражданам старше 21 | Канадцам 18 лет и старше | Всем жителям старше 16 | Только собственникам
+= Канадцам в возрасте 18 лет и старше.
