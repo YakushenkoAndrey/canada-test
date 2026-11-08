@@ -351,5 +351,41 @@
   "government/p29-johnston.jpg": {
     "page": 29,
     "xref": 461
+  },
+  "elections/p30-commons-chamber.jpg": {
+    "page": 30,
+    "xref": 469
+  },
+  "elections/p31-commons-session.jpg": {
+    "page": 31,
+    "xref": 467
+  },
+  "elections/p32-voter-card.jpg": {
+    "page": 32,
+    "xref": 474
+  },
+  "elections/p33-charlottetown.jpg": {
+    "page": 33,
+    "xref": 473
+  },
+  "justice/p36-scales.jpg": {
+    "page": 36,
+    "xref": 481
+  },
+  "justice/p36-border.jpg": {
+    "page": 36,
+    "xref": 479
+  },
+  "justice/p37-jury.jpg": {
+    "page": 37,
+    "xref": 487
+  },
+  "justice/p37-constable.jpg": {
+    "page": 37,
+    "xref": 485
+  },
+  "justice/p37-prison.jpg": {
+    "page": 37,
+    "xref": 483
   }
 }

@@ -3085,5 +3085,740 @@
    "Всем жителям старше 16",
    "Только собственникам"
   ]
+ },
+ {
+  "id": "q-elections-001",
+  "chapter": "elections",
+  "blockId": "elections-01",
+  "question": "When must federal elections be held under legislation passed by Parliament?",
+  "options": [
+   "Every year on July 1",
+   "Every five years in May",
+   "On the third Monday in October every four years following the most recent general election",
+   "Whenever the Senate decides"
+  ],
+  "answer": 2,
+  "explanation": "Третий понедельник октября, каждые четыре года; премьер-министр может попросить о досрочных выборах.",
+  "questionRu": "Когда, по закону, должны проводиться федеральные выборы?",
+  "optionsRu": [
+   "Каждый год 1 июля",
+   "Раз в пять лет в мае",
+   "В третий понедельник октября каждые четыре года после последних всеобщих выборов",
+   "Когда решит Сенат"
+  ]
+ },
+ {
+  "id": "q-elections-002",
+  "chapter": "elections",
+  "blockId": "elections-01",
+  "question": "How many electoral districts is Canada divided into, according to the guide?",
+  "options": [
+   "105",
+   "308",
+   "338",
+   "400"
+  ],
+  "answer": 1,
+  "explanation": "В пособии указано 308 избирательных округов (ridings, constituencies).",
+  "questionRu": "На сколько избирательных округов разделена Канада по данным пособия?",
+  "optionsRu": [
+   "105",
+   "308",
+   "338",
+   "400"
+  ]
+ },
+ {
+  "id": "q-elections-003",
+  "chapter": "elections",
+  "blockId": "elections-01",
+  "question": "What is an electoral district?",
+  "options": [
+   "A geographical area represented by a member of Parliament (MP)",
+   "A province",
+   "A city council",
+   "A polling station"
+  ],
+  "answer": 0,
+  "explanation": "Избирательный округ — территория, от которой избирается один депутат.",
+  "questionRu": "Что такое избирательный округ?",
+  "optionsRu": [
+   "Территория, которую представляет член Парламента (депутат)",
+   "Провинция",
+   "Городской совет",
+   "Избирательный участок"
+  ]
+ },
+ {
+  "id": "q-elections-004",
+  "chapter": "elections",
+  "blockId": "elections-01",
+  "question": "Who becomes the MP for an electoral district?",
+  "options": [
+   "The candidate chosen by the Prime Minister",
+   "The oldest candidate",
+   "The candidate with more than 50% of the votes only",
+   "The candidate who receives the most votes"
+  ],
+  "answer": 3,
+  "explanation": "Побеждает кандидат с наибольшим числом голосов.",
+  "questionRu": "Кто становится депутатом от избирательного округа?",
+  "optionsRu": [
+   "Кандидат, выбранный премьер-министром",
+   "Самый старший кандидат",
+   "Только кандидат, набравший более 50%",
+   "Кандидат, получивший больше всего голосов"
+  ]
+ },
+ {
+  "id": "q-elections-005",
+  "chapter": "elections",
+  "blockId": "elections-01",
+  "question": "Who may run in a federal election?",
+  "options": [
+   "Any resident of Canada",
+   "Canadian citizens who are 18 years old or older",
+   "Only members of a political party",
+   "Citizens over 25"
+  ],
+  "answer": 1,
+  "explanation": "Баллотироваться могут граждане Канады 18 лет и старше.",
+  "questionRu": "Кто может баллотироваться на федеральных выборах?",
+  "optionsRu": [
+   "Любой житель Канады",
+   "Граждане Канады 18 лет и старше",
+   "Только члены партий",
+   "Граждане старше 25 лет"
+  ]
+ },
+ {
+  "id": "q-elections-006",
+  "chapter": "elections",
+  "blockId": "elections-02",
+  "question": "Which three conditions make you eligible to vote in a federal election?",
+  "options": [
+   "Be a permanent resident, be 21, own property",
+   "Be a citizen, be 16, pay taxes",
+   "Be a Canadian citizen, be at least 18 years old on voting day, and be on the voters’ list",
+   "Be born in Canada and be 18"
+  ],
+  "answer": 2,
+  "explanation": "Гражданство, 18 лет на день голосования, наличие в списке избирателей.",
+  "questionRu": "Какие три условия дают право голосовать на федеральных выборах?",
+  "optionsRu": [
+   "Постоянный житель, 21 год, собственность",
+   "Гражданин, 16 лет, налоги",
+   "Гражданин Канады, не менее 18 лет в день голосования, внесён в список избирателей",
+   "Родился в Канаде и 18 лет"
+  ]
+ },
+ {
+  "id": "q-elections-007",
+  "chapter": "elections",
+  "blockId": "elections-02",
+  "question": "What is Elections Canada?",
+  "options": [
+   "A neutral agency of Parliament that produces the voters’ lists",
+   "A political party",
+   "A TV channel",
+   "A department of the Prime Minister’s Office"
+  ],
+  "answer": 0,
+  "explanation": "Elections Canada — нейтральный орган Парламента, ведёт Национальный реестр избирателей.",
+  "questionRu": "Что такое Elections Canada?",
+  "optionsRu": [
+   "Нейтральный орган Парламента, составляющий списки избирателей",
+   "Политическая партия",
+   "Телеканал",
+   "Отдел канцелярии премьер-министра"
+  ]
+ },
+ {
+  "id": "q-elections-008",
+  "chapter": "elections",
+  "blockId": "elections-02",
+  "question": "If you do not receive a voter information card, can you still vote?",
+  "options": [
+   "No, never",
+   "Only by mail",
+   "Only if you vote in advance",
+   "Yes, you can be added to the voters’ list at any time, including on election day"
+  ],
+  "answer": 3,
+  "explanation": "В список избирателей можно попасть в любой момент, даже в день выборов.",
+  "questionRu": "Можно ли проголосовать, если вы не получили информационную карточку избирателя?",
+  "optionsRu": [
+   "Нет, никогда",
+   "Только по почте",
+   "Только досрочно",
+   "Да, вас могут внести в список в любое время, включая день выборов"
+  ]
+ },
+ {
+  "id": "q-elections-009",
+  "chapter": "elections",
+  "blockId": "elections-03",
+  "question": "What does the right to a secret ballot mean?",
+  "options": [
+   "You must tell your employer how you voted",
+   "No one can watch you vote and no one should look at how you voted",
+   "Votes are counted in secret by the government",
+   "Only the Prime Minister knows the results"
+  ],
+  "answer": 1,
+  "explanation": "Тайна голосования: никто, даже семья или работодатель, не вправе требовать раскрыть ваш выбор.",
+  "questionRu": "Что означает право на тайное голосование?",
+  "optionsRu": [
+   "Нужно сообщить работодателю, за кого голосовали",
+   "Никто не может наблюдать, как вы голосуете, и смотреть, как вы проголосовали",
+   "Голоса тайно считает правительство",
+   "Результаты знает только премьер-министр"
+  ]
+ },
+ {
+  "id": "q-elections-010",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "After an election, who is usually invited to form the government?",
+  "options": [
+   "The leader of the political party with the most seats in the House of Commons",
+   "The leader with the most votes in Ontario",
+   "The oldest MP",
+   "The Governor General"
+  ],
+  "answer": 0,
+  "explanation": "Генерал-губернатор приглашает лидера партии с наибольшим числом мест; он становится премьер-министром.",
+  "questionRu": "Кому после выборов обычно предлагают сформировать правительство?",
+  "optionsRu": [
+   "Лидеру партии с наибольшим числом мест в Палате общин",
+   "Лидеру, набравшему больше голосов в Онтарио",
+   "Самому старшему депутату",
+   "Генерал-губернатору"
+  ]
+ },
+ {
+  "id": "q-elections-011",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "What is a minority government?",
+  "options": [
+   "A government formed by minority groups",
+   "A government in one province",
+   "When the party in power holds less than half of the seats in the House of Commons",
+   "A government without a Prime Minister"
+  ],
+  "answer": 2,
+  "explanation": "Менее половины мест — меньшинство; не менее половины — большинство.",
+  "questionRu": "Что такое правительство меньшинства?",
+  "optionsRu": [
+   "Правительство из национальных меньшинств",
+   "Правительство одной провинции",
+   "Когда правящая партия имеет менее половины мест в Палате общин",
+   "Правительство без премьер-министра"
+  ]
+ },
+ {
+  "id": "q-elections-012",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "What is the Official Opposition?",
+  "options": [
+   "The Senate",
+   "All MPs who are not ministers",
+   "The party that won the most seats",
+   "The opposition party with the most members of the House of Commons"
+  ],
+  "answer": 3,
+  "explanation": "Официальная (Верная Её Величеству) оппозиция — крупнейшая оппозиционная партия.",
+  "questionRu": "Что такое Официальная оппозиция?",
+  "optionsRu": [
+   "Сенат",
+   "Все депутаты, не являющиеся министрами",
+   "Партия, получившая больше мест",
+   "Оппозиционная партия с наибольшим числом депутатов в Палате общин"
+  ]
+ },
+ {
+  "id": "q-elections-013",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "What is the role of opposition parties?",
+  "options": [
+   "To run the government departments",
+   "To peacefully oppose or try to improve government proposals",
+   "To appoint judges",
+   "To approve the budget without debate"
+  ],
+  "answer": 1,
+  "explanation": "Оппозиция мирно противостоит предложениям правительства или улучшает их.",
+  "questionRu": "Какова роль оппозиционных партий?",
+  "optionsRu": [
+   "Руководить министерствами",
+   "Мирно противостоять предложениям правительства или улучшать их",
+   "Назначать судей",
+   "Утверждать бюджет без обсуждения"
+  ]
+ },
+ {
+  "id": "q-elections-014",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "Which three major political parties are currently represented in the House of Commons, according to the guide?",
+  "options": [
+   "The Conservative Party, the New Democratic Party and the Liberal Party",
+   "The Labour Party, the Green Party and the Liberal Party",
+   "The Republican Party, the Democratic Party and the Liberal Party",
+   "The Bloc, the Reform Party and the Conservative Party"
+  ],
+  "answer": 0,
+  "explanation": "Консервативная, Новая демократическая и Либеральная партии.",
+  "questionRu": "Какие три основные партии представлены в Палате общин по данным пособия?",
+  "optionsRu": [
+   "Консервативная, Новая демократическая и Либеральная",
+   "Лейбористская, Зелёная и Либеральная",
+   "Республиканская, Демократическая и Либеральная",
+   "Блок, Реформистская и Консервативная"
+  ]
+ },
+ {
+  "id": "q-elections-015",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "Who prepares the budget and proposes most new laws?",
+  "options": [
+   "The Senate",
+   "The Governor General",
+   "The Cabinet (the Prime Minister and Cabinet ministers)",
+   "The Supreme Court"
+  ],
+  "answer": 2,
+  "explanation": "Бюджет и большинство законопроектов готовит Кабинет.",
+  "questionRu": "Кто готовит бюджет и предлагает большинство новых законов?",
+  "optionsRu": [
+   "Сенат",
+   "Генерал-губернатор",
+   "Кабинет (премьер-министр и министры)",
+   "Верховный суд"
+  ]
+ },
+ {
+  "id": "q-elections-016",
+  "chapter": "elections",
+  "blockId": "elections-05",
+  "question": "How do you mark your ballot?",
+  "options": [
+   "Write the party name",
+   "Sign your name next to the candidate",
+   "Circle the candidate’s photo",
+   "Mark an “X” in the circle next to the name of the candidate of your choice"
+  ],
+  "answer": 3,
+  "explanation": "Ставится «X» в кружке рядом с именем кандидата.",
+  "questionRu": "Как заполнить бюллетень?",
+  "optionsRu": [
+   "Написать название партии",
+   "Расписаться рядом с кандидатом",
+   "Обвести фото кандидата",
+   "Поставить «X» в кружке рядом с именем выбранного кандидата"
+  ]
+ },
+ {
+  "id": "q-elections-017",
+  "chapter": "elections",
+  "blockId": "elections-05",
+  "question": "If you cannot vote on election day, what can you do?",
+  "options": [
+   "Ask a friend to vote for you",
+   "Vote at the advance polls or by special ballot",
+   "Vote by phone",
+   "You cannot vote at all"
+  ],
+  "answer": 1,
+  "explanation": "Можно голосовать досрочно или специальным бюллетенем.",
+  "questionRu": "Что делать, если вы не можете проголосовать в день выборов?",
+  "optionsRu": [
+   "Попросить друга проголосовать за вас",
+   "Проголосовать досрочно или специальным бюллетенем",
+   "Проголосовать по телефону",
+   "Голосовать нельзя"
+  ]
+ },
+ {
+  "id": "q-elections-018",
+  "chapter": "elections",
+  "blockId": "elections-05",
+  "question": "What should you bring to the polling station on election day?",
+  "options": [
+   "Your voter information card and proof of your identity and address",
+   "Your passport only",
+   "Your tax return",
+   "Nothing"
+  ],
+  "answer": 0,
+  "explanation": "Карточку избирателя и документы, подтверждающие личность и адрес.",
+  "questionRu": "Что взять с собой на избирательный участок в день выборов?",
+  "optionsRu": [
+   "Информационную карточку избирателя и документы, удостоверяющие личность и адрес",
+   "Только паспорт",
+   "Налоговую декларацию",
+   "Ничего"
+  ]
+ },
+ {
+  "id": "q-elections-019",
+  "chapter": "elections",
+  "blockId": "elections-06",
+  "question": "What are laws passed by a municipal council called?",
+  "options": [
+   "Acts",
+   "Bills",
+   "By-laws",
+   "Regulations of the Crown"
+  ],
+  "answer": 2,
+  "explanation": "Местные законы называются by-laws.",
+  "questionRu": "Как называются законы, принимаемые муниципальным советом?",
+  "optionsRu": [
+   "Акты",
+   "Законопроекты",
+   "Подзаконные акты (by-laws)",
+   "Королевские постановления"
+  ]
+ },
+ {
+  "id": "q-elections-020",
+  "chapter": "elections",
+  "blockId": "elections-06",
+  "question": "Who leads a municipal council?",
+  "options": [
+   "A Premier",
+   "A mayor (or a reeve)",
+   "A Lieutenant Governor",
+   "An MP"
+  ],
+  "answer": 1,
+  "explanation": "Мэр (или рив) и советники.",
+  "questionRu": "Кто возглавляет муниципальный совет?",
+  "optionsRu": [
+   "Премьер",
+   "Мэр (или рив)",
+   "Вице-губернатор",
+   "Депутат"
+  ]
+ },
+ {
+  "id": "q-elections-021",
+  "chapter": "elections",
+  "blockId": "elections-06",
+  "question": "Which of these is normally a municipal responsibility?",
+  "options": [
+   "National defence",
+   "Foreign policy",
+   "Citizenship",
+   "Snow removal"
+  ],
+  "answer": 3,
+  "explanation": "Муниципалитеты: планирование, дороги, санитария, уборка снега, пожарная охрана, транспорт и т. п.",
+  "questionRu": "Что обычно входит в полномочия муниципалитета?",
+  "optionsRu": [
+   "Национальная оборона",
+   "Внешняя политика",
+   "Гражданство",
+   "Уборка снега"
+  ]
+ },
+ {
+  "id": "q-elections-022",
+  "chapter": "elections",
+  "blockId": "elections-06",
+  "question": "Who has major responsibilities on First Nations reserves, including housing and schools?",
+  "options": [
+   "Band chiefs and councillors",
+   "The RCMP",
+   "The Lieutenant Governor",
+   "Provincial MPPs"
+  ],
+  "answer": 0,
+  "explanation": "Вожди общин (band chiefs) и советники.",
+  "questionRu": "Кто отвечает за жильё, школы и услуги в резервациях Первых наций?",
+  "optionsRu": [
+   "Вожди общин и советники",
+   "КККП",
+   "Вице-губернатор",
+   "Провинциальные депутаты"
+  ]
+ },
+ {
+  "id": "q-elections-023",
+  "chapter": "elections",
+  "blockId": "elections-07",
+  "question": "In which provinces is policing a provincial responsibility (provincial police forces)?",
+  "options": [
+   "British Columbia and Alberta",
+   "All provinces",
+   "Ontario and Quebec",
+   "Nova Scotia and New Brunswick"
+  ],
+  "answer": 2,
+  "explanation": "Провинциальная полиция — только в Онтарио и Квебеке.",
+  "questionRu": "В каких провинциях есть провинциальная полиция?",
+  "optionsRu": [
+   "Британская Колумбия и Альберта",
+   "Во всех провинциях",
+   "Онтарио и Квебек",
+   "Новая Шотландия и Нью-Брансуик"
+  ]
+ },
+ {
+  "id": "q-justice-001",
+  "chapter": "justice",
+  "blockId": "justice-01",
+  "question": "What does the presumption of innocence mean?",
+  "options": [
+   "Police can arrest anyone without reason",
+   "Everyone is innocent until proven guilty",
+   "Judges decide guilt in secret",
+   "Only citizens are protected by the law"
+  ],
+  "answer": 1,
+  "explanation": "Каждый считается невиновным, пока вина не доказана.",
+  "questionRu": "Что означает презумпция невиновности?",
+  "optionsRu": [
+   "Полиция может задержать любого без причины",
+   "Каждый невиновен, пока его вина не доказана",
+   "Судьи решают о виновности тайно",
+   "Закон защищает только граждан"
+  ]
+ },
+ {
+  "id": "q-justice-002",
+  "chapter": "justice",
+  "blockId": "justice-01",
+  "question": "What is due process?",
+  "options": [
+   "A way to pay fines",
+   "The process for becoming a judge",
+   "The principle that the government must respect all the legal rights a person is entitled to under the law",
+   "A tax payment schedule"
+  ],
+  "answer": 2,
+  "explanation": "Государство должно соблюдать все законные права человека.",
+  "questionRu": "Что такое надлежащая правовая процедура (due process)?",
+  "optionsRu": [
+   "Способ оплаты штрафов",
+   "Порядок назначения судей",
+   "Принцип: государство обязано соблюдать все законные права человека",
+   "График уплаты налогов"
+  ]
+ },
+ {
+  "id": "q-justice-003",
+  "chapter": "justice",
+  "blockId": "justice-01",
+  "question": "To whom does the law in Canada apply?",
+  "options": [
+   "Only to citizens",
+   "To everyone except politicians",
+   "To everyone except the police",
+   "To everyone, including judges, politicians and the police"
+  ],
+  "answer": 3,
+  "explanation": "Закон один для всех — и для судей, политиков, полиции.",
+  "questionRu": "На кого распространяется закон в Канаде?",
+  "optionsRu": [
+   "Только на граждан",
+   "На всех, кроме политиков",
+   "На всех, кроме полиции",
+   "На всех, включая судей, политиков и полицию"
+  ]
+ },
+ {
+  "id": "q-justice-004",
+  "chapter": "justice",
+  "blockId": "justice-01",
+  "question": "In Canada, who settles disputes and who enforces the laws?",
+  "options": [
+   "The courts settle disputes and the police enforce the laws",
+   "The police settle disputes and the courts enforce the laws",
+   "Parliament settles disputes",
+   "The army enforces the laws"
+  ],
+  "answer": 0,
+  "explanation": "Законы принимают избранные представители, споры решают суды, законы обеспечивает полиция.",
+  "questionRu": "Кто в Канаде разрешает споры, а кто обеспечивает соблюдение законов?",
+  "optionsRu": [
+   "Суды разрешают споры, полиция обеспечивает соблюдение законов",
+   "Полиция разрешает споры, суды обеспечивают законы",
+   "Парламент разрешает споры",
+   "Армия обеспечивает законы"
+  ]
+ },
+ {
+  "id": "q-justice-005",
+  "chapter": "justice",
+  "blockId": "justice-02",
+  "question": "What is the highest court in Canada?",
+  "options": [
+   "The Federal Court of Canada",
+   "The Supreme Court of Canada",
+   "The Court of Queen’s Bench",
+   "The Court of Appeal of Ontario"
+  ],
+  "answer": 1,
+  "explanation": "Верховный суд Канады.",
+  "questionRu": "Какой суд — высший в Канаде?",
+  "optionsRu": [
+   "Федеральный суд Канады",
+   "Верховный суд Канады",
+   "Суд королевской скамьи",
+   "Апелляционный суд Онтарио"
+  ]
+ },
+ {
+  "id": "q-justice-006",
+  "chapter": "justice",
+  "blockId": "justice-02",
+  "question": "Which court deals with matters concerning the federal government?",
+  "options": [
+   "Small claims court",
+   "Family court",
+   "The Federal Court of Canada",
+   "Traffic court"
+  ],
+  "answer": 2,
+  "explanation": "Федеральный суд Канады.",
+  "questionRu": "Какой суд рассматривает дела, касающиеся федерального правительства?",
+  "optionsRu": [
+   "Суд мелких тяжб",
+   "Семейный суд",
+   "Федеральный суд Канады",
+   "Суд по дорожным нарушениям"
+  ]
+ },
+ {
+  "id": "q-justice-007",
+  "chapter": "justice",
+  "blockId": "justice-02",
+  "question": "What are small claims courts for?",
+  "options": [
+   "Civil cases involving small sums of money",
+   "Murder cases",
+   "Cases about citizenship",
+   "Appeals from the Supreme Court"
+  ],
+  "answer": 0,
+  "explanation": "Суды мелких тяжб — гражданские дела на небольшие суммы.",
+  "questionRu": "Для чего суды мелких тяжб?",
+  "optionsRu": [
+   "Для гражданских дел о небольших суммах денег",
+   "Для дел об убийствах",
+   "Для дел о гражданстве",
+   "Для обжалования решений Верховного суда"
+  ]
+ },
+ {
+  "id": "q-justice-008",
+  "chapter": "justice",
+  "blockId": "justice-03",
+  "question": "Which police enforce federal laws throughout Canada?",
+  "options": [
+   "Municipal police",
+   "The Ontario Provincial Police",
+   "The Canadian Forces",
+   "The Royal Canadian Mounted Police (RCMP)"
+  ],
+  "answer": 3,
+  "explanation": "КККП — федеральные законы по всей стране и провинциальная полиция везде, кроме Онтарио и Квебека.",
+  "questionRu": "Какая полиция обеспечивает соблюдение федеральных законов по всей Канаде?",
+  "optionsRu": [
+   "Муниципальная полиция",
+   "Провинциальная полиция Онтарио",
+   "Вооружённые силы",
+   "Королевская канадская конная полиция (КККП)"
+  ]
+ },
+ {
+  "id": "q-justice-009",
+  "chapter": "justice",
+  "blockId": "justice-03",
+  "question": "Which provinces have their own provincial police forces (so the RCMP does not serve as provincial police there)?",
+  "options": [
+   "Alberta and Manitoba",
+   "Ontario and Quebec",
+   "British Columbia and Yukon",
+   "Nova Scotia and PEI"
+  ],
+  "answer": 1,
+  "explanation": "Онтарио и Квебек.",
+  "questionRu": "В каких провинциях своя провинциальная полиция (и КККП там не выполняет эту роль)?",
+  "optionsRu": [
+   "Альберта и Манитоба",
+   "Онтарио и Квебек",
+   "Британская Колумбия и Юкон",
+   "Новая Шотландия и ОПЭ"
+  ]
+ },
+ {
+  "id": "q-justice-010",
+  "chapter": "justice",
+  "blockId": "justice-03",
+  "question": "Can you question the police about their service or conduct?",
+  "options": [
+   "No, it is forbidden",
+   "Only through a lawyer",
+   "Yes, almost all police forces have a process to bring your concerns and seek action",
+   "Only if you are a citizen"
+  ],
+  "answer": 2,
+  "explanation": "Да, почти во всех полицейских службах есть процедура для жалоб.",
+  "questionRu": "Можно ли задать полиции вопросы о её работе или поведении?",
+  "optionsRu": [
+   "Нет, запрещено",
+   "Только через адвоката",
+   "Да, почти везде есть процедура подачи претензий",
+   "Только гражданам"
+  ]
+ },
+ {
+  "id": "q-justice-011",
+  "chapter": "justice",
+  "blockId": "justice-04",
+  "question": "If you cannot pay for a lawyer, what can you do?",
+  "options": [
+   "Use legal aid services, available free of charge or at a low cost in most communities",
+   "Represent yourself only",
+   "Ask the police to defend you",
+   "You cannot go to court"
+  ],
+  "answer": 0,
+  "explanation": "Есть службы юридической помощи (legal aid) — бесплатно или за небольшую плату.",
+  "questionRu": "Что делать, если вы не можете оплатить адвоката?",
+  "optionsRu": [
+   "Обратиться в службу юридической помощи — бесплатно или недорого",
+   "Только защищать себя самому",
+   "Попросить полицию защищать вас",
+   "В суд обратиться нельзя"
+  ]
+ },
+ {
+  "id": "q-justice-012",
+  "chapter": "justice",
+  "blockId": "justice-01",
+  "question": "What does the blindfolded Lady Justice symbolize?",
+  "options": [
+   "That courts are closed to the public",
+   "The impartial manner in which laws are administered: blind to all considerations but the facts",
+   "That judges cannot read",
+   "The British monarchy"
+  ],
+  "answer": 1,
+  "explanation": "Беспристрастность: правосудие учитывает только факты.",
+  "questionRu": "Что символизирует Фемида с повязкой на глазах?",
+  "optionsRu": [
+   "Что суды закрыты для публики",
+   "Беспристрастность применения законов — слепа ко всему, кроме фактов",
+   "Что судьи не умеют читать",
+   "Британскую монархию"
+  ]
  }
 ]

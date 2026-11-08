@@ -1,0 +1,95 @@
+@q 1 justice-01 1
+What does the presumption of innocence mean?
+| Police can arrest anyone without reason | Everyone is innocent until proven guilty | Judges decide guilt in secret | Only citizens are protected by the law
+= Our judicial system is founded on the presumption of innocence in criminal matters, meaning everyone is innocent until proven guilty.
+? Что означает презумпция невиновности?
+| Полиция может задержать любого без причины | Каждый невиновен, пока его вина не доказана | Судьи решают о виновности тайно | Закон защищает только граждан
+= Каждый считается невиновным, пока вина не доказана.
+
+@q 2 justice-01 2
+What is due process?
+| A way to pay fines | The process for becoming a judge | The principle that the government must respect all the legal rights a person is entitled to under the law | A tax payment schedule
+= Due process is the principle that the government must respect all the legal rights a person is entitled to under the law.
+? Что такое надлежащая правовая процедура (due process)?
+| Способ оплаты штрафов | Порядок назначения судей | Принцип: государство обязано соблюдать все законные права человека | График уплаты налогов
+= Государство должно соблюдать все законные права человека.
+
+@q 3 justice-01 3
+To whom does the law in Canada apply?
+| Only to citizens | To everyone except politicians | To everyone except the police | To everyone, including judges, politicians and the police
+= The law in Canada applies to everyone, including judges, politicians and the police.
+? На кого распространяется закон в Канаде?
+| Только на граждан | На всех, кроме политиков | На всех, кроме полиции | На всех, включая судей, политиков и полицию
+= Закон один для всех — и для судей, политиков, полиции.
+
+@q 4 justice-01 0
+In Canada, who settles disputes and who enforces the laws?
+| The courts settle disputes and the police enforce the laws | The police settle disputes and the courts enforce the laws | Parliament settles disputes | The army enforces the laws
+= Laws are made by elected representatives. The courts settle disputes and the police enforce the laws.
+? Кто в Канаде разрешает споры, а кто обеспечивает соблюдение законов?
+| Суды разрешают споры, полиция обеспечивает соблюдение законов | Полиция разрешает споры, суды обеспечивают законы | Парламент разрешает споры | Армия обеспечивает законы
+= Законы принимают избранные представители, споры решают суды, законы обеспечивает полиция.
+
+@q 5 justice-02 1
+What is the highest court in Canada?
+| The Federal Court of Canada | The Supreme Court of Canada | The Court of Queen’s Bench | The Court of Appeal of Ontario
+= The Supreme Court of Canada is our country’s highest court.
+? Какой суд — высший в Канаде?
+| Федеральный суд Канады | Верховный суд Канады | Суд королевской скамьи | Апелляционный суд Онтарио
+= Верховный суд Канады.
+
+@q 6 justice-02 2
+Which court deals with matters concerning the federal government?
+| Small claims court | Family court | The Federal Court of Canada | Traffic court
+= The Federal Court of Canada deals with matters concerning the federal government.
+? Какой суд рассматривает дела, касающиеся федерального правительства?
+| Суд мелких тяжб | Семейный суд | Федеральный суд Канады | Суд по дорожным нарушениям
+= Федеральный суд Канады.
+
+@q 7 justice-02 0
+What are small claims courts for?
+| Civil cases involving small sums of money | Murder cases | Cases about citizenship | Appeals from the Supreme Court
+= There are small claims courts for civil cases involving small sums of money.
+? Для чего суды мелких тяжб?
+| Для гражданских дел о небольших суммах денег | Для дел об убийствах | Для дел о гражданстве | Для обжалования решений Верховного суда
+= Суды мелких тяжб — гражданские дела на небольшие суммы.
+
+@q 8 justice-03 3
+Which police enforce federal laws throughout Canada?
+| Municipal police | The Ontario Provincial Police | The Canadian Forces | The Royal Canadian Mounted Police (RCMP)
+= The RCMP enforce federal laws throughout Canada, and serve as the provincial police in all provinces and territories except Ontario and Quebec.
+? Какая полиция обеспечивает соблюдение федеральных законов по всей Канаде?
+| Муниципальная полиция | Провинциальная полиция Онтарио | Вооружённые силы | Королевская канадская конная полиция (КККП)
+= КККП — федеральные законы по всей стране и провинциальная полиция везде, кроме Онтарио и Квебека.
+
+@q 9 justice-03 1
+Which provinces have their own provincial police forces (so the RCMP does not serve as provincial police there)?
+| Alberta and Manitoba | Ontario and Quebec | British Columbia and Yukon | Nova Scotia and PEI
+= There are provincial police forces in Ontario and Quebec. The RCMP serve as provincial police in all other provinces and territories.
+? В каких провинциях своя провинциальная полиция (и КККП там не выполняет эту роль)?
+| Альберта и Манитоба | Онтарио и Квебек | Британская Колумбия и Юкон | Новая Шотландия и ОПЭ
+= Онтарио и Квебек.
+
+@q 10 justice-03 2
+Can you question the police about their service or conduct?
+| No, it is forbidden | Only through a lawyer | Yes, almost all police forces have a process to bring your concerns and seek action | Only if you are a citizen
+= You can also question the police about their service or conduct if you feel you need to. Almost all police forces have a process for this.
+? Можно ли задать полиции вопросы о её работе или поведении?
+| Нет, запрещено | Только через адвоката | Да, почти везде есть процедура подачи претензий | Только гражданам
+= Да, почти во всех полицейских службах есть процедура для жалоб.
+
+@q 11 justice-04 0
+If you cannot pay for a lawyer, what can you do?
+| Use legal aid services, available free of charge or at a low cost in most communities | Represent yourself only | Ask the police to defend you | You cannot go to court
+= If you cannot pay for a lawyer, in most communities there are legal aid services available free of charge or at a low cost.
+? Что делать, если вы не можете оплатить адвоката?
+| Обратиться в службу юридической помощи — бесплатно или недорого | Только защищать себя самому | Попросить полицию защищать вас | В суд обратиться нельзя
+= Есть службы юридической помощи (legal aid) — бесплатно или за небольшую плату.
+
+@q 12 justice-01 1
+What does the blindfolded Lady Justice symbolize?
+| That courts are closed to the public | The impartial manner in which laws are administered: blind to all considerations but the facts | That judges cannot read | The British monarchy
+= The blindfolded Lady Justice symbolizes the impartial manner in which our laws are administered: blind to all considerations but the facts.
+? Что символизирует Фемида с повязкой на глазах?
+| Что суды закрыты для публики | Беспристрастность применения законов — слепа ко всему, кроме фактов | Что судьи не умеют читать | Британскую монархию
+= Беспристрастность: правосудие учитывает только факты.

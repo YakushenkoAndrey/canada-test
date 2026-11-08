@@ -1,0 +1,183 @@
+@q 1 elections-01 2
+When must federal elections be held under legislation passed by Parliament?
+| Every year on July 1 | Every five years in May | On the third Monday in October every four years following the most recent general election | Whenever the Senate decides
+= Federal elections must be held on the third Monday in October every four years following the most recent general election. The Prime Minister may ask the Governor General to call an earlier election.
+? Когда, по закону, должны проводиться федеральные выборы?
+| Каждый год 1 июля | Раз в пять лет в мае | В третий понедельник октября каждые четыре года после последних всеобщих выборов | Когда решит Сенат
+= Третий понедельник октября, каждые четыре года; премьер-министр может попросить о досрочных выборах.
+
+@q 2 elections-01 1
+How many electoral districts is Canada divided into, according to the guide?
+| 105 | 308 | 338 | 400
+= Canada is divided into 308 electoral districts, also known as ridings or constituencies.
+? На сколько избирательных округов разделена Канада по данным пособия?
+| 105 | 308 | 338 | 400
+= В пособии указано 308 избирательных округов (ridings, constituencies).
+
+@q 3 elections-01 0
+What is an electoral district?
+| A geographical area represented by a member of Parliament (MP) | A province | A city council | A polling station
+= An electoral district is a geographical area represented by a member of Parliament (MP). Citizens in each district elect one MP.
+? Что такое избирательный округ?
+| Территория, которую представляет член Парламента (депутат) | Провинция | Городской совет | Избирательный участок
+= Избирательный округ — территория, от которой избирается один депутат.
+
+@q 4 elections-01 3
+Who becomes the MP for an electoral district?
+| The candidate chosen by the Prime Minister | The oldest candidate | The candidate with more than 50% of the votes only | The candidate who receives the most votes
+= The candidate who receives the most votes becomes the MP for that electoral district.
+? Кто становится депутатом от избирательного округа?
+| Кандидат, выбранный премьер-министром | Самый старший кандидат | Только кандидат, набравший более 50% | Кандидат, получивший больше всего голосов
+= Побеждает кандидат с наибольшим числом голосов.
+
+@q 5 elections-01 1
+Who may run in a federal election?
+| Any resident of Canada | Canadian citizens who are 18 years old or older | Only members of a political party | Citizens over 25
+= Canadian citizens who are 18 years old or older may run in a federal election. The people who run for office are called candidates.
+? Кто может баллотироваться на федеральных выборах?
+| Любой житель Канады | Граждане Канады 18 лет и старше | Только члены партий | Граждане старше 25 лет
+= Баллотироваться могут граждане Канады 18 лет и старше.
+
+@q 6 elections-02 2
+Which three conditions make you eligible to vote in a federal election?
+| Be a permanent resident, be 21, own property | Be a citizen, be 16, pay taxes | Be a Canadian citizen, be at least 18 years old on voting day, and be on the voters’ list | Be born in Canada and be 18
+= You are eligible to vote if you are a Canadian citizen, at least 18 years old on voting day, and on the voters’ list.
+? Какие три условия дают право голосовать на федеральных выборах?
+| Постоянный житель, 21 год, собственность | Гражданин, 16 лет, налоги | Гражданин Канады, не менее 18 лет в день голосования, внесён в список избирателей | Родился в Канаде и 18 лет
+= Гражданство, 18 лет на день голосования, наличие в списке избирателей.
+
+@q 7 elections-02 0
+What is Elections Canada?
+| A neutral agency of Parliament that produces the voters’ lists | A political party | A TV channel | A department of the Prime Minister’s Office
+= The voters’ lists are produced from the National Register of Electors by a neutral agency of Parliament called Elections Canada.
+? Что такое Elections Canada?
+| Нейтральный орган Парламента, составляющий списки избирателей | Политическая партия | Телеканал | Отдел канцелярии премьер-министра
+= Elections Canada — нейтральный орган Парламента, ведёт Национальный реестр избирателей.
+
+@q 8 elections-02 3
+If you do not receive a voter information card, can you still vote?
+| No, never | Only by mail | Only if you vote in advance | Yes, you can be added to the voters’ list at any time, including on election day
+= Even if you are not in the National Register of Electors or do not receive a card, you can still be added to the voters’ list at any time, including on election day.
+? Можно ли проголосовать, если вы не получили информационную карточку избирателя?
+| Нет, никогда | Только по почте | Только досрочно | Да, вас могут внести в список в любое время, включая день выборов
+= В список избирателей можно попасть в любой момент, даже в день выборов.
+
+@q 9 elections-03 1
+What does the right to a secret ballot mean?
+| You must tell your employer how you voted | No one can watch you vote and no one should look at how you voted | Votes are counted in secret by the government | Only the Prime Minister knows the results
+= Canadian law secures the right to a secret ballot: no one can watch you vote and no one should look at how you voted. No one, including family, employer or union representative, can insist you tell them.
+? Что означает право на тайное голосование?
+| Нужно сообщить работодателю, за кого голосовали | Никто не может наблюдать, как вы голосуете, и смотреть, как вы проголосовали | Голоса тайно считает правительство | Результаты знает только премьер-министр
+= Тайна голосования: никто, даже семья или работодатель, не вправе требовать раскрыть ваш выбор.
+
+@q 10 elections-04 0
+After an election, who is usually invited to form the government?
+| The leader of the political party with the most seats in the House of Commons | The leader with the most votes in Ontario | The oldest MP | The Governor General
+= Ordinarily, the leader of the political party with the most seats in the House of Commons is invited by the Governor General to form the government and becomes Prime Minister.
+? Кому после выборов обычно предлагают сформировать правительство?
+| Лидеру партии с наибольшим числом мест в Палате общин | Лидеру, набравшему больше голосов в Онтарио | Самому старшему депутату | Генерал-губернатору
+= Генерал-губернатор приглашает лидера партии с наибольшим числом мест; он становится премьер-министром.
+
+@q 11 elections-04 2
+What is a minority government?
+| A government formed by minority groups | A government in one province | When the party in power holds less than half of the seats in the House of Commons | A government without a Prime Minister
+= If the party in power holds less than half of the seats in the House of Commons, this is called a minority government. At least half is a majority government.
+? Что такое правительство меньшинства?
+| Правительство из национальных меньшинств | Правительство одной провинции | Когда правящая партия имеет менее половины мест в Палате общин | Правительство без премьер-министра
+= Менее половины мест — меньшинство; не менее половины — большинство.
+
+@q 12 elections-04 3
+What is the Official Opposition?
+| The Senate | All MPs who are not ministers | The party that won the most seats | The opposition party with the most members of the House of Commons
+= The opposition party with the most members of the House of Commons is the Official Opposition or Her Majesty’s Loyal Opposition.
+? Что такое Официальная оппозиция?
+| Сенат | Все депутаты, не являющиеся министрами | Партия, получившая больше мест | Оппозиционная партия с наибольшим числом депутатов в Палате общин
+= Официальная (Верная Её Величеству) оппозиция — крупнейшая оппозиционная партия.
+
+@q 13 elections-04 1
+What is the role of opposition parties?
+| To run the government departments | To peacefully oppose or try to improve government proposals | To appoint judges | To approve the budget without debate
+= The role of opposition parties is to peacefully oppose or try to improve government proposals.
+? Какова роль оппозиционных партий?
+| Руководить министерствами | Мирно противостоять предложениям правительства или улучшать их | Назначать судей | Утверждать бюджет без обсуждения
+= Оппозиция мирно противостоит предложениям правительства или улучшает их.
+
+@q 14 elections-04 0
+Which three major political parties are currently represented in the House of Commons, according to the guide?
+| The Conservative Party, the New Democratic Party and the Liberal Party | The Labour Party, the Green Party and the Liberal Party | The Republican Party, the Democratic Party and the Liberal Party | The Bloc, the Reform Party and the Conservative Party
+= The guide lists three major political parties: the Conservative Party, the New Democratic Party, and the Liberal Party.
+? Какие три основные партии представлены в Палате общин по данным пособия?
+| Консервативная, Новая демократическая и Либеральная | Лейбористская, Зелёная и Либеральная | Республиканская, Демократическая и Либеральная | Блок, Реформистская и Консервативная
+= Консервативная, Новая демократическая и Либеральная партии.
+
+@q 15 elections-04 2
+Who prepares the budget and proposes most new laws?
+| The Senate | The Governor General | The Cabinet (the Prime Minister and Cabinet ministers) | The Supreme Court
+= The Prime Minister and the Cabinet ministers are called the Cabinet; they prepare the budget and propose most new laws.
+? Кто готовит бюджет и предлагает большинство новых законов?
+| Сенат | Генерал-губернатор | Кабинет (премьер-министр и министры) | Верховный суд
+= Бюджет и большинство законопроектов готовит Кабинет.
+
+@q 16 elections-05 3
+How do you mark your ballot?
+| Write the party name | Sign your name next to the candidate | Circle the candidate’s photo | Mark an “X” in the circle next to the name of the candidate of your choice
+= Mark an “X” in the circle next to the name of the candidate of your choice.
+? Как заполнить бюллетень?
+| Написать название партии | Расписаться рядом с кандидатом | Обвести фото кандидата | Поставить «X» в кружке рядом с именем выбранного кандидата
+= Ставится «X» в кружке рядом с именем кандидата.
+
+@q 17 elections-05 1
+If you cannot vote on election day, what can you do?
+| Ask a friend to vote for you | Vote at the advance polls or by special ballot | Vote by phone | You cannot vote at all
+= If you cannot or do not wish to vote on election day, you can vote at the advance polls or by special ballot.
+? Что делать, если вы не можете проголосовать в день выборов?
+| Попросить друга проголосовать за вас | Проголосовать досрочно или специальным бюллетенем | Проголосовать по телефону | Голосовать нельзя
+= Можно голосовать досрочно или специальным бюллетенем.
+
+@q 18 elections-05 0
+What should you bring to the polling station on election day?
+| Your voter information card and proof of your identity and address | Your passport only | Your tax return | Nothing
+= Bring your voter information card and proof of your identity and address to the polling station.
+? Что взять с собой на избирательный участок в день выборов?
+| Информационную карточку избирателя и документы, удостоверяющие личность и адрес | Только паспорт | Налоговую декларацию | Ничего
+= Карточку избирателя и документы, подтверждающие личность и адрес.
+
+@q 19 elections-06 2
+What are laws passed by a municipal council called?
+| Acts | Bills | By-laws | Regulations of the Crown
+= Municipal governments usually have a council that passes laws called “by-laws” that affect only the local community.
+? Как называются законы, принимаемые муниципальным советом?
+| Акты | Законопроекты | Подзаконные акты (by-laws) | Королевские постановления
+= Местные законы называются by-laws.
+
+@q 20 elections-06 1
+Who leads a municipal council?
+| A Premier | A mayor (or a reeve) | A Lieutenant Governor | An MP
+= The municipal council usually includes a mayor (or a reeve) and councillors or aldermen.
+? Кто возглавляет муниципальный совет?
+| Премьер | Мэр (или рив) | Вице-губернатор | Депутат
+= Мэр (или рив) и советники.
+
+@q 21 elections-06 3
+Which of these is normally a municipal responsibility?
+| National defence | Foreign policy | Citizenship | Snow removal
+= Municipalities are normally responsible for urban planning, streets and roads, sanitation, snow removal, firefighting, emergency services, recreation facilities and public transit.
+? Что обычно входит в полномочия муниципалитета?
+| Национальная оборона | Внешняя политика | Гражданство | Уборка снега
+= Муниципалитеты: планирование, дороги, санитария, уборка снега, пожарная охрана, транспорт и т. п.
+
+@q 22 elections-06 0
+Who has major responsibilities on First Nations reserves, including housing and schools?
+| Band chiefs and councillors | The RCMP | The Lieutenant Governor | Provincial MPPs
+= The First Nations have band chiefs and councillors who have major responsibilities on First Nations reserves, including housing, schools and other services.
+? Кто отвечает за жильё, школы и услуги в резервациях Первых наций?
+| Вожди общин и советники | КККП | Вице-губернатор | Провинциальные депутаты
+= Вожди общин (band chiefs) и советники.
+
+@q 23 elections-07 2
+In which provinces is policing a provincial responsibility (provincial police forces)?
+| British Columbia and Alberta | All provinces | Ontario and Quebec | Nova Scotia and New Brunswick
+= Provincial responsibilities include policing in Ontario and Quebec; these two provinces have provincial police forces.
+? В каких провинциях есть провинциальная полиция?
+| Британская Колумбия и Альберта | Во всех провинциях | Онтарио и Квебек | Новая Шотландия и Нью-Брансуик
+= Провинциальная полиция — только в Онтарио и Квебеке.

@@ -2056,5 +2056,495 @@
   ],
   "answer": 1,
   "explanation": "It is important for Canadians aged 18 or more to participate in their democracy by voting in federal, provincial or territorial and municipal elections."
+ },
+ {
+  "id": "q-elections-001",
+  "chapter": "elections",
+  "blockId": "elections-01",
+  "question": "When must federal elections be held under legislation passed by Parliament?",
+  "options": [
+   "Every year on July 1",
+   "Every five years in May",
+   "On the third Monday in October every four years following the most recent general election",
+   "Whenever the Senate decides"
+  ],
+  "answer": 2,
+  "explanation": "Federal elections must be held on the third Monday in October every four years following the most recent general election. The Prime Minister may ask the Governor General to call an earlier election."
+ },
+ {
+  "id": "q-elections-002",
+  "chapter": "elections",
+  "blockId": "elections-01",
+  "question": "How many electoral districts is Canada divided into, according to the guide?",
+  "options": [
+   "105",
+   "308",
+   "338",
+   "400"
+  ],
+  "answer": 1,
+  "explanation": "Canada is divided into 308 electoral districts, also known as ridings or constituencies."
+ },
+ {
+  "id": "q-elections-003",
+  "chapter": "elections",
+  "blockId": "elections-01",
+  "question": "What is an electoral district?",
+  "options": [
+   "A geographical area represented by a member of Parliament (MP)",
+   "A province",
+   "A city council",
+   "A polling station"
+  ],
+  "answer": 0,
+  "explanation": "An electoral district is a geographical area represented by a member of Parliament (MP). Citizens in each district elect one MP."
+ },
+ {
+  "id": "q-elections-004",
+  "chapter": "elections",
+  "blockId": "elections-01",
+  "question": "Who becomes the MP for an electoral district?",
+  "options": [
+   "The candidate chosen by the Prime Minister",
+   "The oldest candidate",
+   "The candidate with more than 50% of the votes only",
+   "The candidate who receives the most votes"
+  ],
+  "answer": 3,
+  "explanation": "The candidate who receives the most votes becomes the MP for that electoral district."
+ },
+ {
+  "id": "q-elections-005",
+  "chapter": "elections",
+  "blockId": "elections-01",
+  "question": "Who may run in a federal election?",
+  "options": [
+   "Any resident of Canada",
+   "Canadian citizens who are 18 years old or older",
+   "Only members of a political party",
+   "Citizens over 25"
+  ],
+  "answer": 1,
+  "explanation": "Canadian citizens who are 18 years old or older may run in a federal election. The people who run for office are called candidates."
+ },
+ {
+  "id": "q-elections-006",
+  "chapter": "elections",
+  "blockId": "elections-02",
+  "question": "Which three conditions make you eligible to vote in a federal election?",
+  "options": [
+   "Be a permanent resident, be 21, own property",
+   "Be a citizen, be 16, pay taxes",
+   "Be a Canadian citizen, be at least 18 years old on voting day, and be on the voters’ list",
+   "Be born in Canada and be 18"
+  ],
+  "answer": 2,
+  "explanation": "You are eligible to vote if you are a Canadian citizen, at least 18 years old on voting day, and on the voters’ list."
+ },
+ {
+  "id": "q-elections-007",
+  "chapter": "elections",
+  "blockId": "elections-02",
+  "question": "What is Elections Canada?",
+  "options": [
+   "A neutral agency of Parliament that produces the voters’ lists",
+   "A political party",
+   "A TV channel",
+   "A department of the Prime Minister’s Office"
+  ],
+  "answer": 0,
+  "explanation": "The voters’ lists are produced from the National Register of Electors by a neutral agency of Parliament called Elections Canada."
+ },
+ {
+  "id": "q-elections-008",
+  "chapter": "elections",
+  "blockId": "elections-02",
+  "question": "If you do not receive a voter information card, can you still vote?",
+  "options": [
+   "No, never",
+   "Only by mail",
+   "Only if you vote in advance",
+   "Yes, you can be added to the voters’ list at any time, including on election day"
+  ],
+  "answer": 3,
+  "explanation": "Even if you are not in the National Register of Electors or do not receive a card, you can still be added to the voters’ list at any time, including on election day."
+ },
+ {
+  "id": "q-elections-009",
+  "chapter": "elections",
+  "blockId": "elections-03",
+  "question": "What does the right to a secret ballot mean?",
+  "options": [
+   "You must tell your employer how you voted",
+   "No one can watch you vote and no one should look at how you voted",
+   "Votes are counted in secret by the government",
+   "Only the Prime Minister knows the results"
+  ],
+  "answer": 1,
+  "explanation": "Canadian law secures the right to a secret ballot: no one can watch you vote and no one should look at how you voted. No one, including family, employer or union representative, can insist you tell them."
+ },
+ {
+  "id": "q-elections-010",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "After an election, who is usually invited to form the government?",
+  "options": [
+   "The leader of the political party with the most seats in the House of Commons",
+   "The leader with the most votes in Ontario",
+   "The oldest MP",
+   "The Governor General"
+  ],
+  "answer": 0,
+  "explanation": "Ordinarily, the leader of the political party with the most seats in the House of Commons is invited by the Governor General to form the government and becomes Prime Minister."
+ },
+ {
+  "id": "q-elections-011",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "What is a minority government?",
+  "options": [
+   "A government formed by minority groups",
+   "A government in one province",
+   "When the party in power holds less than half of the seats in the House of Commons",
+   "A government without a Prime Minister"
+  ],
+  "answer": 2,
+  "explanation": "If the party in power holds less than half of the seats in the House of Commons, this is called a minority government. At least half is a majority government."
+ },
+ {
+  "id": "q-elections-012",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "What is the Official Opposition?",
+  "options": [
+   "The Senate",
+   "All MPs who are not ministers",
+   "The party that won the most seats",
+   "The opposition party with the most members of the House of Commons"
+  ],
+  "answer": 3,
+  "explanation": "The opposition party with the most members of the House of Commons is the Official Opposition or Her Majesty’s Loyal Opposition."
+ },
+ {
+  "id": "q-elections-013",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "What is the role of opposition parties?",
+  "options": [
+   "To run the government departments",
+   "To peacefully oppose or try to improve government proposals",
+   "To appoint judges",
+   "To approve the budget without debate"
+  ],
+  "answer": 1,
+  "explanation": "The role of opposition parties is to peacefully oppose or try to improve government proposals."
+ },
+ {
+  "id": "q-elections-014",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "Which three major political parties are currently represented in the House of Commons, according to the guide?",
+  "options": [
+   "The Conservative Party, the New Democratic Party and the Liberal Party",
+   "The Labour Party, the Green Party and the Liberal Party",
+   "The Republican Party, the Democratic Party and the Liberal Party",
+   "The Bloc, the Reform Party and the Conservative Party"
+  ],
+  "answer": 0,
+  "explanation": "The guide lists three major political parties: the Conservative Party, the New Democratic Party, and the Liberal Party."
+ },
+ {
+  "id": "q-elections-015",
+  "chapter": "elections",
+  "blockId": "elections-04",
+  "question": "Who prepares the budget and proposes most new laws?",
+  "options": [
+   "The Senate",
+   "The Governor General",
+   "The Cabinet (the Prime Minister and Cabinet ministers)",
+   "The Supreme Court"
+  ],
+  "answer": 2,
+  "explanation": "The Prime Minister and the Cabinet ministers are called the Cabinet; they prepare the budget and propose most new laws."
+ },
+ {
+  "id": "q-elections-016",
+  "chapter": "elections",
+  "blockId": "elections-05",
+  "question": "How do you mark your ballot?",
+  "options": [
+   "Write the party name",
+   "Sign your name next to the candidate",
+   "Circle the candidate’s photo",
+   "Mark an “X” in the circle next to the name of the candidate of your choice"
+  ],
+  "answer": 3,
+  "explanation": "Mark an “X” in the circle next to the name of the candidate of your choice."
+ },
+ {
+  "id": "q-elections-017",
+  "chapter": "elections",
+  "blockId": "elections-05",
+  "question": "If you cannot vote on election day, what can you do?",
+  "options": [
+   "Ask a friend to vote for you",
+   "Vote at the advance polls or by special ballot",
+   "Vote by phone",
+   "You cannot vote at all"
+  ],
+  "answer": 1,
+  "explanation": "If you cannot or do not wish to vote on election day, you can vote at the advance polls or by special ballot."
+ },
+ {
+  "id": "q-elections-018",
+  "chapter": "elections",
+  "blockId": "elections-05",
+  "question": "What should you bring to the polling station on election day?",
+  "options": [
+   "Your voter information card and proof of your identity and address",
+   "Your passport only",
+   "Your tax return",
+   "Nothing"
+  ],
+  "answer": 0,
+  "explanation": "Bring your voter information card and proof of your identity and address to the polling station."
+ },
+ {
+  "id": "q-elections-019",
+  "chapter": "elections",
+  "blockId": "elections-06",
+  "question": "What are laws passed by a municipal council called?",
+  "options": [
+   "Acts",
+   "Bills",
+   "By-laws",
+   "Regulations of the Crown"
+  ],
+  "answer": 2,
+  "explanation": "Municipal governments usually have a council that passes laws called “by-laws” that affect only the local community."
+ },
+ {
+  "id": "q-elections-020",
+  "chapter": "elections",
+  "blockId": "elections-06",
+  "question": "Who leads a municipal council?",
+  "options": [
+   "A Premier",
+   "A mayor (or a reeve)",
+   "A Lieutenant Governor",
+   "An MP"
+  ],
+  "answer": 1,
+  "explanation": "The municipal council usually includes a mayor (or a reeve) and councillors or aldermen."
+ },
+ {
+  "id": "q-elections-021",
+  "chapter": "elections",
+  "blockId": "elections-06",
+  "question": "Which of these is normally a municipal responsibility?",
+  "options": [
+   "National defence",
+   "Foreign policy",
+   "Citizenship",
+   "Snow removal"
+  ],
+  "answer": 3,
+  "explanation": "Municipalities are normally responsible for urban planning, streets and roads, sanitation, snow removal, firefighting, emergency services, recreation facilities and public transit."
+ },
+ {
+  "id": "q-elections-022",
+  "chapter": "elections",
+  "blockId": "elections-06",
+  "question": "Who has major responsibilities on First Nations reserves, including housing and schools?",
+  "options": [
+   "Band chiefs and councillors",
+   "The RCMP",
+   "The Lieutenant Governor",
+   "Provincial MPPs"
+  ],
+  "answer": 0,
+  "explanation": "The First Nations have band chiefs and councillors who have major responsibilities on First Nations reserves, including housing, schools and other services."
+ },
+ {
+  "id": "q-elections-023",
+  "chapter": "elections",
+  "blockId": "elections-07",
+  "question": "In which provinces is policing a provincial responsibility (provincial police forces)?",
+  "options": [
+   "British Columbia and Alberta",
+   "All provinces",
+   "Ontario and Quebec",
+   "Nova Scotia and New Brunswick"
+  ],
+  "answer": 2,
+  "explanation": "Provincial responsibilities include policing in Ontario and Quebec; these two provinces have provincial police forces."
+ },
+ {
+  "id": "q-justice-001",
+  "chapter": "justice",
+  "blockId": "justice-01",
+  "question": "What does the presumption of innocence mean?",
+  "options": [
+   "Police can arrest anyone without reason",
+   "Everyone is innocent until proven guilty",
+   "Judges decide guilt in secret",
+   "Only citizens are protected by the law"
+  ],
+  "answer": 1,
+  "explanation": "Our judicial system is founded on the presumption of innocence in criminal matters, meaning everyone is innocent until proven guilty."
+ },
+ {
+  "id": "q-justice-002",
+  "chapter": "justice",
+  "blockId": "justice-01",
+  "question": "What is due process?",
+  "options": [
+   "A way to pay fines",
+   "The process for becoming a judge",
+   "The principle that the government must respect all the legal rights a person is entitled to under the law",
+   "A tax payment schedule"
+  ],
+  "answer": 2,
+  "explanation": "Due process is the principle that the government must respect all the legal rights a person is entitled to under the law."
+ },
+ {
+  "id": "q-justice-003",
+  "chapter": "justice",
+  "blockId": "justice-01",
+  "question": "To whom does the law in Canada apply?",
+  "options": [
+   "Only to citizens",
+   "To everyone except politicians",
+   "To everyone except the police",
+   "To everyone, including judges, politicians and the police"
+  ],
+  "answer": 3,
+  "explanation": "The law in Canada applies to everyone, including judges, politicians and the police."
+ },
+ {
+  "id": "q-justice-004",
+  "chapter": "justice",
+  "blockId": "justice-01",
+  "question": "In Canada, who settles disputes and who enforces the laws?",
+  "options": [
+   "The courts settle disputes and the police enforce the laws",
+   "The police settle disputes and the courts enforce the laws",
+   "Parliament settles disputes",
+   "The army enforces the laws"
+  ],
+  "answer": 0,
+  "explanation": "Laws are made by elected representatives. The courts settle disputes and the police enforce the laws."
+ },
+ {
+  "id": "q-justice-005",
+  "chapter": "justice",
+  "blockId": "justice-02",
+  "question": "What is the highest court in Canada?",
+  "options": [
+   "The Federal Court of Canada",
+   "The Supreme Court of Canada",
+   "The Court of Queen’s Bench",
+   "The Court of Appeal of Ontario"
+  ],
+  "answer": 1,
+  "explanation": "The Supreme Court of Canada is our country’s highest court."
+ },
+ {
+  "id": "q-justice-006",
+  "chapter": "justice",
+  "blockId": "justice-02",
+  "question": "Which court deals with matters concerning the federal government?",
+  "options": [
+   "Small claims court",
+   "Family court",
+   "The Federal Court of Canada",
+   "Traffic court"
+  ],
+  "answer": 2,
+  "explanation": "The Federal Court of Canada deals with matters concerning the federal government."
+ },
+ {
+  "id": "q-justice-007",
+  "chapter": "justice",
+  "blockId": "justice-02",
+  "question": "What are small claims courts for?",
+  "options": [
+   "Civil cases involving small sums of money",
+   "Murder cases",
+   "Cases about citizenship",
+   "Appeals from the Supreme Court"
+  ],
+  "answer": 0,
+  "explanation": "There are small claims courts for civil cases involving small sums of money."
+ },
+ {
+  "id": "q-justice-008",
+  "chapter": "justice",
+  "blockId": "justice-03",
+  "question": "Which police enforce federal laws throughout Canada?",
+  "options": [
+   "Municipal police",
+   "The Ontario Provincial Police",
+   "The Canadian Forces",
+   "The Royal Canadian Mounted Police (RCMP)"
+  ],
+  "answer": 3,
+  "explanation": "The RCMP enforce federal laws throughout Canada, and serve as the provincial police in all provinces and territories except Ontario and Quebec."
+ },
+ {
+  "id": "q-justice-009",
+  "chapter": "justice",
+  "blockId": "justice-03",
+  "question": "Which provinces have their own provincial police forces (so the RCMP does not serve as provincial police there)?",
+  "options": [
+   "Alberta and Manitoba",
+   "Ontario and Quebec",
+   "British Columbia and Yukon",
+   "Nova Scotia and PEI"
+  ],
+  "answer": 1,
+  "explanation": "There are provincial police forces in Ontario and Quebec. The RCMP serve as provincial police in all other provinces and territories."
+ },
+ {
+  "id": "q-justice-010",
+  "chapter": "justice",
+  "blockId": "justice-03",
+  "question": "Can you question the police about their service or conduct?",
+  "options": [
+   "No, it is forbidden",
+   "Only through a lawyer",
+   "Yes, almost all police forces have a process to bring your concerns and seek action",
+   "Only if you are a citizen"
+  ],
+  "answer": 2,
+  "explanation": "You can also question the police about their service or conduct if you feel you need to. Almost all police forces have a process for this."
+ },
+ {
+  "id": "q-justice-011",
+  "chapter": "justice",
+  "blockId": "justice-04",
+  "question": "If you cannot pay for a lawyer, what can you do?",
+  "options": [
+   "Use legal aid services, available free of charge or at a low cost in most communities",
+   "Represent yourself only",
+   "Ask the police to defend you",
+   "You cannot go to court"
+  ],
+  "answer": 0,
+  "explanation": "If you cannot pay for a lawyer, in most communities there are legal aid services available free of charge or at a low cost."
+ },
+ {
+  "id": "q-justice-012",
+  "chapter": "justice",
+  "blockId": "justice-01",
+  "question": "What does the blindfolded Lady Justice symbolize?",
+  "options": [
+   "That courts are closed to the public",
+   "The impartial manner in which laws are administered: blind to all considerations but the facts",
+   "That judges cannot read",
+   "The British monarchy"
+  ],
+  "answer": 1,
+  "explanation": "The blindfolded Lady Justice symbolizes the impartial manner in which our laws are administered: blind to all considerations but the facts."
  }
 ]

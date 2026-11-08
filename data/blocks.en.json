@@ -3216,6 +3216,541 @@
     28,
     29
    ]
+  },
+  {
+   "blocks": [
+    {
+     "id": "elections-01",
+     "kind": "intro",
+     "page": 30,
+     "heading": "",
+     "images": [
+      {
+       "src": "img/elections/p30-commons-chamber.jpg",
+       "caption": "House of Commons chamber",
+       "w": 363,
+       "h": 403
+      }
+     ],
+     "paragraphs": [
+      "Canadians vote in elections for the people they want to represent them in the House of Commons. In each election, voters may re-elect the same members of the House of Commons or choose new ones. Members of the House of Commons are also known as members of Parliament or MPs.",
+      "Under legislation passed by Parliament, federal elections must be held on the third Monday in October every four years following the most recent general election. The Prime Minister may ask the Governor General to call an earlier election.",
+      "Canada is divided into 308 electoral districts, also known as ridings or constituencies. An electoral district is a geographical area represented by a member of Parliament (MP). The citizens in each electoral district elect one MP who sits in the House of Commons to represent them, as well as all Canadians.",
+      "Canadian citizens who are 18 years old or older may run in a federal election. The people who run for office are called candidates. There can be many candidates in an electoral district.",
+      "The people in each electoral district vote for the candidate and political party of their choice. The candidate who receives the most votes becomes the MP for that electoral district."
+     ],
+     "keyFacts": [
+      {
+       "text": "members of Parliament or MPs",
+       "type": "definition"
+      },
+      {
+       "text": "third Monday in October every four years",
+       "type": "date"
+      },
+      {
+       "text": "308 electoral districts",
+       "type": "number"
+      },
+      {
+       "text": "ridings or constituencies",
+       "type": "definition"
+      },
+      {
+       "text": "elect one MP",
+       "type": "number"
+      },
+      {
+       "text": "Canadian citizens who are 18 years old or older may run in a federal election",
+       "type": "right-duty"
+      },
+      {
+       "text": "candidates",
+       "type": "definition"
+      },
+      {
+       "text": "The candidate who receives the most votes becomes the MP",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "elections-02",
+     "kind": "section",
+     "page": 30,
+     "heading": "Voting",
+     "images": [],
+     "paragraphs": [
+      "One of the privileges of Canadian citizenship is the right to vote. You are eligible to vote in a federal election or cast a ballot in a federal referendum if you are:",
+      "• a Canadian citizen; and",
+      "• at least 18 years old on voting day; and",
+      "• on the voters’ list.",
+      "The voters’ lists used during federal elections and referendums are produced from the National Register of Electors by a neutral agency of Parliament called Elections Canada. This is a permanent database of Canadian citizens 18 years of age or older who are qualified to vote in federal elections and referendums.",
+      "Once an election has been called, Elections Canada mails a voter information card to each elector whose name is in the National Register of Electors. The card lists when and where you vote and the number to call if you require an interpreter or other special services.",
+      "Even if you choose not to be listed in the National Register of Electors or do not receive a voter information card, you can still be added to the voters’ list at any time, including on election day.",
+      "To vote either on election day or at advance polls, go to the polling station listed on your voter information card."
+     ],
+     "keyFacts": [
+      {
+       "text": "right to vote",
+       "type": "right-duty"
+      },
+      {
+       "text": "a Canadian citizen",
+       "type": "right-duty"
+      },
+      {
+       "text": "at least 18 years old on voting day",
+       "type": "number"
+      },
+      {
+       "text": "on the voters’ list",
+       "type": "definition"
+      },
+      {
+       "text": "National Register of Electors",
+       "type": "definition"
+      },
+      {
+       "text": "Elections Canada",
+       "type": "definition"
+      },
+      {
+       "text": "voter information card",
+       "type": "symbol"
+      },
+      {
+       "text": "added to the voters’ list at any time, including on election day",
+       "type": "right-duty"
+      },
+      {
+       "text": "polling station",
+       "type": "place"
+      }
+     ]
+    },
+    {
+     "id": "elections-03",
+     "kind": "section",
+     "page": 31,
+     "heading": "Secret ballot",
+     "images": [],
+     "paragraphs": [
+      "Canadian law secures the right to a secret ballot. This means that no one can watch you vote and no one should look at how you voted. You may choose to discuss how you voted with others, but no one, including family members, your employer or union representative, has the right to insist that you tell them how you voted. Immediately after the polling stations close, election officers count the ballots and the results are announced on radio and television, and in the newspapers."
+     ],
+     "keyFacts": [
+      {
+       "text": "secret ballot",
+       "type": "right-duty"
+      },
+      {
+       "text": "no one can watch you vote and no one should look at how you voted",
+       "type": "definition"
+      },
+      {
+       "text": "no one, including family members, your employer or union representative, has the right to insist that you tell them how you voted",
+       "type": "right-duty"
+      }
+     ]
+    },
+    {
+     "id": "elections-04",
+     "kind": "section",
+     "page": 31,
+     "heading": "After an election",
+     "images": [
+      {
+       "src": "img/elections/p31-commons-session.jpg",
+       "caption": "House of Commons in session",
+       "w": 840,
+       "h": 348
+      }
+     ],
+     "paragraphs": [
+      "Ordinarily, after an election, the leader of the political party with the most seats in the House of Commons is invited by the Governor General to form the government. After being appointed by the Governor General, the leader of this party becomes the Prime Minister. If the party in power holds at least half of the seats in the House of Commons, this is called a majority government. If the party in power holds less than half of the seats in the House of Commons, this is called a minority government.",
+      "The Prime Minister and the party in power run the government as long as they have the support or confidence of the majority of the MPs. When the House of Commons votes on a major issue such as the budget, this is considered a matter of confidence. If a majority of the members of the House of Commons vote against a major government decision, the party in power is defeated, which usually results in the Prime Minister asking the Governor General, on behalf of the Sovereign, to call an election.",
+      "The Prime Minister chooses the ministers of the Crown, most of them from among members of the House of Commons. Cabinet ministers are responsible for running the federal government departments. The Prime Minister and the Cabinet ministers are called the Cabinet and they make important decisions about how the country is governed. They prepare the budget and propose most new laws. Their decisions can be questioned by all members of the House of Commons.",
+      "The other parties that are not in power are known as opposition parties. The opposition party with the most members of the House of Commons is the Official Opposition or Her Majesty’s Loyal Opposition. The role of opposition parties is to peacefully oppose or try to improve government proposals. There are three major political parties currently represented in the House of Commons: the Conservative Party, the New Democratic Party, and the Liberal Party."
+     ],
+     "keyFacts": [
+      {
+       "text": "leader of the political party with the most seats in the House of Commons",
+       "type": "person"
+      },
+      {
+       "text": "at least half of the seats",
+       "type": "number"
+      },
+      {
+       "text": "majority government",
+       "type": "definition"
+      },
+      {
+       "text": "less than half of the seats",
+       "type": "number"
+      },
+      {
+       "text": "minority government",
+       "type": "definition"
+      },
+      {
+       "text": "confidence of the majority of the MPs",
+       "type": "definition"
+      },
+      {
+       "text": "budget",
+       "type": "definition"
+      },
+      {
+       "text": "ministers of the Crown",
+       "type": "person"
+      },
+      {
+       "text": "Cabinet",
+       "type": "definition"
+      },
+      {
+       "text": "prepare the budget and propose most new laws",
+       "type": "right-duty"
+      },
+      {
+       "text": "opposition parties",
+       "type": "definition"
+      },
+      {
+       "text": "Official Opposition or Her Majesty’s Loyal Opposition",
+       "type": "definition"
+      },
+      {
+       "text": "peacefully oppose or try to improve government proposals",
+       "type": "right-duty"
+      },
+      {
+       "text": "three major political parties",
+       "type": "number"
+      },
+      {
+       "text": "Conservative Party, the New Democratic Party, and the Liberal Party",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "elections-05",
+     "kind": "aside",
+     "page": 32,
+     "heading": "Voting procedures during an election period",
+     "images": [
+      {
+       "src": "img/elections/p32-voter-card.jpg",
+       "caption": "Voter information card",
+       "w": 350,
+       "h": 230
+      }
+     ],
+     "paragraphs": [
+      "1. Voter information card. Electors whose information is in the National Register of Electors will receive a voter information card. This confirms that your name is on the voters’ list and states when and where you vote.",
+      "2. I did not get a card. If you do not receive a voter information card, call your local elections office to ensure that you are on the voters’ list. If you do not have the number, call Elections Canada, in Ottawa, at 1-800-463-6868.",
+      "3. Advance poll and special ballot. If you cannot or do not wish to vote on election day, you can vote at the advance polls or by special ballot. The dates and location are on your voter information card.",
+      "4. On election day. Go to your polling station. The location is on your voter information card. Bring this card and proof of your identity and address to the polling station.",
+      "5. Marking the ballot. Mark an “X” in the circle next to the name of the candidate of your choice.",
+      "6. Voting is secret. Your vote is secret. You will be invited to go behind the screen to mark your ballot. Once marked, fold it and present it to the poll officials.",
+      "7. The ballot box. The poll official will tear off the ballot number and give your ballot back to you to deposit in the ballot box.",
+      "8. The election results. When the polls close, every ballot is counted and the results are made public. You can see the results on television or on the Elections Canada website (www.elections.ca)."
+     ],
+     "keyFacts": [
+      {
+       "text": "Elections Canada, in Ottawa",
+       "type": "place"
+      },
+      {
+       "text": "advance polls or by special ballot",
+       "type": "right-duty"
+      },
+      {
+       "text": "proof of your identity and address",
+       "type": "right-duty"
+      },
+      {
+       "text": "Mark an “X” in the circle next to the name of the candidate of your choice",
+       "type": "definition"
+      },
+      {
+       "text": "behind the screen",
+       "type": "definition"
+      },
+      {
+       "text": "ballot box",
+       "type": "symbol"
+      }
+     ]
+    },
+    {
+     "id": "elections-06",
+     "kind": "section",
+     "page": 33,
+     "heading": "Other levels of government in Canada",
+     "images": [
+      {
+       "src": "img/elections/p33-charlottetown.jpg",
+       "caption": "Provincial Assembly, Charlottetown, P.E.I.",
+       "w": 844,
+       "h": 233
+      }
+     ],
+     "paragraphs": [
+      "Local or municipal government plays an important role in the lives of our citizens. Municipal governments usually have a council that passes laws called “by-laws” that affect only the local community. The council usually includes a mayor (or a reeve) and councillors or aldermen. Municipalities are normally responsible for urban or regional planning, streets and roads, sanitation (such as garbage removal), snow removal, firefighting, ambulance and other emergency services, recreation facilities, public transit and some local health and social services. Most major urban centres have municipal police forces.",
+      "Provincial, territorial and municipal elections are held by secret ballot, but the rules are not the same as those for federal elections. It is important to find out the rules for voting in provincial, territorial and local elections so that you can exercise your right to vote.",
+      "The First Nations have band chiefs and councillors who have major responsibilities on First Nations reserves, including housing, schools and other services. There are a number of provincial, regional and national Aboriginal organizations that are a voice for First Nations, Métis and Inuit people in their relationships with the federal, provincial and territorial governments."
+     ],
+     "keyFacts": [
+      {
+       "text": "municipal government",
+       "type": "definition"
+      },
+      {
+       "text": "by-laws",
+       "type": "definition"
+      },
+      {
+       "text": "mayor (or a reeve) and councillors or aldermen",
+       "type": "person"
+      },
+      {
+       "text": "urban or regional planning, streets and roads, sanitation (such as garbage removal), snow removal, firefighting, ambulance and other emergency services, recreation facilities, public transit",
+       "type": "right-duty"
+      },
+      {
+       "text": "secret ballot",
+       "type": "right-duty"
+      },
+      {
+       "text": "band chiefs and councillors",
+       "type": "person"
+      }
+     ]
+    },
+    {
+     "id": "elections-07",
+     "kind": "aside",
+     "page": 33,
+     "heading": "Government — Elected Officials — Some Responsibilities",
+     "images": [],
+     "paragraphs": [
+      "Federal — Members of Parliament (MPs). National Defence, Foreign Policy, Citizenship, Policing, Criminal Justice, International Trade, Aboriginal Affairs, Immigration (shared), Agriculture (shared), Environment (shared).",
+      "Provincial and Territorial — Members of the Legislative Assembly (MLAs), Members of the National Assembly (MNAs), Members of the Provincial Parliament (MPPs) or Members of the House of Assembly (MHAs). Education, Health Care, Natural Resources, Highways, Policing (Ontario, Quebec), Property and Civil Rights, Immigration (shared), Agriculture (shared), Environment (shared).",
+      "Municipal (local) — Mayor or Reeve, Councillors or Aldermen. Social and Community Health, Recycling Programs, Transportation and Utilities, Snow Removal, Policing, Firefighting, Emergency Services."
+     ],
+     "keyFacts": [
+      {
+       "text": "Federal",
+       "type": "definition"
+      },
+      {
+       "text": "Provincial and Territorial",
+       "type": "definition"
+      },
+      {
+       "text": "Policing (Ontario, Quebec)",
+       "type": "right-duty"
+      },
+      {
+       "text": "Municipal (local)",
+       "type": "definition"
+      }
+     ]
+    }
+   ],
+   "id": "elections",
+   "title": "Federal Elections",
+   "pages": [
+    30,
+    33
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "id": "justice-01",
+     "kind": "intro",
+     "page": 36,
+     "heading": "",
+     "images": [
+      {
+       "src": "img/justice/p36-scales.jpg",
+       "caption": "Scales of Justice, Vancouver Law Courts. The blindfolded Lady Justice symbolizes the impartial manner in which our laws are administered: blind to all considerations but the facts",
+       "w": 846,
+       "h": 498
+      },
+      {
+       "src": "img/justice/p36-border.jpg",
+       "caption": "Border guard with sniffer dog inspects the trunk of a car at the Canada-U.S.A. border",
+       "w": 175,
+       "h": 226
+      }
+     ],
+     "paragraphs": [
+      "The Canadian justice system guarantees everyone due process under the law. Our judicial system is founded on the presumption of innocence in criminal matters, meaning everyone is innocent until proven guilty.",
+      "Canada’s legal system is based on a heritage that includes the rule of law, freedom under the law, democratic principles and due process. Due process is the principle that the government must respect all the legal rights a person is entitled to under the law.",
+      "Canada is governed by an organized system of laws. These laws are the written rules intended to guide people in our society. They are made by elected representatives. The courts settle disputes and the police enforce the laws. The law in Canada applies to everyone, including judges, politicians and the police. Our laws are intended to provide order in society and a peaceful way to settle disputes, and to express the values and beliefs of Canadians."
+     ],
+     "keyFacts": [
+      {
+       "text": "due process",
+       "type": "right-duty"
+      },
+      {
+       "text": "presumption of innocence",
+       "type": "right-duty"
+      },
+      {
+       "text": "everyone is innocent until proven guilty",
+       "type": "definition"
+      },
+      {
+       "text": "rule of law, freedom under the law, democratic principles and due process",
+       "type": "definition"
+      },
+      {
+       "text": "Due process is the principle that the government must respect all the legal rights a person is entitled to under the law",
+       "type": "definition"
+      },
+      {
+       "text": "made by elected representatives",
+       "type": "definition"
+      },
+      {
+       "text": "The courts settle disputes and the police enforce the laws",
+       "type": "definition"
+      },
+      {
+       "text": "The law in Canada applies to everyone, including judges, politicians and the police",
+       "type": "right-duty"
+      }
+     ]
+    },
+    {
+     "id": "justice-02",
+     "kind": "section",
+     "page": 37,
+     "heading": "Courts",
+     "images": [
+      {
+       "src": "img/justice/p37-jury.jpg",
+       "caption": "Jury benches",
+       "w": 282,
+       "h": 196
+      }
+     ],
+     "paragraphs": [
+      "The Supreme Court of Canada is our country’s highest court. The Federal Court of Canada deals with matters concerning the federal government. In most provinces there is an appeal court and a trial court, sometimes called the Court of Queen’s Bench or the Supreme Court. There are also provincial courts for lesser offences, family courts, traffic courts and small claims courts for civil cases involving small sums of money."
+     ],
+     "keyFacts": [
+      {
+       "text": "Supreme Court of Canada is our country’s highest court",
+       "type": "symbol"
+      },
+      {
+       "text": "Federal Court of Canada",
+       "type": "definition"
+      },
+      {
+       "text": "appeal court and a trial court",
+       "type": "definition"
+      },
+      {
+       "text": "Court of Queen’s Bench or the Supreme Court",
+       "type": "definition"
+      },
+      {
+       "text": "family courts, traffic courts and small claims courts",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "justice-03",
+     "kind": "section",
+     "page": 37,
+     "heading": "Police",
+     "images": [
+      {
+       "src": "img/justice/p37-constable.jpg",
+       "caption": "Ottawa police constable helping a young boy at the Aboriginal Day Flotilla",
+       "w": 278,
+       "h": 196
+      }
+     ],
+     "paragraphs": [
+      "The police are there to keep people safe and to enforce the law. You can ask the police for help in all kinds of situations—if there’s been an accident, if someone has stolen something from you, if you are a victim of assault, if you see a crime taking place or if someone you know has gone missing.",
+      "There are different types of police in Canada. There are provincial police forces in Ontario and Quebec and municipal police departments in all provinces. The Royal Canadian Mounted Police (RCMP) enforce federal laws throughout Canada, and serve as the provincial police in all provinces and territories except Ontario and Quebec, as well as in some municipalities. Remember, the police are there to help you.",
+      "You can also question the police about their service or conduct if you feel you need to. Almost all police forces in Canada have a process by which you can bring your concerns to the police and seek action."
+     ],
+     "keyFacts": [
+      {
+       "text": "keep people safe and to enforce the law",
+       "type": "right-duty"
+      },
+      {
+       "text": "provincial police forces in Ontario and Quebec",
+       "type": "place"
+      },
+      {
+       "text": "Royal Canadian Mounted Police (RCMP)",
+       "type": "symbol"
+      },
+      {
+       "text": "enforce federal laws throughout Canada",
+       "type": "right-duty"
+      },
+      {
+       "text": "all provinces and territories except Ontario and Quebec",
+       "type": "place"
+      },
+      {
+       "text": "question the police about their service or conduct",
+       "type": "right-duty"
+      }
+     ]
+    },
+    {
+     "id": "justice-04",
+     "kind": "section",
+     "page": 37,
+     "heading": "Getting legal help",
+     "images": [
+      {
+       "src": "img/justice/p37-prison.jpg",
+       "caption": "Prisons have an essential role in punishing criminals and deterring crime",
+       "w": 282,
+       "h": 194
+      }
+     ],
+     "paragraphs": [
+      "Lawyers can help you with legal problems and act for you in court. If you cannot pay for a lawyer, in most communities there are legal aid services available free of charge or at a low cost."
+     ],
+     "keyFacts": [
+      {
+       "text": "Lawyers",
+       "type": "person"
+      },
+      {
+       "text": "legal aid services",
+       "type": "right-duty"
+      },
+      {
+       "text": "free of charge or at a low cost",
+       "type": "definition"
+      }
+     ]
+    }
+   ],
+   "id": "justice",
+   "title": "The Justice System",
+   "pages": [
+    36,
+    37
+   ]
   }
  ]
 }
