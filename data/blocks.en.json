@@ -3751,6 +3751,830 @@
     36,
     37
    ]
+  },
+  {
+   "blocks": [
+    {
+     "id": "symbols-01",
+     "kind": "intro",
+     "page": 38,
+     "heading": "",
+     "images": [
+      {
+       "src": "img/symbols/p38-mace.jpg",
+       "caption": "Mace of the House of Commons, Ottawa",
+       "w": 270,
+       "h": 270
+      },
+      {
+       "src": "img/symbols/p38-flag-1965.jpg",
+       "caption": "Canadian flag of 1965",
+       "w": 212,
+       "h": 165
+      },
+      {
+       "src": "img/symbols/p38-royal-arms.jpg",
+       "caption": "The Royal Arms of Canada",
+       "w": 209,
+       "h": 165
+      },
+      {
+       "src": "img/symbols/p38-parliament-dusk.jpg",
+       "caption": "Parliament at dusk",
+       "w": 211,
+       "h": 165
+      }
+     ],
+     "paragraphs": [
+      "Canada has many important symbols — objects, events, and people that have special meaning. Together they help explain what it means to be Canadian and express our national identity. Important Canadian symbols appear throughout this booklet."
+     ],
+     "keyFacts": [
+      {
+       "text": "national identity",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "symbols-02",
+     "kind": "section",
+     "page": 38,
+     "heading": "The Canadian Crown",
+     "images": [],
+     "paragraphs": [
+      "The Crown has been a symbol of the state in Canada for 400 years. Canada has been a constitutional monarchy in its own right since Confederation in 1867 during Queen Victoria’s reign. Queen Elizabeth II, who has been Queen of Canada since 1952, marked her Golden Jubilee in 2002, and celebrates her Diamond Jubilee (60 years as Sovereign) in 2012. The Crown is a symbol of government, including Parliament, the legislatures, the courts, police services and the Canadian Forces."
+     ],
+     "keyFacts": [
+      {
+       "text": "Crown has been a symbol of the state in Canada for 400 years",
+       "type": "symbol"
+      },
+      {
+       "text": "1867 during Queen Victoria’s reign",
+       "type": "date"
+      },
+      {
+       "text": "Queen Elizabeth II",
+       "type": "person"
+      },
+      {
+       "text": "1952",
+       "type": "date"
+      },
+      {
+       "text": "Diamond Jubilee (60 years as Sovereign) in 2012",
+       "type": "date"
+      },
+      {
+       "text": "symbol of government, including Parliament, the legislatures, the courts, police services and the Canadian Forces",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "symbols-03",
+     "kind": "section",
+     "page": 38,
+     "heading": "Flags in Canada",
+     "images": [
+      {
+       "src": "img/symbols/p38-red-ensign.jpg",
+       "caption": "The Canadian Red Ensign served as the national flag for 100 years, and has been carried officially by veterans since 2005",
+       "w": 175,
+       "h": 243
+      },
+      {
+       "src": "img/symbols/p38-snowbirds.jpg",
+       "caption": "The Snowbirds (431 Air Demonstration Squadron) are a Canadian icon",
+       "w": 175,
+       "h": 322
+      }
+     ],
+     "paragraphs": [
+      "A new Canadian flag was raised for the first time in 1965. The red-white-red pattern comes from the flag of the Royal Military College, Kingston, founded in 1876. Red and white had been colours of France and England since the Middle Ages and the national colours of Canada since 1921. The Union Jack is our official Royal Flag. The Canadian Red Ensign served as the Canadian flag for about 100 years. The provinces and territories also have flags that embody their distinct traditions."
+     ],
+     "keyFacts": [
+      {
+       "text": "new Canadian flag was raised for the first time in 1965",
+       "type": "date"
+      },
+      {
+       "text": "red-white-red pattern comes from the flag of the Royal Military College, Kingston",
+       "type": "symbol"
+      },
+      {
+       "text": "national colours of Canada since 1921",
+       "type": "date"
+      },
+      {
+       "text": "Union Jack is our official Royal Flag",
+       "type": "symbol"
+      },
+      {
+       "text": "Canadian Red Ensign",
+       "type": "symbol"
+      }
+     ]
+    },
+    {
+     "id": "symbols-04",
+     "kind": "section",
+     "page": 38,
+     "heading": "The maple leaf",
+     "images": [],
+     "paragraphs": [
+      "The maple leaf is Canada’s best-known symbol. Maple leaves were adopted as a symbol by French Canadians in the 1700s, have appeared on Canadian uniforms and insignia since the 1850s, and are carved into the headstones of our fallen soldiers buried overseas and in Canada."
+     ],
+     "keyFacts": [
+      {
+       "text": "maple leaf is Canada’s best-known symbol",
+       "type": "symbol"
+      },
+      {
+       "text": "French Canadians in the 1700s",
+       "type": "date"
+      }
+     ]
+    },
+    {
+     "id": "symbols-05",
+     "kind": "section",
+     "page": 38,
+     "heading": "The fleur-de-lys",
+     "images": [],
+     "paragraphs": [
+      "It is said that the lily flower (“fleur-de-lys”) was adopted by the French king in the year 496. It became the symbol of French royalty for more than 1,000 years, including the colony of New France. Revived at Confederation, the fleur-de-lys was included in the Canadian Red Ensign. In 1948 Quebec adopted its own flag, based on the Cross and the fleur-de-lys."
+     ],
+     "keyFacts": [
+      {
+       "text": "fleur-de-lys",
+       "type": "symbol"
+      },
+      {
+       "text": "French king in the year 496",
+       "type": "date"
+      },
+      {
+       "text": "1948 Quebec adopted its own flag",
+       "type": "date"
+      }
+     ]
+    },
+    {
+     "id": "symbols-06",
+     "kind": "section",
+     "page": 38,
+     "heading": "Coat of arms and motto",
+     "images": [],
+     "paragraphs": [
+      "As an expression of national pride after the First World War, Canada adopted an official coat of arms and a national motto, A mari usque ad mare, which in Latin means “from sea to sea.” The arms contain symbols of England, France, Scotland and Ireland as well as red maple leaves. Today the arms can be seen on dollar bills, government documents and public buildings."
+     ],
+     "keyFacts": [
+      {
+       "text": "coat of arms",
+       "type": "symbol"
+      },
+      {
+       "text": "A mari usque ad mare",
+       "type": "symbol"
+      },
+      {
+       "text": "“from sea to sea.”",
+       "type": "definition"
+      },
+      {
+       "text": "England, France, Scotland and Ireland as well as red maple leaves",
+       "type": "symbol"
+      }
+     ]
+    },
+    {
+     "id": "symbols-07",
+     "kind": "section",
+     "page": 38,
+     "heading": "Parliament buildings",
+     "images": [],
+     "paragraphs": [
+      "The towers, arches, sculptures and stained glass of the Parliament Buildings embody the French, English and Aboriginal traditions and the Gothic Revival architecture popular in the time of Queen Victoria. The buildings were completed in the 1860s. The Centre Block was destroyed by an accidental fire in 1916 and rebuilt in 1922. The Library is the only part of the original building remaining. The Peace Tower was completed in 1927 in memory of the First World War. The Memorial Chamber within the Tower contains the Books of Remembrance in which are written the names of soldiers, sailors and airmen who died serving Canada in wars or while on duty.",
+      "The provincial legislatures are architectural treasures. The Quebec National Assembly is built in the French Second Empire style, while the legislatures of the other provinces are Baroque, Romanesque and neoclassical, reflecting the Greco-Roman heritage of Western civilization in which democracy originated."
+     ],
+     "keyFacts": [
+      {
+       "text": "Gothic Revival architecture",
+       "type": "definition"
+      },
+      {
+       "text": "1860s",
+       "type": "date"
+      },
+      {
+       "text": "Centre Block was destroyed by an accidental fire in 1916 and rebuilt in 1922",
+       "type": "date"
+      },
+      {
+       "text": "Library is the only part of the original building remaining",
+       "type": "definition"
+      },
+      {
+       "text": "Peace Tower was completed in 1927 in memory of the First World War",
+       "type": "date"
+      },
+      {
+       "text": "Books of Remembrance",
+       "type": "symbol"
+      },
+      {
+       "text": "Quebec National Assembly is built in the French Second Empire style",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "symbols-08",
+     "kind": "section",
+     "page": 39,
+     "heading": "Popular sports",
+     "images": [
+      {
+       "src": "img/symbols/p39-canadiens.jpg",
+       "caption": "Montreal Canadiens Stanley Cup champions, 1978",
+       "w": 847,
+       "h": 348
+      }
+     ],
+     "paragraphs": [
+      "Hockey is Canada’s most popular spectator sport and is considered to be the national winter sport. Ice hockey was developed in Canada in the 1800s. The National Hockey League plays for the championship Stanley Cup, donated by Lord Stanley, the Governor General, in 1892. The Clarkson Cup, established in 2005 by Adrienne Clarkson, the 26th Governor General (and the first of Asian origin), is awarded for women’s hockey. Many young Canadians play hockey at school, in a hockey league or on quiet streets—road hockey or street hockey—and are taken to the hockey rink by their parents. Canadian children have collected hockey cards for generations.",
+      "Canadian football is the second most popular sport. Curling, an ice game introduced by Scottish pioneers, is popular. Lacrosse, an ancient sport first played by Aboriginals, is the official summer sport. Soccer has the most registered players of any game in Canada."
+     ],
+     "keyFacts": [
+      {
+       "text": "Hockey is Canada’s most popular spectator sport and is considered to be the national winter sport",
+       "type": "symbol"
+      },
+      {
+       "text": "Stanley Cup, donated by Lord Stanley, the Governor General, in 1892",
+       "type": "date"
+      },
+      {
+       "text": "Clarkson Cup",
+       "type": "symbol"
+      },
+      {
+       "text": "Adrienne Clarkson, the 26th Governor General (and the first of Asian origin)",
+       "type": "person"
+      },
+      {
+       "text": "Canadian football is the second most popular sport",
+       "type": "symbol"
+      },
+      {
+       "text": "Curling",
+       "type": "symbol"
+      },
+      {
+       "text": "Lacrosse, an ancient sport first played by Aboriginals, is the official summer sport",
+       "type": "symbol"
+      },
+      {
+       "text": "Soccer has the most registered players",
+       "type": "number"
+      }
+     ]
+    },
+    {
+     "id": "symbols-09",
+     "kind": "section",
+     "page": 39,
+     "heading": "The beaver",
+     "images": [
+      {
+       "src": "img/symbols/p39-beaver.jpg",
+       "caption": "The industrious beaver",
+       "w": 174,
+       "h": 185
+      },
+      {
+       "src": "img/symbols/p39-musical-ride.jpg",
+       "caption": "RCMP Musical Ride, Ottawa, Ontario",
+       "w": 175,
+       "h": 184
+      }
+     ],
+     "paragraphs": [
+      "The beaver was adopted centuries ago as a symbol of the Hudson’s Bay Company. It became an emblem of the St. Jean Baptiste Society, a French-Canadian patriotic association, in 1834, and was also adopted by other groups. This industrious rodent can be seen on the five-cent coin, on the coats of arms of Saskatchewan and Alberta, and of cities such as Montreal and Toronto."
+     ],
+     "keyFacts": [
+      {
+       "text": "beaver",
+       "type": "symbol"
+      },
+      {
+       "text": "Hudson’s Bay Company",
+       "type": "definition"
+      },
+      {
+       "text": "St. Jean Baptiste Society",
+       "type": "definition"
+      },
+      {
+       "text": "five-cent coin",
+       "type": "symbol"
+      }
+     ]
+    },
+    {
+     "id": "symbols-10",
+     "kind": "section",
+     "page": 39,
+     "heading": "Canada’s official languages",
+     "images": [],
+     "paragraphs": [
+      "English and French are the two official languages and are important symbols of identity. English speakers (Anglophones) and French speakers (Francophones) have lived together in partnership and creative tension for more than 300 years. You must have adequate knowledge of English or French to become a Canadian citizen. Adult applicants 55 years of age or over are exempted from this requirement.",
+      "Parliament passed the Official Languages Act in 1969. It has three main objectives:",
+      "• Establish equality between French and English in Parliament, the Government of Canada and institutions subject to the Act;",
+      "• Maintain and develop official language minority communities in Canada; and",
+      "• Promote equality of French and English in Canadian society."
+     ],
+     "keyFacts": [
+      {
+       "text": "English and French are the two official languages",
+       "type": "symbol"
+      },
+      {
+       "text": "more than 300 years",
+       "type": "number"
+      },
+      {
+       "text": "55 years of age or over",
+       "type": "number"
+      },
+      {
+       "text": "Official Languages Act in 1969",
+       "type": "date"
+      },
+      {
+       "text": "three main objectives",
+       "type": "number"
+      },
+      {
+       "text": "equality between French and English in Parliament, the Government of Canada and institutions subject to the Act",
+       "type": "right-duty"
+      },
+      {
+       "text": "official language minority communities",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "symbols-11",
+     "kind": "aside",
+     "page": 40,
+     "heading": "National Anthem",
+     "images": [],
+     "paragraphs": [
+      "O Canada was proclaimed as the national anthem in 1980. It was first sung in Québec City in 1880. French and English Canadians sing different words to the national anthem.",
+      "O Canada! Our home and native land! / True patriot love in all thy sons command / With glowing hearts we see thee rise / The true North strong and free!",
+      "From far and wide, O Canada / We stand on guard for thee / God keep our land glorious and free! / O Canada, we stand on guard for thee / O Canada, we stand on guard for thee."
+     ],
+     "keyFacts": [
+      {
+       "text": "O Canada",
+       "type": "symbol"
+      },
+      {
+       "text": "1980",
+       "type": "date"
+      },
+      {
+       "text": "Québec City in 1880",
+       "type": "date"
+      }
+     ]
+    },
+    {
+     "id": "symbols-12",
+     "kind": "aside",
+     "page": 40,
+     "heading": "Royal Anthem",
+     "images": [],
+     "paragraphs": [
+      "The Royal Anthem of Canada, “God Save the Queen (or King),” can be played or sung on any occasion when Canadians wish to honour the Sovereign.",
+      "God save our gracious Queen! / Long live our noble Queen! / God save the Queen! / Send her victorious, / Happy and glorious, / Long to reign over us, / God save the Queen!"
+     ],
+     "keyFacts": [
+      {
+       "text": "God Save the Queen (or King)",
+       "type": "symbol"
+      }
+     ]
+    },
+    {
+     "id": "symbols-13",
+     "kind": "section",
+     "page": 40,
+     "heading": "The Order of Canada and other honours",
+     "images": [
+      {
+       "src": "img/symbols/p40-peterson.jpg",
+       "caption": "Jazz pianist Oscar Peterson (left) receives the Order of Canada from Roland Michener (right), the 20th Governor General, in 1973. In the centre are Norah Michener and a portrait of Vincent Massey, the 18th Governor General",
+       "w": 176,
+       "h": 237
+      }
+     ],
+     "paragraphs": [
+      "All countries have ways to recognize outstanding citizens. Official awards are called honours, consisting of orders, decorations and medals. After using British honours for many years, Canada started its own honours system with the Order of Canada in 1967, the centennial of Confederation.",
+      "If you know of fellow citizens who you think are worthy of recognition, you are welcome to nominate them."
+     ],
+     "keyFacts": [
+      {
+       "text": "honours, consisting of orders, decorations and medals",
+       "type": "definition"
+      },
+      {
+       "text": "Order of Canada in 1967",
+       "type": "date"
+      },
+      {
+       "text": "centennial of Confederation",
+       "type": "date"
+      },
+      {
+       "text": "nominate them",
+       "type": "right-duty"
+      }
+     ]
+    },
+    {
+     "id": "symbols-14",
+     "kind": "section",
+     "page": 41,
+     "heading": "The Victoria Cross",
+     "images": [
+      {
+       "src": "img/symbols/p41-vc.jpg",
+       "caption": "The Victoria Cross",
+       "w": 100,
+       "h": 265
+      },
+      {
+       "src": "img/symbols/p41-dunn.jpg",
+       "caption": "Colonel Alexander Roberts Dunn, V.C.",
+       "w": 211,
+       "h": 234
+      },
+      {
+       "src": "img/symbols/p41-hall.jpg",
+       "caption": "Able Seaman William Hall, V.C.",
+       "w": 212,
+       "h": 234
+      },
+      {
+       "src": "img/symbols/p41-triquet.jpg",
+       "caption": "Brigadier Paul Triquet, V.C.",
+       "w": 213,
+       "h": 234
+      },
+      {
+       "src": "img/symbols/p41-konowal.jpg",
+       "caption": "Filip Konowal, V.C., was promoted Sergeant",
+       "w": 213,
+       "h": 234
+      },
+      {
+       "src": "img/symbols/p41-bishop.jpg",
+       "caption": "Air Marshal William A. Bishop, better known as flying ace Billy Bishop, V.C.",
+       "w": 175,
+       "h": 260
+      },
+      {
+       "src": "img/symbols/p41-gray.jpg",
+       "caption": "Lieutenant Robert Hampton Gray, V.C.",
+       "w": 176,
+       "h": 259
+      }
+     ],
+     "paragraphs": [
+      "The Victoria Cross (V.C.) is the highest honour available to Canadians and is awarded for the most conspicuous bravery, a daring or pre-eminent act of valour or self-sacrifice, or extreme devotion to duty in the presence of the enemy. The V.C. has been awarded to 96 Canadians since 1854, including:",
+      "• Then Lieutenant Alexander Roberts Dunn, born in present-day Toronto, served in the British Army in the Charge of the Light Brigade at Balaclava (1854) in the Crimean War, and was the first Canadian to be awarded the Victoria Cross.",
+      "• Able Seaman William Hall of Horton, Nova Scotia, whose parents were American slaves, was the first black man to be awarded the V.C. for his role in the Siege of Lucknow during the Indian Rebellion of 1857.",
+      "• Corporal Filip Konowal, born in Ukraine, showed exceptional courage in the Battle of Hill 70 in 1917, and became the first member of the Canadian Corps not born in the British Empire to be awarded the V.C.",
+      "• Flying ace Captain Billy Bishop, born in Owen Sound, Ontario, earned the V.C. in the Royal Flying Corps during the First World War, and was later an honorary Air Marshal of the Royal Canadian Air Force.",
+      "• Captain Paul Triquet of Cabano, Quebec, earned the V.C. leading his men and a handful of tanks in the attack on Casa Berardi in Italy in 1943 during the Second World War, and was later a Brigadier.",
+      "• Lieutenant Robert Hampton Gray, a navy pilot born in Trail, B.C., was killed while bombing and sinking a Japanese warship in August 1945, a few days before the end of the Second World War, and was the last Canadian to receive the V.C. to date."
+     ],
+     "keyFacts": [
+      {
+       "text": "Victoria Cross (V.C.) is the highest honour available to Canadians",
+       "type": "symbol"
+      },
+      {
+       "text": "96 Canadians since 1854",
+       "type": "number"
+      },
+      {
+       "text": "Alexander Roberts Dunn",
+       "type": "person"
+      },
+      {
+       "text": "first Canadian to be awarded the Victoria Cross",
+       "type": "definition"
+      },
+      {
+       "text": "William Hall",
+       "type": "person"
+      },
+      {
+       "text": "first black man to be awarded the V.C.",
+       "type": "definition"
+      },
+      {
+       "text": "Filip Konowal",
+       "type": "person"
+      },
+      {
+       "text": "first member of the Canadian Corps not born in the British Empire",
+       "type": "definition"
+      },
+      {
+       "text": "Billy Bishop",
+       "type": "person"
+      },
+      {
+       "text": "Paul Triquet",
+       "type": "person"
+      },
+      {
+       "text": "Robert Hampton Gray",
+       "type": "person"
+      },
+      {
+       "text": "last Canadian to receive the V.C. to date",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "symbols-15",
+     "kind": "aside",
+     "page": 41,
+     "heading": "National Public Holidays and Other Important Dates",
+     "images": [],
+     "paragraphs": [
+      "New Year’s Day — January 1.",
+      "Sir John A. Macdonald Day — January 11.",
+      "Good Friday — Friday immediately preceding Easter Sunday.",
+      "Easter Monday — Monday immediately following Easter Sunday.",
+      "Vimy Day — April 9.",
+      "Victoria Day — Monday preceding May 25 (Sovereign’s birthday).",
+      "Fête nationale (Quebec) — June 24 (Feast of St. John the Baptist).",
+      "Canada Day — July 1.",
+      "Labour Day — First Monday of September.",
+      "Thanksgiving Day — Second Monday of October.",
+      "Remembrance Day — November 11.",
+      "Sir Wilfrid Laurier Day — November 20.",
+      "Christmas Day — December 25.",
+      "Boxing Day — December 26."
+     ],
+     "keyFacts": [
+      {
+       "text": "January 1",
+       "type": "date"
+      },
+      {
+       "text": "January 11",
+       "type": "date"
+      },
+      {
+       "text": "April 9",
+       "type": "date"
+      },
+      {
+       "text": "Monday preceding May 25 (Sovereign’s birthday)",
+       "type": "date"
+      },
+      {
+       "text": "June 24 (Feast of St. John the Baptist)",
+       "type": "date"
+      },
+      {
+       "text": "July 1",
+       "type": "date"
+      },
+      {
+       "text": "First Monday of September",
+       "type": "date"
+      },
+      {
+       "text": "Second Monday of October",
+       "type": "date"
+      },
+      {
+       "text": "November 11",
+       "type": "date"
+      },
+      {
+       "text": "November 20",
+       "type": "date"
+      },
+      {
+       "text": "December 26",
+       "type": "date"
+      }
+     ]
+    }
+   ],
+   "id": "symbols",
+   "title": "Canadian Symbols",
+   "pages": [
+    38,
+    41
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "id": "economy-01",
+     "kind": "section",
+     "page": 42,
+     "heading": "A trading nation",
+     "images": [],
+     "paragraphs": [
+      "Canada has always been a trading nation and commerce remains the engine of economic growth. As Canadians, we could not maintain our standard of living without engaging in trade with other nations.",
+      "In 1988, Canada enacted free trade with the United States. Mexico became a partner in 1994 in the broader North American Free Trade Agreement (NAFTA), with over 444 million people and over $1 trillion in merchandise trade in 2008.",
+      "Today, Canada has one of the ten largest economies in the world and is part of the G8 group of leading industrialized countries with the United States, Germany, the United Kingdom, Italy, France, Japan and Russia."
+     ],
+     "keyFacts": [
+      {
+       "text": "trading nation",
+       "type": "definition"
+      },
+      {
+       "text": "1988, Canada enacted free trade with the United States",
+       "type": "date"
+      },
+      {
+       "text": "Mexico became a partner in 1994",
+       "type": "date"
+      },
+      {
+       "text": "North American Free Trade Agreement (NAFTA)",
+       "type": "definition"
+      },
+      {
+       "text": "ten largest economies in the world",
+       "type": "number"
+      },
+      {
+       "text": "G8 group of leading industrialized countries",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "economy-02",
+     "kind": "section",
+     "page": 42,
+     "heading": "Canada’s economy includes three main types of industries",
+     "images": [
+      {
+       "src": "img/economy/p42-lumber-truck.jpg",
+       "caption": "Lumber truck",
+       "w": 175,
+       "h": 282
+      },
+      {
+       "src": "img/economy/p42-oil.jpg",
+       "caption": "Oil pump jacks in southern Alberta",
+       "w": 282,
+       "h": 214
+      },
+      {
+       "src": "img/economy/p42-lobster.jpg",
+       "caption": "Atlantic lobster",
+       "w": 282,
+       "h": 211
+      },
+      {
+       "src": "img/economy/p42-dam.jpg",
+       "caption": "Hydro-electric dam on the Saguenay River, Quebec",
+       "w": 282,
+       "h": 214
+      }
+     ],
+     "paragraphs": [
+      "• Service industries provide thousands of different jobs in areas like transportation, education, health care, construction, banking, communications, retail services, tourism and government. More than 75% of working Canadians now have jobs in service industries.",
+      "• Manufacturing industries make products to sell in Canada and around the world. Manufactured products include paper, high technology equipment, aerospace technology, automobiles, machinery, food, clothing and many other goods. Our largest international trading partner is the United States.",
+      "• Natural resources industries include forestry, fishing, agriculture, mining and energy. These industries have played an important part in the country’s history and development. Today, the economy of many areas of the country still depends on developing natural resources, and a large percentage of Canada’s exports are natural resources commodities."
+     ],
+     "keyFacts": [
+      {
+       "text": "Service industries",
+       "type": "definition"
+      },
+      {
+       "text": "More than 75% of working Canadians now have jobs in service industries",
+       "type": "number"
+      },
+      {
+       "text": "Manufacturing industries",
+       "type": "definition"
+      },
+      {
+       "text": "largest international trading partner is the United States",
+       "type": "place"
+      },
+      {
+       "text": "Natural resources industries",
+       "type": "definition"
+      },
+      {
+       "text": "forestry, fishing, agriculture, mining and energy",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "economy-03",
+     "kind": "text",
+     "page": 43,
+     "heading": "",
+     "images": [
+      {
+       "src": "img/economy/p43-car-plant.jpg",
+       "caption": "Car assembly plant in Oakville, Ontario",
+       "w": 417,
+       "h": 281
+      },
+      {
+       "src": "img/economy/p43-port-vancouver.jpg",
+       "caption": "Port of Vancouver",
+       "w": 421,
+       "h": 281
+      },
+      {
+       "src": "img/economy/p43-peace-arch.jpg",
+       "caption": "The Peace Arch at Blaine, Washington",
+       "w": 173,
+       "h": 233
+      },
+      {
+       "src": "img/economy/p43-lab.jpg",
+       "caption": "Research laboratory",
+       "w": 282,
+       "h": 211
+      },
+      {
+       "src": "img/economy/p43-blackberry.jpg",
+       "caption": "RIM’s BlackBerry",
+       "w": 281,
+       "h": 214
+      },
+      {
+       "src": "img/economy/p43-ice-wine.jpg",
+       "caption": "Ice wine grapes, Niagara Region, Ontario",
+       "w": 282,
+       "h": 214
+      }
+     ],
+     "paragraphs": [
+      "Canada enjoys close relations with the United States and each is the other’s largest trading partner. Over three-quarters of Canadian exports are destined for the U.S.A. In fact we have the biggest bilateral trading relationship in the world. Integrated Canada-U.S.A. supply chains compete with the rest of the world. Canada exports billions of dollars worth of energy products, industrial goods, machinery, equipment, automotive, agricultural, fishing and forestry products, and consumer goods every year. Millions of Canadians and Americans cross every year and in safety what is traditionally known as “the world’s longest undefended border.”",
+      "At Blaine in the State of Washington, the Peace Arch, inscribed with the words “children of a common mother” and “brethren dwelling together in unity,” symbolizes our close ties and common interests."
+     ],
+     "keyFacts": [
+      {
+       "text": "each is the other’s largest trading partner",
+       "type": "definition"
+      },
+      {
+       "text": "Over three-quarters of Canadian exports are destined for the U.S.A.",
+       "type": "number"
+      },
+      {
+       "text": "biggest bilateral trading relationship in the world",
+       "type": "definition"
+      },
+      {
+       "text": "the world’s longest undefended border",
+       "type": "place"
+      },
+      {
+       "text": "Peace Arch",
+       "type": "symbol"
+      },
+      {
+       "text": "children of a common mother",
+       "type": "definition"
+      }
+     ]
+    }
+   ],
+   "id": "economy",
+   "title": "Canada’s Economy",
+   "pages": [
+    42,
+    43
+   ]
   }
  ]
 }

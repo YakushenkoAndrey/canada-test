@@ -387,5 +387,113 @@
   "justice/p37-prison.jpg": {
     "page": 37,
     "xref": 483
+  },
+  "symbols/p38-mace.jpg": {
+    "page": 38,
+    "xref": 505
+  },
+  "symbols/p38-flag-1965.jpg": {
+    "page": 38,
+    "xref": 503
+  },
+  "symbols/p38-royal-arms.jpg": {
+    "page": 38,
+    "xref": 501
+  },
+  "symbols/p38-parliament-dusk.jpg": {
+    "page": 38,
+    "xref": 499
+  },
+  "symbols/p38-red-ensign.jpg": {
+    "page": 38,
+    "xref": 497
+  },
+  "symbols/p38-snowbirds.jpg": {
+    "page": 38,
+    "xref": 489
+  },
+  "symbols/p39-canadiens.jpg": {
+    "page": 39,
+    "xref": 495
+  },
+  "symbols/p39-beaver.jpg": {
+    "page": 39,
+    "xref": 493
+  },
+  "symbols/p39-musical-ride.jpg": {
+    "page": 39,
+    "xref": 491
+  },
+  "symbols/p40-peterson.jpg": {
+    "page": 40,
+    "xref": 508
+  },
+  "symbols/p41-vc.jpg": {
+    "page": 41,
+    "xref": 507
+  },
+  "symbols/p41-dunn.jpg": {
+    "page": 41,
+    "xref": 514
+  },
+  "symbols/p41-hall.jpg": {
+    "page": 41,
+    "xref": 512
+  },
+  "symbols/p41-triquet.jpg": {
+    "page": 41,
+    "xref": 510
+  },
+  "symbols/p41-konowal.jpg": {
+    "page": 41,
+    "xref": 515
+  },
+  "symbols/p41-bishop.jpg": {
+    "page": 41,
+    "xref": 517
+  },
+  "symbols/p41-gray.jpg": {
+    "page": 41,
+    "xref": 519
+  },
+  "economy/p42-lumber-truck.jpg": {
+    "page": 42,
+    "xref": 539
+  },
+  "economy/p42-oil.jpg": {
+    "page": 42,
+    "xref": 543
+  },
+  "economy/p42-lobster.jpg": {
+    "page": 42,
+    "xref": 525
+  },
+  "economy/p42-dam.jpg": {
+    "page": 42,
+    "xref": 541
+  },
+  "economy/p43-car-plant.jpg": {
+    "page": 43,
+    "xref": 527
+  },
+  "economy/p43-port-vancouver.jpg": {
+    "page": 43,
+    "xref": 537
+  },
+  "economy/p43-peace-arch.jpg": {
+    "page": 43,
+    "xref": 533
+  },
+  "economy/p43-lab.jpg": {
+    "page": 43,
+    "xref": 531
+  },
+  "economy/p43-blackberry.jpg": {
+    "page": 43,
+    "xref": 529
+  },
+  "economy/p43-ice-wine.jpg": {
+    "page": 43,
+    "xref": 535
   }
 }

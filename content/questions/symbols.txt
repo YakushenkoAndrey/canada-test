@@ -1,0 +1,231 @@
+@q 1 symbols-02 0
+For how long has the Crown been a symbol of the state in Canada?
+| 400 years | 150 years | 1,000 years | 60 years
+= The Crown has been a symbol of the state in Canada for 400 years.
+? Сколько лет Корона является символом государства в Канаде?
+| 400 лет | 150 лет | 1000 лет | 60 лет
+= Корона — символ государства в Канаде уже 400 лет.
+
+@q 2 symbols-02 2
+Since when has Queen Elizabeth II been Queen of Canada (according to the guide)?
+| 1867 | 1945 | 1952 | 1982
+= Queen Elizabeth II has been Queen of Canada since 1952; she celebrated her Diamond Jubilee (60 years as Sovereign) in 2012.
+? С какого года Елизавета II была Королевой Канады (по пособию)?
+| 1867 | 1945 | 1952 | 1982
+= С 1952 года; Бриллиантовый юбилей — 2012.
+
+@q 3 symbols-03 1
+When was the new Canadian flag raised for the first time?
+| 1867 | 1965 | 1921 | 1982
+= A new Canadian flag was raised for the first time in 1965.
+? Когда впервые подняли новый канадский флаг?
+| 1867 | 1965 | 1921 | 1982
+= Кленовый флаг — 1965 год.
+
+@q 4 symbols-03 3
+Where does the red-white-red pattern of the Canadian flag come from?
+| The flag of France | The Union Jack | The flag of the Hudson’s Bay Company | The flag of the Royal Military College, Kingston
+= The red-white-red pattern comes from the flag of the Royal Military College, Kingston, founded in 1876.
+? Откуда взят красно-бело-красный рисунок канадского флага?
+| С флага Франции | С «Юнион Джека» | С флага Компании Гудзонова залива | С флага Королевского военного колледжа в Кингстоне
+= С флага Королевского военного колледжа в Кингстоне (основан в 1876).
+
+@q 5 symbols-03 0
+What is Canada’s official Royal Flag?
+| The Union Jack | The Canadian Red Ensign | The fleur-de-lys flag | The maple leaf flag
+= The Union Jack is our official Royal Flag. The Canadian Red Ensign served as the Canadian flag for about 100 years.
+? Какой флаг является официальным королевским флагом Канады?
+| «Юнион Джек» | Канадский красный флаг (Red Ensign) | Флаг с флёр-де-лис | Кленовый флаг
+= Официальный королевский флаг — «Юнион Джек».
+
+@q 6 symbols-03 2
+Since when have red and white been the national colours of Canada?
+| 1867 | 1965 | 1921 | 1812
+= Red and white had been colours of France and England since the Middle Ages and the national colours of Canada since 1921.
+? С какого года красный и белый — национальные цвета Канады?
+| 1867 | 1965 | 1921 | 1812
+= С 1921 года (утвердил король Георг V).
+
+@q 7 symbols-04 1
+What is Canada’s best-known symbol?
+| The beaver | The maple leaf | The fleur-de-lys | The Crown
+= The maple leaf is Canada’s best-known symbol.
+? Какой символ Канады самый известный?
+| Бобр | Кленовый лист | Флёр-де-лис | Корона
+= Кленовый лист.
+
+@q 8 symbols-05 3
+When did Quebec adopt its own flag, based on the Cross and the fleur-de-lys?
+| 1608 | 1867 | 1980 | 1948
+= In 1948 Quebec adopted its own flag, based on the Cross and the fleur-de-lys.
+? Когда Квебек принял свой флаг с крестом и флёр-де-лис?
+| 1608 | 1867 | 1980 | 1948
+= В 1948 году.
+
+@q 9 symbols-06 0
+What is Canada’s national motto, and what does it mean?
+| A mari usque ad mare — “from sea to sea” | Peace, Order and Good Government | Strong and free | Unity in diversity
+= Canada adopted the national motto A mari usque ad mare, which in Latin means “from sea to sea.”
+? Каков национальный девиз Канады и что он означает?
+| A mari usque ad mare — «от моря до моря» | «Мир, порядок и надлежащее управление» | «Сильная и свободная» | «Единство в многообразии»
+= Девиз A mari usque ad mare (лат.) — «от моря до моря».
+
+@q 10 symbols-06 2
+Which symbols does Canada’s coat of arms contain?
+| Only maple leaves | The beaver and the Crown | Symbols of England, France, Scotland and Ireland as well as red maple leaves | Symbols of the ten provinces
+= The arms contain symbols of England, France, Scotland and Ireland as well as red maple leaves.
+? Какие символы содержит герб Канады?
+| Только кленовые листья | Бобра и корону | Символы Англии, Франции, Шотландии и Ирландии и красные кленовые листья | Символы десяти провинций
+= Англия, Франция, Шотландия, Ирландия и красные кленовые листья.
+
+@q 11 symbols-07 1
+What was the Peace Tower completed in memory of?
+| Confederation | The First World War | Queen Victoria | The War of 1812
+= The Peace Tower was completed in 1927 in memory of the First World War. Its Memorial Chamber contains the Books of Remembrance.
+? В память о чём была завершена Башня Мира?
+| О Конфедерации | О Первой мировой войне | О королеве Виктории | О войне 1812 года
+= Башня Мира (1927) — в память о Первой мировой войне.
+
+@q 12 symbols-07 3
+What is the only part of the original Parliament building that remains?
+| The Peace Tower | The Centre Block | The Senate chamber | The Library
+= The Centre Block was destroyed by fire in 1916 and rebuilt in 1922. The Library is the only part of the original building remaining.
+? Какая часть первоначального здания Парламента сохранилась?
+| Башня Мира | Центральный блок | Зал Сената | Библиотека
+= Сохранилась только Библиотека.
+
+@q 13 symbols-08 0
+What is Canada’s official summer sport?
+| Lacrosse | Soccer | Canadian football | Baseball
+= Lacrosse, an ancient sport first played by Aboriginals, is the official summer sport. Hockey is the national winter sport.
+? Какой вид спорта — официальный летний вид спорта Канады?
+| Лакросс | Футбол (соккер) | Канадский футбол | Бейсбол
+= Лакросс — летний; хоккей — национальный зимний.
+
+@q 14 symbols-08 2
+What is Canada’s most popular spectator sport and national winter sport?
+| Curling | Skiing | Hockey | Figure skating
+= Hockey is Canada’s most popular spectator sport and is considered to be the national winter sport.
+? Какой вид спорта — самый популярный зрелищный и национальный зимний?
+| Кёрлинг | Лыжи | Хоккей | Фигурное катание
+= Хоккей.
+
+@q 15 symbols-08 1
+Who donated the Stanley Cup, and when?
+| Adrienne Clarkson, in 2005 | Lord Stanley, the Governor General, in 1892 | Lord Grey, in 1909 | Queen Victoria, in 1867
+= The National Hockey League plays for the Stanley Cup, donated by Lord Stanley, the Governor General, in 1892.
+? Кто и когда учредил Кубок Стэнли?
+| Адриенна Кларксон, 2005 | Лорд Стэнли, генерал-губернатор, 1892 | Лорд Грей, 1909 | Королева Виктория, 1867
+= Лорд Стэнли, 1892 год.
+
+@q 16 symbols-08 3
+Which sport has the most registered players in Canada?
+| Hockey | Lacrosse | Curling | Soccer
+= Soccer has the most registered players of any game in Canada.
+? В каком виде спорта больше всего зарегистрированных игроков в Канаде?
+| Хоккей | Лакросс | Кёрлинг | Футбол (соккер)
+= Футбол (соккер).
+
+@q 17 symbols-09 0
+On which coin can the beaver be seen?
+| The five-cent coin | The one-dollar coin | The ten-cent coin | The two-dollar coin
+= The beaver can be seen on the five-cent coin, on the coats of arms of Saskatchewan and Alberta, and of cities such as Montreal and Toronto.
+? На какой монете изображён бобр?
+| На монете в пять центов | На однодолларовой | На монете в десять центов | На двухдолларовой
+= Бобр — на монете в 5 центов.
+
+@q 18 symbols-09 2
+The beaver was adopted centuries ago as a symbol of which organization?
+| The RCMP | The Royal Military College | The Hudson’s Bay Company | The Canadian Forces
+= The beaver was adopted centuries ago as a symbol of the Hudson’s Bay Company, and in 1834 by the St. Jean Baptiste Society.
+? Символом какой организации бобр стал столетия назад?
+| КККП | Королевского военного колледжа | Компании Гудзонова залива | Вооружённых сил
+= Компании Гудзонова залива (а с 1834 — Общества Сен-Жан-Батист).
+
+@q 19 symbols-10 1
+What are the three main objectives of the Official Languages Act (1969)?
+| Make French mandatory in all schools; ban English in Quebec; fund translators | Establish equality of French and English in Parliament and government; maintain official language minority communities; promote equality of French and English in society | Make all citizens bilingual; create bilingual provinces; translate the Constitution | Teach English to immigrants; teach French to immigrants; test citizens
+= The Official Languages Act has three main objectives: equality between French and English in Parliament and the Government of Canada; maintaining official language minority communities; and promoting equality of French and English in Canadian society.
+? Каковы три основные цели Закона об официальных языках (1969)?
+| Обязательный французский в школах; запрет английского в Квебеке; финансирование переводчиков | Равенство французского и английского в Парламенте и правительстве; поддержка языковых меньшинств; равенство языков в обществе | Сделать всех двуязычными; создать двуязычные провинции; перевести Конституцию | Учить иммигрантов английскому; французскому; тестировать граждан
+= Равенство языков в Парламенте и правительстве, поддержка языковых меньшинств, равенство языков в обществе.
+
+@q 20 symbols-11 2
+When was “O Canada” proclaimed as the national anthem?
+| 1867 | 1880 | 1980 | 1965
+= O Canada was proclaimed as the national anthem in 1980. It was first sung in Québec City in 1880.
+? Когда «O Canada» провозгласили национальным гимном?
+| 1867 | 1880 | 1980 | 1965
+= Гимн — с 1980 года; впервые исполнен в Квебеке в 1880 году.
+
+@q 21 symbols-12 0
+What is the Royal Anthem of Canada?
+| “God Save the Queen (or King)” | “O Canada” | “In Flanders Fields” | “The Maple Leaf Forever”
+= The Royal Anthem of Canada, “God Save the Queen (or King),” can be played or sung on any occasion when Canadians wish to honour the Sovereign.
+? Какой гимн является Королевским гимном Канады?
+| «God Save the Queen (or King)» | «O Canada» | «In Flanders Fields» | «The Maple Leaf Forever»
+= Королевский гимн — «Боже, храни Королеву (Короля)».
+
+@q 22 symbols-13 1
+When did Canada start its own honours system with the Order of Canada?
+| 1867 | 1967 | 1982 | 1917
+= Canada started its own honours system with the Order of Canada in 1967, the centennial of Confederation.
+? Когда Канада создала собственную наградную систему с орденом Канады?
+| 1867 | 1967 | 1982 | 1917
+= В 1967 году, к столетию Конфедерации.
+
+@q 23 symbols-14 3
+What is the highest honour available to Canadians?
+| The Order of Canada | The Stanley Cup | The Medal of Bravery | The Victoria Cross
+= The Victoria Cross (V.C.) is the highest honour available to Canadians, awarded for the most conspicuous bravery in the presence of the enemy.
+? Какая награда — высшая для канадцев?
+| Орден Канады | Кубок Стэнли | Медаль за храбрость | Крест Виктории
+= Крест Виктории (V.C.).
+
+@q 24 symbols-14 0
+Who was the first Canadian to be awarded the Victoria Cross?
+| Alexander Roberts Dunn | William Hall | Billy Bishop | Robert Hampton Gray
+= Lieutenant Alexander Roberts Dunn, who served in the Charge of the Light Brigade at Balaclava (1854), was the first Canadian awarded the V.C.
+? Кто стал первым канадцем, награждённым Крестом Виктории?
+| Александр Робертс Данн | Уильям Холл | Билли Бишоп | Роберт Хэмптон Грей
+= Александр Робертс Данн (Балаклава, 1854).
+
+@q 25 symbols-14 1
+Who was the first black man to be awarded the Victoria Cross?
+| Filip Konowal | Able Seaman William Hall | Paul Triquet | Phil Edwards
+= Able Seaman William Hall of Horton, Nova Scotia, whose parents were American slaves, was the first black man to be awarded the V.C.
+? Кто был первым чернокожим, награждённым Крестом Виктории?
+| Филип Коновал | Матрос Уильям Холл | Поль Трике | Фил Эдвардс
+= Уильям Холл из Новой Шотландии.
+
+@q 26 symbols-14 2
+Who was the last Canadian to receive the Victoria Cross to date (according to the guide)?
+| Billy Bishop | Paul Triquet | Lieutenant Robert Hampton Gray | Arthur Currie
+= Lieutenant Robert Hampton Gray, a navy pilot, was killed in August 1945 and was the last Canadian to receive the V.C. to date.
+? Кто — последний канадец, награждённый Крестом Виктории (по пособию)?
+| Билли Бишоп | Поль Трике | Лейтенант Роберт Хэмптон Грей | Артур Карри
+= Роберт Хэмптон Грей, август 1945 года.
+
+@q 27 symbols-15 3
+When is Victoria Day celebrated?
+| May 24 every year | The first Monday of June | July 1 | The Monday preceding May 25 (Sovereign’s birthday)
+= Victoria Day is the Monday preceding May 25 (Sovereign’s birthday).
+? Когда отмечается День Виктории?
+| Каждый год 24 мая | В первый понедельник июня | 1 июля | В понедельник перед 25 мая (день рождения Суверена)
+= Понедельник перед 25 мая.
+
+@q 28 symbols-15 1
+When is Remembrance Day?
+| July 1 | November 11 | April 9 | December 26
+= Remembrance Day is November 11.
+? Когда отмечается День памяти?
+| 1 июля | 11 ноября | 9 апреля | 26 декабря
+= 11 ноября.
+
+@q 29 symbols-15 0
+When is Thanksgiving Day in Canada?
+| The second Monday of October | The fourth Thursday of November | The first Monday of September | October 31
+= Thanksgiving Day is the second Monday of October. Labour Day is the first Monday of September.
+? Когда в Канаде День благодарения?
+| Во второй понедельник октября | В четвёртый четверг ноября | В первый понедельник сентября | 31 октября
+= Второй понедельник октября.

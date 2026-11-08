@@ -1,0 +1,79 @@
+@q 1 economy-01 1
+In what year did Canada enact free trade with the United States?
+| 1965 | 1988 | 1994 | 2008
+= In 1988, Canada enacted free trade with the United States. Mexico became a partner in 1994 in NAFTA.
+? В каком году Канада ввела свободную торговлю с США?
+| 1965 | 1988 | 1994 | 2008
+= 1988 — с США; 1994 — НАФТА с Мексикой.
+
+@q 2 economy-01 2
+Which countries are in the North American Free Trade Agreement (NAFTA)?
+| Canada, the U.S.A. and the United Kingdom | Canada and the U.S.A. only | Canada, the U.S.A. and Mexico | Canada, Mexico and Brazil
+= Mexico became a partner in 1994 in the broader North American Free Trade Agreement (NAFTA) with Canada and the United States.
+? Какие страны входят в НАФТА?
+| Канада, США и Великобритания | Только Канада и США | Канада, США и Мексика | Канада, Мексика и Бразилия
+= НАФТА: Канада, США и Мексика.
+
+@q 3 economy-01 0
+Which group of leading industrialized countries is Canada part of, according to the guide?
+| The G8 | The European Union | OPEC | The Arab League
+= Canada has one of the ten largest economies in the world and is part of the G8 group of leading industrialized countries.
+? В какую группу ведущих промышленных стран входит Канада по пособию?
+| G8 («Большая восьмёрка») | Европейский союз | ОПЕК | Лига арабских государств
+= Канада — в «Большой восьмёрке» (G8) и в десятке крупнейших экономик мира.
+
+@q 4 economy-02 3
+What are the three main types of industries in Canada’s economy?
+| Banking, tourism and mining | Farming, fishing and hunting | Oil, gas and electricity | Service, manufacturing and natural resources industries
+= Canada’s economy includes three main types of industries: service industries, manufacturing industries and natural resources industries.
+? Какие три основных типа отраслей есть в экономике Канады?
+| Банки, туризм и горное дело | Земледелие, рыболовство и охота | Нефть, газ и электричество | Сфера услуг, обрабатывающая промышленность и природные ресурсы
+= Услуги, обрабатывающая промышленность, природные ресурсы.
+
+@q 5 economy-02 1
+What percentage of working Canadians have jobs in service industries?
+| About 25% | More than 75% | About 50% | Less than 10%
+= More than 75% of working Canadians now have jobs in service industries.
+? Какая доля работающих канадцев занята в сфере услуг?
+| Около 25% | Более 75% | Около 50% | Менее 10%
+= Более 75%.
+
+@q 6 economy-02 2
+Which of these is a natural resources industry?
+| Banking | Tourism | Forestry | Retail
+= Natural resources industries include forestry, fishing, agriculture, mining and energy.
+? Что относится к отраслям природных ресурсов?
+| Банковское дело | Туризм | Лесное хозяйство | Розничная торговля
+= Лесное хозяйство, рыболовство, сельское хозяйство, горнодобыча, энергетика.
+
+@q 7 economy-03 0
+Who is Canada’s largest trading partner?
+| The United States | China | The United Kingdom | Mexico
+= Canada and the United States are each other’s largest trading partner. Over three-quarters of Canadian exports go to the U.S.A.
+? Кто крупнейший торговый партнёр Канады?
+| США | Китай | Великобритания | Мексика
+= США; более трёх четвертей экспорта Канады идёт в США.
+
+@q 8 economy-03 3
+What portion of Canadian exports is destined for the U.S.A.?
+| About one-quarter | About half | About 10% | Over three-quarters
+= Over three-quarters of Canadian exports are destined for the U.S.A.
+? Какая доля канадского экспорта идёт в США?
+| Около четверти | Около половины | Около 10% | Более трёх четвертей
+= Более трёх четвертей.
+
+@q 9 economy-03 1
+What is the Canada-U.S.A. border traditionally known as?
+| The 49th wall | The world’s longest undefended border | The Peace Line | The Iron Curtain
+= Millions of Canadians and Americans cross every year and in safety what is traditionally known as “the world’s longest undefended border.”
+? Как традиционно называют границу Канады и США?
+| «Стена 49-й параллели» | «Самая длинная неохраняемая граница в мире» | «Линия мира» | «Железный занавес»
+= «Самая длинная неохраняемая граница в мире».
+
+@q 10 economy-03 2
+What does the Peace Arch at Blaine, Washington symbolize?
+| The end of the War of 1812 | The NAFTA agreement | The close ties and common interests of Canada and the United States | The border with Mexico
+= The Peace Arch, inscribed with “children of a common mother” and “brethren dwelling together in unity,” symbolizes our close ties and common interests.
+? Что символизирует Арка мира в Блейне (штат Вашингтон)?
+| Окончание войны 1812 года | Соглашение НАФТА | Тесные связи и общие интересы Канады и США | Границу с Мексикой
+= Арка мира — символ тесных связей Канады и США («дети одной матери»).
