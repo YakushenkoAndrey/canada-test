@@ -495,5 +495,203 @@
   "economy/p43-ice-wine.jpg": {
     "page": 43,
     "xref": 535
+  },
+  "regions/p44-peggys-cove.jpg": {
+    "page": 44,
+    "xref": 554
+  },
+  "regions/p44-rideau.jpg": {
+    "page": 44,
+    "xref": 550
+  },
+  "regions/p44-banff.jpg": {
+    "page": 44,
+    "xref": 549
+  },
+  "regions/p46-nl-edge.jpg": {
+    "page": 46,
+    "xref": 564
+  },
+  "regions/p46-nl-flag.jpg": {
+    "page": 46,
+    "xref": 562
+  },
+  "regions/p46-moose.jpg": {
+    "page": 46,
+    "xref": 560
+  },
+  "regions/p46-point-prim.jpg": {
+    "page": 46,
+    "xref": 558
+  },
+  "regions/p46-pei-flag.jpg": {
+    "page": 46,
+    "xref": 582
+  },
+  "regions/p46-anne.jpg": {
+    "page": 46,
+    "xref": 580
+  },
+  "regions/p46-halifax-ships.jpg": {
+    "page": 46,
+    "xref": 578
+  },
+  "regions/p46-ns-flag.jpg": {
+    "page": 46,
+    "xref": 576
+  },
+  "regions/p46-cabot-trail.jpg": {
+    "page": 46,
+    "xref": 574
+  },
+  "regions/p47-perce.jpg": {
+    "page": 47,
+    "xref": 586
+  },
+  "regions/p47-qc-flag.jpg": {
+    "page": 47,
+    "xref": 584
+  },
+  "regions/p47-petit-champlain.jpg": {
+    "page": 47,
+    "xref": 572
+  },
+  "regions/p47-hopewell.jpg": {
+    "page": 47,
+    "xref": 570
+  },
+  "regions/p47-nb-flag.jpg": {
+    "page": 47,
+    "xref": 568
+  },
+  "regions/p47-whale.jpg": {
+    "page": 47,
+    "xref": 566
+  },
+  "regions/p48-muskoka.jpg": {
+    "page": 48,
+    "xref": 594
+  },
+  "regions/p48-on-flag.jpg": {
+    "page": 48,
+    "xref": 592
+  },
+  "regions/p48-toronto.jpg": {
+    "page": 48,
+    "xref": 590
+  },
+  "regions/p48-pisew.jpg": {
+    "page": 48,
+    "xref": 588
+  },
+  "regions/p48-mb-flag.jpg": {
+    "page": 48,
+    "xref": 612
+  },
+  "regions/p48-golden-boy.jpg": {
+    "page": 48,
+    "xref": 610
+  },
+  "regions/p48-wheat.jpg": {
+    "page": 48,
+    "xref": 608
+  },
+  "regions/p48-sk-flag.jpg": {
+    "page": 48,
+    "xref": 606
+  },
+  "regions/p48-coronach.jpg": {
+    "page": 48,
+    "xref": 604
+  },
+  "regions/p49-rancher.jpg": {
+    "page": 49,
+    "xref": 616
+  },
+  "regions/p49-ab-flag.jpg": {
+    "page": 49,
+    "xref": 614
+  },
+  "regions/p49-pump-jack.jpg": {
+    "page": 49,
+    "xref": 602
+  },
+  "regions/p49-vancouver.jpg": {
+    "page": 49,
+    "xref": 600
+  },
+  "regions/p49-bc-flag.jpg": {
+    "page": 49,
+    "xref": 598
+  },
+  "regions/p49-orca.jpg": {
+    "page": 49,
+    "xref": 596
+  },
+  "regions/p50-northern-lights.jpg": {
+    "page": 50,
+    "xref": 630
+  },
+  "regions/p50-nwt-flag.jpg": {
+    "page": 50,
+    "xref": 628
+  },
+  "regions/p50-polar-bear.jpg": {
+    "page": 50,
+    "xref": 626
+  },
+  "regions/p50-gold.jpg": {
+    "page": 50,
+    "xref": 620
+  },
+  "regions/p50-yk-flag.jpg": {
+    "page": 50,
+    "xref": 618
+  },
+  "regions/p50-takhini.jpg": {
+    "page": 50,
+    "xref": 643
+  },
+  "regions/p50-mount-logan.jpg": {
+    "page": 50,
+    "xref": 624
+  },
+  "regions/p50-logan.jpg": {
+    "page": 50,
+    "xref": 622
+  },
+  "regions/p51-pangnirtung.jpg": {
+    "page": 51,
+    "xref": 646
+  },
+  "regions/p51-nu-flag.jpg": {
+    "page": 51,
+    "xref": 639
+  },
+  "regions/p51-inukshuk.jpg": {
+    "page": 51,
+    "xref": 632
+  },
+  "regions/p51-rangers.jpg": {
+    "page": 51,
+    "xref": 634
+  },
+  "regions/p51-inuit-boy.jpg": {
+    "page": 51,
+    "xref": 641
+  },
+  "regions/p51-caribou.jpg": {
+    "page": 51,
+    "xref": 636
+  },
+  "regions/p45-map.jpg": {
+    "page": 45,
+    "clip": [
+      0,
+      279,
+      504,
+      690
+    ],
+    "dpi": 200
   }
 }

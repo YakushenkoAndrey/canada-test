@@ -1,0 +1,335 @@
+@q 1 regions-01 1
+What is Canada’s size compared with other countries?
+| The largest country on earth | The second largest country on earth — 10 million square kilometres | The fifth largest country | The third largest country
+= Canada is the second largest country on earth—10 million square kilometres.
+? Какое место по площади занимает Канада?
+| Крупнейшая страна мира | Вторая по величине страна мира — 10 млн кв. км | Пятая по величине | Третья по величине
+= Вторая в мире, 10 миллионов квадратных километров.
+
+@q 2 regions-01 2
+Which three oceans line Canada’s frontiers?
+| Pacific, Indian and Atlantic | Atlantic, Southern and Arctic | Pacific, Atlantic and Arctic | Arctic, Indian and Pacific
+= Three oceans line Canada’s frontiers: the Pacific Ocean in the west, the Atlantic Ocean in the east, and the Arctic Ocean to the north.
+? Какие три океана омывают Канаду?
+| Тихий, Индийский и Атлантический | Атлантический, Южный и Северный Ледовитый | Тихий, Атлантический и Северный Ледовитый | Северный Ледовитый, Индийский и Тихий
+= Тихий (запад), Атлантический (восток), Северный Ледовитый (север).
+
+@q 3 regions-02 0
+How many regions does Canada have?
+| Five | Three | Ten | Thirteen
+= Canada has five distinct regions: the Atlantic Provinces, Central Canada, the Prairie Provinces, the West Coast and the Northern Territories.
+? Сколько регионов в Канаде?
+| Пять | Три | Десять | Тринадцать
+= Пять: Атлантические провинции, Центральная Канада, Прерии, Западное побережье, Северные территории.
+
+@q 4 regions-03 3
+Who chose Ottawa as the capital, and when?
+| Sir John A. Macdonald in 1867 | Queen Elizabeth II in 1952 | Champlain in 1608 | Queen Victoria in 1857
+= Ottawa, located on the Ottawa River, was chosen as the capital in 1857 by Queen Victoria, the great-great-grandmother of Queen Elizabeth II.
+? Кто и когда выбрал Оттаву столицей?
+| Джон А. Макдональд в 1867 | Елизавета II в 1952 | Шамплен в 1608 | Королева Виктория в 1857
+= Королева Виктория, 1857 год.
+
+@q 5 regions-04 1
+How many provinces and territories does Canada have?
+| 12 provinces and 1 territory | 10 provinces and 3 territories | 9 provinces and 4 territories | 13 provinces
+= Canada has ten provinces and three territories. Each has its own capital city.
+? Сколько в Канаде провинций и территорий?
+| 12 провинций и 1 территория | 10 провинций и 3 территории | 9 провинций и 4 территории | 13 провинций
+= 10 провинций и 3 территории.
+
+@q 6 regions-05 2
+What is the population of Canada, according to the guide?
+| About 10 million | About 20 million | About 34 million | About 50 million
+= Canada has a population of about 34 million people.
+? Каково население Канады по данным пособия?
+| Около 10 млн | Около 20 млн | Около 34 млн | Около 50 млн
+= Около 34 миллионов человек.
+
+@q 7 regions-06 0
+What is the capital of Ontario?
+| Toronto | Ottawa | Kingston | Hamilton
+= The capital of Ontario is Toronto. Ottawa is the capital of Canada.
+? Какая столица у Онтарио?
+| Торонто | Оттава | Кингстон | Гамильтон
+= Столица Онтарио — Торонто; Оттава — столица Канады.
+
+@q 8 regions-06 3
+What is the capital of British Columbia?
+| Vancouver | Kelowna | Surrey | Victoria
+= British Columbia’s capital is Victoria.
+? Какая столица у Британской Колумбии?
+| Ванкувер | Келоуна | Суррей | Виктория
+= Виктория.
+
+@q 9 regions-06 1
+What is the capital of Nunavut?
+| Yellowknife | Iqaluit | Whitehorse | Rankin Inlet
+= Nunavut’s capital is Iqaluit. Yellowknife is the capital of the N.W.T.; Whitehorse is the capital of Yukon.
+? Какая столица у Нунавута?
+| Йеллоунайф | Икалуит | Уайтхорс | Ранкин-Инлет
+= Икалуит.
+
+@q 10 regions-06 2
+What is the capital of Alberta?
+| Calgary | Banff | Edmonton | Regina
+= Alberta’s capital is Edmonton. Regina is the capital of Saskatchewan.
+? Какая столица у Альберты?
+| Калгари | Банф | Эдмонтон | Реджайна
+= Эдмонтон.
+
+@q 11 regions-06 0
+What is the capital of New Brunswick?
+| Fredericton | Saint John | Moncton | Halifax
+= New Brunswick’s capital is Fredericton. Saint John is the largest city; Moncton is the Acadian centre.
+? Какая столица у Нью-Брансуика?
+| Фредериктон | Сент-Джон | Монктон | Галифакс
+= Фредериктон.
+
+@q 12 regions-06 3
+What is the capital of Newfoundland and Labrador?
+| Charlottetown | Halifax | Corner Brook | St. John’s
+= Newfoundland and Labrador’s capital is St. John’s.
+? Какая столица у Ньюфаундленда и Лабрадора?
+| Шарлоттаун | Галифакс | Корнер-Брук | Сент-Джонс
+= Сент-Джонс.
+
+@q 13 regions-07 1
+What weather does the Atlantic Ocean bring to the Atlantic provinces?
+| Hot dry summers | Cool winters and cool humid summers | Very cold winters and hot summers | A temperate climate all year
+= The Atlantic Ocean brings cool winters and cool humid summers.
+? Какую погоду приносит Атлантический океан Атлантическим провинциям?
+| Жаркое сухое лето | Прохладную зиму и прохладное влажное лето | Морозную зиму и жаркое лето | Умеренный климат круглый год
+= Прохладная зима и прохладное влажное лето.
+
+@q 14 regions-08 2
+Which province is the most easterly point in North America and has its own time zone?
+| Nova Scotia | Prince Edward Island | Newfoundland and Labrador | New Brunswick
+= Newfoundland and Labrador is the most easterly point in North America and has its own time zone. It is the oldest colony of the British Empire.
+? Какая провинция — самая восточная точка Северной Америки со своим часовым поясом?
+| Новая Шотландия | Остров Принца Эдуарда | Ньюфаундленд и Лабрадор | Нью-Брансуик
+= Ньюфаундленд и Лабрадор — старейшая колония Британской империи.
+
+@q 15 regions-09 0
+Which is the smallest province, known as the birthplace of Confederation?
+| Prince Edward Island | Nova Scotia | New Brunswick | Manitoba
+= Prince Edward Island is the smallest province, the birthplace of Confederation, connected to the mainland by the Confederation Bridge.
+? Какая провинция — самая маленькая и считается родиной Конфедерации?
+| Остров Принца Эдуарда | Новая Шотландия | Нью-Брансуик | Манитоба
+= Остров Принца Эдуарда; мост Конфедерации, картофель, «Аня из Зелёных Мезонинов».
+
+@q 16 regions-10 3
+Where are the world’s highest tides?
+| Hudson Bay | Lake Superior | The St. Lawrence River | The Bay of Fundy
+= Nova Scotia is known for the world’s highest tides in the Bay of Fundy.
+? Где самые высокие приливы в мире?
+| В Гудзоновом заливе | На озере Верхнем | На реке Святого Лаврентия | В заливе Фанди
+= Залив Фанди (Новая Шотландия).
+
+@q 17 regions-10 1
+Which city is home to Canada’s largest naval base?
+| Victoria | Halifax | Québec City | St. John’s
+= Halifax, Canada’s largest east coast port, is home to Canada’s largest naval base.
+? В каком городе находится крупнейшая военно-морская база Канады?
+| Виктория | Галифакс | Квебек | Сент-Джонс
+= Галифакс.
+
+@q 18 regions-11 2
+Which is the only officially bilingual province?
+| Quebec | Ontario | New Brunswick | Manitoba
+= New Brunswick is the only officially bilingual province, and about one-third of the population lives and works in French.
+? Какая провинция — единственная официально двуязычная?
+| Квебек | Онтарио | Нью-Брансуик | Манитоба
+= Нью-Брансуик; около трети жителей говорят по-французски.
+
+@q 19 regions-11 0
+Who founded the province of New Brunswick?
+| The United Empire Loyalists | The Acadians | The Vikings | The Métis
+= New Brunswick was founded by the United Empire Loyalists.
+? Кто основал провинцию Нью-Брансуик?
+| Лоялисты Объединённой империи | Акадийцы | Викинги | Метисы
+= Лоялисты Объединённой империи.
+
+@q 20 regions-12 1
+How much of all Canadian manufactured goods do Ontario and Quebec produce together?
+| About half | More than three-quarters | About one-quarter | About 10%
+= Together, Ontario and Quebec produce more than three-quarters of all Canadian manufactured goods.
+? Какую долю промышленной продукции Канады производят Онтарио и Квебек вместе?
+| Около половины | Более трёх четвертей | Около четверти | Около 10%
+= Более трёх четвертей.
+
+@q 21 regions-12 3
+Where does more than half of Canada’s population live?
+| On the West Coast | In the Prairies | In the North | Near the Great Lakes and the St. Lawrence River (Central Canada)
+= More than half the people in Canada live in cities and towns near the Great Lakes and the St. Lawrence River in southern Quebec and Ontario.
+? Где живёт более половины населения Канады?
+| На Западном побережье | В Прериях | На Севере | У Великих озёр и реки Святого Лаврентия (Центральная Канада)
+= В Центральной Канаде — на юге Квебека и Онтарио.
+
+@q 22 regions-13 2
+Which province is Canada’s largest producer of hydro-electricity?
+| Ontario | British Columbia | Quebec | Manitoba
+= The province’s huge supply of fresh water has made Quebec Canada’s largest producer of hydro-electricity.
+? Какая провинция — крупнейший производитель гидроэлектроэнергии в Канаде?
+| Онтарио | Британская Колумбия | Квебек | Манитоба
+= Квебек.
+
+@q 23 regions-13 0
+What is special about Montreal?
+| It is Canada’s second largest city and the second largest mainly French-speaking city in the world after Paris | It is the capital of Canada | It is the oldest city in North America | It is the largest port in Canada
+= Montreal, Canada’s second largest city and the second largest mainly French-speaking city in the world after Paris, is famous for its cultural diversity.
+? Чем примечателен Монреаль?
+| Второй по величине город Канады и второй франкоязычный город мира после Парижа | Столица Канады | Старейший город Северной Америки | Крупнейший порт Канады
+= Монреаль — второй город Канады и второй франкоязычный город мира.
+
+@q 24 regions-14 1
+What portion of Canadians live in Ontario?
+| About 10% | More than one-third | About half | About one-quarter
+= At more than 12 million, the people of Ontario make up more than one-third of Canadians.
+? Какая доля канадцев живёт в Онтарио?
+| Около 10% | Более трети | Около половины | Около четверти
+= Более трети — свыше 12 миллионов человек.
+
+@q 25 regions-14 3
+Which of the Great Lakes is the largest freshwater lake in the world?
+| Lake Ontario | Lake Erie | Lake Huron | Lake Superior
+= Lake Superior is the largest freshwater lake in the world. The five Great Lakes are Ontario, Erie, Huron, Michigan (in the U.S.A.) and Superior.
+? Какое из Великих озёр — крупнейшее пресноводное озеро мира?
+| Онтарио | Эри | Гурон | Верхнее
+= Озеро Верхнее.
+
+@q 26 regions-14 2
+Which is the largest city in Canada and its main financial centre?
+| Montreal | Vancouver | Toronto | Ottawa
+= Toronto is the largest city in Canada and the country’s main financial centre.
+? Какой город — крупнейший в Канаде и её главный финансовый центр?
+| Монреаль | Ванкувер | Торонто | Оттава
+= Торонто.
+
+@q 27 regions-15 0
+Which are the three Prairie Provinces?
+| Manitoba, Saskatchewan and Alberta | Ontario, Manitoba and Saskatchewan | Alberta, British Columbia and Yukon | Saskatchewan, Alberta and Northwest Territories
+= Manitoba, Saskatchewan and Alberta are the Prairie Provinces, rich in energy resources and fertile farmland.
+? Какие три провинции называются Прерийными?
+| Манитоба, Саскачеван и Альберта | Онтарио, Манитоба и Саскачеван | Альберта, Британская Колумбия и Юкон | Саскачеван, Альберта и СЗТ
+= Манитоба, Саскачеван и Альберта.
+
+@q 28 regions-16 1
+Which province has the largest Aboriginal population of any province?
+| Saskatchewan | Manitoba | British Columbia | Ontario
+= Manitoba has the largest Aboriginal population of any province, at over 15%, and is an important centre of Ukrainian culture.
+? В какой провинции наибольшая доля коренного населения?
+| Саскачеван | Манитоба | Британская Колумбия | Онтарио
+= Манитоба — более 15%.
+
+@q 29 regions-17 2
+Which province was once known as the “breadbasket of the world”?
+| Alberta | Manitoba | Saskatchewan | Ontario
+= Saskatchewan, once known as the “breadbasket of the world” and the “wheat province,” has 40% of the arable land in Canada.
+? Какую провинцию называли «житницей мира»?
+| Альберту | Манитобу | Саскачеван | Онтарио
+= Саскачеван — 40% пахотных земель Канады.
+
+@q 30 regions-17 0
+Where is the training academy of the RCMP located?
+| Regina, Saskatchewan | Ottawa, Ontario | Calgary, Alberta | Winnipeg, Manitoba
+= Regina, the capital of Saskatchewan, is home to the training academy of the Royal Canadian Mounted Police.
+? Где находится учебная академия КККП?
+| В Реджайне (Саскачеван) | В Оттаве | В Калгари | В Виннипеге
+= В Реджайне.
+
+@q 31 regions-18 3
+Which province is the largest producer of oil and gas?
+| Saskatchewan | Newfoundland and Labrador | British Columbia | Alberta
+= Alberta is the largest producer of oil and gas, and the oil sands in the north are being developed as a major energy source.
+? Какая провинция — крупнейший производитель нефти и газа?
+| Саскачеван | Ньюфаундленд и Лабрадор | Британская Колумбия | Альберта
+= Альберта (нефтеносные пески на севере).
+
+@q 32 regions-18 1
+After whom was the province of Alberta named?
+| Prince Albert, husband of Queen Victoria | Princess Louise Caroline Alberta, fourth daughter of Queen Victoria | Alberta Smith, a pioneer | A First Nations chief
+= Alberta and Lake Louise were both named after Princess Louise Caroline Alberta, fourth daughter of Queen Victoria.
+? В честь кого названа Альберта?
+| Принца Альберта, мужа королевы Виктории | Принцессы Луизы Каролины Альберты, четвёртой дочери королевы Виктории | Первопоселенки Альберты Смит | Вождя Первых наций
+= В честь принцессы Луизы Каролины Альберты.
+
+@q 33 regions-19 2
+What is Canada’s largest and busiest port?
+| The Port of Halifax | The Port of Montreal | The Port of Vancouver | The Port of Québec
+= The Port of Vancouver, Canada’s largest and busiest, handles billions of dollars in goods traded around the world.
+? Какой порт — крупнейший и самый загруженный в Канаде?
+| Галифакс | Монреаль | Ванкувер | Квебек
+= Порт Ванкувера.
+
+@q 34 regions-20 0
+Which province has the most extensive park system in Canada?
+| British Columbia | Alberta | Ontario | Quebec
+= B.C. has the most extensive park system in Canada, with approximately 600 provincial parks.
+? В какой провинции самая обширная система парков?
+| Британская Колумбия | Альберта | Онтарио | Квебек
+= Британская Колумбия — около 600 провинциальных парков.
+
+@q 35 regions-20 3
+Which are the most spoken languages in British Columbia’s cities after English?
+| French and German | Spanish and Italian | Inuktitut and Michif | Chinese and Punjabi
+= The province’s large Asian communities have made Chinese and Punjabi the most spoken languages in the cities after English.
+? Какие языки самые распространённые в городах Британской Колумбии после английского?
+| Французский и немецкий | Испанский и итальянский | Инуктитут и мичиф | Китайский и панджаби
+= Китайский и панджаби.
+
+@q 36 regions-21 1
+Why is the North called the “Land of the Midnight Sun”?
+| Because the sun never sets all year | Because at the height of summer, daylight can last up to 24 hours | Because of the northern lights | Because it is always dark
+= The North is often referred to as the “Land of the Midnight Sun” because at the height of summer, daylight can last up to 24 hours.
+? Почему Север называют «Землёй полуночного солнца»?
+| Солнце не заходит весь год | В разгар лета светлое время суток может длиться до 24 часов | Из-за северного сияния | Там всегда темно
+= Летом день может длиться до 24 часов.
+
+@q 37 regions-21 2
+What is the population of the three Northern territories together?
+| About 1 million | About 500,000 | Only about 100,000 | About 34,000
+= The Northwest Territories, Nunavut and Yukon contain one-third of Canada’s land mass but have a population of only 100,000.
+? Каково население трёх Северных территорий вместе?
+| Около 1 млн | Около 500 000 | Всего около 100 000 | Около 34 000
+= Треть территории страны, но всего 100 000 жителей.
+
+@q 38 regions-22 0
+Which city is called the “diamond capital of North America”?
+| Yellowknife | Iqaluit | Whitehorse | Edmonton
+= The capital of the Northwest Territories, Yellowknife, is called the “diamond capital of North America.”
+? Какой город называют «алмазной столицей Северной Америки»?
+| Йеллоунайф | Икалуит | Уайтхорс | Эдмонтон
+= Йеллоунайф, столица Северо-Западных территорий.
+
+@q 39 regions-23 3
+What is the highest mountain in Canada?
+| Mount Robson | Mount Columbia | Mount Louise | Mount Logan, in the Yukon
+= Mount Logan, located in the Yukon, is the highest mountain in Canada, named after geologist Sir William Logan.
+? Какая гора — самая высокая в Канаде?
+| Робсон | Колумбия | Луиза | Логан на Юконе
+= Гора Логан (Юкон).
+
+@q 40 regions-24 1
+When was Nunavut established, and what does its name mean?
+| 1949, “northern land” | 1999, “our land” in Inuktitut | 1870, “the people” | 1905, “cold land”
+= Nunavut, meaning “our land” in Inuktitut, was established in 1999 from the eastern part of the Northwest Territories.
+? Когда образован Нунавут и что означает его название?
+| 1949, «северная земля» | 1999, «наша земля» на инуктитут | 1870, «люди» | 1905, «холодная земля»
+= 1999 год; «наша земля».
+
+@q 41 regions-25 2
+Who are the Canadian Rangers?
+| An RCMP special unit | A national hockey team | Part of the Canadian Forces Reserves (militia) who keep the flag flying in Canada’s Arctic | Park wardens in Banff
+= The Canadian Rangers, part of the Canadian Forces Reserves (militia), play a key role in the North and keep the flag flying in Canada’s Arctic.
+? Кто такие Канадские рейнджеры?
+| Спецподразделение КККП | Сборная по хоккею | Часть резерва Вооружённых сил, поддерживающая присутствие Канады в Арктике | Смотрители парка Банф
+= Рейнджеры — часть резерва (ополчения) Вооружённых сил на Севере.
+
+@q 42 regions-23 1
+Which territory holds the record for the coldest temperature ever recorded in Canada (-63°C)?
+| Nunavut | Yukon | Northwest Territories | Manitoba
+= Yukon holds the record for the coldest temperature ever recorded in Canada (-63°C).
+? Какой территории принадлежит рекорд самой низкой температуры в Канаде (−63 °C)?
+| Нунавут | Юкон | Северо-Западные территории | Манитоба
+= Юкон.

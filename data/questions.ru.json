@@ -4639,5 +4639,887 @@
    "Тесные связи и общие интересы Канады и США",
    "Границу с Мексикой"
   ]
+ },
+ {
+  "id": "q-regions-001",
+  "chapter": "regions",
+  "blockId": "regions-01",
+  "question": "What is Canada’s size compared with other countries?",
+  "options": [
+   "The largest country on earth",
+   "The second largest country on earth — 10 million square kilometres",
+   "The fifth largest country",
+   "The third largest country"
+  ],
+  "answer": 1,
+  "explanation": "Вторая в мире, 10 миллионов квадратных километров.",
+  "questionRu": "Какое место по площади занимает Канада?",
+  "optionsRu": [
+   "Крупнейшая страна мира",
+   "Вторая по величине страна мира — 10 млн кв. км",
+   "Пятая по величине",
+   "Третья по величине"
+  ]
+ },
+ {
+  "id": "q-regions-002",
+  "chapter": "regions",
+  "blockId": "regions-01",
+  "question": "Which three oceans line Canada’s frontiers?",
+  "options": [
+   "Pacific, Indian and Atlantic",
+   "Atlantic, Southern and Arctic",
+   "Pacific, Atlantic and Arctic",
+   "Arctic, Indian and Pacific"
+  ],
+  "answer": 2,
+  "explanation": "Тихий (запад), Атлантический (восток), Северный Ледовитый (север).",
+  "questionRu": "Какие три океана омывают Канаду?",
+  "optionsRu": [
+   "Тихий, Индийский и Атлантический",
+   "Атлантический, Южный и Северный Ледовитый",
+   "Тихий, Атлантический и Северный Ледовитый",
+   "Северный Ледовитый, Индийский и Тихий"
+  ]
+ },
+ {
+  "id": "q-regions-003",
+  "chapter": "regions",
+  "blockId": "regions-02",
+  "question": "How many regions does Canada have?",
+  "options": [
+   "Five",
+   "Three",
+   "Ten",
+   "Thirteen"
+  ],
+  "answer": 0,
+  "explanation": "Пять: Атлантические провинции, Центральная Канада, Прерии, Западное побережье, Северные территории.",
+  "questionRu": "Сколько регионов в Канаде?",
+  "optionsRu": [
+   "Пять",
+   "Три",
+   "Десять",
+   "Тринадцать"
+  ]
+ },
+ {
+  "id": "q-regions-004",
+  "chapter": "regions",
+  "blockId": "regions-03",
+  "question": "Who chose Ottawa as the capital, and when?",
+  "options": [
+   "Sir John A. Macdonald in 1867",
+   "Queen Elizabeth II in 1952",
+   "Champlain in 1608",
+   "Queen Victoria in 1857"
+  ],
+  "answer": 3,
+  "explanation": "Королева Виктория, 1857 год.",
+  "questionRu": "Кто и когда выбрал Оттаву столицей?",
+  "optionsRu": [
+   "Джон А. Макдональд в 1867",
+   "Елизавета II в 1952",
+   "Шамплен в 1608",
+   "Королева Виктория в 1857"
+  ]
+ },
+ {
+  "id": "q-regions-005",
+  "chapter": "regions",
+  "blockId": "regions-04",
+  "question": "How many provinces and territories does Canada have?",
+  "options": [
+   "12 provinces and 1 territory",
+   "10 provinces and 3 territories",
+   "9 provinces and 4 territories",
+   "13 provinces"
+  ],
+  "answer": 1,
+  "explanation": "10 провинций и 3 территории.",
+  "questionRu": "Сколько в Канаде провинций и территорий?",
+  "optionsRu": [
+   "12 провинций и 1 территория",
+   "10 провинций и 3 территории",
+   "9 провинций и 4 территории",
+   "13 провинций"
+  ]
+ },
+ {
+  "id": "q-regions-006",
+  "chapter": "regions",
+  "blockId": "regions-05",
+  "question": "What is the population of Canada, according to the guide?",
+  "options": [
+   "About 10 million",
+   "About 20 million",
+   "About 34 million",
+   "About 50 million"
+  ],
+  "answer": 2,
+  "explanation": "Около 34 миллионов человек.",
+  "questionRu": "Каково население Канады по данным пособия?",
+  "optionsRu": [
+   "Около 10 млн",
+   "Около 20 млн",
+   "Около 34 млн",
+   "Около 50 млн"
+  ]
+ },
+ {
+  "id": "q-regions-007",
+  "chapter": "regions",
+  "blockId": "regions-06",
+  "question": "What is the capital of Ontario?",
+  "options": [
+   "Toronto",
+   "Ottawa",
+   "Kingston",
+   "Hamilton"
+  ],
+  "answer": 0,
+  "explanation": "Столица Онтарио — Торонто; Оттава — столица Канады.",
+  "questionRu": "Какая столица у Онтарио?",
+  "optionsRu": [
+   "Торонто",
+   "Оттава",
+   "Кингстон",
+   "Гамильтон"
+  ]
+ },
+ {
+  "id": "q-regions-008",
+  "chapter": "regions",
+  "blockId": "regions-06",
+  "question": "What is the capital of British Columbia?",
+  "options": [
+   "Vancouver",
+   "Kelowna",
+   "Surrey",
+   "Victoria"
+  ],
+  "answer": 3,
+  "explanation": "Виктория.",
+  "questionRu": "Какая столица у Британской Колумбии?",
+  "optionsRu": [
+   "Ванкувер",
+   "Келоуна",
+   "Суррей",
+   "Виктория"
+  ]
+ },
+ {
+  "id": "q-regions-009",
+  "chapter": "regions",
+  "blockId": "regions-06",
+  "question": "What is the capital of Nunavut?",
+  "options": [
+   "Yellowknife",
+   "Iqaluit",
+   "Whitehorse",
+   "Rankin Inlet"
+  ],
+  "answer": 1,
+  "explanation": "Икалуит.",
+  "questionRu": "Какая столица у Нунавута?",
+  "optionsRu": [
+   "Йеллоунайф",
+   "Икалуит",
+   "Уайтхорс",
+   "Ранкин-Инлет"
+  ]
+ },
+ {
+  "id": "q-regions-010",
+  "chapter": "regions",
+  "blockId": "regions-06",
+  "question": "What is the capital of Alberta?",
+  "options": [
+   "Calgary",
+   "Banff",
+   "Edmonton",
+   "Regina"
+  ],
+  "answer": 2,
+  "explanation": "Эдмонтон.",
+  "questionRu": "Какая столица у Альберты?",
+  "optionsRu": [
+   "Калгари",
+   "Банф",
+   "Эдмонтон",
+   "Реджайна"
+  ]
+ },
+ {
+  "id": "q-regions-011",
+  "chapter": "regions",
+  "blockId": "regions-06",
+  "question": "What is the capital of New Brunswick?",
+  "options": [
+   "Fredericton",
+   "Saint John",
+   "Moncton",
+   "Halifax"
+  ],
+  "answer": 0,
+  "explanation": "Фредериктон.",
+  "questionRu": "Какая столица у Нью-Брансуика?",
+  "optionsRu": [
+   "Фредериктон",
+   "Сент-Джон",
+   "Монктон",
+   "Галифакс"
+  ]
+ },
+ {
+  "id": "q-regions-012",
+  "chapter": "regions",
+  "blockId": "regions-06",
+  "question": "What is the capital of Newfoundland and Labrador?",
+  "options": [
+   "Charlottetown",
+   "Halifax",
+   "Corner Brook",
+   "St. John’s"
+  ],
+  "answer": 3,
+  "explanation": "Сент-Джонс.",
+  "questionRu": "Какая столица у Ньюфаундленда и Лабрадора?",
+  "optionsRu": [
+   "Шарлоттаун",
+   "Галифакс",
+   "Корнер-Брук",
+   "Сент-Джонс"
+  ]
+ },
+ {
+  "id": "q-regions-013",
+  "chapter": "regions",
+  "blockId": "regions-07",
+  "question": "What weather does the Atlantic Ocean bring to the Atlantic provinces?",
+  "options": [
+   "Hot dry summers",
+   "Cool winters and cool humid summers",
+   "Very cold winters and hot summers",
+   "A temperate climate all year"
+  ],
+  "answer": 1,
+  "explanation": "Прохладная зима и прохладное влажное лето.",
+  "questionRu": "Какую погоду приносит Атлантический океан Атлантическим провинциям?",
+  "optionsRu": [
+   "Жаркое сухое лето",
+   "Прохладную зиму и прохладное влажное лето",
+   "Морозную зиму и жаркое лето",
+   "Умеренный климат круглый год"
+  ]
+ },
+ {
+  "id": "q-regions-014",
+  "chapter": "regions",
+  "blockId": "regions-08",
+  "question": "Which province is the most easterly point in North America and has its own time zone?",
+  "options": [
+   "Nova Scotia",
+   "Prince Edward Island",
+   "Newfoundland and Labrador",
+   "New Brunswick"
+  ],
+  "answer": 2,
+  "explanation": "Ньюфаундленд и Лабрадор — старейшая колония Британской империи.",
+  "questionRu": "Какая провинция — самая восточная точка Северной Америки со своим часовым поясом?",
+  "optionsRu": [
+   "Новая Шотландия",
+   "Остров Принца Эдуарда",
+   "Ньюфаундленд и Лабрадор",
+   "Нью-Брансуик"
+  ]
+ },
+ {
+  "id": "q-regions-015",
+  "chapter": "regions",
+  "blockId": "regions-09",
+  "question": "Which is the smallest province, known as the birthplace of Confederation?",
+  "options": [
+   "Prince Edward Island",
+   "Nova Scotia",
+   "New Brunswick",
+   "Manitoba"
+  ],
+  "answer": 0,
+  "explanation": "Остров Принца Эдуарда; мост Конфедерации, картофель, «Аня из Зелёных Мезонинов».",
+  "questionRu": "Какая провинция — самая маленькая и считается родиной Конфедерации?",
+  "optionsRu": [
+   "Остров Принца Эдуарда",
+   "Новая Шотландия",
+   "Нью-Брансуик",
+   "Манитоба"
+  ]
+ },
+ {
+  "id": "q-regions-016",
+  "chapter": "regions",
+  "blockId": "regions-10",
+  "question": "Where are the world’s highest tides?",
+  "options": [
+   "Hudson Bay",
+   "Lake Superior",
+   "The St. Lawrence River",
+   "The Bay of Fundy"
+  ],
+  "answer": 3,
+  "explanation": "Залив Фанди (Новая Шотландия).",
+  "questionRu": "Где самые высокие приливы в мире?",
+  "optionsRu": [
+   "В Гудзоновом заливе",
+   "На озере Верхнем",
+   "На реке Святого Лаврентия",
+   "В заливе Фанди"
+  ]
+ },
+ {
+  "id": "q-regions-017",
+  "chapter": "regions",
+  "blockId": "regions-10",
+  "question": "Which city is home to Canada’s largest naval base?",
+  "options": [
+   "Victoria",
+   "Halifax",
+   "Québec City",
+   "St. John’s"
+  ],
+  "answer": 1,
+  "explanation": "Галифакс.",
+  "questionRu": "В каком городе находится крупнейшая военно-морская база Канады?",
+  "optionsRu": [
+   "Виктория",
+   "Галифакс",
+   "Квебек",
+   "Сент-Джонс"
+  ]
+ },
+ {
+  "id": "q-regions-018",
+  "chapter": "regions",
+  "blockId": "regions-11",
+  "question": "Which is the only officially bilingual province?",
+  "options": [
+   "Quebec",
+   "Ontario",
+   "New Brunswick",
+   "Manitoba"
+  ],
+  "answer": 2,
+  "explanation": "Нью-Брансуик; около трети жителей говорят по-французски.",
+  "questionRu": "Какая провинция — единственная официально двуязычная?",
+  "optionsRu": [
+   "Квебек",
+   "Онтарио",
+   "Нью-Брансуик",
+   "Манитоба"
+  ]
+ },
+ {
+  "id": "q-regions-019",
+  "chapter": "regions",
+  "blockId": "regions-11",
+  "question": "Who founded the province of New Brunswick?",
+  "options": [
+   "The United Empire Loyalists",
+   "The Acadians",
+   "The Vikings",
+   "The Métis"
+  ],
+  "answer": 0,
+  "explanation": "Лоялисты Объединённой империи.",
+  "questionRu": "Кто основал провинцию Нью-Брансуик?",
+  "optionsRu": [
+   "Лоялисты Объединённой империи",
+   "Акадийцы",
+   "Викинги",
+   "Метисы"
+  ]
+ },
+ {
+  "id": "q-regions-020",
+  "chapter": "regions",
+  "blockId": "regions-12",
+  "question": "How much of all Canadian manufactured goods do Ontario and Quebec produce together?",
+  "options": [
+   "About half",
+   "More than three-quarters",
+   "About one-quarter",
+   "About 10%"
+  ],
+  "answer": 1,
+  "explanation": "Более трёх четвертей.",
+  "questionRu": "Какую долю промышленной продукции Канады производят Онтарио и Квебек вместе?",
+  "optionsRu": [
+   "Около половины",
+   "Более трёх четвертей",
+   "Около четверти",
+   "Около 10%"
+  ]
+ },
+ {
+  "id": "q-regions-021",
+  "chapter": "regions",
+  "blockId": "regions-12",
+  "question": "Where does more than half of Canada’s population live?",
+  "options": [
+   "On the West Coast",
+   "In the Prairies",
+   "In the North",
+   "Near the Great Lakes and the St. Lawrence River (Central Canada)"
+  ],
+  "answer": 3,
+  "explanation": "В Центральной Канаде — на юге Квебека и Онтарио.",
+  "questionRu": "Где живёт более половины населения Канады?",
+  "optionsRu": [
+   "На Западном побережье",
+   "В Прериях",
+   "На Севере",
+   "У Великих озёр и реки Святого Лаврентия (Центральная Канада)"
+  ]
+ },
+ {
+  "id": "q-regions-022",
+  "chapter": "regions",
+  "blockId": "regions-13",
+  "question": "Which province is Canada’s largest producer of hydro-electricity?",
+  "options": [
+   "Ontario",
+   "British Columbia",
+   "Quebec",
+   "Manitoba"
+  ],
+  "answer": 2,
+  "explanation": "Квебек.",
+  "questionRu": "Какая провинция — крупнейший производитель гидроэлектроэнергии в Канаде?",
+  "optionsRu": [
+   "Онтарио",
+   "Британская Колумбия",
+   "Квебек",
+   "Манитоба"
+  ]
+ },
+ {
+  "id": "q-regions-023",
+  "chapter": "regions",
+  "blockId": "regions-13",
+  "question": "What is special about Montreal?",
+  "options": [
+   "It is Canada’s second largest city and the second largest mainly French-speaking city in the world after Paris",
+   "It is the capital of Canada",
+   "It is the oldest city in North America",
+   "It is the largest port in Canada"
+  ],
+  "answer": 0,
+  "explanation": "Монреаль — второй город Канады и второй франкоязычный город мира.",
+  "questionRu": "Чем примечателен Монреаль?",
+  "optionsRu": [
+   "Второй по величине город Канады и второй франкоязычный город мира после Парижа",
+   "Столица Канады",
+   "Старейший город Северной Америки",
+   "Крупнейший порт Канады"
+  ]
+ },
+ {
+  "id": "q-regions-024",
+  "chapter": "regions",
+  "blockId": "regions-14",
+  "question": "What portion of Canadians live in Ontario?",
+  "options": [
+   "About 10%",
+   "More than one-third",
+   "About half",
+   "About one-quarter"
+  ],
+  "answer": 1,
+  "explanation": "Более трети — свыше 12 миллионов человек.",
+  "questionRu": "Какая доля канадцев живёт в Онтарио?",
+  "optionsRu": [
+   "Около 10%",
+   "Более трети",
+   "Около половины",
+   "Около четверти"
+  ]
+ },
+ {
+  "id": "q-regions-025",
+  "chapter": "regions",
+  "blockId": "regions-14",
+  "question": "Which of the Great Lakes is the largest freshwater lake in the world?",
+  "options": [
+   "Lake Ontario",
+   "Lake Erie",
+   "Lake Huron",
+   "Lake Superior"
+  ],
+  "answer": 3,
+  "explanation": "Озеро Верхнее.",
+  "questionRu": "Какое из Великих озёр — крупнейшее пресноводное озеро мира?",
+  "optionsRu": [
+   "Онтарио",
+   "Эри",
+   "Гурон",
+   "Верхнее"
+  ]
+ },
+ {
+  "id": "q-regions-026",
+  "chapter": "regions",
+  "blockId": "regions-14",
+  "question": "Which is the largest city in Canada and its main financial centre?",
+  "options": [
+   "Montreal",
+   "Vancouver",
+   "Toronto",
+   "Ottawa"
+  ],
+  "answer": 2,
+  "explanation": "Торонто.",
+  "questionRu": "Какой город — крупнейший в Канаде и её главный финансовый центр?",
+  "optionsRu": [
+   "Монреаль",
+   "Ванкувер",
+   "Торонто",
+   "Оттава"
+  ]
+ },
+ {
+  "id": "q-regions-027",
+  "chapter": "regions",
+  "blockId": "regions-15",
+  "question": "Which are the three Prairie Provinces?",
+  "options": [
+   "Manitoba, Saskatchewan and Alberta",
+   "Ontario, Manitoba and Saskatchewan",
+   "Alberta, British Columbia and Yukon",
+   "Saskatchewan, Alberta and Northwest Territories"
+  ],
+  "answer": 0,
+  "explanation": "Манитоба, Саскачеван и Альберта.",
+  "questionRu": "Какие три провинции называются Прерийными?",
+  "optionsRu": [
+   "Манитоба, Саскачеван и Альберта",
+   "Онтарио, Манитоба и Саскачеван",
+   "Альберта, Британская Колумбия и Юкон",
+   "Саскачеван, Альберта и СЗТ"
+  ]
+ },
+ {
+  "id": "q-regions-028",
+  "chapter": "regions",
+  "blockId": "regions-16",
+  "question": "Which province has the largest Aboriginal population of any province?",
+  "options": [
+   "Saskatchewan",
+   "Manitoba",
+   "British Columbia",
+   "Ontario"
+  ],
+  "answer": 1,
+  "explanation": "Манитоба — более 15%.",
+  "questionRu": "В какой провинции наибольшая доля коренного населения?",
+  "optionsRu": [
+   "Саскачеван",
+   "Манитоба",
+   "Британская Колумбия",
+   "Онтарио"
+  ]
+ },
+ {
+  "id": "q-regions-029",
+  "chapter": "regions",
+  "blockId": "regions-17",
+  "question": "Which province was once known as the “breadbasket of the world”?",
+  "options": [
+   "Alberta",
+   "Manitoba",
+   "Saskatchewan",
+   "Ontario"
+  ],
+  "answer": 2,
+  "explanation": "Саскачеван — 40% пахотных земель Канады.",
+  "questionRu": "Какую провинцию называли «житницей мира»?",
+  "optionsRu": [
+   "Альберту",
+   "Манитобу",
+   "Саскачеван",
+   "Онтарио"
+  ]
+ },
+ {
+  "id": "q-regions-030",
+  "chapter": "regions",
+  "blockId": "regions-17",
+  "question": "Where is the training academy of the RCMP located?",
+  "options": [
+   "Regina, Saskatchewan",
+   "Ottawa, Ontario",
+   "Calgary, Alberta",
+   "Winnipeg, Manitoba"
+  ],
+  "answer": 0,
+  "explanation": "В Реджайне.",
+  "questionRu": "Где находится учебная академия КККП?",
+  "optionsRu": [
+   "В Реджайне (Саскачеван)",
+   "В Оттаве",
+   "В Калгари",
+   "В Виннипеге"
+  ]
+ },
+ {
+  "id": "q-regions-031",
+  "chapter": "regions",
+  "blockId": "regions-18",
+  "question": "Which province is the largest producer of oil and gas?",
+  "options": [
+   "Saskatchewan",
+   "Newfoundland and Labrador",
+   "British Columbia",
+   "Alberta"
+  ],
+  "answer": 3,
+  "explanation": "Альберта (нефтеносные пески на севере).",
+  "questionRu": "Какая провинция — крупнейший производитель нефти и газа?",
+  "optionsRu": [
+   "Саскачеван",
+   "Ньюфаундленд и Лабрадор",
+   "Британская Колумбия",
+   "Альберта"
+  ]
+ },
+ {
+  "id": "q-regions-032",
+  "chapter": "regions",
+  "blockId": "regions-18",
+  "question": "After whom was the province of Alberta named?",
+  "options": [
+   "Prince Albert, husband of Queen Victoria",
+   "Princess Louise Caroline Alberta, fourth daughter of Queen Victoria",
+   "Alberta Smith, a pioneer",
+   "A First Nations chief"
+  ],
+  "answer": 1,
+  "explanation": "В честь принцессы Луизы Каролины Альберты.",
+  "questionRu": "В честь кого названа Альберта?",
+  "optionsRu": [
+   "Принца Альберта, мужа королевы Виктории",
+   "Принцессы Луизы Каролины Альберты, четвёртой дочери королевы Виктории",
+   "Первопоселенки Альберты Смит",
+   "Вождя Первых наций"
+  ]
+ },
+ {
+  "id": "q-regions-033",
+  "chapter": "regions",
+  "blockId": "regions-19",
+  "question": "What is Canada’s largest and busiest port?",
+  "options": [
+   "The Port of Halifax",
+   "The Port of Montreal",
+   "The Port of Vancouver",
+   "The Port of Québec"
+  ],
+  "answer": 2,
+  "explanation": "Порт Ванкувера.",
+  "questionRu": "Какой порт — крупнейший и самый загруженный в Канаде?",
+  "optionsRu": [
+   "Галифакс",
+   "Монреаль",
+   "Ванкувер",
+   "Квебек"
+  ]
+ },
+ {
+  "id": "q-regions-034",
+  "chapter": "regions",
+  "blockId": "regions-20",
+  "question": "Which province has the most extensive park system in Canada?",
+  "options": [
+   "British Columbia",
+   "Alberta",
+   "Ontario",
+   "Quebec"
+  ],
+  "answer": 0,
+  "explanation": "Британская Колумбия — около 600 провинциальных парков.",
+  "questionRu": "В какой провинции самая обширная система парков?",
+  "optionsRu": [
+   "Британская Колумбия",
+   "Альберта",
+   "Онтарио",
+   "Квебек"
+  ]
+ },
+ {
+  "id": "q-regions-035",
+  "chapter": "regions",
+  "blockId": "regions-20",
+  "question": "Which are the most spoken languages in British Columbia’s cities after English?",
+  "options": [
+   "French and German",
+   "Spanish and Italian",
+   "Inuktitut and Michif",
+   "Chinese and Punjabi"
+  ],
+  "answer": 3,
+  "explanation": "Китайский и панджаби.",
+  "questionRu": "Какие языки самые распространённые в городах Британской Колумбии после английского?",
+  "optionsRu": [
+   "Французский и немецкий",
+   "Испанский и итальянский",
+   "Инуктитут и мичиф",
+   "Китайский и панджаби"
+  ]
+ },
+ {
+  "id": "q-regions-036",
+  "chapter": "regions",
+  "blockId": "regions-21",
+  "question": "Why is the North called the “Land of the Midnight Sun”?",
+  "options": [
+   "Because the sun never sets all year",
+   "Because at the height of summer, daylight can last up to 24 hours",
+   "Because of the northern lights",
+   "Because it is always dark"
+  ],
+  "answer": 1,
+  "explanation": "Летом день может длиться до 24 часов.",
+  "questionRu": "Почему Север называют «Землёй полуночного солнца»?",
+  "optionsRu": [
+   "Солнце не заходит весь год",
+   "В разгар лета светлое время суток может длиться до 24 часов",
+   "Из-за северного сияния",
+   "Там всегда темно"
+  ]
+ },
+ {
+  "id": "q-regions-037",
+  "chapter": "regions",
+  "blockId": "regions-21",
+  "question": "What is the population of the three Northern territories together?",
+  "options": [
+   "About 1 million",
+   "About 500,000",
+   "Only about 100,000",
+   "About 34,000"
+  ],
+  "answer": 2,
+  "explanation": "Треть территории страны, но всего 100 000 жителей.",
+  "questionRu": "Каково население трёх Северных территорий вместе?",
+  "optionsRu": [
+   "Около 1 млн",
+   "Около 500 000",
+   "Всего около 100 000",
+   "Около 34 000"
+  ]
+ },
+ {
+  "id": "q-regions-038",
+  "chapter": "regions",
+  "blockId": "regions-22",
+  "question": "Which city is called the “diamond capital of North America”?",
+  "options": [
+   "Yellowknife",
+   "Iqaluit",
+   "Whitehorse",
+   "Edmonton"
+  ],
+  "answer": 0,
+  "explanation": "Йеллоунайф, столица Северо-Западных территорий.",
+  "questionRu": "Какой город называют «алмазной столицей Северной Америки»?",
+  "optionsRu": [
+   "Йеллоунайф",
+   "Икалуит",
+   "Уайтхорс",
+   "Эдмонтон"
+  ]
+ },
+ {
+  "id": "q-regions-039",
+  "chapter": "regions",
+  "blockId": "regions-23",
+  "question": "What is the highest mountain in Canada?",
+  "options": [
+   "Mount Robson",
+   "Mount Columbia",
+   "Mount Louise",
+   "Mount Logan, in the Yukon"
+  ],
+  "answer": 3,
+  "explanation": "Гора Логан (Юкон).",
+  "questionRu": "Какая гора — самая высокая в Канаде?",
+  "optionsRu": [
+   "Робсон",
+   "Колумбия",
+   "Луиза",
+   "Логан на Юконе"
+  ]
+ },
+ {
+  "id": "q-regions-040",
+  "chapter": "regions",
+  "blockId": "regions-24",
+  "question": "When was Nunavut established, and what does its name mean?",
+  "options": [
+   "1949, “northern land”",
+   "1999, “our land” in Inuktitut",
+   "1870, “the people”",
+   "1905, “cold land”"
+  ],
+  "answer": 1,
+  "explanation": "1999 год; «наша земля».",
+  "questionRu": "Когда образован Нунавут и что означает его название?",
+  "optionsRu": [
+   "1949, «северная земля»",
+   "1999, «наша земля» на инуктитут",
+   "1870, «люди»",
+   "1905, «холодная земля»"
+  ]
+ },
+ {
+  "id": "q-regions-041",
+  "chapter": "regions",
+  "blockId": "regions-25",
+  "question": "Who are the Canadian Rangers?",
+  "options": [
+   "An RCMP special unit",
+   "A national hockey team",
+   "Part of the Canadian Forces Reserves (militia) who keep the flag flying in Canada’s Arctic",
+   "Park wardens in Banff"
+  ],
+  "answer": 2,
+  "explanation": "Рейнджеры — часть резерва (ополчения) Вооружённых сил на Севере.",
+  "questionRu": "Кто такие Канадские рейнджеры?",
+  "optionsRu": [
+   "Спецподразделение КККП",
+   "Сборная по хоккею",
+   "Часть резерва Вооружённых сил, поддерживающая присутствие Канады в Арктике",
+   "Смотрители парка Банф"
+  ]
+ },
+ {
+  "id": "q-regions-042",
+  "chapter": "regions",
+  "blockId": "regions-23",
+  "question": "Which territory holds the record for the coldest temperature ever recorded in Canada (-63°C)?",
+  "options": [
+   "Nunavut",
+   "Yukon",
+   "Northwest Territories",
+   "Manitoba"
+  ],
+  "answer": 1,
+  "explanation": "Юкон.",
+  "questionRu": "Какой территории принадлежит рекорд самой низкой температуры в Канаде (−63 °C)?",
+  "optionsRu": [
+   "Нунавут",
+   "Юкон",
+   "Северо-Западные территории",
+   "Манитоба"
+  ]
  }
 ]

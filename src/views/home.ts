@@ -26,7 +26,7 @@ export function renderHome(host: HTMLElement, lang: Lang) {
     <h2 class="sub">Оглавление</h2>
     <ul class="toc">${tocHtml(lang)}</ul>
     <a class="btn-ghost wide" href="#/quiz">Тренировка по главам →</a>
-    <p class="muted small">Пилотная версия: пока доступна глава «${lang === 'ru' ? 'Кто мы' : 'Who We Are'}». Остальные главы появятся на этапе 2.
+    <p class="muted small">Вся брошюра: 12 глав, ключевые факты и тренировка по каждой главе. Пробный экзамен, «Мои ошибки» и раздел Ontario появятся на этапе 3.
     ${lang === 'ru' ? '<br>Неофициальный перевод; официальны только английская и французская версии.' : ''}</p>
   </div>`;
 }

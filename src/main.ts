@@ -13,6 +13,13 @@ import { renderQuiz, renderQuizMenu } from './views/quiz';
 import { Reader } from './views/reader';
 import { renderSettings } from './views/settings';
 
+// We scroll to the block from the URL ourselves; the browser's own restore would fight with it on reload.
+try {
+  history.scrollRestoration = 'manual';
+} catch {
+  /* ignore */
+}
+
 const app = document.getElementById('app')!;
 app.innerHTML = `
   <header class="top">

@@ -4,5 +4,6 @@ import { defineConfig } from 'vite';
 // do not load on https://<user>.github.io/canada-test/
 export default defineConfig({
   base: '/canada-test/',
-  build: { outDir: 'dist', assetsInlineLimit: 0 },
+  // Brochure text for both languages is bundled (~1 MB, ~250 KB gzipped): raise the warning limit.
+  build: { outDir: 'dist', assetsInlineLimit: 0, chunkSizeWarningLimit: 1500 },
 });

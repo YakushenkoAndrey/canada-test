@@ -153,7 +153,8 @@ class BlockView {
             k++;
           } else cap = `<figcaption>${esc(img.caption)}</figcaption>`;
         }
-        html += `<figure class="${i === 0 ? 'lead' : ''}"><img src="${imgUrl(img.src)}" alt="${esc(img.caption)}" ${img.w ? `width="${img.w}" height="${img.h}"` : ''} loading="lazy">${cap}</figure>`;
+        const cls = [i === 0 ? 'lead' : '', (img.w ?? 0) >= 500 ? 'wide' : ''].join(' ').trim();
+        html += `<figure class="${cls}"><img src="${imgUrl(img.src)}" alt="${esc(img.caption)}" ${img.w ? `width="${img.w}" height="${img.h}"` : ''} loading="lazy">${cap}</figure>`;
       });
       html += '</div>';
     }

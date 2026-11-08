@@ -30,6 +30,13 @@ def main() -> int:
         if name.startswith("_"):
             continue
         page = doc[info["page"] - 1]
+        if "clip" in info:  # render a page area (vector map, diagram) instead of an embedded photo
+            pix = page.get_pixmap(clip=pymupdf.Rect(info["clip"]), dpi=info.get("dpi", 150))
+            target = out_dir / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(pix.tobytes("jpeg", jpg_quality=85))
+            count += 1
+            continue
         xrefs = {img[0] for img in page.get_images(full=True)}
         if info["xref"] not in xrefs:
             print(f"ERROR {name}: xref {info['xref']} not on page {info['page']}", file=sys.stderr)
