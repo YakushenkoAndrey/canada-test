@@ -1,0 +1,199 @@
+@q 1 rights-01 2
+Which of the following is a source of Canadian law?
+| The Napoleonic Code of Spain | The laws of the United States Congress | English common law and the civil code of France | The Roman Senate
+= Canadian law has several sources, including laws passed by Parliament and the provincial legislatures, English common law, the civil code of France and the unwritten constitution inherited from Great Britain.
+? Что из перечисленного является источником канадского права?
+| Наполеоновский кодекс Испании | Законы Конгресса США | Английское общее право и гражданский кодекс Франции | Римский сенат
+= Источники канадского права: законы Парламента и законодательных собраний провинций, английское общее право, гражданский кодекс Франции и неписаная конституция, унаследованная от Великобритании.
+
+@q 2 rights-02 1
+When and where was Magna Carta signed?
+| 1066 in France | 1215 in England | 1867 in Canada | 1982 in Ottawa
+= Canada’s tradition of ordered liberty dates back to the signing of Magna Carta in 1215 in England.
+? Когда и где была подписана Великая хартия вольностей (Magna Carta)?
+| В 1066 году во Франции | В 1215 году в Англии | В 1867 году в Канаде | В 1982 году в Оттаве
+= Традиция упорядоченной свободы восходит к подписанию Великой хартии вольностей в Англии в 1215 году.
+
+@q 3 rights-02 0
+What is another name for Magna Carta?
+| The Great Charter of Freedoms | The Bill of Rights | The Royal Proclamation | The Quebec Act
+= Magna Carta is also known as the Great Charter of Freedoms.
+? Как ещё называют Magna Carta?
+| Великая хартия вольностей (Great Charter of Freedoms) | Билль о правах | Королевская прокламация | Квебекский акт
+= Magna Carta — это Великая хартия вольностей (Great Charter of Freedoms).
+
+@q 4 rights-02 3
+Which of these is one of the fundamental freedoms that come from Canada’s tradition of ordered liberty?
+| Freedom from paying taxes | Freedom to break the law | Freedom to avoid jury duty | Freedom of peaceful assembly
+= The fundamental freedoms include freedom of conscience and religion; of thought, belief, opinion and expression; of peaceful assembly; and of association.
+? Какая из этих свобод входит в основные свободы канадской традиции?
+| Свобода не платить налоги | Свобода нарушать закон | Свобода уклоняться от суда присяжных | Свобода мирных собраний
+= Основные свободы: совести и вероисповедания; мысли, убеждений, мнений и их выражения; мирных собраний; объединений.
+
+@q 5 rights-02 2
+What is habeas corpus?
+| The right to vote | The right to a free lawyer | The right to challenge unlawful detention by the state | The right to own property
+= Habeas corpus, the right to challenge unlawful detention by the state, comes from English common law.
+? Что такое хабеас корпус (habeas corpus)?
+| Право голосовать | Право на бесплатного адвоката | Право оспорить незаконное задержание со стороны государства | Право собственности
+= Habeas corpus — право оспорить незаконное задержание государством; пришло из английского общего права.
+
+@q 6 rights-02 1
+Where does habeas corpus come from?
+| The civil code of France | English common law | The Canadian Charter of Rights and Freedoms | Aboriginal treaties
+= Habeas corpus comes from English common law.
+? Откуда происходит хабеас корпус?
+| Из гражданского кодекса Франции | Из английского общего права | Из Канадской хартии прав и свобод | Из договоров с коренными народами
+= Хабеас корпус происходит из английского общего права.
+
+@q 7 rights-03 2
+In what year was the Constitution of Canada amended to entrench the Canadian Charter of Rights and Freedoms?
+| 1867 | 1960 | 1982 | 1999
+= The Constitution of Canada was amended in 1982 to entrench the Canadian Charter of Rights and Freedoms.
+? В каком году в Конституцию Канады внесли поправки, закрепившие Канадскую хартию прав и свобод?
+| 1867 | 1960 | 1982 | 1999
+= Хартия прав и свобод закреплена в Конституции в 1982 году.
+
+@q 8 rights-03 0
+With what words does the Canadian Charter of Rights and Freedoms begin?
+| “Whereas Canada is founded upon principles that recognize the supremacy of God and the rule of law” | “We the people of Canada” | “Peace, Order and Good Government” | “From sea to sea”
+= The Charter begins with the words, “Whereas Canada is founded upon principles that recognize the supremacy of God and the rule of law.”
+? С каких слов начинается Канадская хартия прав и свобод?
+| «Поскольку Канада основана на принципах, признающих верховенство Бога и верховенство права» | «Мы, народ Канады» | «Мир, порядок и надлежащее управление» | «От моря до моря»
+= Хартия начинается словами о верховенстве Бога и верховенстве права.
+
+@q 9 rights-03 1
+What do Mobility Rights mean?
+| Canadians must live in the province where they were born | Canadians can live and work anywhere in Canada, enter and leave the country freely, and apply for a passport | Only citizens can own a car | Canadians may travel only with government permission
+= Mobility Rights — Canadians can live and work anywhere they choose in Canada, enter and leave the country freely, and apply for a passport.
+? Что означает право на свободу передвижения (Mobility Rights)?
+| Канадцы должны жить в провинции, где родились | Канадцы могут жить и работать где угодно в Канаде, свободно въезжать и выезжать и получать паспорт | Только граждане могут владеть автомобилем | Канадцы могут путешествовать только с разрешения правительства
+= Mobility Rights: жить и работать в любом месте Канады, свободно въезжать и выезжать, подавать заявление на паспорт.
+
+@q 10 rights-03 2
+Under Official Language Rights, what status do French and English have?
+| French is used only in Quebec | English has priority in Parliament | Equal status in Parliament and throughout the government | They are official only in New Brunswick
+= Official Language Rights and Minority Language Educational Rights — French and English have equal status in Parliament and throughout the government.
+? Какой статус имеют французский и английский языки по праву на официальные языки?
+| Французский используется только в Квебеке | Английский имеет приоритет в Парламенте | Равный статус в Парламенте и во всех государственных органах | Они официальны только в Нью-Брансуике
+= Французский и английский имеют равный статус в Парламенте и во всём правительстве.
+
+@q 11 rights-03 3
+Which right in the Charter is described as “a fundamental characteristic of the Canadian heritage and identity”?
+| Mobility Rights | Habeas corpus | Freedom of the press | Multiculturalism
+= Multiculturalism is a fundamental characteristic of the Canadian heritage and identity. Canadians work hard to respect pluralism and live in harmony.
+? Какой принцип Хартии назван «основополагающей чертой канадского наследия и идентичности»?
+| Право на свободу передвижения | Хабеас корпус | Свобода печати | Мультикультурализм
+= Мультикультурализм — основополагающая черта канадского наследия и идентичности.
+
+@q 12 rights-03 0
+What does the Charter say about Aboriginal Peoples’ Rights?
+| The rights guaranteed in the Charter will not adversely affect any treaty or other rights or freedoms of Aboriginal peoples | Aboriginal peoples have no special rights | Aboriginal rights apply only in the North | Treaties were cancelled in 1982
+= Aboriginal Peoples’ Rights — the rights guaranteed in the Charter will not adversely affect any treaty or other rights or freedoms of Aboriginal peoples.
+? Что говорит Хартия о правах коренных народов?
+| Права, гарантированные Хартией, не умаляют договорных и иных прав и свобод коренных народов | У коренных народов нет особых прав | Права коренных народов действуют только на Севере | Договоры отменены в 1982 году
+= Хартия не умаляет договорных и иных прав и свобод коренных народов.
+
+@q 13 rights-04 1
+What does Canadian law say about men and women?
+| Men have more rights in marriage | Men and women are equal under the law | Women cannot serve in the Canadian Forces | Equality applies only to citizens
+= In Canada, men and women are equal under the law.
+? Что говорит канадский закон о мужчинах и женщинах?
+| У мужчин больше прав в браке | Мужчины и женщины равны перед законом | Женщины не могут служить в армии | Равенство касается только граждан
+= В Канаде мужчины и женщины равны перед законом.
+
+@q 14 rights-04 2
+How does Canada treat barbaric cultural practices such as “honour killings” or forced marriage?
+| They are tolerated as part of multiculturalism | They are allowed only in private | Those guilty are severely punished under Canada’s criminal laws | They are handled only by religious leaders
+= Canada’s openness and generosity do not extend to barbaric cultural practices. Those guilty of these crimes are severely punished under Canada’s criminal laws.
+? Как Канада относится к варварским практикам вроде «убийств чести» или принудительных браков?
+| Терпит их как часть мультикультурализма | Разрешает в частной жизни | Виновные строго наказываются по уголовным законам Канады | Их рассматривают только религиозные лидеры
+= Открытость Канады на такие практики не распространяется: виновные строго наказываются по уголовному праву.
+
+@q 15 rights-05 1
+Which of the following is a responsibility of Canadian citizenship?
+| Owning a home | Serving on a jury when called to do so | Joining a political party | Speaking both official languages
+= Citizenship responsibilities include obeying the law, taking responsibility for oneself and one’s family, serving on a jury, voting in elections, helping others, and protecting our heritage and environment.
+? Что из перечисленного — обязанность гражданина Канады?
+| Владеть жильём | Служить присяжным, если вызвали | Вступить в политическую партию | Говорить на обоих официальных языках
+= Обязанности: соблюдать закон, отвечать за себя и семью, служить присяжным, голосовать, помогать другим, беречь наследие и природу.
+
+@q 16 rights-05 3
+If you are called to serve on a jury, what must you do?
+| You may refuse without reason | Only lawyers serve on juries | Pay a fee instead | You are legally required to serve
+= Serving on a jury — when called to do so, you are legally required to serve.
+? Что вы должны сделать, если вас вызвали в суд присяжных?
+| Можно отказаться без причины | Присяжными бывают только юристы | Заплатить взнос вместо участия | Вы обязаны по закону исполнить эту обязанность
+= Если вызвали, участие в суде присяжных обязательно по закону.
+
+@q 17 rights-05 0
+What is one of Canada’s founding principles, meaning that no person or group is above the law?
+| The rule of law | Responsible government | Multiculturalism | Federalism
+= Obeying the law — one of Canada’s founding principles is the rule of law. Individuals and governments are regulated by laws and not by arbitrary actions. No person or group is above the law.
+? Как называется основополагающий принцип Канады, по которому никто не стоит выше закона?
+| Верховенство права | Ответственное правительство | Мультикультурализм | Федерализм
+= Верховенство права: граждане и правительства подчиняются законам, а не произволу; никто не выше закона.
+
+@q 18 rights-05 2
+In which elections does the right to vote come with a responsibility to vote?
+| Only federal elections | Only municipal elections | Federal, provincial or territorial and local elections | Only in elections in Ottawa
+= The right to vote comes with a responsibility to vote in federal, provincial or territorial and local elections.
+? На каких выборах право голоса сопровождается обязанностью голосовать?
+| Только на федеральных | Только на муниципальных | На федеральных, провинциальных или территориальных и местных | Только на выборах в Оттаве
+= Ответственность голосовать касается федеральных, провинциальных/территориальных и местных выборов.
+
+@q 19 rights-05 1
+According to the guide, what does work contribute to?
+| Only paying taxes | Personal dignity and self-respect, and to Canada’s prosperity | Getting citizenship faster | Avoiding jury duty
+= Getting a job, taking care of one’s family and working hard are important Canadian values. Work contributes to personal dignity and self-respect, and to Canada’s prosperity.
+? Чему, по словам пособия, способствует труд?
+| Только уплате налогов | Личному достоинству, самоуважению и процветанию Канады | Быстрому получению гражданства | Освобождению от суда присяжных
+= Труд способствует личному достоинству и самоуважению, а также процветанию Канады.
+
+@q 20 rights-05 3
+Which is an example of helping others in the community?
+| Running for Parliament | Paying a parking fine | Joining the regular army | Volunteering at a food bank
+= Millions of volunteers freely donate their time—helping people in need, assisting at your child’s school, volunteering at a food bank or other charity, or encouraging newcomers to integrate.
+? Что является примером помощи другим членам общества?
+| Баллотироваться в Парламент | Заплатить штраф за парковку | Пойти в регулярную армию | Волонтёрить в продовольственном банке
+= Волонтёрство — помощь нуждающимся, школе, продовольственному банку, новоприбывшим.
+
+@q 21 rights-05 0
+What is every citizen’s role in protecting Canada’s heritage and environment?
+| Avoiding waste and pollution while protecting Canada’s natural, cultural and architectural heritage | Building new highways | Hunting endangered species | Leaving it to the government only
+= Every citizen has a role to play in avoiding waste and pollution while protecting Canada’s natural, cultural and architectural heritage for future generations.
+? Какова роль каждого гражданина в защите наследия и природы Канады?
+| Избегать расточительства и загрязнения, сохраняя природное, культурное и архитектурное наследие | Строить новые шоссе | Охотиться на редкие виды | Оставить это только правительству
+= Каждый гражданин должен избегать расточительства и загрязнения и беречь наследие для будущих поколений.
+
+@q 22 rights-06 2
+Is military service compulsory in Canada?
+| Yes, for all men aged 18 | Yes, for all citizens for one year | No, there is no compulsory military service | Only in wartime for women
+= There is no compulsory military service in Canada. However, serving in the regular Canadian Forces is a noble way to contribute to Canada.
+? Обязательна ли военная служба в Канаде?
+| Да, для всех мужчин с 18 лет | Да, для всех граждан на один год | Нет, обязательной военной службы нет | Только для женщин во время войны
+= Обязательной военной службы в Канаде нет, но служба в Вооружённых силах — благородный вклад в страну.
+
+@q 23 rights-06 1
+What are the three branches of the regular Canadian Forces?
+| Police, fire department and Coast Guard | Navy, army and air force | Cadets, militia and reserves | RCMP, army and navy
+= The regular Canadian Forces are the navy, army and air force.
+? Из чего состоят регулярные Вооружённые силы Канады?
+| Полиция, пожарная охрана и Береговая охрана | ВМФ, сухопутные войска и ВВС | Кадеты, милиция и резерв | КККП, армия и флот
+= Регулярные Вооружённые силы: военно-морской флот, сухопутные войска и военно-воздушные силы.
+
+@q 24 rights-06 0
+How can young people learn discipline, responsibility and skills, according to the guide?
+| By getting involved in the cadets | By serving on a jury | By voting at age 16 | By joining a political party
+= Young people can learn discipline, responsibility and skills by getting involved in the cadets.
+? Как, по словам пособия, молодые люди могут научиться дисциплине и ответственности?
+| Вступив в кадеты | Служа присяжными | Голосуя с 16 лет | Вступив в партию
+= Молодёжь может вступить в кадеты (cadets).
+
+@q 25 rights-06 3
+Besides the Canadian Forces, how else can you serve to protect your community?
+| By writing to newspapers | By running a business | By travelling abroad | In the Coast Guard or emergency services such as a police force or fire department
+= You may also serve in the Coast Guard or emergency services in your community such as a police force or fire department.
+? Как ещё, кроме армии, можно служить, защищая своё сообщество?
+| Писать в газеты | Вести бизнес | Путешествовать за границу | В Береговой охране или аварийных службах — полиции, пожарной охране
+= Можно служить в Береговой охране или аварийно-спасательных службах: полиции, пожарной охране.

@@ -1,5 +1,845 @@
 [
  {
+  "id": "q-oath-001",
+  "chapter": "oath",
+  "blockId": "oath-01",
+  "question": "In Canada, to whom do we profess our loyalty?",
+  "options": [
+   "To the Constitution",
+   "To the flag",
+   "To a person who represents all Canadians — the Sovereign (Queen or King)",
+   "To the Prime Minister"
+  ],
+  "answer": 2,
+  "explanation": "Канадцы присягают не документу, не флагу и не стране, а Суверену (Королеве или Королю), который представляет всех канадцев.",
+  "questionRu": "Кому в Канаде мы присягаем на верность?",
+  "optionsRu": [
+   "Конституции",
+   "Флагу",
+   "Человеку, представляющему всех канадцев, — Суверену (Королеве или Королю)",
+   "Премьер-министру"
+  ]
+ },
+ {
+  "id": "q-oath-002",
+  "chapter": "oath",
+  "blockId": "oath-03",
+  "question": "Canada is a constitutional monarchy, a parliamentary democracy and a …",
+  "options": [
+   "federal state",
+   "republic",
+   "unitary state",
+   "confederation of independent states"
+  ],
+  "answer": 0,
+  "explanation": "Три ключевых факта: конституционная монархия, парламентская демократия и федеративное государство.",
+  "questionRu": "Канада — конституционная монархия, парламентская демократия и …",
+  "optionsRu": [
+   "федеративное государство",
+   "республика",
+   "унитарное государство",
+   "конфедерация независимых государств"
+  ]
+ },
+ {
+  "id": "q-oath-003",
+  "chapter": "oath",
+  "blockId": "oath-03",
+  "question": "Immigrants of what ages must have adequate knowledge of English or French to become Canadian citizens?",
+  "options": [
+   "16 to 60",
+   "18 to 54",
+   "18 to 65",
+   "21 to 55"
+  ],
+  "answer": 1,
+  "explanation": "Требование о языке и экзамене относится к иммигрантам в возрасте от 18 до 54 лет.",
+  "questionRu": "Иммигранты какого возраста должны достаточно владеть английским или французским, чтобы стать гражданами?",
+  "optionsRu": [
+   "от 16 до 60",
+   "от 18 до 54",
+   "от 18 до 65",
+   "от 21 до 55"
+  ]
+ },
+ {
+  "id": "q-oath-004",
+  "chapter": "oath",
+  "blockId": "oath-03",
+  "question": "For how many years have settlers and immigrants contributed to the diversity and richness of Canada?",
+  "options": [
+   "100 years",
+   "200 years",
+   "400 years",
+   "1,000 years"
+  ],
+  "answer": 2,
+  "explanation": "На протяжении 400 лет поселенцы и иммигранты вносили вклад в разнообразие и богатство страны.",
+  "questionRu": "Сколько лет поселенцы и иммигранты вносят вклад в разнообразие и богатство Канады?",
+  "optionsRu": [
+   "100 лет",
+   "200 лет",
+   "400 лет",
+   "1000 лет"
+  ]
+ },
+ {
+  "id": "q-oath-005",
+  "chapter": "oath",
+  "blockId": "oath-02",
+  "question": "Which rights does the Constitution recognize and affirm, according to the Oath of Citizenship?",
+  "options": [
+   "The rights of the provinces to separate",
+   "The Aboriginal and treaty rights of First Nations, Inuit and Métis peoples",
+   "The right to free university education",
+   "The rights of the House of Lords"
+  ],
+  "answer": 1,
+  "explanation": "В присяге сказано, что Конституция признаёт и подтверждает права коренных народов и договорные права Первых наций, инуитов и метисов.",
+  "questionRu": "Какие права, согласно присяге, признаёт и подтверждает Конституция?",
+  "optionsRu": [
+   "Право провинций на отделение",
+   "Права коренных народов и договорные права Первых наций, инуитов и метисов",
+   "Право на бесплатное высшее образование",
+   "Права Палаты лордов"
+  ]
+ },
+ {
+  "id": "q-applying-001",
+  "chapter": "applying",
+  "blockId": "applying-03",
+  "question": "What two basic requirements for citizenship are tested?",
+  "options": [
+   "Knowledge of Canada and of the rights and responsibilities of citizenship, and adequate knowledge of English or French",
+   "Employment history and income",
+   "Knowledge of world history and mathematics",
+   "Driving skills and knowledge of traffic laws"
+  ],
+  "answer": 0,
+  "explanation": "Проверяются: 1) знание Канады, прав и обязанностей гражданина; 2) достаточное знание английского или французского языка.",
+  "questionRu": "Какие два основных требования для гражданства проверяются?",
+  "optionsRu": [
+   "Знание Канады, прав и обязанностей гражданина и достаточное знание английского или французского",
+   "Трудовой стаж и доход",
+   "Знание мировой истории и математики",
+   "Навыки вождения и знание ПДД"
+  ]
+ },
+ {
+  "id": "q-applying-002",
+  "chapter": "applying",
+  "blockId": "applying-03",
+  "question": "Adult applicants of what age do not need to write the citizenship test?",
+  "options": [
+   "50 and over",
+   "55 and over",
+   "60 and over",
+   "65 and over"
+  ],
+  "answer": 1,
+  "explanation": "Заявители 55 лет и старше не сдают письменный экзамен.",
+  "questionRu": "Взрослые заявители какого возраста не обязаны сдавать экзамен на гражданство?",
+  "optionsRu": [
+   "50 лет и старше",
+   "55 лет и старше",
+   "60 лет и старше",
+   "65 лет и старше"
+  ]
+ },
+ {
+  "id": "q-applying-003",
+  "chapter": "applying",
+  "blockId": "applying-03",
+  "question": "What form does the citizenship test usually take?",
+  "options": [
+   "An oral exam in front of a judge",
+   "A written test, but it could be an interview",
+   "An online essay",
+   "A practical test"
+  ],
+  "answer": 1,
+  "explanation": "Обычно экзамен письменный, но может проходить и как собеседование.",
+  "questionRu": "В какой форме обычно проходит экзамен на гражданство?",
+  "optionsRu": [
+   "Устный экзамен перед судьёй",
+   "Письменный тест, но может быть собеседование",
+   "Онлайн-эссе",
+   "Практическое задание"
+  ]
+ },
+ {
+  "id": "q-applying-004",
+  "chapter": "applying",
+  "blockId": "applying-03",
+  "question": "Where is all the information required for the citizenship test provided?",
+  "options": [
+   "On the Internet only",
+   "In this study guide, Discover Canada",
+   "In school history textbooks",
+   "In newspapers"
+  ],
+  "answer": 1,
+  "explanation": "Вся необходимая для экзамена информация приведена в этом учебном пособии.",
+  "questionRu": "Где содержится вся информация, нужная для экзамена на гражданство?",
+  "optionsRu": [
+   "Только в интернете",
+   "В этом пособии «Discover Canada»",
+   "В школьных учебниках истории",
+   "В газетах"
+  ]
+ },
+ {
+  "id": "q-applying-005",
+  "chapter": "applying",
+  "blockId": "applying-04",
+  "question": "What document do you receive if you pass the test and meet all other requirements?",
+  "options": [
+   "A Canadian passport",
+   "A Notice to Appear to Take the Oath of Citizenship",
+   "A permanent resident card",
+   "A voter information card"
+  ],
+  "answer": 1,
+  "explanation": "Вы получите Notice to Appear to Take the Oath of Citizenship — в нём дата, время и место церемонии.",
+  "questionRu": "Какой документ вы получите, если сдадите экзамен и выполните все остальные требования?",
+  "optionsRu": [
+   "Канадский паспорт",
+   "Уведомление о явке для принесения присяги гражданина",
+   "Карту постоянного жителя",
+   "Карточку избирателя"
+  ]
+ },
+ {
+  "id": "q-applying-006",
+  "chapter": "applying",
+  "blockId": "applying-04",
+  "question": "What will you do at the citizenship ceremony?",
+  "options": [
+   "Take the Oath of Citizenship, sign the oath form and receive your Canadian Citizenship Certificate",
+   "Write the citizenship test",
+   "Vote in an election",
+   "Apply for permanent residence"
+  ],
+  "answer": 0,
+  "explanation": "На церемонии: присяга, подпись бланка присяги, получение сертификата гражданина Канады.",
+  "questionRu": "Что вы сделаете на церемонии принятия гражданства?",
+  "optionsRu": [
+   "Принесёте присягу, подпишете бланк присяги и получите сертификат гражданина",
+   "Напишете экзамен на гражданство",
+   "Проголосуете на выборах",
+   "Подадите заявление на постоянное жительство"
+  ]
+ },
+ {
+  "id": "q-applying-007",
+  "chapter": "applying",
+  "blockId": "applying-02",
+  "question": "Which language classes does the Government of Canada offer free of charge?",
+  "options": [
+   "English or French",
+   "Any language",
+   "Only French",
+   "Only Aboriginal languages"
+  ],
+  "answer": 0,
+  "explanation": "Правительство Канады бесплатно предлагает курсы английского или французского языка.",
+  "questionRu": "Курсы какого языка правительство Канады предлагает бесплатно?",
+  "optionsRu": [
+   "Английского или французского",
+   "Любого языка",
+   "Только французского",
+   "Только языков коренных народов"
+  ]
+ },
+ {
+  "id": "q-applying-008",
+  "chapter": "applying",
+  "blockId": "applying-01",
+  "question": "What will officials check when you apply for citizenship?",
+  "options": [
+   "Your status, that you are not prohibited from applying, and that you meet the requirements",
+   "Only your bank account",
+   "Only your language skills",
+   "Your political opinions"
+  ],
+  "answer": 0,
+  "explanation": "Проверяют статус, отсутствие запрета на подачу заявления и соответствие требованиям.",
+  "questionRu": "Что проверят должностные лица, когда вы подадите заявление на гражданство?",
+  "optionsRu": [
+   "Ваш статус, отсутствие запрета на подачу и соответствие требованиям",
+   "Только ваш банковский счёт",
+   "Только знание языка",
+   "Ваши политические взгляды"
+  ]
+ },
+ {
+  "id": "q-applying-009",
+  "chapter": "applying",
+  "blockId": "applying-04",
+  "question": "What happens if you do not pass the citizenship test?",
+  "options": [
+   "You must leave Canada",
+   "You will receive a notification indicating the next steps",
+   "You lose permanent resident status",
+   "You can never apply again"
+  ],
+  "answer": 1,
+  "explanation": "При неудаче вы получите уведомление с указанием дальнейших шагов.",
+  "questionRu": "Что будет, если вы не сдадите экзамен на гражданство?",
+  "optionsRu": [
+   "Вы должны покинуть Канаду",
+   "Вы получите уведомление с дальнейшими шагами",
+   "Вы потеряете статус постоянного жителя",
+   "Вы больше никогда не сможете подать заявление"
+  ]
+ },
+ {
+  "id": "q-applying-010",
+  "chapter": "applying",
+  "blockId": "applying-01",
+  "question": "While your application is being processed, what should you make sure of?",
+  "options": [
+   "That the Call Centre always has your correct address",
+   "That you do not travel inside Canada",
+   "That you change jobs",
+   "That you visit the office every week"
+  ],
+  "answer": 0,
+  "explanation": "Рассмотрение может занять несколько месяцев — следите, чтобы у Колл-центра был ваш актуальный адрес.",
+  "questionRu": "О чём нужно позаботиться, пока рассматривается ваше заявление?",
+  "optionsRu": [
+   "Чтобы у Колл-центра всегда был ваш правильный адрес",
+   "Чтобы не путешествовать по Канаде",
+   "Чтобы сменить работу",
+   "Чтобы каждую неделю приходить в офис"
+  ]
+ },
+ {
+  "id": "q-rights-001",
+  "chapter": "rights",
+  "blockId": "rights-01",
+  "question": "Which of the following is a source of Canadian law?",
+  "options": [
+   "The Napoleonic Code of Spain",
+   "The laws of the United States Congress",
+   "English common law and the civil code of France",
+   "The Roman Senate"
+  ],
+  "answer": 2,
+  "explanation": "Источники канадского права: законы Парламента и законодательных собраний провинций, английское общее право, гражданский кодекс Франции и неписаная конституция, унаследованная от Великобритании.",
+  "questionRu": "Что из перечисленного является источником канадского права?",
+  "optionsRu": [
+   "Наполеоновский кодекс Испании",
+   "Законы Конгресса США",
+   "Английское общее право и гражданский кодекс Франции",
+   "Римский сенат"
+  ]
+ },
+ {
+  "id": "q-rights-002",
+  "chapter": "rights",
+  "blockId": "rights-02",
+  "question": "When and where was Magna Carta signed?",
+  "options": [
+   "1066 in France",
+   "1215 in England",
+   "1867 in Canada",
+   "1982 in Ottawa"
+  ],
+  "answer": 1,
+  "explanation": "Традиция упорядоченной свободы восходит к подписанию Великой хартии вольностей в Англии в 1215 году.",
+  "questionRu": "Когда и где была подписана Великая хартия вольностей (Magna Carta)?",
+  "optionsRu": [
+   "В 1066 году во Франции",
+   "В 1215 году в Англии",
+   "В 1867 году в Канаде",
+   "В 1982 году в Оттаве"
+  ]
+ },
+ {
+  "id": "q-rights-003",
+  "chapter": "rights",
+  "blockId": "rights-02",
+  "question": "What is another name for Magna Carta?",
+  "options": [
+   "The Great Charter of Freedoms",
+   "The Bill of Rights",
+   "The Royal Proclamation",
+   "The Quebec Act"
+  ],
+  "answer": 0,
+  "explanation": "Magna Carta — это Великая хартия вольностей (Great Charter of Freedoms).",
+  "questionRu": "Как ещё называют Magna Carta?",
+  "optionsRu": [
+   "Великая хартия вольностей (Great Charter of Freedoms)",
+   "Билль о правах",
+   "Королевская прокламация",
+   "Квебекский акт"
+  ]
+ },
+ {
+  "id": "q-rights-004",
+  "chapter": "rights",
+  "blockId": "rights-02",
+  "question": "Which of these is one of the fundamental freedoms that come from Canada’s tradition of ordered liberty?",
+  "options": [
+   "Freedom from paying taxes",
+   "Freedom to break the law",
+   "Freedom to avoid jury duty",
+   "Freedom of peaceful assembly"
+  ],
+  "answer": 3,
+  "explanation": "Основные свободы: совести и вероисповедания; мысли, убеждений, мнений и их выражения; мирных собраний; объединений.",
+  "questionRu": "Какая из этих свобод входит в основные свободы канадской традиции?",
+  "optionsRu": [
+   "Свобода не платить налоги",
+   "Свобода нарушать закон",
+   "Свобода уклоняться от суда присяжных",
+   "Свобода мирных собраний"
+  ]
+ },
+ {
+  "id": "q-rights-005",
+  "chapter": "rights",
+  "blockId": "rights-02",
+  "question": "What is habeas corpus?",
+  "options": [
+   "The right to vote",
+   "The right to a free lawyer",
+   "The right to challenge unlawful detention by the state",
+   "The right to own property"
+  ],
+  "answer": 2,
+  "explanation": "Habeas corpus — право оспорить незаконное задержание государством; пришло из английского общего права.",
+  "questionRu": "Что такое хабеас корпус (habeas corpus)?",
+  "optionsRu": [
+   "Право голосовать",
+   "Право на бесплатного адвоката",
+   "Право оспорить незаконное задержание со стороны государства",
+   "Право собственности"
+  ]
+ },
+ {
+  "id": "q-rights-006",
+  "chapter": "rights",
+  "blockId": "rights-02",
+  "question": "Where does habeas corpus come from?",
+  "options": [
+   "The civil code of France",
+   "English common law",
+   "The Canadian Charter of Rights and Freedoms",
+   "Aboriginal treaties"
+  ],
+  "answer": 1,
+  "explanation": "Хабеас корпус происходит из английского общего права.",
+  "questionRu": "Откуда происходит хабеас корпус?",
+  "optionsRu": [
+   "Из гражданского кодекса Франции",
+   "Из английского общего права",
+   "Из Канадской хартии прав и свобод",
+   "Из договоров с коренными народами"
+  ]
+ },
+ {
+  "id": "q-rights-007",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "In what year was the Constitution of Canada amended to entrench the Canadian Charter of Rights and Freedoms?",
+  "options": [
+   "1867",
+   "1960",
+   "1982",
+   "1999"
+  ],
+  "answer": 2,
+  "explanation": "Хартия прав и свобод закреплена в Конституции в 1982 году.",
+  "questionRu": "В каком году в Конституцию Канады внесли поправки, закрепившие Канадскую хартию прав и свобод?",
+  "optionsRu": [
+   "1867",
+   "1960",
+   "1982",
+   "1999"
+  ]
+ },
+ {
+  "id": "q-rights-008",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "With what words does the Canadian Charter of Rights and Freedoms begin?",
+  "options": [
+   "“Whereas Canada is founded upon principles that recognize the supremacy of God and the rule of law”",
+   "“We the people of Canada”",
+   "“Peace, Order and Good Government”",
+   "“From sea to sea”"
+  ],
+  "answer": 0,
+  "explanation": "Хартия начинается словами о верховенстве Бога и верховенстве права.",
+  "questionRu": "С каких слов начинается Канадская хартия прав и свобод?",
+  "optionsRu": [
+   "«Поскольку Канада основана на принципах, признающих верховенство Бога и верховенство права»",
+   "«Мы, народ Канады»",
+   "«Мир, порядок и надлежащее управление»",
+   "«От моря до моря»"
+  ]
+ },
+ {
+  "id": "q-rights-009",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "What do Mobility Rights mean?",
+  "options": [
+   "Canadians must live in the province where they were born",
+   "Canadians can live and work anywhere in Canada, enter and leave the country freely, and apply for a passport",
+   "Only citizens can own a car",
+   "Canadians may travel only with government permission"
+  ],
+  "answer": 1,
+  "explanation": "Mobility Rights: жить и работать в любом месте Канады, свободно въезжать и выезжать, подавать заявление на паспорт.",
+  "questionRu": "Что означает право на свободу передвижения (Mobility Rights)?",
+  "optionsRu": [
+   "Канадцы должны жить в провинции, где родились",
+   "Канадцы могут жить и работать где угодно в Канаде, свободно въезжать и выезжать и получать паспорт",
+   "Только граждане могут владеть автомобилем",
+   "Канадцы могут путешествовать только с разрешения правительства"
+  ]
+ },
+ {
+  "id": "q-rights-010",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "Under Official Language Rights, what status do French and English have?",
+  "options": [
+   "French is used only in Quebec",
+   "English has priority in Parliament",
+   "Equal status in Parliament and throughout the government",
+   "They are official only in New Brunswick"
+  ],
+  "answer": 2,
+  "explanation": "Французский и английский имеют равный статус в Парламенте и во всём правительстве.",
+  "questionRu": "Какой статус имеют французский и английский языки по праву на официальные языки?",
+  "optionsRu": [
+   "Французский используется только в Квебеке",
+   "Английский имеет приоритет в Парламенте",
+   "Равный статус в Парламенте и во всех государственных органах",
+   "Они официальны только в Нью-Брансуике"
+  ]
+ },
+ {
+  "id": "q-rights-011",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "Which right in the Charter is described as “a fundamental characteristic of the Canadian heritage and identity”?",
+  "options": [
+   "Mobility Rights",
+   "Habeas corpus",
+   "Freedom of the press",
+   "Multiculturalism"
+  ],
+  "answer": 3,
+  "explanation": "Мультикультурализм — основополагающая черта канадского наследия и идентичности.",
+  "questionRu": "Какой принцип Хартии назван «основополагающей чертой канадского наследия и идентичности»?",
+  "optionsRu": [
+   "Право на свободу передвижения",
+   "Хабеас корпус",
+   "Свобода печати",
+   "Мультикультурализм"
+  ]
+ },
+ {
+  "id": "q-rights-012",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "What does the Charter say about Aboriginal Peoples’ Rights?",
+  "options": [
+   "The rights guaranteed in the Charter will not adversely affect any treaty or other rights or freedoms of Aboriginal peoples",
+   "Aboriginal peoples have no special rights",
+   "Aboriginal rights apply only in the North",
+   "Treaties were cancelled in 1982"
+  ],
+  "answer": 0,
+  "explanation": "Хартия не умаляет договорных и иных прав и свобод коренных народов.",
+  "questionRu": "Что говорит Хартия о правах коренных народов?",
+  "optionsRu": [
+   "Права, гарантированные Хартией, не умаляют договорных и иных прав и свобод коренных народов",
+   "У коренных народов нет особых прав",
+   "Права коренных народов действуют только на Севере",
+   "Договоры отменены в 1982 году"
+  ]
+ },
+ {
+  "id": "q-rights-013",
+  "chapter": "rights",
+  "blockId": "rights-04",
+  "question": "What does Canadian law say about men and women?",
+  "options": [
+   "Men have more rights in marriage",
+   "Men and women are equal under the law",
+   "Women cannot serve in the Canadian Forces",
+   "Equality applies only to citizens"
+  ],
+  "answer": 1,
+  "explanation": "В Канаде мужчины и женщины равны перед законом.",
+  "questionRu": "Что говорит канадский закон о мужчинах и женщинах?",
+  "optionsRu": [
+   "У мужчин больше прав в браке",
+   "Мужчины и женщины равны перед законом",
+   "Женщины не могут служить в армии",
+   "Равенство касается только граждан"
+  ]
+ },
+ {
+  "id": "q-rights-014",
+  "chapter": "rights",
+  "blockId": "rights-04",
+  "question": "How does Canada treat barbaric cultural practices such as “honour killings” or forced marriage?",
+  "options": [
+   "They are tolerated as part of multiculturalism",
+   "They are allowed only in private",
+   "Those guilty are severely punished under Canada’s criminal laws",
+   "They are handled only by religious leaders"
+  ],
+  "answer": 2,
+  "explanation": "Открытость Канады на такие практики не распространяется: виновные строго наказываются по уголовному праву.",
+  "questionRu": "Как Канада относится к варварским практикам вроде «убийств чести» или принудительных браков?",
+  "optionsRu": [
+   "Терпит их как часть мультикультурализма",
+   "Разрешает в частной жизни",
+   "Виновные строго наказываются по уголовным законам Канады",
+   "Их рассматривают только религиозные лидеры"
+  ]
+ },
+ {
+  "id": "q-rights-015",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "Which of the following is a responsibility of Canadian citizenship?",
+  "options": [
+   "Owning a home",
+   "Serving on a jury when called to do so",
+   "Joining a political party",
+   "Speaking both official languages"
+  ],
+  "answer": 1,
+  "explanation": "Обязанности: соблюдать закон, отвечать за себя и семью, служить присяжным, голосовать, помогать другим, беречь наследие и природу.",
+  "questionRu": "Что из перечисленного — обязанность гражданина Канады?",
+  "optionsRu": [
+   "Владеть жильём",
+   "Служить присяжным, если вызвали",
+   "Вступить в политическую партию",
+   "Говорить на обоих официальных языках"
+  ]
+ },
+ {
+  "id": "q-rights-016",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "If you are called to serve on a jury, what must you do?",
+  "options": [
+   "You may refuse without reason",
+   "Only lawyers serve on juries",
+   "Pay a fee instead",
+   "You are legally required to serve"
+  ],
+  "answer": 3,
+  "explanation": "Если вызвали, участие в суде присяжных обязательно по закону.",
+  "questionRu": "Что вы должны сделать, если вас вызвали в суд присяжных?",
+  "optionsRu": [
+   "Можно отказаться без причины",
+   "Присяжными бывают только юристы",
+   "Заплатить взнос вместо участия",
+   "Вы обязаны по закону исполнить эту обязанность"
+  ]
+ },
+ {
+  "id": "q-rights-017",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "What is one of Canada’s founding principles, meaning that no person or group is above the law?",
+  "options": [
+   "The rule of law",
+   "Responsible government",
+   "Multiculturalism",
+   "Federalism"
+  ],
+  "answer": 0,
+  "explanation": "Верховенство права: граждане и правительства подчиняются законам, а не произволу; никто не выше закона.",
+  "questionRu": "Как называется основополагающий принцип Канады, по которому никто не стоит выше закона?",
+  "optionsRu": [
+   "Верховенство права",
+   "Ответственное правительство",
+   "Мультикультурализм",
+   "Федерализм"
+  ]
+ },
+ {
+  "id": "q-rights-018",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "In which elections does the right to vote come with a responsibility to vote?",
+  "options": [
+   "Only federal elections",
+   "Only municipal elections",
+   "Federal, provincial or territorial and local elections",
+   "Only in elections in Ottawa"
+  ],
+  "answer": 2,
+  "explanation": "Ответственность голосовать касается федеральных, провинциальных/территориальных и местных выборов.",
+  "questionRu": "На каких выборах право голоса сопровождается обязанностью голосовать?",
+  "optionsRu": [
+   "Только на федеральных",
+   "Только на муниципальных",
+   "На федеральных, провинциальных или территориальных и местных",
+   "Только на выборах в Оттаве"
+  ]
+ },
+ {
+  "id": "q-rights-019",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "According to the guide, what does work contribute to?",
+  "options": [
+   "Only paying taxes",
+   "Personal dignity and self-respect, and to Canada’s prosperity",
+   "Getting citizenship faster",
+   "Avoiding jury duty"
+  ],
+  "answer": 1,
+  "explanation": "Труд способствует личному достоинству и самоуважению, а также процветанию Канады.",
+  "questionRu": "Чему, по словам пособия, способствует труд?",
+  "optionsRu": [
+   "Только уплате налогов",
+   "Личному достоинству, самоуважению и процветанию Канады",
+   "Быстрому получению гражданства",
+   "Освобождению от суда присяжных"
+  ]
+ },
+ {
+  "id": "q-rights-020",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "Which is an example of helping others in the community?",
+  "options": [
+   "Running for Parliament",
+   "Paying a parking fine",
+   "Joining the regular army",
+   "Volunteering at a food bank"
+  ],
+  "answer": 3,
+  "explanation": "Волонтёрство — помощь нуждающимся, школе, продовольственному банку, новоприбывшим.",
+  "questionRu": "Что является примером помощи другим членам общества?",
+  "optionsRu": [
+   "Баллотироваться в Парламент",
+   "Заплатить штраф за парковку",
+   "Пойти в регулярную армию",
+   "Волонтёрить в продовольственном банке"
+  ]
+ },
+ {
+  "id": "q-rights-021",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "What is every citizen’s role in protecting Canada’s heritage and environment?",
+  "options": [
+   "Avoiding waste and pollution while protecting Canada’s natural, cultural and architectural heritage",
+   "Building new highways",
+   "Hunting endangered species",
+   "Leaving it to the government only"
+  ],
+  "answer": 0,
+  "explanation": "Каждый гражданин должен избегать расточительства и загрязнения и беречь наследие для будущих поколений.",
+  "questionRu": "Какова роль каждого гражданина в защите наследия и природы Канады?",
+  "optionsRu": [
+   "Избегать расточительства и загрязнения, сохраняя природное, культурное и архитектурное наследие",
+   "Строить новые шоссе",
+   "Охотиться на редкие виды",
+   "Оставить это только правительству"
+  ]
+ },
+ {
+  "id": "q-rights-022",
+  "chapter": "rights",
+  "blockId": "rights-06",
+  "question": "Is military service compulsory in Canada?",
+  "options": [
+   "Yes, for all men aged 18",
+   "Yes, for all citizens for one year",
+   "No, there is no compulsory military service",
+   "Only in wartime for women"
+  ],
+  "answer": 2,
+  "explanation": "Обязательной военной службы в Канаде нет, но служба в Вооружённых силах — благородный вклад в страну.",
+  "questionRu": "Обязательна ли военная служба в Канаде?",
+  "optionsRu": [
+   "Да, для всех мужчин с 18 лет",
+   "Да, для всех граждан на один год",
+   "Нет, обязательной военной службы нет",
+   "Только для женщин во время войны"
+  ]
+ },
+ {
+  "id": "q-rights-023",
+  "chapter": "rights",
+  "blockId": "rights-06",
+  "question": "What are the three branches of the regular Canadian Forces?",
+  "options": [
+   "Police, fire department and Coast Guard",
+   "Navy, army and air force",
+   "Cadets, militia and reserves",
+   "RCMP, army and navy"
+  ],
+  "answer": 1,
+  "explanation": "Регулярные Вооружённые силы: военно-морской флот, сухопутные войска и военно-воздушные силы.",
+  "questionRu": "Из чего состоят регулярные Вооружённые силы Канады?",
+  "optionsRu": [
+   "Полиция, пожарная охрана и Береговая охрана",
+   "ВМФ, сухопутные войска и ВВС",
+   "Кадеты, милиция и резерв",
+   "КККП, армия и флот"
+  ]
+ },
+ {
+  "id": "q-rights-024",
+  "chapter": "rights",
+  "blockId": "rights-06",
+  "question": "How can young people learn discipline, responsibility and skills, according to the guide?",
+  "options": [
+   "By getting involved in the cadets",
+   "By serving on a jury",
+   "By voting at age 16",
+   "By joining a political party"
+  ],
+  "answer": 0,
+  "explanation": "Молодёжь может вступить в кадеты (cadets).",
+  "questionRu": "Как, по словам пособия, молодые люди могут научиться дисциплине и ответственности?",
+  "optionsRu": [
+   "Вступив в кадеты",
+   "Служа присяжными",
+   "Голосуя с 16 лет",
+   "Вступив в партию"
+  ]
+ },
+ {
+  "id": "q-rights-025",
+  "chapter": "rights",
+  "blockId": "rights-06",
+  "question": "Besides the Canadian Forces, how else can you serve to protect your community?",
+  "options": [
+   "By writing to newspapers",
+   "By running a business",
+   "By travelling abroad",
+   "In the Coast Guard or emergency services such as a police force or fire department"
+  ],
+  "answer": 3,
+  "explanation": "Можно служить в Береговой охране или аварийно-спасательных службах: полиции, пожарной охране.",
+  "questionRu": "Как ещё, кроме армии, можно служить, защищая своё сообщество?",
+  "optionsRu": [
+   "Писать в газеты",
+   "Вести бизнес",
+   "Путешествовать за границу",
+   "В Береговой охране или аварийных службах — полиции, пожарной охране"
+  ]
+ },
+ {
   "id": "q-who-we-are-001",
   "chapter": "who-we-are",
   "blockId": "who-we-are-01",

@@ -3,6 +3,554 @@
   {
    "blocks": [
     {
+     "id": "oath-01",
+     "kind": "section",
+     "page": 2,
+     "heading": "Understanding the Oath",
+     "images": [],
+     "paragraphs": [
+      "In Canada, we profess our loyalty to a person who represents all Canadians and not to a document such as a constitution, a banner such as a flag, or a geopolitical entity such as a country. In our constitutional monarchy, these elements are encompassed by the Sovereign (Queen or King). It is a remarkably simple yet powerful principle: Canada is personified by the Sovereign just as the Sovereign is personified by Canada."
+     ],
+     "keyFacts": [
+      {
+       "text": "Sovereign (Queen or King)",
+       "type": "person"
+      },
+      {
+       "text": "Canada is personified by the Sovereign just as the Sovereign is personified by Canada",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "oath-02",
+     "kind": "verse",
+     "page": 2,
+     "heading": "The Oath of Citizenship",
+     "images": [],
+     "paragraphs": [
+      "I swear (or affirm)",
+      "That I will be faithful",
+      "And bear true allegiance",
+      "To Her Majesty",
+      "Queen Elizabeth the Second",
+      "Queen of Canada",
+      "Her Heirs and Successors",
+      "And that I will faithfully observe",
+      "The laws of Canada",
+      "Including the Constitution",
+      "Which recognizes and affirms",
+      "The Aboriginal and treaty rights of",
+      "First Nations, Inuit and Métis peoples",
+      "And fulfil my duties",
+      "As a Canadian citizen."
+     ],
+     "keyFacts": [
+      {
+       "text": "Queen of Canada",
+       "type": "person"
+      },
+      {
+       "text": "Aboriginal and treaty rights",
+       "type": "right-duty"
+      }
+     ]
+    },
+    {
+     "id": "oath-03",
+     "kind": "section",
+     "page": 3,
+     "heading": "Welcome!",
+     "images": [
+      {
+       "src": "img/oath/p3-family.jpg",
+       "caption": "Family",
+       "w": 281,
+       "h": 214
+      },
+      {
+       "src": "img/oath/p3-parliament.jpg",
+       "caption": "Parliament Hill",
+       "w": 282,
+       "h": 218
+      },
+      {
+       "src": "img/oath/p3-boy-flags.jpg",
+       "caption": "Boy holding Canadian flags",
+       "w": 282,
+       "h": 214
+      }
+     ],
+     "paragraphs": [
+      "It took courage to move to a new country. Your decision to apply for citizenship is another big step. You are becoming part of a great tradition that was built by generations of pioneers before you. Once you have met all the legal requirements, we hope to welcome you as a new citizen with all the rights and responsibilities of citizenship.",
+      "Canada has welcomed generations of newcomers to our shores to help us build a free, law-abiding and prosperous society. For 400 years, settlers and immigrants have contributed to the diversity and richness of our country, which is built on a proud history and a strong identity.",
+      "Canada is a constitutional monarchy, a parliamentary democracy and a federal state. Canadians are bound together by a shared commitment to the rule of law and to the institutions of parliamentary government.",
+      "Canadians take pride in their identity and have made sacrifices to defend their way of life. By coming to Canada and taking this important step toward Canadian citizenship, you are helping to write the continuing story of Canada.",
+      "Immigrants between the ages of 18 and 54 must have adequate knowledge of English or French in order to become Canadian citizens. You must also learn about voting procedures, Canada’s history, symbols, democratic institutions, geography, and the rights and responsibilities of citizenship.",
+      "Canadian citizens enjoy many rights, but Canadians also have responsibilities. They must obey Canada’s laws and respect the rights and freedoms of others.",
+      "This guide will help you prepare to become a Canadian citizen. Good luck!"
+     ],
+     "keyFacts": [
+      {
+       "text": "400 years",
+       "type": "number"
+      },
+      {
+       "text": "constitutional monarchy, a parliamentary democracy and a federal state",
+       "type": "definition"
+      },
+      {
+       "text": "rule of law",
+       "type": "right-duty"
+      },
+      {
+       "text": "between the ages of 18 and 54",
+       "type": "number"
+      },
+      {
+       "text": "adequate knowledge of English or French",
+       "type": "right-duty"
+      },
+      {
+       "text": "obey Canada’s laws and respect the rights and freedoms of others",
+       "type": "right-duty"
+      }
+     ]
+    }
+   ],
+   "id": "oath",
+   "title": "Message to Our Readers",
+   "pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "id": "applying-01",
+     "kind": "intro",
+     "page": 6,
+     "heading": "",
+     "images": [
+      {
+       "src": "img/applying/p6-oath.jpg",
+       "caption": "Citizens take the oath",
+       "w": 457,
+       "h": 289
+      }
+     ],
+     "paragraphs": [
+      "When you apply for citizenship, officials will check your status, verify that you are not prohibited from applying, and ensure that you meet the requirements.",
+      "Your application may take several months. Please ensure that the Call Centre always has your correct address while your application is being processed."
+     ],
+     "keyFacts": [
+      {
+       "text": "several months",
+       "type": "number"
+      }
+     ]
+    },
+    {
+     "id": "applying-02",
+     "kind": "section",
+     "page": 6,
+     "heading": "How to use this booklet to prepare for the citizenship test",
+     "images": [],
+     "paragraphs": [
+      "This booklet will help you prepare for the citizenship test. You should:",
+      "• Study this guide;",
+      "• Ask a friend or family member to help you practise answering questions about Canada;",
+      "• Call a local school or school board, a college, a community centre or a local organization that provides services to immigrants and ask for information on citizenship classes;",
+      "• Take English or French language classes, which the Government of Canada offers free of charge."
+     ],
+     "keyFacts": [
+      {
+       "text": "citizenship classes",
+       "type": "definition"
+      },
+      {
+       "text": "free of charge",
+       "type": "right-duty"
+      }
+     ]
+    },
+    {
+     "id": "applying-03",
+     "kind": "section",
+     "page": 6,
+     "heading": "About the citizenship test",
+     "images": [],
+     "paragraphs": [
+      "The citizenship test is usually a written test, but it could be an interview. You will be tested on two basic requirements for citizenship: 1) knowledge of Canada and of the rights and responsibilities of citizenship, and 2) adequate knowledge of English or French. Adult applicants 55 years of age and over do not need to write the citizenship test. The Citizenship Regulations provide information on how your ability to meet the knowledge of Canada requirement is determined.",
+      "All the citizenship test questions are based on the subject areas noted in the Citizenship Regulations, and all required information is provided in this study guide."
+     ],
+     "keyFacts": [
+      {
+       "text": "written test",
+       "type": "definition"
+      },
+      {
+       "text": "two basic requirements",
+       "type": "number"
+      },
+      {
+       "text": "knowledge of Canada and of the rights and responsibilities of citizenship",
+       "type": "right-duty"
+      },
+      {
+       "text": "adequate knowledge of English or French",
+       "type": "right-duty"
+      },
+      {
+       "text": "55 years of age and over",
+       "type": "number"
+      }
+     ]
+    },
+    {
+     "id": "applying-04",
+     "kind": "section",
+     "page": 7,
+     "heading": "After the test",
+     "images": [
+      {
+       "src": "img/applying/p7-family.jpg",
+       "caption": "Family at citizenship ceremony",
+       "w": 303,
+       "h": 226
+      },
+      {
+       "src": "img/applying/p7-boy.jpg",
+       "caption": "Boy at citizenship ceremony",
+       "w": 274,
+       "h": 226
+      },
+      {
+       "src": "img/applying/p7-judge.jpg",
+       "caption": "Citizenship Judge and Mountie",
+       "w": 284,
+       "h": 226
+      },
+      {
+       "src": "img/applying/p7-passport.jpg",
+       "caption": "Canadian passport",
+       "w": 176,
+       "h": 234
+      }
+     ],
+     "paragraphs": [
+      "If you pass the test and meet all the other requirements, you will receive a Notice to Appear to Take the Oath of Citizenship. This document tells you the date, time and place of your citizenship ceremony.",
+      "At the ceremony, you will:",
+      "• Take the Oath of Citizenship;",
+      "• Sign the oath form; and",
+      "• Receive your Canadian Citizenship Certificate.",
+      "If you do not pass the test, you will receive a notification indicating the next steps.",
+      "You are encouraged to bring your family and friends to celebrate this occasion."
+     ],
+     "keyFacts": [
+      {
+       "text": "Notice to Appear to Take the Oath of Citizenship",
+       "type": "definition"
+      },
+      {
+       "text": "citizenship ceremony",
+       "type": "definition"
+      },
+      {
+       "text": "Take the Oath of Citizenship",
+       "type": "right-duty"
+      },
+      {
+       "text": "Canadian Citizenship Certificate",
+       "type": "symbol"
+      }
+     ]
+    }
+   ],
+   "id": "applying",
+   "title": "Applying for Citizenship",
+   "pages": [
+    6,
+    7
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "id": "rights-01",
+     "kind": "intro",
+     "page": 8,
+     "heading": "",
+     "images": [],
+     "paragraphs": [
+      "Canadian citizens have rights and responsibilities. These come to us from our history, are secured by Canadian law, and reflect our shared traditions, identity and values.",
+      "Canadian law has several sources, including laws passed by Parliament and the provincial legislatures, English common law, the civil code of France and the unwritten constitution that we have inherited from Great Britain."
+     ],
+     "keyFacts": [
+      {
+       "text": "laws passed by Parliament and the provincial legislatures, English common law, the civil code of France and the unwritten constitution that we have inherited from Great Britain",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "rights-02",
+     "kind": "text",
+     "page": 8,
+     "heading": "",
+     "images": [],
+     "paragraphs": [
+      "Together, these secure for Canadians an 800-year old tradition of ordered liberty, which dates back to the signing of Magna Carta in 1215 in England (also known as the Great Charter of Freedoms), including:",
+      "• Freedom of conscience and religion;",
+      "• Freedom of thought, belief, opinion and expression, including freedom of speech and of the press;",
+      "• Freedom of peaceful assembly; and",
+      "• Freedom of association.",
+      "Habeas corpus, the right to challenge unlawful detention by the state, comes from English common law."
+     ],
+     "keyFacts": [
+      {
+       "text": "800-year old tradition of ordered liberty",
+       "type": "number"
+      },
+      {
+       "text": "Magna Carta in 1215",
+       "type": "date"
+      },
+      {
+       "text": "Great Charter of Freedoms",
+       "type": "symbol"
+      },
+      {
+       "text": "Freedom of conscience and religion",
+       "type": "right-duty"
+      },
+      {
+       "text": "Freedom of thought, belief, opinion and expression, including freedom of speech and of the press",
+       "type": "right-duty"
+      },
+      {
+       "text": "Freedom of peaceful assembly",
+       "type": "right-duty"
+      },
+      {
+       "text": "Freedom of association",
+       "type": "right-duty"
+      },
+      {
+       "text": "Habeas corpus",
+       "type": "definition"
+      },
+      {
+       "text": "right to challenge unlawful detention by the state",
+       "type": "right-duty"
+      },
+      {
+       "text": "English common law",
+       "type": "definition"
+      }
+     ]
+    },
+    {
+     "id": "rights-03",
+     "kind": "text",
+     "page": 8,
+     "heading": "",
+     "images": [
+      {
+       "src": "img/rights/p8-queen.jpg",
+       "caption": "Queen Elizabeth II proclaiming the amended Constitution, Ottawa, 1982",
+       "w": 378,
+       "h": 440
+      }
+     ],
+     "paragraphs": [
+      "The Constitution of Canada was amended in 1982 to entrench the Canadian Charter of Rights and Freedoms, which begins with the words, “Whereas Canada is founded upon principles that recognize the supremacy of God and the rule of law.” This phrase underlines the importance of religious traditions to Canadian society and the dignity and worth of the human person.",
+      "The Charter attempts to summarize fundamental freedoms while also setting out additional rights. The most important of these include:",
+      "• Mobility Rights — Canadians can live and work anywhere they choose in Canada, enter and leave the country freely, and apply for a passport.",
+      "• Aboriginal Peoples’ Rights — The rights guaranteed in the Charter will not adversely affect any treaty or other rights or freedoms of Aboriginal peoples.",
+      "• Official Language Rights and Minority Language Educational Rights — French and English have equal status in Parliament and throughout the government.",
+      "• Multiculturalism — A fundamental characteristic of the Canadian heritage and identity. Canadians celebrate the gift of one another’s presence and work hard to respect pluralism and live in harmony."
+     ],
+     "keyFacts": [
+      {
+       "text": "1982",
+       "type": "date"
+      },
+      {
+       "text": "Canadian Charter of Rights and Freedoms",
+       "type": "symbol"
+      },
+      {
+       "text": "Whereas Canada is founded upon principles that recognize the supremacy of God and the rule of law",
+       "type": "definition"
+      },
+      {
+       "text": "Mobility Rights",
+       "type": "right-duty"
+      },
+      {
+       "text": "Aboriginal Peoples’ Rights",
+       "type": "right-duty"
+      },
+      {
+       "text": "Official Language Rights and Minority Language Educational Rights",
+       "type": "right-duty"
+      },
+      {
+       "text": "French and English have equal status in Parliament and throughout the government",
+       "type": "definition"
+      },
+      {
+       "text": "Multiculturalism",
+       "type": "right-duty"
+      }
+     ]
+    },
+    {
+     "id": "rights-04",
+     "kind": "aside",
+     "page": 9,
+     "heading": "The Equality of Women and Men",
+     "images": [
+      {
+       "src": "img/rights/p9-blood.jpg",
+       "caption": "Woman donating blood",
+       "w": 273,
+       "h": 173
+      },
+      {
+       "src": "img/rights/p9-children.jpg",
+       "caption": "Children’s program",
+       "w": 284,
+       "h": 174
+      },
+      {
+       "src": "img/rights/p9-man-woman.jpg",
+       "caption": "Man and woman",
+       "w": 282,
+       "h": 174
+      }
+     ],
+     "paragraphs": [
+      "In Canada, men and women are equal under the law. Canada’s openness and generosity do not extend to barbaric cultural practices that tolerate spousal abuse, “honour killings,” female genital mutilation, forced marriage or other gender-based violence. Those guilty of these crimes are severely punished under Canada’s criminal laws."
+     ],
+     "keyFacts": [
+      {
+       "text": "men and women are equal under the law",
+       "type": "right-duty"
+      }
+     ]
+    },
+    {
+     "id": "rights-05",
+     "kind": "section",
+     "page": 9,
+     "heading": "Citizenship Responsibilities",
+     "images": [],
+     "paragraphs": [
+      "In Canada, rights come with responsibilities. These include:",
+      "• Obeying the law — One of Canada’s founding principles is the rule of law. Individuals and governments are regulated by laws and not by arbitrary actions. No person or group is above the law.",
+      "• Taking responsibility for oneself and one’s family — Getting a job, taking care of one’s family and working hard in keeping with one’s abilities are important Canadian values. Work contributes to personal dignity and self-respect, and to Canada’s prosperity.",
+      "• Serving on a jury — When called to do so, you are legally required to serve. Serving on a jury is a privilege that makes the justice system work as it depends on impartial juries made up of citizens.",
+      "• Voting in elections — The right to vote comes with a responsibility to vote in federal, provincial or territorial and local elections.",
+      "• Helping others in the community — Millions of volunteers freely donate their time to help others without pay—helping people in need, assisting at your child’s school, volunteering at a food bank or other charity, or encouraging newcomers to integrate. Volunteering is an excellent way to gain useful skills and develop friends and contacts.",
+      "• Protecting and enjoying our heritage and environment — Every citizen has a role to play in avoiding waste and pollution while protecting Canada’s natural, cultural and architectural heritage for future generations."
+     ],
+     "keyFacts": [
+      {
+       "text": "Obeying the law",
+       "type": "right-duty"
+      },
+      {
+       "text": "No person or group is above the law",
+       "type": "definition"
+      },
+      {
+       "text": "Taking responsibility for oneself and one’s family",
+       "type": "right-duty"
+      },
+      {
+       "text": "Serving on a jury",
+       "type": "right-duty"
+      },
+      {
+       "text": "legally required to serve",
+       "type": "right-duty"
+      },
+      {
+       "text": "Voting in elections",
+       "type": "right-duty"
+      },
+      {
+       "text": "Helping others in the community",
+       "type": "right-duty"
+      },
+      {
+       "text": "Protecting and enjoying our heritage and environment",
+       "type": "right-duty"
+      }
+     ]
+    },
+    {
+     "id": "rights-06",
+     "kind": "aside",
+     "page": 9,
+     "heading": "Defending Canada",
+     "images": [
+      {
+       "src": "img/rights/p9-general.jpg",
+       "caption": "Canadian Army General and Navy sailor shaking hands",
+       "w": 218,
+       "h": 176
+      },
+      {
+       "src": "img/rights/p9-pilot.jpg",
+       "caption": "Canadian Air Force Pilot",
+       "w": 218,
+       "h": 176
+      },
+      {
+       "src": "img/rights/p9-nijmegen.jpg",
+       "caption": "Canadian Forces participating in the annual Nijmegen Marches in the Netherlands",
+       "w": 409,
+       "h": 177
+      }
+     ],
+     "paragraphs": [
+      "There is no compulsory military service in Canada. However, serving in the regular Canadian Forces (navy, army and air force) is a noble way to contribute to Canada and an excellent career choice (www.forces.ca). You can serve in your local part-time navy, militia and air reserves and gain valuable experience, skills and contacts. Young people can learn discipline, responsibility and skills by getting involved in the cadets (www.cadets.ca).",
+      "You may also serve in the Coast Guard or emergency services in your community such as a police force or fire department. By helping to protect your community, you follow in the footsteps of Canadians before you who made sacrifices in the service of our country."
+     ],
+     "keyFacts": [
+      {
+       "text": "no compulsory military service",
+       "type": "right-duty"
+      },
+      {
+       "text": "Canadian Forces (navy, army and air force)",
+       "type": "definition"
+      },
+      {
+       "text": "cadets",
+       "type": "definition"
+      },
+      {
+       "text": "Coast Guard",
+       "type": "definition"
+      }
+     ]
+    }
+   ],
+   "id": "rights",
+   "title": "Rights and Responsibilities of Citizenship",
+   "pages": [
+    8,
+    9
+   ]
+  },
+  {
+   "blocks": [
+    {
      "id": "who-we-are-01",
      "kind": "intro",
      "page": 10,

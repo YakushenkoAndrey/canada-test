@@ -99,6 +99,44 @@ def parse_chapter(path: Path) -> dict:
     return chapter
 
 
+def parse_questions(path: Path, cid: str) -> list[dict]:
+    """Compact question format (content/questions/<chapter>.txt), 7 lines per question:
+
+        @q <number> <blockId> <answer index from 0>
+        English question
+        | option A | option B | option C | option D
+        = English explanation
+        ? Russian question
+        | вариант A | вариант B | вариант C | вариант D
+        = Russian explanation
+    Blank lines and lines starting with # are ignored.
+    """
+    lines = [l.rstrip() for l in path.read_text(encoding="utf-8").splitlines()]
+    lines = [l for l in lines if l.strip() and not l.lstrip().startswith("#")]
+    out = []
+    i = 0
+    while i < len(lines):
+        head = lines[i]
+        if not head.startswith("@q "):
+            raise SystemExit(f"{path}: expected '@q', got {head!r}")
+        try:
+            _, num, block_id, ans = head.split()
+            q_en, opt_en, ex_en, q_ru, opt_ru, ex_ru = lines[i + 1:i + 7]
+        except ValueError:
+            raise SystemExit(f"{path}: bad question near {head!r}")
+        opts = lambda s: [o.strip() for o in s.strip().strip("|").split("|")]  # noqa: E731
+        for line, mark in ((opt_en, "|"), (ex_en, "="), (q_ru, "?"), (opt_ru, "|"), (ex_ru, "=")):
+            if not line.startswith(mark):
+                raise SystemExit(f"{path}: {head}: line {line!r} should start with {mark!r}")
+        out.append({
+            "id": f"q-{cid}-{int(num):03d}", "blockId": block_id, "answer": int(ans),
+            "question": q_en.strip(), "options": opts(opt_en), "explanationEn": ex_en[1:].strip(),
+            "questionRu": q_ru[1:].strip(), "optionsRu": opts(opt_ru), "explanationRu": ex_ru[1:].strip(),
+        })
+        i += 7
+    return out
+
+
 def main() -> int:
     order = json.loads((CONTENT / "chapters.json").read_text(encoding="utf-8"))["chapters"]
     DATA.mkdir(exist_ok=True)
@@ -116,10 +154,14 @@ def main() -> int:
 
     q_en, q_ru = [], []
     for cid in order:
+        items = []
         path = CONTENT / "questions" / f"{cid}.json"
-        if not path.exists():
-            continue
-        for q in json.loads(path.read_text(encoding="utf-8")):
+        if path.exists():
+            items += json.loads(path.read_text(encoding="utf-8"))
+        path = CONTENT / "questions" / f"{cid}.txt"
+        if path.exists():
+            items += parse_questions(path, cid)
+        for q in items:
             base = {"id": q["id"], "chapter": cid, "blockId": q["blockId"],
                     "question": q["question"], "options": q["options"], "answer": q["answer"]}
             q_en.append({**base, "explanation": q["explanationEn"]})

@@ -1,5 +1,565 @@
 [
  {
+  "id": "q-oath-001",
+  "chapter": "oath",
+  "blockId": "oath-01",
+  "question": "In Canada, to whom do we profess our loyalty?",
+  "options": [
+   "To the Constitution",
+   "To the flag",
+   "To a person who represents all Canadians — the Sovereign (Queen or King)",
+   "To the Prime Minister"
+  ],
+  "answer": 2,
+  "explanation": "In Canada, we profess our loyalty to a person who represents all Canadians and not to a document, a banner or a geopolitical entity. These elements are encompassed by the Sovereign (Queen or King)."
+ },
+ {
+  "id": "q-oath-002",
+  "chapter": "oath",
+  "blockId": "oath-03",
+  "question": "Canada is a constitutional monarchy, a parliamentary democracy and a …",
+  "options": [
+   "federal state",
+   "republic",
+   "unitary state",
+   "confederation of independent states"
+  ],
+  "answer": 0,
+  "explanation": "Canada is a constitutional monarchy, a parliamentary democracy and a federal state."
+ },
+ {
+  "id": "q-oath-003",
+  "chapter": "oath",
+  "blockId": "oath-03",
+  "question": "Immigrants of what ages must have adequate knowledge of English or French to become Canadian citizens?",
+  "options": [
+   "16 to 60",
+   "18 to 54",
+   "18 to 65",
+   "21 to 55"
+  ],
+  "answer": 1,
+  "explanation": "Immigrants between the ages of 18 and 54 must have adequate knowledge of English or French in order to become Canadian citizens."
+ },
+ {
+  "id": "q-oath-004",
+  "chapter": "oath",
+  "blockId": "oath-03",
+  "question": "For how many years have settlers and immigrants contributed to the diversity and richness of Canada?",
+  "options": [
+   "100 years",
+   "200 years",
+   "400 years",
+   "1,000 years"
+  ],
+  "answer": 2,
+  "explanation": "For 400 years, settlers and immigrants have contributed to the diversity and richness of our country."
+ },
+ {
+  "id": "q-oath-005",
+  "chapter": "oath",
+  "blockId": "oath-02",
+  "question": "Which rights does the Constitution recognize and affirm, according to the Oath of Citizenship?",
+  "options": [
+   "The rights of the provinces to separate",
+   "The Aboriginal and treaty rights of First Nations, Inuit and Métis peoples",
+   "The right to free university education",
+   "The rights of the House of Lords"
+  ],
+  "answer": 1,
+  "explanation": "The Oath says the Constitution “recognizes and affirms the Aboriginal and treaty rights of First Nations, Inuit and Métis peoples.”"
+ },
+ {
+  "id": "q-applying-001",
+  "chapter": "applying",
+  "blockId": "applying-03",
+  "question": "What two basic requirements for citizenship are tested?",
+  "options": [
+   "Knowledge of Canada and of the rights and responsibilities of citizenship, and adequate knowledge of English or French",
+   "Employment history and income",
+   "Knowledge of world history and mathematics",
+   "Driving skills and knowledge of traffic laws"
+  ],
+  "answer": 0,
+  "explanation": "You will be tested on 1) knowledge of Canada and of the rights and responsibilities of citizenship, and 2) adequate knowledge of English or French."
+ },
+ {
+  "id": "q-applying-002",
+  "chapter": "applying",
+  "blockId": "applying-03",
+  "question": "Adult applicants of what age do not need to write the citizenship test?",
+  "options": [
+   "50 and over",
+   "55 and over",
+   "60 and over",
+   "65 and over"
+  ],
+  "answer": 1,
+  "explanation": "Adult applicants 55 years of age and over do not need to write the citizenship test."
+ },
+ {
+  "id": "q-applying-003",
+  "chapter": "applying",
+  "blockId": "applying-03",
+  "question": "What form does the citizenship test usually take?",
+  "options": [
+   "An oral exam in front of a judge",
+   "A written test, but it could be an interview",
+   "An online essay",
+   "A practical test"
+  ],
+  "answer": 1,
+  "explanation": "The citizenship test is usually a written test, but it could be an interview."
+ },
+ {
+  "id": "q-applying-004",
+  "chapter": "applying",
+  "blockId": "applying-03",
+  "question": "Where is all the information required for the citizenship test provided?",
+  "options": [
+   "On the Internet only",
+   "In this study guide, Discover Canada",
+   "In school history textbooks",
+   "In newspapers"
+  ],
+  "answer": 1,
+  "explanation": "All the citizenship test questions are based on the subject areas noted in the Citizenship Regulations, and all required information is provided in this study guide."
+ },
+ {
+  "id": "q-applying-005",
+  "chapter": "applying",
+  "blockId": "applying-04",
+  "question": "What document do you receive if you pass the test and meet all other requirements?",
+  "options": [
+   "A Canadian passport",
+   "A Notice to Appear to Take the Oath of Citizenship",
+   "A permanent resident card",
+   "A voter information card"
+  ],
+  "answer": 1,
+  "explanation": "If you pass the test and meet all the other requirements, you will receive a Notice to Appear to Take the Oath of Citizenship. It tells you the date, time and place of your citizenship ceremony."
+ },
+ {
+  "id": "q-applying-006",
+  "chapter": "applying",
+  "blockId": "applying-04",
+  "question": "What will you do at the citizenship ceremony?",
+  "options": [
+   "Take the Oath of Citizenship, sign the oath form and receive your Canadian Citizenship Certificate",
+   "Write the citizenship test",
+   "Vote in an election",
+   "Apply for permanent residence"
+  ],
+  "answer": 0,
+  "explanation": "At the ceremony, you will take the Oath of Citizenship, sign the oath form and receive your Canadian Citizenship Certificate."
+ },
+ {
+  "id": "q-applying-007",
+  "chapter": "applying",
+  "blockId": "applying-02",
+  "question": "Which language classes does the Government of Canada offer free of charge?",
+  "options": [
+   "English or French",
+   "Any language",
+   "Only French",
+   "Only Aboriginal languages"
+  ],
+  "answer": 0,
+  "explanation": "The guide advises you to take English or French language classes, which the Government of Canada offers free of charge."
+ },
+ {
+  "id": "q-applying-008",
+  "chapter": "applying",
+  "blockId": "applying-01",
+  "question": "What will officials check when you apply for citizenship?",
+  "options": [
+   "Your status, that you are not prohibited from applying, and that you meet the requirements",
+   "Only your bank account",
+   "Only your language skills",
+   "Your political opinions"
+  ],
+  "answer": 0,
+  "explanation": "Officials will check your status, verify that you are not prohibited from applying, and ensure that you meet the requirements."
+ },
+ {
+  "id": "q-applying-009",
+  "chapter": "applying",
+  "blockId": "applying-04",
+  "question": "What happens if you do not pass the citizenship test?",
+  "options": [
+   "You must leave Canada",
+   "You will receive a notification indicating the next steps",
+   "You lose permanent resident status",
+   "You can never apply again"
+  ],
+  "answer": 1,
+  "explanation": "If you do not pass the test, you will receive a notification indicating the next steps."
+ },
+ {
+  "id": "q-applying-010",
+  "chapter": "applying",
+  "blockId": "applying-01",
+  "question": "While your application is being processed, what should you make sure of?",
+  "options": [
+   "That the Call Centre always has your correct address",
+   "That you do not travel inside Canada",
+   "That you change jobs",
+   "That you visit the office every week"
+  ],
+  "answer": 0,
+  "explanation": "Your application may take several months. Please ensure that the Call Centre always has your correct address while your application is being processed."
+ },
+ {
+  "id": "q-rights-001",
+  "chapter": "rights",
+  "blockId": "rights-01",
+  "question": "Which of the following is a source of Canadian law?",
+  "options": [
+   "The Napoleonic Code of Spain",
+   "The laws of the United States Congress",
+   "English common law and the civil code of France",
+   "The Roman Senate"
+  ],
+  "answer": 2,
+  "explanation": "Canadian law has several sources, including laws passed by Parliament and the provincial legislatures, English common law, the civil code of France and the unwritten constitution inherited from Great Britain."
+ },
+ {
+  "id": "q-rights-002",
+  "chapter": "rights",
+  "blockId": "rights-02",
+  "question": "When and where was Magna Carta signed?",
+  "options": [
+   "1066 in France",
+   "1215 in England",
+   "1867 in Canada",
+   "1982 in Ottawa"
+  ],
+  "answer": 1,
+  "explanation": "Canada’s tradition of ordered liberty dates back to the signing of Magna Carta in 1215 in England."
+ },
+ {
+  "id": "q-rights-003",
+  "chapter": "rights",
+  "blockId": "rights-02",
+  "question": "What is another name for Magna Carta?",
+  "options": [
+   "The Great Charter of Freedoms",
+   "The Bill of Rights",
+   "The Royal Proclamation",
+   "The Quebec Act"
+  ],
+  "answer": 0,
+  "explanation": "Magna Carta is also known as the Great Charter of Freedoms."
+ },
+ {
+  "id": "q-rights-004",
+  "chapter": "rights",
+  "blockId": "rights-02",
+  "question": "Which of these is one of the fundamental freedoms that come from Canada’s tradition of ordered liberty?",
+  "options": [
+   "Freedom from paying taxes",
+   "Freedom to break the law",
+   "Freedom to avoid jury duty",
+   "Freedom of peaceful assembly"
+  ],
+  "answer": 3,
+  "explanation": "The fundamental freedoms include freedom of conscience and religion; of thought, belief, opinion and expression; of peaceful assembly; and of association."
+ },
+ {
+  "id": "q-rights-005",
+  "chapter": "rights",
+  "blockId": "rights-02",
+  "question": "What is habeas corpus?",
+  "options": [
+   "The right to vote",
+   "The right to a free lawyer",
+   "The right to challenge unlawful detention by the state",
+   "The right to own property"
+  ],
+  "answer": 2,
+  "explanation": "Habeas corpus, the right to challenge unlawful detention by the state, comes from English common law."
+ },
+ {
+  "id": "q-rights-006",
+  "chapter": "rights",
+  "blockId": "rights-02",
+  "question": "Where does habeas corpus come from?",
+  "options": [
+   "The civil code of France",
+   "English common law",
+   "The Canadian Charter of Rights and Freedoms",
+   "Aboriginal treaties"
+  ],
+  "answer": 1,
+  "explanation": "Habeas corpus comes from English common law."
+ },
+ {
+  "id": "q-rights-007",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "In what year was the Constitution of Canada amended to entrench the Canadian Charter of Rights and Freedoms?",
+  "options": [
+   "1867",
+   "1960",
+   "1982",
+   "1999"
+  ],
+  "answer": 2,
+  "explanation": "The Constitution of Canada was amended in 1982 to entrench the Canadian Charter of Rights and Freedoms."
+ },
+ {
+  "id": "q-rights-008",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "With what words does the Canadian Charter of Rights and Freedoms begin?",
+  "options": [
+   "“Whereas Canada is founded upon principles that recognize the supremacy of God and the rule of law”",
+   "“We the people of Canada”",
+   "“Peace, Order and Good Government”",
+   "“From sea to sea”"
+  ],
+  "answer": 0,
+  "explanation": "The Charter begins with the words, “Whereas Canada is founded upon principles that recognize the supremacy of God and the rule of law.”"
+ },
+ {
+  "id": "q-rights-009",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "What do Mobility Rights mean?",
+  "options": [
+   "Canadians must live in the province where they were born",
+   "Canadians can live and work anywhere in Canada, enter and leave the country freely, and apply for a passport",
+   "Only citizens can own a car",
+   "Canadians may travel only with government permission"
+  ],
+  "answer": 1,
+  "explanation": "Mobility Rights — Canadians can live and work anywhere they choose in Canada, enter and leave the country freely, and apply for a passport."
+ },
+ {
+  "id": "q-rights-010",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "Under Official Language Rights, what status do French and English have?",
+  "options": [
+   "French is used only in Quebec",
+   "English has priority in Parliament",
+   "Equal status in Parliament and throughout the government",
+   "They are official only in New Brunswick"
+  ],
+  "answer": 2,
+  "explanation": "Official Language Rights and Minority Language Educational Rights — French and English have equal status in Parliament and throughout the government."
+ },
+ {
+  "id": "q-rights-011",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "Which right in the Charter is described as “a fundamental characteristic of the Canadian heritage and identity”?",
+  "options": [
+   "Mobility Rights",
+   "Habeas corpus",
+   "Freedom of the press",
+   "Multiculturalism"
+  ],
+  "answer": 3,
+  "explanation": "Multiculturalism is a fundamental characteristic of the Canadian heritage and identity. Canadians work hard to respect pluralism and live in harmony."
+ },
+ {
+  "id": "q-rights-012",
+  "chapter": "rights",
+  "blockId": "rights-03",
+  "question": "What does the Charter say about Aboriginal Peoples’ Rights?",
+  "options": [
+   "The rights guaranteed in the Charter will not adversely affect any treaty or other rights or freedoms of Aboriginal peoples",
+   "Aboriginal peoples have no special rights",
+   "Aboriginal rights apply only in the North",
+   "Treaties were cancelled in 1982"
+  ],
+  "answer": 0,
+  "explanation": "Aboriginal Peoples’ Rights — the rights guaranteed in the Charter will not adversely affect any treaty or other rights or freedoms of Aboriginal peoples."
+ },
+ {
+  "id": "q-rights-013",
+  "chapter": "rights",
+  "blockId": "rights-04",
+  "question": "What does Canadian law say about men and women?",
+  "options": [
+   "Men have more rights in marriage",
+   "Men and women are equal under the law",
+   "Women cannot serve in the Canadian Forces",
+   "Equality applies only to citizens"
+  ],
+  "answer": 1,
+  "explanation": "In Canada, men and women are equal under the law."
+ },
+ {
+  "id": "q-rights-014",
+  "chapter": "rights",
+  "blockId": "rights-04",
+  "question": "How does Canada treat barbaric cultural practices such as “honour killings” or forced marriage?",
+  "options": [
+   "They are tolerated as part of multiculturalism",
+   "They are allowed only in private",
+   "Those guilty are severely punished under Canada’s criminal laws",
+   "They are handled only by religious leaders"
+  ],
+  "answer": 2,
+  "explanation": "Canada’s openness and generosity do not extend to barbaric cultural practices. Those guilty of these crimes are severely punished under Canada’s criminal laws."
+ },
+ {
+  "id": "q-rights-015",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "Which of the following is a responsibility of Canadian citizenship?",
+  "options": [
+   "Owning a home",
+   "Serving on a jury when called to do so",
+   "Joining a political party",
+   "Speaking both official languages"
+  ],
+  "answer": 1,
+  "explanation": "Citizenship responsibilities include obeying the law, taking responsibility for oneself and one’s family, serving on a jury, voting in elections, helping others, and protecting our heritage and environment."
+ },
+ {
+  "id": "q-rights-016",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "If you are called to serve on a jury, what must you do?",
+  "options": [
+   "You may refuse without reason",
+   "Only lawyers serve on juries",
+   "Pay a fee instead",
+   "You are legally required to serve"
+  ],
+  "answer": 3,
+  "explanation": "Serving on a jury — when called to do so, you are legally required to serve."
+ },
+ {
+  "id": "q-rights-017",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "What is one of Canada’s founding principles, meaning that no person or group is above the law?",
+  "options": [
+   "The rule of law",
+   "Responsible government",
+   "Multiculturalism",
+   "Federalism"
+  ],
+  "answer": 0,
+  "explanation": "Obeying the law — one of Canada’s founding principles is the rule of law. Individuals and governments are regulated by laws and not by arbitrary actions. No person or group is above the law."
+ },
+ {
+  "id": "q-rights-018",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "In which elections does the right to vote come with a responsibility to vote?",
+  "options": [
+   "Only federal elections",
+   "Only municipal elections",
+   "Federal, provincial or territorial and local elections",
+   "Only in elections in Ottawa"
+  ],
+  "answer": 2,
+  "explanation": "The right to vote comes with a responsibility to vote in federal, provincial or territorial and local elections."
+ },
+ {
+  "id": "q-rights-019",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "According to the guide, what does work contribute to?",
+  "options": [
+   "Only paying taxes",
+   "Personal dignity and self-respect, and to Canada’s prosperity",
+   "Getting citizenship faster",
+   "Avoiding jury duty"
+  ],
+  "answer": 1,
+  "explanation": "Getting a job, taking care of one’s family and working hard are important Canadian values. Work contributes to personal dignity and self-respect, and to Canada’s prosperity."
+ },
+ {
+  "id": "q-rights-020",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "Which is an example of helping others in the community?",
+  "options": [
+   "Running for Parliament",
+   "Paying a parking fine",
+   "Joining the regular army",
+   "Volunteering at a food bank"
+  ],
+  "answer": 3,
+  "explanation": "Millions of volunteers freely donate their time—helping people in need, assisting at your child’s school, volunteering at a food bank or other charity, or encouraging newcomers to integrate."
+ },
+ {
+  "id": "q-rights-021",
+  "chapter": "rights",
+  "blockId": "rights-05",
+  "question": "What is every citizen’s role in protecting Canada’s heritage and environment?",
+  "options": [
+   "Avoiding waste and pollution while protecting Canada’s natural, cultural and architectural heritage",
+   "Building new highways",
+   "Hunting endangered species",
+   "Leaving it to the government only"
+  ],
+  "answer": 0,
+  "explanation": "Every citizen has a role to play in avoiding waste and pollution while protecting Canada’s natural, cultural and architectural heritage for future generations."
+ },
+ {
+  "id": "q-rights-022",
+  "chapter": "rights",
+  "blockId": "rights-06",
+  "question": "Is military service compulsory in Canada?",
+  "options": [
+   "Yes, for all men aged 18",
+   "Yes, for all citizens for one year",
+   "No, there is no compulsory military service",
+   "Only in wartime for women"
+  ],
+  "answer": 2,
+  "explanation": "There is no compulsory military service in Canada. However, serving in the regular Canadian Forces is a noble way to contribute to Canada."
+ },
+ {
+  "id": "q-rights-023",
+  "chapter": "rights",
+  "blockId": "rights-06",
+  "question": "What are the three branches of the regular Canadian Forces?",
+  "options": [
+   "Police, fire department and Coast Guard",
+   "Navy, army and air force",
+   "Cadets, militia and reserves",
+   "RCMP, army and navy"
+  ],
+  "answer": 1,
+  "explanation": "The regular Canadian Forces are the navy, army and air force."
+ },
+ {
+  "id": "q-rights-024",
+  "chapter": "rights",
+  "blockId": "rights-06",
+  "question": "How can young people learn discipline, responsibility and skills, according to the guide?",
+  "options": [
+   "By getting involved in the cadets",
+   "By serving on a jury",
+   "By voting at age 16",
+   "By joining a political party"
+  ],
+  "answer": 0,
+  "explanation": "Young people can learn discipline, responsibility and skills by getting involved in the cadets."
+ },
+ {
+  "id": "q-rights-025",
+  "chapter": "rights",
+  "blockId": "rights-06",
+  "question": "Besides the Canadian Forces, how else can you serve to protect your community?",
+  "options": [
+   "By writing to newspapers",
+   "By running a business",
+   "By travelling abroad",
+   "In the Coast Guard or emergency services such as a police force or fire department"
+  ],
+  "answer": 3,
+  "explanation": "You may also serve in the Coast Guard or emergency services in your community such as a police force or fire department."
+ },
+ {
   "id": "q-who-we-are-001",
   "chapter": "who-we-are",
   "blockId": "who-we-are-01",

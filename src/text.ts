@@ -46,6 +46,7 @@ const FIXES: Record<Lang, [string, string][]> = {
 };
 
 const EN_IN_PARENS = /\s*\((?=[^)]*[A-Za-z])[^)]*\)/g;
+const BULLETS = /^\s*[•▪]\s*/g;
 const URLS = /\s*\(?(?:https?:\/\/|www\.)[^\s)]+\)?/g;
 const PAGE_REFS = /\s*\((?:стр|с|p|page)\.?\s*\d+(?:[–-]\d+)?\)/gi;
 
@@ -92,6 +93,7 @@ export function speechOf(text: string, lang: Lang): Utt {
     map = m2;
   };
 
+  cut(BULLETS);
   cut(URLS);
   cut(PAGE_REFS);
   if (lang === 'ru') cut(EN_IN_PARENS);

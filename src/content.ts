@@ -41,7 +41,7 @@ const QUESTIONS: Record<Lang, Question[]> = {
 
 // Full table of contents of the brochure (pages by the English edition). Chapters without data are "coming soon".
 export const TOC: { id: string; en: string; ru: string; page: number }[] = [
-  { id: 'oath', en: 'Understanding the Oath', ru: 'Присяга и обращение к читателям', page: 2 },
+  { id: 'oath', en: 'Message to Our Readers', ru: 'Обращение к читателям', page: 2 },
   { id: 'applying', en: 'Applying for Citizenship', ru: 'Подача заявления на гражданство', page: 6 },
   { id: 'rights', en: 'Rights and Responsibilities of Citizenship', ru: 'Права и обязанности гражданина', page: 8 },
   { id: 'who-we-are', en: 'Who We Are', ru: 'Кто мы', page: 10 },

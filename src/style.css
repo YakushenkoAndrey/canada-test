@@ -142,6 +142,8 @@ h1, .ptitle { margin: 6px 0 0; font-family: 'PT Serif', serif; font-weight: 400;
 .bh { margin: 0 0 8px; font-size: 20px; line-height: 1.3; color: var(--red); text-transform: uppercase; letter-spacing: .4px; }
 .paras p { margin: 0 0 12px; }
 .kind-intro .paras { color: var(--navy); }
+.kind-verse .paras p { margin: 0; }
+.kind-verse .paras { font-family: 'PT Serif', serif; color: var(--navy); padding-left: 14px; border-left: 3px solid var(--red); }
 .kind-aside {
   background: var(--aside); padding: 14px 16px; border-top: 4px solid var(--red);
 }

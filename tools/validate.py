@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 FACT_TYPES = {"date", "person", "number", "definition", "place", "symbol", "right-duty"}
-BLOCK_KINDS = {"intro", "section", "aside", "photo"}
+BLOCK_KINDS = {"intro", "section", "aside", "photo", "text", "verse"}
 
 errors: list[str] = []
 
