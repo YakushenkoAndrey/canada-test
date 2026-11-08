@@ -15,6 +15,19 @@ import {
 } from '../store';
 import { esc } from '../text';
 import { plural } from './reader';
+import {
+  activate,
+  canMistakes,
+  canOntarioQuiz,
+  canStartExam,
+  canTrain,
+  freeExamsLeft,
+  isUnlocked,
+  noteExamStarted,
+  PAYWALL,
+  paywallOn,
+  unlockInfo,
+} from '../paywall';
 
 export const EXAM_SIZE = 20;
 export const EXAM_PASS = 15;
@@ -109,13 +122,26 @@ function blockLink(lang: Lang, q: Question, full = true): string {
 
 // ---------------------------------------------------------------- menu
 
+function accessCard(): string {
+  if (!paywallOn()) return '';
+  if (isUnlocked()) {
+    const u = unlockInfo();
+    return `<p class="access-ok">✓ Полный доступ к тестам активирован${u?.email ? ` (${esc(u.email)})` : ''}.</p>`;
+  }
+  return `<section class="qcard buy-card">
+    <h2>Полный доступ к тестам — ${PAYWALL.price}</h2>
+    <p>Бесплатно: вся брошюра с озвучкой, тренировка по главе «Кто мы» и один пробный экзамен. Полный доступ открывает все 12 глав, безлимитные экзамены, «Мои ошибки» и тест по Онтарио. Разовая покупка.</p>
+    <a class="btn-main wide" href="#/unlock">Подробнее и купить →</a>
+  </section>`;
+}
+
 export function renderQuizMenu(host: HTMLElement, lang: Lang): Cleanup {
   const nMist = mistakeQuestions(lang).length;
   const rows = TOC.map((t) => {
     const n = questions(lang, t.id).length;
     const title = lang === 'ru' ? t.ru : t.en;
     return n
-      ? `<a class="qrow" href="#/quiz/${t.id}"><span>${esc(title)}</span><b>${n} ${plural(n, 'вопрос', 'вопроса', 'вопросов')} →</b></a>`
+      ? `<a class="qrow" href="#/quiz/${t.id}"><span>${esc(title)}${canTrain(t.id) ? (paywallOn() && !isUnlocked() ? ' <em class="free">бесплатно</em>' : '') : ' <span class="lock" aria-label="Полный доступ">🔒</span>'}</span><b>${n} ${plural(n, 'вопрос', 'вопроса', 'вопросов')} →</b></a>`
       : `<div class="qrow off"><span>${esc(title)}</span><b>скоро</b></div>`;
   }).join('');
   const hist = attempts.slice(0, 10);
@@ -124,12 +150,14 @@ export function renderQuizMenu(host: HTMLElement, lang: Lang): Cleanup {
     <h1 class="ptitle">Подготовка к тесту</h1>
     <div class="redbar"></div>
     <p class="muted">Вопросы на английском, как на настоящем экзамене. После ответа — объяснение${lang === 'ru' ? ' по-русски' : ''} и ссылка на нужное место брошюры.</p>
+    ${accessCard()}
 
     <section class="qcard exam-card">
       <h2>Пробный экзамен</h2>
       <p>${EXAM_SIZE} случайных вопросов из всех глав (больше — из больших глав). Чтобы сдать, нужно ${EXAM_PASS} верных ответов из ${EXAM_SIZE}.</p>
       <label class="switch"><span>Таймер ${EXAM_MINUTES} минут</span><input type="checkbox" data-timer ${settings.examTimer ? 'checked' : ''}><i></i></label>
-      <a class="btn-main wide" href="#/exam">Начать экзамен →</a>
+      ${isUnlocked() ? '' : `<p class="free-note">${freeExamsLeft() ? 'Первый пробный экзамен — бесплатно.' : `Бесплатный экзамен использован. Безлимитные экзамены — в полном доступе (${PAYWALL.price}).`}</p>`}
+      <a class="btn-main wide" href="#/exam">${canStartExam() ? 'Начать экзамен →' : '🔒 Открыть полный доступ →'}</a>
     </section>
 
     <section class="qcard">
@@ -137,7 +165,7 @@ export function renderQuizMenu(host: HTMLElement, lang: Lang): Cleanup {
       <p>${nMist
         ? `${nMist} ${plural(nMist, 'вопрос', 'вопроса', 'вопросов')}, в которых вы ошиблись. Вопрос уходит из списка, когда вы ответите на него верно 3 раза подряд. В экзамене такие вопросы попадаются чаще.`
         : 'Пока ошибок нет. Вопросы, в которых вы ошибётесь, появятся здесь и будут чаще попадаться в экзамене.'}</p>
-      ${nMist ? `<a class="btn-main wide" href="#/mistakes">Повторить ошибки (${Math.min(nMist, EXAM_SIZE)}) →</a>` : ''}
+      ${nMist ? `<a class="btn-main wide" href="#/mistakes">${canMistakes() ? '' : '🔒 '}Повторить ошибки (${Math.min(nMist, EXAM_SIZE)}) →</a>` : ''}
     </section>
 
     <section class="qcard">
@@ -342,6 +370,7 @@ function runSession(host: HTMLElement, lang: Lang, o: SessionOpts): Cleanup {
 export function renderQuiz(host: HTMLElement, lang: Lang, chapterId: string): Cleanup {
   const ch = chapter(lang, chapterId);
   if (!ch) return renderQuizMenu(host, lang);
+  if (!canTrain(chapterId)) return renderPaywall(host, `Тренировка по главе «${ch.title}» входит в полный доступ.`);
   const start = (): Cleanup =>
     runSession(host, lang, {
       title: `Тренировка: ${ch.title}`,
@@ -358,6 +387,11 @@ export function renderExam(host: HTMLElement, lang: Lang): Cleanup {
   let stop: Cleanup = () => {};
   const start = () => {
     stop();
+    if (!canStartExam()) {
+      stop = renderPaywall(host, 'Бесплатный пробный экзамен уже использован.');
+      return;
+    }
+    noteExamStarted();
     stop = runSession(host, lang, {
       title: 'Пробный экзамен',
       questions: pickExam(lang),
@@ -372,6 +406,7 @@ export function renderExam(host: HTMLElement, lang: Lang): Cleanup {
 }
 
 export function renderMistakes(host: HTMLElement, lang: Lang): Cleanup {
+  if (!canMistakes()) return renderPaywall(host, '«Мои ошибки» входят в полный доступ.');
   const start = (): Cleanup =>
     runSession(host, lang, {
       title: 'Мои ошибки',
@@ -385,6 +420,7 @@ export function renderMistakes(host: HTMLElement, lang: Lang): Cleanup {
 }
 
 export function renderOntarioQuiz(host: HTMLElement, lang: Lang): Cleanup {
+  if (!canOntarioQuiz()) return renderPaywall(host, 'Тест «Онтарио и Брантфорд» входит в полный доступ. Сами факты на странице раздела — бесплатно.');
   const start = (): Cleanup =>
     runSession(host, lang, {
       title: 'Онтарио и Брантфорд',
@@ -415,5 +451,58 @@ export function renderOntario(host: HTMLElement, lang: Lang): Cleanup {
     <a class="btn-main wide" href="#/ontario/quiz">Пройти тест (${n} ${plural(n, 'вопрос', 'вопроса', 'вопросов')}) →</a>
     <p class="muted small">Если что-то изменилось (выборы, отставка), сверьтесь с источником по ссылке — сайт обновляется вручную.</p>
   </div>`;
+  return () => {};
+}
+
+// ---------------------------------------------------------------- paywall
+
+export function renderPaywall(host: HTMLElement, reason = ''): Cleanup {
+  if (isUnlocked()) {
+    host.innerHTML = `<div class="page"><h1 class="ptitle">Полный доступ</h1><div class="redbar"></div>
+      <p class="access-ok">✓ Полный доступ к тестам уже активирован на этом устройстве.</p>
+      <a class="btn-main wide" href="#/quiz">К тестам →</a></div>`;
+    return () => {};
+  }
+  host.innerHTML = `<div class="page paywall">
+    <div class="kicker">Тесты</div>
+    <h1 class="ptitle">Полный доступ к тестам</h1>
+    <div class="redbar"></div>
+    ${reason ? `<p class="reason">${esc(reason)}</p>` : ''}
+    <div class="price">${PAYWALL.price} <span>разово, без подписки</span></div>
+    <ul class="incl">
+      <li>Тренировка по всем 12 главам — 263 вопроса с объяснениями и ссылками на брошюру</li>
+      <li>Пробные экзамены без ограничений: 20 вопросов, таймер 30 минут, нужно 15 из 20</li>
+      <li>«Мои ошибки»: повторение вопросов, в которых вы ошиблись</li>
+      <li>История экзаменов и тест «Онтарио и Брантфорд»</li>
+      <li>Работает без интернета; ключ подходит для ${PAYWALL.devices} устройств</li>
+    </ul>
+    <p class="muted small">Бесплатно навсегда: вся брошюра на английском и русском с озвучкой и подсветкой, ключевые факты, «Только главное», избранное, тренировка по главе «Кто мы» и один пробный экзамен.</p>
+    <a class="btn-main wide" href="${esc(PAYWALL.checkoutUrl)}" target="_blank" rel="noopener">Купить за ${PAYWALL.price} →</a>
+    <p class="muted small">Оплата через Lemon Squeezy (карта, Apple Pay, Google Pay). После оплаты ключ придёт на почту и будет показан на странице заказа.</p>
+    <h2 class="sub">Уже купили?</h2>
+    <label class="field"><span>Ключ из письма</span>
+      <input class="keyin" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX">
+      <button class="btn-main btn-act" type="button">Активировать</button></label>
+    <p class="act-msg" role="status"></p>
+    <p class="muted small"><a href="#/about">Условия, возврат и конфиденциальность</a></p>
+  </div>`;
+  const btn = host.querySelector<HTMLButtonElement>('.btn-act')!;
+  const input = host.querySelector<HTMLInputElement>('.keyin')!;
+  const msg = host.querySelector<HTMLElement>('.act-msg')!;
+  btn.addEventListener('click', async () => {
+    btn.disabled = true;
+    msg.className = 'act-msg';
+    msg.textContent = 'Проверяю ключ…';
+    const err = await activate(input.value);
+    btn.disabled = false;
+    if (err) {
+      msg.classList.add('err');
+      msg.textContent = err;
+    } else {
+      msg.classList.add('ok');
+      msg.textContent = '✓ Готово! Полный доступ активирован.';
+      window.setTimeout(() => (location.hash = '#/quiz'), 900);
+    }
+  });
   return () => {};
 }

@@ -10,7 +10,9 @@ import { ICON } from './icons';
 import { saveSettings, settings, type Lang } from './store';
 import { applyTheme, watchTheme } from './theme';
 import { renderHome, tocHtml } from './views/home';
-import { renderExam, renderMistakes, renderOntario, renderOntarioQuiz, renderQuiz, renderQuizMenu } from './views/quiz';
+import { recheck } from './paywall';
+import { renderAbout } from './views/about';
+import { renderExam, renderMistakes, renderOntario, renderOntarioQuiz, renderPaywall, renderQuiz, renderQuizMenu } from './views/quiz';
 import { Reader } from './views/reader';
 import { renderFavorites } from './views/favorites';
 import { renderSettings } from './views/settings';
@@ -51,6 +53,7 @@ app.innerHTML = `
       <a class="dlink" href="#/favorites">★ Избранное</a>
       <a class="dlink" href="#/ontario">Онтарио и Брантфорд</a>
       <a class="dlink" href="#/settings">Настройки</a>
+      <a class="dlink" href="#/about">О сайте и условия</a>
     </nav>
   </div>`;
 
@@ -114,6 +117,10 @@ function route() {
     cleanup = renderMistakes(view, settings.lang);
   } else if (parts[0] === 'ontario') {
     cleanup = parts[1] === 'quiz' ? renderOntarioQuiz(view, settings.lang) : renderOntario(view, settings.lang);
+  } else if (parts[0] === 'unlock') {
+    cleanup = renderPaywall(view);
+  } else if (parts[0] === 'about') {
+    cleanup = renderAbout(view);
   } else if (parts[0] === 'favorites') {
     cleanup = renderFavorites(view, settings.lang);
   } else if (parts[0] === 'settings') {
@@ -160,5 +167,6 @@ if (import.meta.env.PROD && 'serviceWorker' in navigator) {
 }
 
 window.addEventListener('hashchange', route);
+void recheck();
 setLang(settings.lang);
 route();

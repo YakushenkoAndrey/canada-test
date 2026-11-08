@@ -438,3 +438,19 @@ figcaption { margin-top: 5px; font-size: 13px; line-height: 1.35; color: var(--r
 .favbtns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
 .favbtns .btn-small { min-height: 40px; text-decoration: none; color: var(--text); gap: 4px; }
 .favbtns .btn-del { margin-left: auto; }
+
+/* ---------- paid tests ---------- */
+.free { font-style: normal; font-size: 12px; font-weight: 700; color: var(--ok); margin-left: 4px; }
+.lock { font-size: 13px; margin-left: 4px; }
+.free-note { font-weight: 700; color: var(--text); }
+.access-ok { color: var(--ok); font-weight: 700; }
+.buy-card { border-top-color: #d49a00; }
+.paywall .reason { background: var(--warn-bg); color: var(--warn-text); border-left: 4px solid #c77a12; padding: 10px 12px; }
+.paywall .price { font-family: 'PT Serif', serif; font-size: 34px; color: var(--red); margin: 8px 0 4px; }
+.paywall .price span { font-family: 'PT Sans', sans-serif; font-size: 15px; color: var(--text-2); }
+.paywall .incl { padding-left: 20px; line-height: 1.5; }
+.paywall .incl li { margin: 6px 0; }
+.keyin { flex: 1 1 220px; min-height: 44px; font: inherit; font-weight: 400; letter-spacing: .5px; border: 1.5px solid var(--border); border-radius: 8px; padding: 0 10px; background: var(--surface); color: var(--text); min-width: 0; }
+.act-msg.err { color: var(--red); font-weight: 700; }
+.act-msg.ok { color: var(--ok); font-weight: 700; }
+.about p { line-height: 1.6; }
