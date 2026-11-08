@@ -1,5 +1,5 @@
 import { FACT_LABELS } from '../content';
-import { onVoices, pickVoice, speaker, voicesFor } from '../speech';
+import { onVoices, pickVoice, speaker, voiceScore, voicesFor } from '../speech';
 import { resetAll, saveSettings, settings, type Lang } from '../store';
 import { esc, speechOf } from '../text';
 
@@ -11,12 +11,12 @@ const SAMPLE: Record<Lang, string> = {
 export function renderSettings(host: HTMLElement): () => void {
   const draw = () => {
     const voiceSel = (lang: Lang) => {
-      const list = voicesFor(lang);
+      const list = voicesFor(lang).sort((a, b) => voiceScore(b) - voiceScore(a) || a.name.localeCompare(b.name));
       const cur = pickVoice(lang)?.name ?? '';
       return `<label class="field"><span>Голос ${lang.toUpperCase()}</span>
         <select data-lang="${lang}">
           ${list.length ? '' : '<option value="">Голосов не найдено</option>'}
-          ${list.map((v) => `<option value="${esc(v.name)}" ${v.name === cur ? 'selected' : ''}>${esc(v.name)} (${esc(v.lang)})</option>`).join('')}
+          ${list.map((v) => `<option value="${esc(v.name)}" ${v.name === cur ? 'selected' : ''}>${voiceScore(v) >= 20 ? '★ ' : ''}${esc(v.name)} (${esc(v.lang)})</option>`).join('')}
         </select>
         <button class="btn-small" type="button" data-test="${lang}">Проверить</button></label>`;
     };
@@ -35,7 +35,8 @@ export function renderSettings(host: HTMLElement): () => void {
       ${tog('autoNext', 'Читать дальше: после блока начинать следующий')}
       ${tog('readCaptions', 'Читать подписи к фото')}
       ${tog('showLegend', 'Показывать легенду подсветки под блоками')}
-      <p class="muted small">Если голоса нет в списке, установите его в системе: Android — «Настройки → Синтез речи (Google)», iPhone — «Настройки → Универсальный доступ → Устный контент → Голоса», Windows — «Параметры → Время и язык → Речь».</p>
+      <p class="muted small">★ — улучшенный голос, звучит естественнее; если он установлен, сайт выбирает его сам.
+      Если голоса нет в списке, установите его в системе: Android — «Настройки → Синтез речи (Google)», iPhone — «Настройки → Универсальный доступ → Устный контент → Голоса», Windows — «Параметры → Время и язык → Речь».</p>
       <h2 class="sub">Цвета ключевых фактов</h2>
       <div class="facts-legend">${Object.entries(FACT_LABELS).map(([t, l]) => `<span class="chip chip-${t}">${l}</span>`).join('')}</div>
       <h2 class="sub">Данные</h2>

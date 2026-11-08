@@ -55,10 +55,25 @@ export function pickVoice(lang: Lang): SpeechSynthesisVoice | null {
   }
   const prefs = lang === 'en' ? ['en-ca', 'en-us', 'en-gb', 'en'] : ['ru-ru', 'ru'];
   for (const p of prefs) {
-    const v = voices.find((x) => norm(x).startsWith(p));
-    if (v) return v;
+    const list = voices.filter((x) => norm(x).startsWith(p) && !NOVELTY.test(x.name));
+    if (list.length) return list.sort((a, b) => voiceScore(b) - voiceScore(a))[0];
   }
   return null;
+}
+
+// Apple "fun" voices (Bubbles, Zarvox…) — never pick them automatically.
+const NOVELTY =
+  /^(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Deranged|Good News|Hysterical|Jester|Junior|Kathy|Organ|Pipe Organ|Princess|Ralph|Superstar|Trinoids|Whisper|Wobble|Zarvox|Fred)\b/i;
+
+/** Higher = better sounding: premium/enhanced/natural voices first, then local voices. */
+export function voiceScore(v: SpeechSynthesisVoice): number {
+  const n = `${v.name} ${v.voiceURI}`.toLowerCase();
+  let s = 0;
+  if (/premium|высокое|высококач/.test(n)) s += 30;
+  if (/enhanced|улучш|natural|neural/.test(n)) s += 20;
+  if (/google/.test(n)) s += 5;
+  if (v.localService) s += 1; // works offline, sends word boundaries
+  return s;
 }
 
 /** null = voice list not loaded yet (unknown), otherwise whether this device has a voice for the language. */
