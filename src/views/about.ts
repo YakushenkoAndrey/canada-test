@@ -1,6 +1,5 @@
 // "О сайте": disclaimer, purchase terms, refunds and privacy.
 import { GOATCOUNTER_CODE } from '../analytics';
-import { feedbackOn } from './feedback';
 import { L } from '../langs';
 import { PAYWALL, paywallOn } from '../paywall';
 
@@ -59,9 +58,6 @@ export function renderAbout(host: HTMLElement): () => void {
         )}
     ${paywallOn() ? L('При активации и периодической проверке ключа сайт отправляет ключ и название устройства в Lemon Squeezy; данные оплаты (карта, e-mail) обрабатывает только Lemon Squeezy.', 'When activating and periodically re-checking a key, the site sends the key and a device label to Lemon Squeezy; payment data (card, e-mail) is handled only by Lemon Squeezy.', 'Під час активації та періодичної перевірки ключа сайт надсилає ключ і назву пристрою в Lemon Squeezy; платіжні дані (картку, e-mail) обробляє лише Lemon Squeezy.') : ''}
     ${L('Озвучка работает средствами вашего телефона или компьютера.', 'Audio uses the voices of your own phone or computer.', 'Озвучення працює засобами вашого телефона або комп’ютера.')}</p>
-
-    ${feedbackOn() ? `<h2 class="sub">${L('Обратная связь', 'Feedback', 'Зворотний зв’язок')}</h2>
-    <p>${L('Нашли ошибку или есть идея?', 'Found a mistake or have an idea?', 'Знайшли помилку чи маєте ідею?')} <a href="#/feedback?from=about">${L('Напишите нам →', 'Write to us →', 'Напишіть нам →')}</a></p>` : ''}
 
     <h2 class="sub">${L('Актуальность', 'Up to date', 'Актуальність')}</h2>
     <p>${L(

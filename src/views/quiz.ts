@@ -17,7 +17,6 @@ import {
   unlockInfo,
 } from '../paywall';
 import { trackEvent } from '../analytics';
-import { feedbackOn } from './feedback';
 import { addAttempt, attempts, dueAt, isMistake, recordAnswer, saveSettings, settings, weightOf } from '../store';
 import { esc } from '../text';
 
@@ -388,7 +387,6 @@ function runSession(host: HTMLElement, lang: Lang, o: SessionOpts): Cleanup {
         <a class="btn-ghost" href="${o.back}">${L('К тестам', 'Back to tests', 'До тестів')}</a>
         <button class="btn-main btn-again" type="button">${exam ? L('Новый экзамен', 'New exam', 'Новий іспит') : L('Ещё раз', 'Again', 'Ще раз')}</button>
       </div>
-      ${exam && feedbackOn() ? `<p class="muted small fb-invite">${L('Помог ли сайт подготовиться?', 'Did the site help you prepare?', 'Чи допоміг сайт підготуватися?')} <a href="#/feedback?from=exam">${L('Оставьте отзыв →', 'Leave feedback →', 'Залиште відгук →')}</a></p>` : ''}
     </div>`;
     host.querySelector('.btn-again')!.addEventListener('click', () => o.restart());
   };

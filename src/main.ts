@@ -14,7 +14,6 @@ import { saveSettings, settings } from './store';
 import { applyTheme, watchTheme } from './theme';
 import { renderAbout } from './views/about';
 import { renderFavorites } from './views/favorites';
-import { feedbackOn, renderFeedback } from './views/feedback';
 import { renderHome, tocHtml } from './views/home';
 import { renderExam, renderMistakes, renderLocal, renderLocalQuiz, renderPaywall, renderQuiz, renderQuizMenu } from './views/quiz';
 import { Reader } from './views/reader';
@@ -76,7 +75,6 @@ function renderShell() {
       <a class="dlink" href="#/favorites">${L('★ Избранное', '★ Favourites', '★ Обране')}</a>
       <a class="dlink" href="#/local">${L('Мой город и провинция', 'My city and province', 'Моє місто і провінція')}</a>
       <a class="dlink" href="#/settings">${L('Настройки', 'Settings', 'Налаштування')}</a>
-      ${feedbackOn() ? `<a class="dlink" href="#/feedback?from=menu">${L('✉ Оставить отзыв', '✉ Send feedback', '✉ Залишити відгук')}</a>` : ''}
       <a class="dlink" href="#/about">${L('О сайте и условия', 'About and terms', 'Про сайт і умови')}</a>
     </nav>`;
   top.querySelector('#menuBtn')!.addEventListener('click', () => {
@@ -170,8 +168,6 @@ async function route() {
     cleanup = renderPaywall(view);
   } else if (parts[0] === 'about') {
     cleanup = renderAbout(view);
-  } else if (parts[0] === 'feedback') {
-    cleanup = renderFeedback(view, params.get('from') ?? '');
   } else if (parts[0] === 'favorites') {
     cleanup = renderFavorites(view);
   } else if (parts[0] === 'settings') {
