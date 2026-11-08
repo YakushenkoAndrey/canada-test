@@ -23,6 +23,8 @@ import re
 import sys
 from pathlib import Path
 
+import build_local  # noqa: E402  (tools/ is on sys.path when run as a script)
+
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 DATA = ROOT / "data"
@@ -219,6 +221,7 @@ def main() -> int:
 
     (DATA / "languages.json").write_text(json.dumps(published, ensure_ascii=False, indent=1) + "\n",
                                          encoding="utf-8", newline="\n")
+    build_local.main()
     return 0
 
 

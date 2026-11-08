@@ -1,0 +1,4148 @@
+{
+ "checked": "2026-11-08",
+ "recheckNote": {
+  "en": "Re-check after the December 7, 2026 federal by-election in Brantford—Brant South, when new Ontario councils take office on November 15, 2026, and after any election.",
+  "ru": "Проверить снова: 15 ноября 2026 г. (вступление в должность новых советов Онтарио), после федеральных довыборов 7 декабря 2026 г. в Brantford—Brant South и после любых выборов.",
+  "uk": "Перевірити знову: 15 листопада 2026 р. (вступ на посаду нових рад Онтаріо), після федеральних додаткових виборів 7 грудня 2026 р. у Brantford—Brant South і після будь-яких виборів."
+ },
+ "federalLookup": "https://www.elections.ca/Scripts/vis/FindED?L=e",
+ "national": {
+  "facts": [
+   {
+    "label": {
+     "en": "Head of State (the Sovereign)",
+     "ru": "Глава государства (Суверен)",
+     "uk": "Глава держави (Суверен)"
+    },
+    "value": {
+     "en": "King Charles III",
+     "ru": "Король Карл III",
+     "uk": "Король Карл III"
+    },
+    "source": "https://www.canada.ca/en/canadian-heritage/services/crown-canada.html"
+   },
+   {
+    "label": {
+     "en": "Governor General of Canada",
+     "ru": "Генерал-губернатор Канады",
+     "uk": "Генерал-губернатор Канади"
+    },
+    "value": {
+     "en": "Louise Arbour (31st Governor General, since June 8, 2026)",
+     "ru": "Луиза Арбур (31-й генерал-губернатор, с 8 июня 2026 г.)",
+     "uk": "Луїза Арбур (31-ша генерал-губернаторка, з 8 червня 2026 р.)"
+    },
+    "source": "https://www.gg.ca/en/node/16175"
+   },
+   {
+    "label": {
+     "en": "Prime Minister of Canada",
+     "ru": "Премьер-министр Канады",
+     "uk": "Прем’єр-міністр Канади"
+    },
+    "value": {
+     "en": "Mark Carney (Liberal Party)",
+     "ru": "Марк Карни (Либеральная партия)",
+     "uk": "Марк Карні (Ліберальна партія)"
+    },
+    "source": "https://www.pm.gc.ca/en"
+   },
+   {
+    "label": {
+     "en": "Leader of the Official Opposition (federal)",
+     "ru": "Лидер официальной оппозиции (федеральный)",
+     "uk": "Лідер офіційної опозиції (федеральний)"
+    },
+    "value": {
+     "en": "Pierre Poilievre (Conservative Party)",
+     "ru": "Пьер Пуальевр (Консервативная партия)",
+     "uk": "П’єр Пуальєвр (Консервативна партія)"
+    },
+    "source": "https://www.ourcommons.ca/members/en"
+   }
+  ],
+  "questions": [
+   {
+    "id": "q-ontario-006",
+    "question": "Who is Canada’s Head of State?",
+    "options": [
+     "The Prime Minister",
+     "King Charles III",
+     "The Governor General",
+     "The Chief Justice"
+    ],
+    "answer": 1,
+    "optionsTr": {
+     "ru": [
+      "Премьер-министр",
+      "Король Карл III",
+      "Генерал-губернатор",
+      "Главный судья"
+     ],
+     "uk": [
+      "Прем’єр-міністр",
+      "Король Карл III",
+      "Генерал-губернатор",
+      "Головний суддя"
+     ]
+    },
+    "questionTr": {
+     "ru": "Кто глава государства Канада?",
+     "uk": "Хто глава держави Канада?"
+    },
+    "explanation": {
+     "en": "Canada’s Head of State is the Sovereign, King Charles III. The Governor General represents him in Canada.",
+     "ru": "Глава государства — Суверен, король Карл III; в Канаде его представляет генерал-губернатор.",
+     "uk": "Глава держави — Суверен, король Карл III; у Канаді його представляє генерал-губернатор."
+    }
+   },
+   {
+    "id": "q-ontario-004",
+    "question": "Who is the Governor General of Canada?",
+    "options": [
+     "Mary Simon",
+     "Louise Arbour",
+     "Julie Payette",
+     "Edith Dumont"
+    ],
+    "answer": 1,
+    "optionsTr": {
+     "ru": [
+      "Мэри Саймон",
+      "Луиза Арбур",
+      "Жюли Пайетт",
+      "Эдит Дюмон"
+     ],
+     "uk": [
+      "Мері Саймон",
+      "Луїза Арбур",
+      "Жулі Паєтт",
+      "Едіт Дюмон"
+     ]
+    },
+    "questionTr": {
+     "ru": "Кто генерал-губернатор Канады?",
+     "uk": "Хто генерал-губернатор Канади?"
+    },
+    "explanation": {
+     "en": "Louise Arbour was installed as Canada’s 31st Governor General on June 8, 2026, succeeding Mary Simon.",
+     "ru": "С 8 июня 2026 года 31-й генерал-губернатор — Луиза Арбур (до неё — Мэри Саймон).",
+     "uk": "З 8 червня 2026 року 31-ша генерал-губернаторка — Луїза Арбур (до неї — Мері Саймон)."
+    }
+   },
+   {
+    "id": "q-ontario-005",
+    "question": "Who is the Prime Minister of Canada?",
+    "options": [
+     "Justin Trudeau",
+     "Pierre Poilievre",
+     "Mark Carney",
+     "Doug Ford"
+    ],
+    "answer": 2,
+    "optionsTr": {
+     "ru": [
+      "Джастин Трюдо",
+      "Пьер Пуальевр",
+      "Марк Карни",
+      "Даг Форд"
+     ],
+     "uk": [
+      "Джастін Трюдо",
+      "П’єр Пуальєвр",
+      "Марк Карні",
+      "Даг Форд"
+     ]
+    },
+    "questionTr": {
+     "ru": "Кто премьер-министр Канады?",
+     "uk": "Хто прем’єр-міністр Канади?"
+    },
+    "explanation": {
+     "en": "Mark Carney (Liberal Party) has been Prime Minister of Canada since March 14, 2025.",
+     "ru": "Премьер-министр — Марк Карни (Либеральная партия), с 14 марта 2025 года.",
+     "uk": "Прем’єр-міністр — Марк Карні (Ліберальна партія), з 14 березня 2025 року."
+    }
+   },
+   {
+    "id": "q-ontario-010",
+    "question": "Who is the Leader of the Official Opposition in the House of Commons?",
+    "options": [
+     "Pierre Poilievre",
+     "Jagmeet Singh",
+     "Marit Stiles",
+     "Mark Carney"
+    ],
+    "answer": 0,
+    "optionsTr": {
+     "ru": [
+      "Пьер Пуальевр",
+      "Джагмит Сингх",
+      "Марит Стайлз",
+      "Марк Карни"
+     ],
+     "uk": [
+      "П’єр Пуальєвр",
+      "Джагміт Сінгх",
+      "Маріт Стайлз",
+      "Марк Карні"
+     ]
+    },
+    "questionTr": {
+     "ru": "Кто лидер официальной оппозиции в Палате общин?",
+     "uk": "Хто лідер офіційної опозиції в Палаті громад?"
+    },
+    "explanation": {
+     "en": "Pierre Poilievre, leader of the Conservative Party, is the Leader of the Official Opposition in Ottawa.",
+     "ru": "Лидер официальной оппозиции — Пьер Пуальевр (Консервативная партия).",
+     "uk": "Лідер офіційної опозиції — П’єр Пуальєвр (Консервативна партія)."
+    }
+   }
+  ]
+ },
+ "provinces": {
+  "BC": {
+   "code": "BC",
+   "name": {
+    "en": "British Columbia",
+    "ru": "Британская Колумбия",
+    "uk": "Британська Колумбія"
+   },
+   "members": "MLA",
+   "membersLookup": "https://www.leg.bc.ca/members",
+   "facts": [
+    {
+     "label": {
+      "en": "Capital of British Columbia",
+      "ru": "Столица провинции Британская Колумбия",
+      "uk": "Столиця провінції Британська Колумбія"
+     },
+     "value": {
+      "en": "Victoria",
+      "ru": "Виктория",
+      "uk": "Вікторія"
+     },
+     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+    },
+    {
+     "label": {
+      "en": "Lieutenant Governor of British Columbia",
+      "ru": "Вице-губернатор провинции Британская Колумбия",
+      "uk": "Лейтенант-губернатор провінції Британська Колумбія"
+     },
+     "value": {
+      "en": "Wendy Lisogar-Cocchia",
+      "ru": "Венди Лисогар-Коккиа",
+      "uk": "Венді Лісогар-Коккіа"
+     },
+     "source": "https://www.craigmarlatt.com/canada/government/lieutenant_governors.html"
+    },
+    {
+     "label": {
+      "en": "Premier of British Columbia",
+      "ru": "Премьер провинции Британская Колумбия",
+      "uk": "Прем’єр провінції Британська Колумбія"
+     },
+     "value": {
+      "en": "David Eby (BC NDP) until the new premier is sworn in. Lorne Doerkson (BC Conservatives) won the October 24, 2026 election and takes office in November 2026",
+      "ru": "Дэвид Иби (НДП) — до присяги нового премьера. Лорн Доерксон (Консервативная партия Британской Колумбии) выиграл выборы 24 октября 2026 г. и вступает в должность в ноябре 2026 г.",
+      "uk": "Девід Ібі (НДП) — до присяги нового прем’єра. Лорн Доерксон (Консервативна партія Британської Колумбії) виграв вибори 24 жовтня 2026 р. і вступає на посаду в листопаді 2026 р."
+     },
+     "source": "https://www.cbc.ca/news/canada/british-columbia/who-is-bc-premier-lorne-doerkson-9.7395130"
+    },
+    {
+     "label": {
+      "en": "Members of the legislature of British Columbia are called",
+      "ru": "Депутатов законодательного собрания провинции Британская Колумбия называют",
+      "uk": "Депутатів законодавчих зборів провінції Британська Колумбія називають"
+     },
+     "value": {
+      "en": "MLAs (Members of the Legislative Assembly)",
+      "ru": "MLA (члены Законодательного собрания)",
+      "uk": "MLA (члени Законодавчих зборів)"
+     },
+     "source": "https://www.leg.bc.ca/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-BC-capital",
+     "question": "What is the capital of British Columbia?",
+     "options": [
+      "Vancouver",
+      "Halifax",
+      "Edmonton",
+      "Victoria"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Какой город — столица провинции Британская Колумбия?",
+      "uk": "Яке місто — столиця провінції Британська Колумбія?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Ванкувер",
+       "Галифакс",
+       "Эдмонтон",
+       "Виктория"
+      ],
+      "uk": [
+       "Ванкувер",
+       "Галіфакс",
+       "Едмонтон",
+       "Вікторія"
+      ]
+     },
+     "explanation": {
+      "en": "The capital of British Columbia is Victoria.",
+      "ru": "Столица провинции Британская Колумбия — Виктория.",
+      "uk": "Столиця провінції Британська Колумбія — Вікторія."
+     }
+    },
+    {
+     "id": "loc-BC-premier",
+     "question": "Who becomes Premier of British Columbia after the October 24, 2026 election?",
+     "options": [
+      "David Eby",
+      "Susan Holt",
+      "Lorne Doerkson",
+      "Danielle Smith"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто становится премьером Британской Колумбии после выборов 24 октября 2026 года?",
+      "uk": "Хто стає прем’єром Британської Колумбії після виборів 24 жовтня 2026 року?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Дэвид Иби",
+       "Сьюзан Холт",
+       "Лорн Доерксон",
+       "Даниэль Смит"
+      ],
+      "uk": [
+       "Девід Ібі",
+       "Сьюзен Голт",
+       "Лорн Доерксон",
+       "Даніель Сміт"
+      ]
+     },
+     "explanation": {
+      "en": "David Eby (BC NDP) until the new premier is sworn in. Lorne Doerkson (BC Conservatives) won the October 24, 2026 election and takes office in November 2026",
+      "ru": "Дэвид Иби (НДП) — до присяги нового премьера. Лорн Доерксон (Консервативная партия Британской Колумбии) выиграл выборы 24 октября 2026 г. и вступает в должность в ноябре 2026 г.",
+      "uk": "Девід Ібі (НДП) — до присяги нового прем’єра. Лорн Доерксон (Консервативна партія Британської Колумбії) виграв вибори 24 жовтня 2026 р. і вступає на посаду в листопаді 2026 р."
+     }
+    },
+    {
+     "id": "loc-BC-lg",
+     "question": "Who is the Lieutenant Governor of British Columbia?",
+     "options": [
+      "Louise Arbour",
+      "Bernadette McIntyre",
+      "Edith Dumont",
+      "Wendy Lisogar-Cocchia"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Кто вице-губернатор провинции Британская Колумбия?",
+      "uk": "Хто лейтенант-губернатор провінції Британська Колумбія?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Луиза Арбур",
+       "Бернадетт Макинтайр",
+       "Эдит Дюмон",
+       "Венди Лисогар-Коккиа"
+      ],
+      "uk": [
+       "Луїза Арбур",
+       "Бернадетт Макінтайр",
+       "Едіт Дюмон",
+       "Венді Лісогар-Коккіа"
+      ]
+     },
+     "explanation": {
+      "en": "The Lieutenant Governor of British Columbia, who represents the Sovereign in the province, is Wendy Lisogar-Cocchia.",
+      "ru": "Вице-губернатор провинции Британская Колумбия (представитель Суверена в провинции) — Венди Лисогар-Коккиа.",
+      "uk": "Лейтенант-губернатор провінції Британська Колумбія (представник Суверена в провінції) — Венді Лісогар-Коккіа."
+     }
+    },
+    {
+     "id": "loc-BC-members",
+     "question": "What are the elected members of the legislature of British Columbia called?",
+     "options": [
+      "MPPs",
+      "MNAs",
+      "MHAs",
+      "MLAs"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Как называются депутаты законодательного собрания провинции Британская Колумбия?",
+      "uk": "Як називають депутатів законодавчих зборів провінції Британська Колумбія?"
+     },
+     "optionsTr": {
+      "ru": [
+       "MPP",
+       "MNA",
+       "MHA",
+       "MLA"
+      ],
+      "uk": [
+       "MPP",
+       "MNA",
+       "MHA",
+       "MLA"
+      ]
+     },
+     "explanation": {
+      "en": "In British Columbia, members of the legislature are called MLAs (Members of the Legislative Assembly).",
+      "ru": "В провинции Британская Колумбия — MLA (члены Законодательного собрания).",
+      "uk": "У провінції Британська Колумбія — MLA (члени Законодавчих зборів)."
+     }
+    }
+   ]
+  },
+  "AB": {
+   "code": "AB",
+   "name": {
+    "en": "Alberta",
+    "ru": "Альберта",
+    "uk": "Альберта"
+   },
+   "members": "MLA",
+   "membersLookup": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly",
+   "facts": [
+    {
+     "label": {
+      "en": "Capital of Alberta",
+      "ru": "Столица провинции Альберта",
+      "uk": "Столиця провінції Альберта"
+     },
+     "value": {
+      "en": "Edmonton",
+      "ru": "Эдмонтон",
+      "uk": "Едмонтон"
+     },
+     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+    },
+    {
+     "label": {
+      "en": "Lieutenant Governor of Alberta",
+      "ru": "Вице-губернатор провинции Альберта",
+      "uk": "Лейтенант-губернатор провінції Альберта"
+     },
+     "value": {
+      "en": "Salma Lakhani",
+      "ru": "Салма Лакхани",
+      "uk": "Салма Лакхані"
+     },
+     "source": "https://www.craigmarlatt.com/canada/government/lieutenant_governors.html"
+    },
+    {
+     "label": {
+      "en": "Premier of Alberta",
+      "ru": "Премьер провинции Альберта",
+      "uk": "Прем’єр провінції Альберта"
+     },
+     "value": {
+      "en": "Danielle Smith (United Conservative Party), since 2022",
+      "ru": "Даниэль Смит (Объединённая консервативная партия), с 2022 г.",
+      "uk": "Даніель Сміт (Об’єднана консервативна партія), з 2022 р."
+     },
+     "source": "https://en.wikipedia.org/wiki/List_of_current_first_ministers_of_Canada"
+    },
+    {
+     "label": {
+      "en": "Members of the legislature of Alberta are called",
+      "ru": "Депутатов законодательного собрания провинции Альберта называют",
+      "uk": "Депутатів законодавчих зборів провінції Альберта називають"
+     },
+     "value": {
+      "en": "MLAs (Members of the Legislative Assembly)",
+      "ru": "MLA (члены Законодательного собрания)",
+      "uk": "MLA (члени Законодавчих зборів)"
+     },
+     "source": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-AB-capital",
+     "question": "What is the capital of Alberta?",
+     "options": [
+      "Calgary",
+      "Regina",
+      "Edmonton",
+      "St. John’s"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Какой город — столица провинции Альберта?",
+      "uk": "Яке місто — столиця провінції Альберта?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Калгари",
+       "Реджайна",
+       "Эдмонтон",
+       "Сент-Джонс"
+      ],
+      "uk": [
+       "Калгарі",
+       "Реджайна",
+       "Едмонтон",
+       "Сент-Джонс"
+      ]
+     },
+     "explanation": {
+      "en": "The capital of Alberta is Edmonton.",
+      "ru": "Столица провинции Альберта — Эдмонтон.",
+      "uk": "Столиця провінції Альберта — Едмонтон."
+     }
+    },
+    {
+     "id": "loc-AB-premier",
+     "question": "Who is the Premier of Alberta?",
+     "options": [
+      "Danielle Smith",
+      "Doug Ford",
+      "Wab Kinew",
+      "Rob Lantz"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто премьер провинции Альберта?",
+      "uk": "Хто прем’єр провінції Альберта?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Даниэль Смит",
+       "Даг Форд",
+       "Уэб Кинью",
+       "Роб Лантц"
+      ],
+      "uk": [
+       "Даніель Сміт",
+       "Даг Форд",
+       "Веб Кінью",
+       "Роб Лантц"
+      ]
+     },
+     "explanation": {
+      "en": "Danielle Smith (United Conservative Party), since 2022",
+      "ru": "Даниэль Смит (Объединённая консервативная партия), с 2022 г.",
+      "uk": "Даніель Сміт (Об’єднана консервативна партія), з 2022 р."
+     }
+    },
+    {
+     "id": "loc-AB-lg",
+     "question": "Who is the Lieutenant Governor of Alberta?",
+     "options": [
+      "Louise Arbour",
+      "Salma Lakhani",
+      "Wassim Salamoun",
+      "Mike Savage"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Кто вице-губернатор провинции Альберта?",
+      "uk": "Хто лейтенант-губернатор провінції Альберта?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Луиза Арбур",
+       "Салма Лакхани",
+       "Вассим Саламун",
+       "Майк Сэвидж"
+      ],
+      "uk": [
+       "Луїза Арбур",
+       "Салма Лакхані",
+       "Вассім Саламун",
+       "Майк Севідж"
+      ]
+     },
+     "explanation": {
+      "en": "The Lieutenant Governor of Alberta, who represents the Sovereign in the province, is Salma Lakhani.",
+      "ru": "Вице-губернатор провинции Альберта (представитель Суверена в провинции) — Салма Лакхани.",
+      "uk": "Лейтенант-губернатор провінції Альберта (представник Суверена в провінції) — Салма Лакхані."
+     }
+    },
+    {
+     "id": "loc-AB-members",
+     "question": "What are the elected members of the legislature of Alberta called?",
+     "options": [
+      "MLAs",
+      "MPPs",
+      "MNAs",
+      "MHAs"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Как называются депутаты законодательного собрания провинции Альберта?",
+      "uk": "Як називають депутатів законодавчих зборів провінції Альберта?"
+     },
+     "optionsTr": {
+      "ru": [
+       "MLA",
+       "MPP",
+       "MNA",
+       "MHA"
+      ],
+      "uk": [
+       "MLA",
+       "MPP",
+       "MNA",
+       "MHA"
+      ]
+     },
+     "explanation": {
+      "en": "In Alberta, members of the legislature are called MLAs (Members of the Legislative Assembly).",
+      "ru": "В провинции Альберта — MLA (члены Законодательного собрания).",
+      "uk": "У провінції Альберта — MLA (члени Законодавчих зборів)."
+     }
+    }
+   ]
+  },
+  "SK": {
+   "code": "SK",
+   "name": {
+    "en": "Saskatchewan",
+    "ru": "Саскачеван",
+    "uk": "Саскачеван"
+   },
+   "members": "MLA",
+   "membersLookup": "https://www.legassembly.sk.ca/mlas/",
+   "facts": [
+    {
+     "label": {
+      "en": "Capital of Saskatchewan",
+      "ru": "Столица провинции Саскачеван",
+      "uk": "Столиця провінції Саскачеван"
+     },
+     "value": {
+      "en": "Regina",
+      "ru": "Реджайна",
+      "uk": "Реджайна"
+     },
+     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+    },
+    {
+     "label": {
+      "en": "Lieutenant Governor of Saskatchewan",
+      "ru": "Вице-губернатор провинции Саскачеван",
+      "uk": "Лейтенант-губернатор провінції Саскачеван"
+     },
+     "value": {
+      "en": "Bernadette McIntyre (since January 31, 2025)",
+      "ru": "Бернадетт Макинтайр (с 31 января 2025 г.)",
+      "uk": "Бернадетт Макінтайр (з 31 січня 2025 р.)"
+     },
+     "source": "https://www.craigmarlatt.com/canada/government/lieutenant_governors.html"
+    },
+    {
+     "label": {
+      "en": "Premier of Saskatchewan",
+      "ru": "Премьер провинции Саскачеван",
+      "uk": "Прем’єр провінції Саскачеван"
+     },
+     "value": {
+      "en": "Scott Moe (Saskatchewan Party), since 2018",
+      "ru": "Скотт Мо (Саскачеванская партия), с 2018 г.",
+      "uk": "Скотт Мо (Саскачеванська партія), з 2018 р."
+     },
+     "source": "https://en.wikipedia.org/wiki/List_of_current_first_ministers_of_Canada"
+    },
+    {
+     "label": {
+      "en": "Members of the legislature of Saskatchewan are called",
+      "ru": "Депутатов законодательного собрания провинции Саскачеван называют",
+      "uk": "Депутатів законодавчих зборів провінції Саскачеван називають"
+     },
+     "value": {
+      "en": "MLAs (Members of the Legislative Assembly)",
+      "ru": "MLA (члены Законодательного собрания)",
+      "uk": "MLA (члени Законодавчих зборів)"
+     },
+     "source": "https://www.legassembly.sk.ca/mlas/"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-SK-capital",
+     "question": "What is the capital of Saskatchewan?",
+     "options": [
+      "Saskatoon",
+      "Regina",
+      "Charlottetown",
+      "Edmonton"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Какой город — столица провинции Саскачеван?",
+      "uk": "Яке місто — столиця провінції Саскачеван?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Саскатун",
+       "Реджайна",
+       "Шарлоттаун",
+       "Эдмонтон"
+      ],
+      "uk": [
+       "Саскатун",
+       "Реджайна",
+       "Шарлоттаун",
+       "Едмонтон"
+      ]
+     },
+     "explanation": {
+      "en": "The capital of Saskatchewan is Regina.",
+      "ru": "Столица провинции Саскачеван — Реджайна.",
+      "uk": "Столиця провінції Саскачеван — Реджайна."
+     }
+    },
+    {
+     "id": "loc-SK-premier",
+     "question": "Who is the Premier of Saskatchewan?",
+     "options": [
+      "Tony Wakeham",
+      "Tim Houston",
+      "Scott Moe",
+      "Danielle Smith"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто премьер провинции Саскачеван?",
+      "uk": "Хто прем’єр провінції Саскачеван?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Тони Уэйкхэм",
+       "Тим Хьюстон",
+       "Скотт Мо",
+       "Даниэль Смит"
+      ],
+      "uk": [
+       "Тоні Вейкгем",
+       "Тім Г’юстон",
+       "Скотт Мо",
+       "Даніель Сміт"
+      ]
+     },
+     "explanation": {
+      "en": "Scott Moe (Saskatchewan Party), since 2018",
+      "ru": "Скотт Мо (Саскачеванская партия), с 2018 г.",
+      "uk": "Скотт Мо (Саскачеванська партія), з 2018 р."
+     }
+    },
+    {
+     "id": "loc-SK-lg",
+     "question": "Who is the Lieutenant Governor of Saskatchewan?",
+     "options": [
+      "Louise Arbour",
+      "Bernadette McIntyre",
+      "Anita Neville",
+      "Salma Lakhani"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Кто вице-губернатор провинции Саскачеван?",
+      "uk": "Хто лейтенант-губернатор провінції Саскачеван?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Луиза Арбур",
+       "Бернадетт Макинтайр",
+       "Анита Невилл",
+       "Салма Лакхани"
+      ],
+      "uk": [
+       "Луїза Арбур",
+       "Бернадетт Макінтайр",
+       "Аніта Невілл",
+       "Салма Лакхані"
+      ]
+     },
+     "explanation": {
+      "en": "The Lieutenant Governor of Saskatchewan, who represents the Sovereign in the province, is Bernadette McIntyre (since January 31, 2025).",
+      "ru": "Вице-губернатор провинции Саскачеван (представитель Суверена в провинции) — Бернадетт Макинтайр (с 31 января 2025 г.).",
+      "uk": "Лейтенант-губернатор провінції Саскачеван (представник Суверена в провінції) — Бернадетт Макінтайр (з 31 січня 2025 р.)."
+     }
+    },
+    {
+     "id": "loc-SK-members",
+     "question": "What are the elected members of the legislature of Saskatchewan called?",
+     "options": [
+      "MPPs",
+      "MLAs",
+      "MNAs",
+      "MHAs"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Как называются депутаты законодательного собрания провинции Саскачеван?",
+      "uk": "Як називають депутатів законодавчих зборів провінції Саскачеван?"
+     },
+     "optionsTr": {
+      "ru": [
+       "MPP",
+       "MLA",
+       "MNA",
+       "MHA"
+      ],
+      "uk": [
+       "MPP",
+       "MLA",
+       "MNA",
+       "MHA"
+      ]
+     },
+     "explanation": {
+      "en": "In Saskatchewan, members of the legislature are called MLAs (Members of the Legislative Assembly).",
+      "ru": "В провинции Саскачеван — MLA (члены Законодательного собрания).",
+      "uk": "У провінції Саскачеван — MLA (члени Законодавчих зборів)."
+     }
+    }
+   ]
+  },
+  "MB": {
+   "code": "MB",
+   "name": {
+    "en": "Manitoba",
+    "ru": "Манитоба",
+    "uk": "Манітоба"
+   },
+   "members": "MLA",
+   "membersLookup": "https://www.gov.mb.ca/legislature/members/mla_list_constituency.html",
+   "facts": [
+    {
+     "label": {
+      "en": "Capital of Manitoba",
+      "ru": "Столица провинции Манитоба",
+      "uk": "Столиця провінції Манітоба"
+     },
+     "value": {
+      "en": "Winnipeg",
+      "ru": "Виннипег",
+      "uk": "Вінніпег"
+     },
+     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+    },
+    {
+     "label": {
+      "en": "Lieutenant Governor of Manitoba",
+      "ru": "Вице-губернатор провинции Манитоба",
+      "uk": "Лейтенант-губернатор провінції Манітоба"
+     },
+     "value": {
+      "en": "Anita Neville",
+      "ru": "Анита Невилл",
+      "uk": "Аніта Невілл"
+     },
+     "source": "https://www.craigmarlatt.com/canada/government/lieutenant_governors.html"
+    },
+    {
+     "label": {
+      "en": "Premier of Manitoba",
+      "ru": "Премьер провинции Манитоба",
+      "uk": "Прем’єр провінції Манітоба"
+     },
+     "value": {
+      "en": "Wab Kinew (NDP), since 2023",
+      "ru": "Уэб Кинью (НДП), с 2023 г.",
+      "uk": "Веб Кінью (НДП), з 2023 р."
+     },
+     "source": "https://en.wikipedia.org/wiki/List_of_current_first_ministers_of_Canada"
+    },
+    {
+     "label": {
+      "en": "Members of the legislature of Manitoba are called",
+      "ru": "Депутатов законодательного собрания провинции Манитоба называют",
+      "uk": "Депутатів законодавчих зборів провінції Манітоба називають"
+     },
+     "value": {
+      "en": "MLAs (Members of the Legislative Assembly)",
+      "ru": "MLA (члены Законодательного собрания)",
+      "uk": "MLA (члени Законодавчих зборів)"
+     },
+     "source": "https://www.gov.mb.ca/legislature/members/mla_list_constituency.html"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-MB-capital",
+     "question": "What is the capital of Manitoba?",
+     "options": [
+      "Fredericton",
+      "Winnipeg",
+      "Toronto",
+      "Victoria"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Какой город — столица провинции Манитоба?",
+      "uk": "Яке місто — столиця провінції Манітоба?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Фредериктон",
+       "Виннипег",
+       "Торонто",
+       "Виктория"
+      ],
+      "uk": [
+       "Фредериктон",
+       "Вінніпег",
+       "Торонто",
+       "Вікторія"
+      ]
+     },
+     "explanation": {
+      "en": "The capital of Manitoba is Winnipeg.",
+      "ru": "Столица провинции Манитоба — Виннипег.",
+      "uk": "Столиця провінції Манітоба — Вінніпег."
+     }
+    },
+    {
+     "id": "loc-MB-premier",
+     "question": "Who is the Premier of Manitoba?",
+     "options": [
+      "Wab Kinew",
+      "Susan Holt",
+      "Rob Lantz",
+      "Tim Houston"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто премьер провинции Манитоба?",
+      "uk": "Хто прем’єр провінції Манітоба?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Уэб Кинью",
+       "Сьюзан Холт",
+       "Роб Лантц",
+       "Тим Хьюстон"
+      ],
+      "uk": [
+       "Веб Кінью",
+       "Сьюзен Голт",
+       "Роб Лантц",
+       "Тім Г’юстон"
+      ]
+     },
+     "explanation": {
+      "en": "Wab Kinew (NDP), since 2023",
+      "ru": "Уэб Кинью (НДП), с 2023 г.",
+      "uk": "Веб Кінью (НДП), з 2023 р."
+     }
+    },
+    {
+     "id": "loc-MB-lg",
+     "question": "Who is the Lieutenant Governor of Manitoba?",
+     "options": [
+      "Anita Neville",
+      "Louise Arbour",
+      "Louise Imbeault",
+      "Bernadette McIntyre"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто вице-губернатор провинции Манитоба?",
+      "uk": "Хто лейтенант-губернатор провінції Манітоба?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Анита Невилл",
+       "Луиза Арбур",
+       "Луиза Эмбо",
+       "Бернадетт Макинтайр"
+      ],
+      "uk": [
+       "Аніта Невілл",
+       "Луїза Арбур",
+       "Луїза Імбо",
+       "Бернадетт Макінтайр"
+      ]
+     },
+     "explanation": {
+      "en": "The Lieutenant Governor of Manitoba, who represents the Sovereign in the province, is Anita Neville.",
+      "ru": "Вице-губернатор провинции Манитоба (представитель Суверена в провинции) — Анита Невилл.",
+      "uk": "Лейтенант-губернатор провінції Манітоба (представник Суверена в провінції) — Аніта Невілл."
+     }
+    },
+    {
+     "id": "loc-MB-members",
+     "question": "What are the elected members of the legislature of Manitoba called?",
+     "options": [
+      "MLAs",
+      "MPPs",
+      "MNAs",
+      "MHAs"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Как называются депутаты законодательного собрания провинции Манитоба?",
+      "uk": "Як називають депутатів законодавчих зборів провінції Манітоба?"
+     },
+     "optionsTr": {
+      "ru": [
+       "MLA",
+       "MPP",
+       "MNA",
+       "MHA"
+      ],
+      "uk": [
+       "MLA",
+       "MPP",
+       "MNA",
+       "MHA"
+      ]
+     },
+     "explanation": {
+      "en": "In Manitoba, members of the legislature are called MLAs (Members of the Legislative Assembly).",
+      "ru": "В провинции Манитоба — MLA (члены Законодательного собрания).",
+      "uk": "У провінції Манітоба — MLA (члени Законодавчих зборів)."
+     }
+    }
+   ]
+  },
+  "ON": {
+   "code": "ON",
+   "name": {
+    "en": "Ontario",
+    "ru": "Онтарио",
+    "uk": "Онтаріо"
+   },
+   "members": "MPP",
+   "membersLookup": "https://www.ola.org/en/members",
+   "facts": [
+    {
+     "label": {
+      "en": "Capital of Ontario",
+      "ru": "Столица провинции Онтарио",
+      "uk": "Столиця провінції Онтаріо"
+     },
+     "value": {
+      "en": "Toronto (Legislative Assembly at Queen’s Park)",
+      "ru": "Торонто (Законодательное собрание в Квинс-парке)",
+      "uk": "Торонто (Законодавчі збори в Квінс-парку)"
+     },
+     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+    },
+    {
+     "label": {
+      "en": "Lieutenant Governor of Ontario",
+      "ru": "Вице-губернатор провинции Онтарио",
+      "uk": "Лейтенант-губернатор провінції Онтаріо"
+     },
+     "value": {
+      "en": "Edith Dumont (since November 14, 2023)",
+      "ru": "Эдит Дюмон (с 14 ноября 2023 г.)",
+      "uk": "Едіт Дюмон (з 14 листопада 2023 р.)"
+     },
+     "source": "https://www.lgontario.ca/en/"
+    },
+    {
+     "label": {
+      "en": "Premier of Ontario",
+      "ru": "Премьер провинции Онтарио",
+      "uk": "Прем’єр провінції Онтаріо"
+     },
+     "value": {
+      "en": "Doug Ford (Progressive Conservative Party), since 2018",
+      "ru": "Даг Форд (Прогрессивно-консервативная партия), с 2018 г.",
+      "uk": "Даг Форд (Прогресивно-консервативна партія), з 2018 р."
+     },
+     "source": "https://www.ontario.ca/page/premier"
+    },
+    {
+     "label": {
+      "en": "Members of the legislature of Ontario are called",
+      "ru": "Депутатов законодательного собрания провинции Онтарио называют",
+      "uk": "Депутатів законодавчих зборів провінції Онтаріо називають"
+     },
+     "value": {
+      "en": "MPPs (Members of Provincial Parliament)",
+      "ru": "MPP (члены Провинциального парламента)",
+      "uk": "MPP (члени Провінційного парламенту)"
+     },
+     "source": "https://www.ola.org/en/members"
+    },
+    {
+     "label": {
+      "en": "Leader of the Official Opposition in Ontario",
+      "ru": "Лидер официальной оппозиции Онтарио",
+      "uk": "Лідер офіційної опозиції Онтаріо"
+     },
+     "value": {
+      "en": "Marit Stiles (Ontario NDP)",
+      "ru": "Марит Стайлз (НДП Онтарио)",
+      "uk": "Маріт Стайлз (НДП Онтаріо)"
+     },
+     "source": "https://www.ola.org/en/members/all/marit-stiles"
+    }
+   ],
+   "questions": [
+    {
+     "id": "q-ontario-001",
+     "question": "What is the capital of Ontario?",
+     "options": [
+      "Brampton",
+      "Toronto",
+      "Hamilton",
+      "Brantford"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Какой город — столица провинции Онтарио?",
+      "uk": "Яке місто — столиця провінції Онтаріо?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Брамптон",
+       "Торонто",
+       "Гамильтон",
+       "Брантфорд"
+      ],
+      "uk": [
+       "Брамптон",
+       "Торонто",
+       "Гамільтон",
+       "Брантфорд"
+      ]
+     },
+     "explanation": {
+      "en": "The capital of Ontario is Toronto (Legislative Assembly at Queen’s Park).",
+      "ru": "Столица провинции Онтарио — Торонто (Законодательное собрание в Квинс-парке).",
+      "uk": "Столиця провінції Онтаріо — Торонто (Законодавчі збори в Квінс-парку)."
+     }
+    },
+    {
+     "id": "q-ontario-002",
+     "question": "Who is the Premier of Ontario?",
+     "options": [
+      "Paul St-Pierre Plamondon",
+      "Wab Kinew",
+      "Danielle Smith",
+      "Doug Ford"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Кто премьер провинции Онтарио?",
+      "uk": "Хто прем’єр провінції Онтаріо?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Поль Сен-Пьер Пламондон",
+       "Уэб Кинью",
+       "Даниэль Смит",
+       "Даг Форд"
+      ],
+      "uk": [
+       "Поль Сен-П’єр Пламондон",
+       "Веб Кінью",
+       "Даніель Сміт",
+       "Даг Форд"
+      ]
+     },
+     "explanation": {
+      "en": "Doug Ford (Progressive Conservative Party), since 2018",
+      "ru": "Даг Форд (Прогрессивно-консервативная партия), с 2018 г.",
+      "uk": "Даг Форд (Прогресивно-консервативна партія), з 2018 р."
+     }
+    },
+    {
+     "id": "q-ontario-003",
+     "question": "Who is the Lieutenant Governor of Ontario?",
+     "options": [
+      "Louise Arbour",
+      "Wendy Lisogar-Cocchia",
+      "Edith Dumont",
+      "Salma Lakhani"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто вице-губернатор провинции Онтарио?",
+      "uk": "Хто лейтенант-губернатор провінції Онтаріо?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Луиза Арбур",
+       "Венди Лисогар-Коккиа",
+       "Эдит Дюмон",
+       "Салма Лакхани"
+      ],
+      "uk": [
+       "Луїза Арбур",
+       "Венді Лісогар-Коккіа",
+       "Едіт Дюмон",
+       "Салма Лакхані"
+      ]
+     },
+     "explanation": {
+      "en": "The Lieutenant Governor of Ontario, who represents the Sovereign in the province, is Edith Dumont (since November 14, 2023).",
+      "ru": "Вице-губернатор провинции Онтарио (представитель Суверена в провинции) — Эдит Дюмон (с 14 ноября 2023 г.).",
+      "uk": "Лейтенант-губернатор провінції Онтаріо (представник Суверена в провінції) — Едіт Дюмон (з 14 листопада 2023 р.)."
+     }
+    },
+    {
+     "id": "q-ontario-007",
+     "question": "What are the elected members of the legislature of Ontario called?",
+     "options": [
+      "MLAs",
+      "MPPs",
+      "MNAs",
+      "MHAs"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Как называются депутаты законодательного собрания провинции Онтарио?",
+      "uk": "Як називають депутатів законодавчих зборів провінції Онтаріо?"
+     },
+     "optionsTr": {
+      "ru": [
+       "MLA",
+       "MPP",
+       "MNA",
+       "MHA"
+      ],
+      "uk": [
+       "MLA",
+       "MPP",
+       "MNA",
+       "MHA"
+      ]
+     },
+     "explanation": {
+      "en": "In Ontario, members of the legislature are called MPPs (Members of Provincial Parliament).",
+      "ru": "В провинции Онтарио — MPP (члены Провинциального парламента).",
+      "uk": "У провінції Онтаріо — MPP (члени Провінційного парламенту)."
+     }
+    },
+    {
+     "id": "q-ontario-009",
+     "question": "Which party forms the government of Ontario?",
+     "options": [
+      "The Liberal Party",
+      "The New Democratic Party",
+      "The Progressive Conservative Party",
+      "The Green Party"
+     ],
+     "answer": 2,
+     "optionsTr": {
+      "ru": [
+       "Либеральная",
+       "Новая демократическая",
+       "Прогрессивно-консервативная",
+       "Зелёная"
+      ],
+      "uk": [
+       "Ліберальна",
+       "Нова демократична",
+       "Прогресивно-консервативна",
+       "Зелена"
+      ]
+     },
+     "questionTr": {
+      "ru": "Какая партия формирует правительство Онтарио?",
+      "uk": "Яка партія формує уряд Онтаріо?"
+     },
+     "explanation": {
+      "en": "Doug Ford’s Progressive Conservative Party forms Ontario’s government; the Ontario NDP is the Official Opposition.",
+      "ru": "Правительство Онтарио — Прогрессивно-консервативная партия Дага Форда; официальная оппозиция — НДП.",
+      "uk": "Уряд Онтаріо — Прогресивно-консервативна партія Дага Форда; офіційна опозиція — НДП."
+     }
+    },
+    {
+     "id": "q-ontario-011",
+     "question": "Who leads the Official Opposition in Ontario’s legislature?",
+     "options": [
+      "Bonnie Crombie",
+      "Marit Stiles",
+      "Mike Schreiner",
+      "Andrea Horwath"
+     ],
+     "answer": 1,
+     "optionsTr": {
+      "ru": [
+       "Бонни Кромби",
+       "Марит Стайлз",
+       "Майк Шрайнер",
+       "Андреа Хорват"
+      ],
+      "uk": [
+       "Бонні Кромбі",
+       "Маріт Стайлз",
+       "Майк Шрайнер",
+       "Андреа Горват"
+      ]
+     },
+     "questionTr": {
+      "ru": "Кто возглавляет официальную оппозицию в законодательном собрании Онтарио?",
+      "uk": "Хто очолює офіційну опозицію в законодавчих зборах Онтаріо?"
+     },
+     "explanation": {
+      "en": "Marit Stiles, leader of the Ontario NDP, is the Leader of the Official Opposition at Queen’s Park.",
+      "ru": "Марит Стайлз, лидер НДП Онтарио.",
+      "uk": "Маріт Стайлз, лідерка НДП Онтаріо."
+     }
+    }
+   ]
+  },
+  "QC": {
+   "code": "QC",
+   "name": {
+    "en": "Quebec",
+    "ru": "Квебек",
+    "uk": "Квебек"
+   },
+   "members": "MNA",
+   "membersLookup": "https://www.assnat.qc.ca/en/deputes/index.html",
+   "facts": [
+    {
+     "label": {
+      "en": "Capital of Quebec",
+      "ru": "Столица провинции Квебек",
+      "uk": "Столиця провінції Квебек"
+     },
+     "value": {
+      "en": "Québec City",
+      "ru": "Квебек (город)",
+      "uk": "Квебек (місто)"
+     },
+     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+    },
+    {
+     "label": {
+      "en": "Lieutenant Governor of Quebec",
+      "ru": "Вице-губернатор провинции Квебек",
+      "uk": "Лейтенант-губернатор провінції Квебек"
+     },
+     "value": {
+      "en": "Manon Jeannotte",
+      "ru": "Манон Жаннот",
+      "uk": "Манон Жаннот"
+     },
+     "source": "https://www.craigmarlatt.com/canada/government/lieutenant_governors.html"
+    },
+    {
+     "label": {
+      "en": "Premier of Quebec",
+      "ru": "Премьер провинции Квебек",
+      "uk": "Прем’єр провінції Квебек"
+     },
+     "value": {
+      "en": "Paul St-Pierre Plamondon (Parti Québécois, minority government), since October 21, 2026",
+      "ru": "Поль Сен-Пьер Пламондон (Квебекская партия, правительство меньшинства), с 21 октября 2026 г.",
+      "uk": "Поль Сен-П’єр Пламондон (Квебекська партія, уряд меншості), з 21 жовтня 2026 р."
+     },
+     "source": "https://globalnews.ca/news/12112237/new-quebec-cabinet-pq-plamondon/"
+    },
+    {
+     "label": {
+      "en": "Members of the legislature of Quebec are called",
+      "ru": "Депутатов законодательного собрания провинции Квебек называют",
+      "uk": "Депутатів законодавчих зборів провінції Квебек називають"
+     },
+     "value": {
+      "en": "MNAs (Members of the National Assembly)",
+      "ru": "MNA (члены Национального собрания)",
+      "uk": "MNA (члени Національних зборів)"
+     },
+     "source": "https://www.assnat.qc.ca/en/deputes/index.html"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-QC-capital",
+     "question": "What is the capital of Quebec?",
+     "options": [
+      "Montreal",
+      "Halifax",
+      "Québec City",
+      "Victoria"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Какой город — столица провинции Квебек?",
+      "uk": "Яке місто — столиця провінції Квебек?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Монреаль",
+       "Галифакс",
+       "Квебек (город)",
+       "Виктория"
+      ],
+      "uk": [
+       "Монреаль",
+       "Галіфакс",
+       "Квебек (місто)",
+       "Вікторія"
+      ]
+     },
+     "explanation": {
+      "en": "The capital of Quebec is Québec City.",
+      "ru": "Столица провинции Квебек — Квебек (город).",
+      "uk": "Столиця провінції Квебек — Квебек (місто)."
+     }
+    },
+    {
+     "id": "loc-QC-premier",
+     "question": "Who is the Premier of Quebec?",
+     "options": [
+      "Paul St-Pierre Plamondon",
+      "Christine Fréchette",
+      "Lorne Doerkson",
+      "Susan Holt"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто премьер провинции Квебек?",
+      "uk": "Хто прем’єр провінції Квебек?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Поль Сен-Пьер Пламондон",
+       "Кристин Фрешетт",
+       "Лорн Доерксон",
+       "Сьюзан Холт"
+      ],
+      "uk": [
+       "Поль Сен-П’єр Пламондон",
+       "Крістін Фрешетт",
+       "Лорн Доерксон",
+       "Сьюзен Голт"
+      ]
+     },
+     "explanation": {
+      "en": "Paul St-Pierre Plamondon (Parti Québécois, minority government), since October 21, 2026",
+      "ru": "Поль Сен-Пьер Пламондон (Квебекская партия, правительство меньшинства), с 21 октября 2026 г.",
+      "uk": "Поль Сен-П’єр Пламондон (Квебекська партія, уряд меншості), з 21 жовтня 2026 р."
+     }
+    },
+    {
+     "id": "loc-QC-lg",
+     "question": "Who is the Lieutenant Governor of Quebec?",
+     "options": [
+      "Louise Arbour",
+      "Mike Savage",
+      "Manon Jeannotte",
+      "Salma Lakhani"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто вице-губернатор провинции Квебек?",
+      "uk": "Хто лейтенант-губернатор провінції Квебек?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Луиза Арбур",
+       "Майк Сэвидж",
+       "Манон Жаннот",
+       "Салма Лакхани"
+      ],
+      "uk": [
+       "Луїза Арбур",
+       "Майк Севідж",
+       "Манон Жаннот",
+       "Салма Лакхані"
+      ]
+     },
+     "explanation": {
+      "en": "The Lieutenant Governor of Quebec, who represents the Sovereign in the province, is Manon Jeannotte.",
+      "ru": "Вице-губернатор провинции Квебек (представитель Суверена в провинции) — Манон Жаннот.",
+      "uk": "Лейтенант-губернатор провінції Квебек (представник Суверена в провінції) — Манон Жаннот."
+     }
+    },
+    {
+     "id": "loc-QC-members",
+     "question": "What are the elected members of the legislature of Quebec called?",
+     "options": [
+      "MNAs",
+      "MLAs",
+      "MPPs",
+      "MHAs"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Как называются депутаты законодательного собрания провинции Квебек?",
+      "uk": "Як називають депутатів законодавчих зборів провінції Квебек?"
+     },
+     "optionsTr": {
+      "ru": [
+       "MNA",
+       "MLA",
+       "MPP",
+       "MHA"
+      ],
+      "uk": [
+       "MNA",
+       "MLA",
+       "MPP",
+       "MHA"
+      ]
+     },
+     "explanation": {
+      "en": "In Quebec, members of the legislature are called MNAs (Members of the National Assembly).",
+      "ru": "В провинции Квебек — MNA (члены Национального собрания).",
+      "uk": "У провінції Квебек — MNA (члени Національних зборів)."
+     }
+    }
+   ]
+  },
+  "NB": {
+   "code": "NB",
+   "name": {
+    "en": "New Brunswick",
+    "ru": "Нью-Брансуик",
+    "uk": "Нью-Брансвік"
+   },
+   "members": "MLA",
+   "membersLookup": "https://www.legnb.ca/en/members/current",
+   "facts": [
+    {
+     "label": {
+      "en": "Capital of New Brunswick",
+      "ru": "Столица провинции Нью-Брансуик",
+      "uk": "Столиця провінції Нью-Брансвік"
+     },
+     "value": {
+      "en": "Fredericton",
+      "ru": "Фредериктон",
+      "uk": "Фредериктон"
+     },
+     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+    },
+    {
+     "label": {
+      "en": "Lieutenant Governor of New Brunswick",
+      "ru": "Вице-губернатор провинции Нью-Брансуик",
+      "uk": "Лейтенант-губернатор провінції Нью-Брансвік"
+     },
+     "value": {
+      "en": "Louise Imbeault",
+      "ru": "Луиза Эмбо",
+      "uk": "Луїза Імбо"
+     },
+     "source": "https://www.craigmarlatt.com/canada/government/lieutenant_governors.html"
+    },
+    {
+     "label": {
+      "en": "Premier of New Brunswick",
+      "ru": "Премьер провинции Нью-Брансуик",
+      "uk": "Прем’єр провінції Нью-Брансвік"
+     },
+     "value": {
+      "en": "Susan Holt (Liberal Party), since 2024",
+      "ru": "Сьюзан Холт (Либеральная партия), с 2024 г.",
+      "uk": "Сьюзен Голт (Ліберальна партія), з 2024 р."
+     },
+     "source": "https://en.wikipedia.org/wiki/List_of_current_first_ministers_of_Canada"
+    },
+    {
+     "label": {
+      "en": "Members of the legislature of New Brunswick are called",
+      "ru": "Депутатов законодательного собрания провинции Нью-Брансуик называют",
+      "uk": "Депутатів законодавчих зборів провінції Нью-Брансвік називають"
+     },
+     "value": {
+      "en": "MLAs (Members of the Legislative Assembly)",
+      "ru": "MLA (члены Законодательного собрания)",
+      "uk": "MLA (члени Законодавчих зборів)"
+     },
+     "source": "https://www.legnb.ca/en/members/current"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-NB-capital",
+     "question": "What is the capital of New Brunswick?",
+     "options": [
+      "Winnipeg",
+      "Fredericton",
+      "Charlottetown",
+      "Toronto"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Какой город — столица провинции Нью-Брансуик?",
+      "uk": "Яке місто — столиця провінції Нью-Брансвік?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Виннипег",
+       "Фредериктон",
+       "Шарлоттаун",
+       "Торонто"
+      ],
+      "uk": [
+       "Вінніпег",
+       "Фредериктон",
+       "Шарлоттаун",
+       "Торонто"
+      ]
+     },
+     "explanation": {
+      "en": "The capital of New Brunswick is Fredericton.",
+      "ru": "Столица провинции Нью-Брансуик — Фредериктон.",
+      "uk": "Столиця провінції Нью-Брансвік — Фредериктон."
+     }
+    },
+    {
+     "id": "loc-NB-premier",
+     "question": "Who is the Premier of New Brunswick?",
+     "options": [
+      "Danielle Smith",
+      "Scott Moe",
+      "Doug Ford",
+      "Susan Holt"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Кто премьер провинции Нью-Брансуик?",
+      "uk": "Хто прем’єр провінції Нью-Брансвік?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Даниэль Смит",
+       "Скотт Мо",
+       "Даг Форд",
+       "Сьюзан Холт"
+      ],
+      "uk": [
+       "Даніель Сміт",
+       "Скотт Мо",
+       "Даг Форд",
+       "Сьюзен Голт"
+      ]
+     },
+     "explanation": {
+      "en": "Susan Holt (Liberal Party), since 2024",
+      "ru": "Сьюзан Холт (Либеральная партия), с 2024 г.",
+      "uk": "Сьюзен Голт (Ліберальна партія), з 2024 р."
+     }
+    },
+    {
+     "id": "loc-NB-lg",
+     "question": "Who is the Lieutenant Governor of New Brunswick?",
+     "options": [
+      "Louise Arbour",
+      "Joan Marie Aylward",
+      "Mike Savage",
+      "Louise Imbeault"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Кто вице-губернатор провинции Нью-Брансуик?",
+      "uk": "Хто лейтенант-губернатор провінції Нью-Брансвік?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Луиза Арбур",
+       "Джоан Мари Эйлворд",
+       "Майк Сэвидж",
+       "Луиза Эмбо"
+      ],
+      "uk": [
+       "Луїза Арбур",
+       "Джоан Марі Ейлворд",
+       "Майк Севідж",
+       "Луїза Імбо"
+      ]
+     },
+     "explanation": {
+      "en": "The Lieutenant Governor of New Brunswick, who represents the Sovereign in the province, is Louise Imbeault.",
+      "ru": "Вице-губернатор провинции Нью-Брансуик (представитель Суверена в провинции) — Луиза Эмбо.",
+      "uk": "Лейтенант-губернатор провінції Нью-Брансвік (представник Суверена в провінції) — Луїза Імбо."
+     }
+    },
+    {
+     "id": "loc-NB-members",
+     "question": "What are the elected members of the legislature of New Brunswick called?",
+     "options": [
+      "MLAs",
+      "MPPs",
+      "MNAs",
+      "MHAs"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Как называются депутаты законодательного собрания провинции Нью-Брансуик?",
+      "uk": "Як називають депутатів законодавчих зборів провінції Нью-Брансвік?"
+     },
+     "optionsTr": {
+      "ru": [
+       "MLA",
+       "MPP",
+       "MNA",
+       "MHA"
+      ],
+      "uk": [
+       "MLA",
+       "MPP",
+       "MNA",
+       "MHA"
+      ]
+     },
+     "explanation": {
+      "en": "In New Brunswick, members of the legislature are called MLAs (Members of the Legislative Assembly).",
+      "ru": "В провинции Нью-Брансуик — MLA (члены Законодательного собрания).",
+      "uk": "У провінції Нью-Брансвік — MLA (члени Законодавчих зборів)."
+     }
+    }
+   ]
+  },
+  "NS": {
+   "code": "NS",
+   "name": {
+    "en": "Nova Scotia",
+    "ru": "Новая Шотландия",
+    "uk": "Нова Шотландія"
+   },
+   "members": "MLA",
+   "membersLookup": "https://nslegislature.ca/members/profiles",
+   "facts": [
+    {
+     "label": {
+      "en": "Capital of Nova Scotia",
+      "ru": "Столица провинции Новая Шотландия",
+      "uk": "Столиця провінції Нова Шотландія"
+     },
+     "value": {
+      "en": "Halifax",
+      "ru": "Галифакс",
+      "uk": "Галіфакс"
+     },
+     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+    },
+    {
+     "label": {
+      "en": "Lieutenant Governor of Nova Scotia",
+      "ru": "Вице-губернатор провинции Новая Шотландия",
+      "uk": "Лейтенант-губернатор провінції Нова Шотландія"
+     },
+     "value": {
+      "en": "Mike Savage (since December 13, 2024)",
+      "ru": "Майк Сэвидж (с 13 декабря 2024 г.)",
+      "uk": "Майк Севідж (з 13 грудня 2024 р.)"
+     },
+     "source": "https://www.craigmarlatt.com/canada/government/lieutenant_governors.html"
+    },
+    {
+     "label": {
+      "en": "Premier of Nova Scotia",
+      "ru": "Премьер провинции Новая Шотландия",
+      "uk": "Прем’єр провінції Нова Шотландія"
+     },
+     "value": {
+      "en": "Tim Houston (Progressive Conservative Party), since 2021",
+      "ru": "Тим Хьюстон (Прогрессивно-консервативная партия), с 2021 г.",
+      "uk": "Тім Г’юстон (Прогресивно-консервативна партія), з 2021 р."
+     },
+     "source": "https://en.wikipedia.org/wiki/List_of_current_first_ministers_of_Canada"
+    },
+    {
+     "label": {
+      "en": "Members of the legislature of Nova Scotia are called",
+      "ru": "Депутатов законодательного собрания провинции Новая Шотландия называют",
+      "uk": "Депутатів законодавчих зборів провінції Нова Шотландія називають"
+     },
+     "value": {
+      "en": "MLAs (Members of the Legislative Assembly)",
+      "ru": "MLA (члены Законодательного собрания)",
+      "uk": "MLA (члени Законодавчих зборів)"
+     },
+     "source": "https://nslegislature.ca/members/profiles"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-NS-capital",
+     "question": "What is the capital of Nova Scotia?",
+     "options": [
+      "Victoria",
+      "Winnipeg",
+      "Halifax",
+      "Québec City"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Какой город — столица провинции Новая Шотландия?",
+      "uk": "Яке місто — столиця провінції Нова Шотландія?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Виктория",
+       "Виннипег",
+       "Галифакс",
+       "Квебек (город)"
+      ],
+      "uk": [
+       "Вікторія",
+       "Вінніпег",
+       "Галіфакс",
+       "Квебек (місто)"
+      ]
+     },
+     "explanation": {
+      "en": "The capital of Nova Scotia is Halifax.",
+      "ru": "Столица провинции Новая Шотландия — Галифакс.",
+      "uk": "Столиця провінції Нова Шотландія — Галіфакс."
+     }
+    },
+    {
+     "id": "loc-NS-premier",
+     "question": "Who is the Premier of Nova Scotia?",
+     "options": [
+      "Tim Houston",
+      "Susan Holt",
+      "Scott Moe",
+      "Lorne Doerkson"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто премьер провинции Новая Шотландия?",
+      "uk": "Хто прем’єр провінції Нова Шотландія?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Тим Хьюстон",
+       "Сьюзан Холт",
+       "Скотт Мо",
+       "Лорн Доерксон"
+      ],
+      "uk": [
+       "Тім Г’юстон",
+       "Сьюзен Голт",
+       "Скотт Мо",
+       "Лорн Доерксон"
+      ]
+     },
+     "explanation": {
+      "en": "Tim Houston (Progressive Conservative Party), since 2021",
+      "ru": "Тим Хьюстон (Прогрессивно-консервативная партия), с 2021 г.",
+      "uk": "Тім Г’юстон (Прогресивно-консервативна партія), з 2021 р."
+     }
+    },
+    {
+     "id": "loc-NS-lg",
+     "question": "Who is the Lieutenant Governor of Nova Scotia?",
+     "options": [
+      "Louise Arbour",
+      "Salma Lakhani",
+      "Mike Savage",
+      "Bernadette McIntyre"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто вице-губернатор провинции Новая Шотландия?",
+      "uk": "Хто лейтенант-губернатор провінції Нова Шотландія?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Луиза Арбур",
+       "Салма Лакхани",
+       "Майк Сэвидж",
+       "Бернадетт Макинтайр"
+      ],
+      "uk": [
+       "Луїза Арбур",
+       "Салма Лакхані",
+       "Майк Севідж",
+       "Бернадетт Макінтайр"
+      ]
+     },
+     "explanation": {
+      "en": "The Lieutenant Governor of Nova Scotia, who represents the Sovereign in the province, is Mike Savage (since December 13, 2024).",
+      "ru": "Вице-губернатор провинции Новая Шотландия (представитель Суверена в провинции) — Майк Сэвидж (с 13 декабря 2024 г.).",
+      "uk": "Лейтенант-губернатор провінції Нова Шотландія (представник Суверена в провінції) — Майк Севідж (з 13 грудня 2024 р.)."
+     }
+    },
+    {
+     "id": "loc-NS-members",
+     "question": "What are the elected members of the legislature of Nova Scotia called?",
+     "options": [
+      "MPPs",
+      "MNAs",
+      "MHAs",
+      "MLAs"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Как называются депутаты законодательного собрания провинции Новая Шотландия?",
+      "uk": "Як називають депутатів законодавчих зборів провінції Нова Шотландія?"
+     },
+     "optionsTr": {
+      "ru": [
+       "MPP",
+       "MNA",
+       "MHA",
+       "MLA"
+      ],
+      "uk": [
+       "MPP",
+       "MNA",
+       "MHA",
+       "MLA"
+      ]
+     },
+     "explanation": {
+      "en": "In Nova Scotia, members of the legislature are called MLAs (Members of the Legislative Assembly).",
+      "ru": "В провинции Новая Шотландия — MLA (члены Законодательного собрания).",
+      "uk": "У провінції Нова Шотландія — MLA (члени Законодавчих зборів)."
+     }
+    }
+   ]
+  },
+  "PE": {
+   "code": "PE",
+   "name": {
+    "en": "Prince Edward Island",
+    "ru": "Остров Принца Эдуарда",
+    "uk": "Острів Принца Едуарда"
+   },
+   "members": "MLA",
+   "membersLookup": "https://www.assembly.pe.ca/members",
+   "facts": [
+    {
+     "label": {
+      "en": "Capital of Prince Edward Island",
+      "ru": "Столица провинции Остров Принца Эдуарда",
+      "uk": "Столиця провінції Острів Принца Едуарда"
+     },
+     "value": {
+      "en": "Charlottetown",
+      "ru": "Шарлоттаун",
+      "uk": "Шарлоттаун"
+     },
+     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+    },
+    {
+     "label": {
+      "en": "Lieutenant Governor of Prince Edward Island",
+      "ru": "Вице-губернатор провинции Остров Принца Эдуарда",
+      "uk": "Лейтенант-губернатор провінції Острів Принца Едуарда"
+     },
+     "value": {
+      "en": "Wassim Salamoun",
+      "ru": "Вассим Саламун",
+      "uk": "Вассім Саламун"
+     },
+     "source": "https://www.craigmarlatt.com/canada/government/lieutenant_governors.html"
+    },
+    {
+     "label": {
+      "en": "Premier of Prince Edward Island",
+      "ru": "Премьер провинции Остров Принца Эдуарда",
+      "uk": "Прем’єр провінції Острів Принца Едуарда"
+     },
+     "value": {
+      "en": "Rob Lantz (Progressive Conservative Party), since February 9, 2026",
+      "ru": "Роб Лантц (Прогрессивно-консервативная партия), с 9 февраля 2026 г.",
+      "uk": "Роб Лантц (Прогресивно-консервативна партія), з 9 лютого 2026 р."
+     },
+     "source": "https://www.princeedwardisland.ca/en/topic/premier-of-prince-edward-island"
+    },
+    {
+     "label": {
+      "en": "Members of the legislature of Prince Edward Island are called",
+      "ru": "Депутатов законодательного собрания провинции Остров Принца Эдуарда называют",
+      "uk": "Депутатів законодавчих зборів провінції Острів Принца Едуарда називають"
+     },
+     "value": {
+      "en": "MLAs (Members of the Legislative Assembly)",
+      "ru": "MLA (члены Законодательного собрания)",
+      "uk": "MLA (члени Законодавчих зборів)"
+     },
+     "source": "https://www.assembly.pe.ca/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-PE-capital",
+     "question": "What is the capital of Prince Edward Island?",
+     "options": [
+      "Edmonton",
+      "Halifax",
+      "Charlottetown",
+      "Fredericton"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Какой город — столица провинции Остров Принца Эдуарда?",
+      "uk": "Яке місто — столиця провінції Острів Принца Едуарда?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Эдмонтон",
+       "Галифакс",
+       "Шарлоттаун",
+       "Фредериктон"
+      ],
+      "uk": [
+       "Едмонтон",
+       "Галіфакс",
+       "Шарлоттаун",
+       "Фредериктон"
+      ]
+     },
+     "explanation": {
+      "en": "The capital of Prince Edward Island is Charlottetown.",
+      "ru": "Столица провинции Остров Принца Эдуарда — Шарлоттаун.",
+      "uk": "Столиця провінції Острів Принца Едуарда — Шарлоттаун."
+     }
+    },
+    {
+     "id": "loc-PE-premier",
+     "question": "Who is the Premier of Prince Edward Island?",
+     "options": [
+      "Danielle Smith",
+      "Wab Kinew",
+      "Susan Holt",
+      "Rob Lantz"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Кто премьер провинции Остров Принца Эдуарда?",
+      "uk": "Хто прем’єр провінції Острів Принца Едуарда?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Даниэль Смит",
+       "Уэб Кинью",
+       "Сьюзан Холт",
+       "Роб Лантц"
+      ],
+      "uk": [
+       "Даніель Сміт",
+       "Веб Кінью",
+       "Сьюзен Голт",
+       "Роб Лантц"
+      ]
+     },
+     "explanation": {
+      "en": "Rob Lantz (Progressive Conservative Party), since February 9, 2026",
+      "ru": "Роб Лантц (Прогрессивно-консервативная партия), с 9 февраля 2026 г.",
+      "uk": "Роб Лантц (Прогресивно-консервативна партія), з 9 лютого 2026 р."
+     }
+    },
+    {
+     "id": "loc-PE-lg",
+     "question": "Who is the Lieutenant Governor of Prince Edward Island?",
+     "options": [
+      "Wassim Salamoun",
+      "Louise Arbour",
+      "Manon Jeannotte",
+      "Bernadette McIntyre"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто вице-губернатор провинции Остров Принца Эдуарда?",
+      "uk": "Хто лейтенант-губернатор провінції Острів Принца Едуарда?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Вассим Саламун",
+       "Луиза Арбур",
+       "Манон Жаннот",
+       "Бернадетт Макинтайр"
+      ],
+      "uk": [
+       "Вассім Саламун",
+       "Луїза Арбур",
+       "Манон Жаннот",
+       "Бернадетт Макінтайр"
+      ]
+     },
+     "explanation": {
+      "en": "The Lieutenant Governor of Prince Edward Island, who represents the Sovereign in the province, is Wassim Salamoun.",
+      "ru": "Вице-губернатор провинции Остров Принца Эдуарда (представитель Суверена в провинции) — Вассим Саламун.",
+      "uk": "Лейтенант-губернатор провінції Острів Принца Едуарда (представник Суверена в провінції) — Вассім Саламун."
+     }
+    },
+    {
+     "id": "loc-PE-members",
+     "question": "What are the elected members of the legislature of Prince Edward Island called?",
+     "options": [
+      "MPPs",
+      "MNAs",
+      "MHAs",
+      "MLAs"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Как называются депутаты законодательного собрания провинции Остров Принца Эдуарда?",
+      "uk": "Як називають депутатів законодавчих зборів провінції Острів Принца Едуарда?"
+     },
+     "optionsTr": {
+      "ru": [
+       "MPP",
+       "MNA",
+       "MHA",
+       "MLA"
+      ],
+      "uk": [
+       "MPP",
+       "MNA",
+       "MHA",
+       "MLA"
+      ]
+     },
+     "explanation": {
+      "en": "In Prince Edward Island, members of the legislature are called MLAs (Members of the Legislative Assembly).",
+      "ru": "В провинции Остров Принца Эдуарда — MLA (члены Законодательного собрания).",
+      "uk": "У провінції Острів Принца Едуарда — MLA (члени Законодавчих зборів)."
+     }
+    }
+   ]
+  },
+  "NL": {
+   "code": "NL",
+   "name": {
+    "en": "Newfoundland and Labrador",
+    "ru": "Ньюфаундленд и Лабрадор",
+    "uk": "Ньюфаундленд і Лабрадор"
+   },
+   "members": "MHA",
+   "membersLookup": "https://www.assembly.nl.ca/Members/members.aspx",
+   "facts": [
+    {
+     "label": {
+      "en": "Capital of Newfoundland and Labrador",
+      "ru": "Столица провинции Ньюфаундленд и Лабрадор",
+      "uk": "Столиця провінції Ньюфаундленд і Лабрадор"
+     },
+     "value": {
+      "en": "St. John’s",
+      "ru": "Сент-Джонс",
+      "uk": "Сент-Джонс"
+     },
+     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"
+    },
+    {
+     "label": {
+      "en": "Lieutenant Governor of Newfoundland and Labrador",
+      "ru": "Вице-губернатор провинции Ньюфаундленд и Лабрадор",
+      "uk": "Лейтенант-губернатор провінції Ньюфаундленд і Лабрадор"
+     },
+     "value": {
+      "en": "Joan Marie Aylward",
+      "ru": "Джоан Мари Эйлворд",
+      "uk": "Джоан Марі Ейлворд"
+     },
+     "source": "https://www.craigmarlatt.com/canada/government/lieutenant_governors.html"
+    },
+    {
+     "label": {
+      "en": "Premier of Newfoundland and Labrador",
+      "ru": "Премьер провинции Ньюфаундленд и Лабрадор",
+      "uk": "Прем’єр провінції Ньюфаундленд і Лабрадор"
+     },
+     "value": {
+      "en": "Tony Wakeham (Progressive Conservative Party), since October 29, 2025",
+      "ru": "Тони Уэйкхэм (Прогрессивно-консервативная партия), с 29 октября 2025 г.",
+      "uk": "Тоні Вейкгем (Прогресивно-консервативна партія), з 29 жовтня 2025 р."
+     },
+     "source": "https://en.wikipedia.org/wiki/List_of_current_first_ministers_of_Canada"
+    },
+    {
+     "label": {
+      "en": "Members of the legislature of Newfoundland and Labrador are called",
+      "ru": "Депутатов законодательного собрания провинции Ньюфаундленд и Лабрадор называют",
+      "uk": "Депутатів законодавчих зборів провінції Ньюфаундленд і Лабрадор називають"
+     },
+     "value": {
+      "en": "MHAs (Members of the House of Assembly)",
+      "ru": "MHA (члены Палаты собрания)",
+      "uk": "MHA (члени Палати зборів)"
+     },
+     "source": "https://www.assembly.nl.ca/Members/members.aspx"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-NL-capital",
+     "question": "What is the capital of Newfoundland and Labrador?",
+     "options": [
+      "Halifax",
+      "Winnipeg",
+      "Edmonton",
+      "St. John’s"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Какой город — столица провинции Ньюфаундленд и Лабрадор?",
+      "uk": "Яке місто — столиця провінції Ньюфаундленд і Лабрадор?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Галифакс",
+       "Виннипег",
+       "Эдмонтон",
+       "Сент-Джонс"
+      ],
+      "uk": [
+       "Галіфакс",
+       "Вінніпег",
+       "Едмонтон",
+       "Сент-Джонс"
+      ]
+     },
+     "explanation": {
+      "en": "The capital of Newfoundland and Labrador is St. John’s.",
+      "ru": "Столица провинции Ньюфаундленд и Лабрадор — Сент-Джонс.",
+      "uk": "Столиця провінції Ньюфаундленд і Лабрадор — Сент-Джонс."
+     }
+    },
+    {
+     "id": "loc-NL-premier",
+     "question": "Who is the Premier of Newfoundland and Labrador?",
+     "options": [
+      "Doug Ford",
+      "Susan Holt",
+      "Paul St-Pierre Plamondon",
+      "Tony Wakeham"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Кто премьер провинции Ньюфаундленд и Лабрадор?",
+      "uk": "Хто прем’єр провінції Ньюфаундленд і Лабрадор?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Даг Форд",
+       "Сьюзан Холт",
+       "Поль Сен-Пьер Пламондон",
+       "Тони Уэйкхэм"
+      ],
+      "uk": [
+       "Даг Форд",
+       "Сьюзен Голт",
+       "Поль Сен-П’єр Пламондон",
+       "Тоні Вейкгем"
+      ]
+     },
+     "explanation": {
+      "en": "Tony Wakeham (Progressive Conservative Party), since October 29, 2025",
+      "ru": "Тони Уэйкхэм (Прогрессивно-консервативная партия), с 29 октября 2025 г.",
+      "uk": "Тоні Вейкгем (Прогресивно-консервативна партія), з 29 жовтня 2025 р."
+     }
+    },
+    {
+     "id": "loc-NL-lg",
+     "question": "Who is the Lieutenant Governor of Newfoundland and Labrador?",
+     "options": [
+      "Joan Marie Aylward",
+      "Louise Arbour",
+      "Louise Imbeault",
+      "Wendy Lisogar-Cocchia"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто вице-губернатор провинции Ньюфаундленд и Лабрадор?",
+      "uk": "Хто лейтенант-губернатор провінції Ньюфаундленд і Лабрадор?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Джоан Мари Эйлворд",
+       "Луиза Арбур",
+       "Луиза Эмбо",
+       "Венди Лисогар-Коккиа"
+      ],
+      "uk": [
+       "Джоан Марі Ейлворд",
+       "Луїза Арбур",
+       "Луїза Імбо",
+       "Венді Лісогар-Коккіа"
+      ]
+     },
+     "explanation": {
+      "en": "The Lieutenant Governor of Newfoundland and Labrador, who represents the Sovereign in the province, is Joan Marie Aylward.",
+      "ru": "Вице-губернатор провинции Ньюфаундленд и Лабрадор (представитель Суверена в провинции) — Джоан Мари Эйлворд.",
+      "uk": "Лейтенант-губернатор провінції Ньюфаундленд і Лабрадор (представник Суверена в провінції) — Джоан Марі Ейлворд."
+     }
+    },
+    {
+     "id": "loc-NL-members",
+     "question": "What are the elected members of the legislature of Newfoundland and Labrador called?",
+     "options": [
+      "MLAs",
+      "MHAs",
+      "MPPs",
+      "MNAs"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Как называются депутаты законодательного собрания провинции Ньюфаундленд и Лабрадор?",
+      "uk": "Як називають депутатів законодавчих зборів провінції Ньюфаундленд і Лабрадор?"
+     },
+     "optionsTr": {
+      "ru": [
+       "MLA",
+       "MHA",
+       "MPP",
+       "MNA"
+      ],
+      "uk": [
+       "MLA",
+       "MHA",
+       "MPP",
+       "MNA"
+      ]
+     },
+     "explanation": {
+      "en": "In Newfoundland and Labrador, members of the legislature are called MHAs (Members of the House of Assembly).",
+      "ru": "В провинции Ньюфаундленд и Лабрадор — MHA (члены Палаты собрания).",
+      "uk": "У провінції Ньюфаундленд і Лабрадор — MHA (члени Палати зборів)."
+     }
+    }
+   ]
+  }
+ },
+ "cities": [
+  {
+   "id": "toronto",
+   "province": "ON",
+   "name": {
+    "en": "Toronto",
+    "ru": "Торонто",
+    "uk": "Торонто"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Toronto",
+      "ru": "Торонто: мэр",
+      "uk": "Торонто: мер"
+     },
+     "value": {
+      "en": "Olivia Chow (re-elected October 26, 2026)",
+      "ru": "Оливия Чоу (переизбрана 26 октября 2026 г.)",
+      "uk": "Олівія Чоу (переобрана 26 жовтня 2026 р.)"
+     },
+     "source": "https://en.wikipedia.org/wiki/2026_Toronto_mayoral_election"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MPP)",
+      "ru": "Ваш депутат провинции (MPP)",
+      "uk": "Ваш депутат провінції (MPP)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.ola.org/en/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-toronto-mayor",
+     "question": "Who is the mayor of Toronto?",
+     "options": [
+      "Bruno Marchand",
+      "Keanin Loomis",
+      "Olivia Chow",
+      "Andy Fillmore"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто мэр города Торонто?",
+      "uk": "Хто мер міста Торонто?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Бруно Маршан",
+       "Кинан Лумис",
+       "Оливия Чоу",
+       "Энди Филмор"
+      ],
+      "uk": [
+       "Бруно Маршан",
+       "Кінан Луміс",
+       "Олівія Чоу",
+       "Енді Філмор"
+      ]
+     },
+     "explanation": {
+      "en": "Olivia Chow (re-elected October 26, 2026)",
+      "ru": "Оливия Чоу (переизбрана 26 октября 2026 г.)",
+      "uk": "Олівія Чоу (переобрана 26 жовтня 2026 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "montreal",
+   "province": "QC",
+   "name": {
+    "en": "Montreal",
+    "ru": "Монреаль",
+    "uk": "Монреаль"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Montreal",
+      "ru": "Монреаль: мэр",
+      "uk": "Монреаль: мер"
+     },
+     "value": {
+      "en": "Soraya Martinez Ferrada (elected November 2, 2025)",
+      "ru": "Сорайя Мартинес Феррада (избрана 2 ноября 2025 г.)",
+      "uk": "Сорая Мартінес Феррада (обрана 2 листопада 2025 р.)"
+     },
+     "source": "https://en.wikipedia.org/wiki/2025_Montreal_municipal_election"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MNA)",
+      "ru": "Ваш депутат провинции (MNA)",
+      "uk": "Ваш депутат провінції (MNA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.assnat.qc.ca/en/deputes/index.html"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-montreal-mayor",
+     "question": "Who is the mayor of Montreal?",
+     "options": [
+      "Steve Hicks",
+      "Soraya Martinez Ferrada",
+      "Danny Breen",
+      "Olivia Chow"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Кто мэр города Монреаль?",
+      "uk": "Хто мер міста Монреаль?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Стив Хикс",
+       "Сорайя Мартинес Феррада",
+       "Дэнни Брин",
+       "Оливия Чоу"
+      ],
+      "uk": [
+       "Стів Хікс",
+       "Сорая Мартінес Феррада",
+       "Денні Брін",
+       "Олівія Чоу"
+      ]
+     },
+     "explanation": {
+      "en": "Soraya Martinez Ferrada (elected November 2, 2025)",
+      "ru": "Сорайя Мартинес Феррада (избрана 2 ноября 2025 г.)",
+      "uk": "Сорая Мартінес Феррада (обрана 2 листопада 2025 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "vancouver",
+   "province": "BC",
+   "name": {
+    "en": "Vancouver",
+    "ru": "Ванкувер",
+    "uk": "Ванкувер"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Vancouver",
+      "ru": "Ванкувер: мэр",
+      "uk": "Ванкувер: мер"
+     },
+     "value": {
+      "en": "Pete Fry (Green Party; elected October 17, 2026, defeating Ken Sim)",
+      "ru": "Пит Фрай (Партия зелёных; избран 17 октября 2026 г., победил Кена Сима)",
+      "uk": "Піт Фрай (Партія зелених; обраний 17 жовтня 2026 р., переміг Кена Сіма)"
+     },
+     "source": "https://en.wikipedia.org/wiki/2026_Vancouver_municipal_election"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MLA)",
+      "ru": "Ваш депутат провинции (MLA)",
+      "uk": "Ваш депутат провінції (MLA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.leg.bc.ca/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-vancouver-mayor",
+     "question": "Who was elected mayor of Vancouver in October 2026?",
+     "options": [
+      "Pete Fry",
+      "Ken Sim",
+      "Alvin Tedjo",
+      "Keanin Loomis"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто избран мэром города Ванкувер в октябре 2026 года?",
+      "uk": "Кого обрано мером міста Ванкувер у жовтні 2026 року?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Пит Фрай",
+       "Кен Сим",
+       "Элвин Теджо",
+       "Кинан Лумис"
+      ],
+      "uk": [
+       "Піт Фрай",
+       "Кен Сім",
+       "Елвін Теджо",
+       "Кінан Луміс"
+      ]
+     },
+     "explanation": {
+      "en": "Pete Fry (Green Party; elected October 17, 2026, defeating Ken Sim)",
+      "ru": "Пит Фрай (Партия зелёных; избран 17 октября 2026 г., победил Кена Сима)",
+      "uk": "Піт Фрай (Партія зелених; обраний 17 жовтня 2026 р., переміг Кена Сіма)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "calgary",
+   "province": "AB",
+   "name": {
+    "en": "Calgary",
+    "ru": "Калгари",
+    "uk": "Калгарі"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Calgary",
+      "ru": "Калгари: мэр",
+      "uk": "Калгарі: мер"
+     },
+     "value": {
+      "en": "Jeromy Farkas (elected October 20, 2025)",
+      "ru": "Джероми Фаркас (избран 20 октября 2025 г.)",
+      "uk": "Джеромі Фаркас (обраний 20 жовтня 2025 р.)"
+     },
+     "source": "https://en.wikipedia.org/wiki/2025_Calgary_municipal_election"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MLA)",
+      "ru": "Ваш депутат провинции (MLA)",
+      "uk": "Ваш депутат провінції (MLA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-calgary-mayor",
+     "question": "Who is the mayor of Calgary?",
+     "options": [
+      "Richard Carpenter",
+      "Alvin Tedjo",
+      "Jeromy Farkas",
+      "Mark Sutcliffe"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто мэр города Калгари?",
+      "uk": "Хто мер міста Калгарі?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Ричард Карпентер",
+       "Элвин Теджо",
+       "Джероми Фаркас",
+       "Марк Сатклифф"
+      ],
+      "uk": [
+       "Річард Карпентер",
+       "Елвін Теджо",
+       "Джеромі Фаркас",
+       "Марк Саткліфф"
+      ]
+     },
+     "explanation": {
+      "en": "Jeromy Farkas (elected October 20, 2025)",
+      "ru": "Джероми Фаркас (избран 20 октября 2025 г.)",
+      "uk": "Джеромі Фаркас (обраний 20 жовтня 2025 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "edmonton",
+   "province": "AB",
+   "name": {
+    "en": "Edmonton",
+    "ru": "Эдмонтон",
+    "uk": "Едмонтон"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Edmonton",
+      "ru": "Эдмонтон: мэр",
+      "uk": "Едмонтон: мер"
+     },
+     "value": {
+      "en": "Andrew Knack (elected October 20, 2025)",
+      "ru": "Эндрю Нэк (избран 20 октября 2025 г.)",
+      "uk": "Ендрю Нек (обраний 20 жовтня 2025 р.)"
+     },
+     "source": "https://en.wikipedia.org/wiki/2025_Edmonton_municipal_election"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MLA)",
+      "ru": "Ваш депутат провинции (MLA)",
+      "uk": "Ваш депутат провінції (MLA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.assembly.ab.ca/members/members-of-the-legislative-assembly"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-edmonton-mayor",
+     "question": "Who is the mayor of Edmonton?",
+     "options": [
+      "Amir Zuccolo",
+      "Andrew Knack",
+      "Mark Sutcliffe",
+      "Berry Vrbanovic"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Кто мэр города Эдмонтон?",
+      "uk": "Хто мер міста Едмонтон?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Амир Зукколо",
+       "Эндрю Нэк",
+       "Марк Сатклифф",
+       "Берри Врбанович"
+      ],
+      "uk": [
+       "Амір Зукколо",
+       "Ендрю Нек",
+       "Марк Саткліфф",
+       "Беррі Врбанович"
+      ]
+     },
+     "explanation": {
+      "en": "Andrew Knack (elected October 20, 2025)",
+      "ru": "Эндрю Нэк (избран 20 октября 2025 г.)",
+      "uk": "Ендрю Нек (обраний 20 жовтня 2025 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ottawa",
+   "province": "ON",
+   "name": {
+    "en": "Ottawa",
+    "ru": "Оттава",
+    "uk": "Оттава"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Ottawa",
+      "ru": "Оттава: мэр",
+      "uk": "Оттава: мер"
+     },
+     "value": {
+      "en": "Mark Sutcliffe (re-elected October 26, 2026)",
+      "ru": "Марк Сатклифф (переизбран 26 октября 2026 г.)",
+      "uk": "Марк Саткліфф (переобраний 26 жовтня 2026 р.)"
+     },
+     "source": "https://en.wikipedia.org/wiki/2026_Ottawa_municipal_election"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MPP)",
+      "ru": "Ваш депутат провинции (MPP)",
+      "uk": "Ваш депутат провінції (MPP)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.ola.org/en/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-ottawa-mayor",
+     "question": "Who is the mayor of Ottawa?",
+     "options": [
+      "Danny Breen",
+      "Jeromy Farkas",
+      "Andrew Knack",
+      "Mark Sutcliffe"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Кто мэр города Оттава?",
+      "uk": "Хто мер міста Оттава?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Дэнни Брин",
+       "Джероми Фаркас",
+       "Эндрю Нэк",
+       "Марк Сатклифф"
+      ],
+      "uk": [
+       "Денні Брін",
+       "Джеромі Фаркас",
+       "Ендрю Нек",
+       "Марк Саткліфф"
+      ]
+     },
+     "explanation": {
+      "en": "Mark Sutcliffe (re-elected October 26, 2026)",
+      "ru": "Марк Сатклифф (переизбран 26 октября 2026 г.)",
+      "uk": "Марк Саткліфф (переобраний 26 жовтня 2026 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "winnipeg",
+   "province": "MB",
+   "name": {
+    "en": "Winnipeg",
+    "ru": "Виннипег",
+    "uk": "Вінніпег"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Winnipeg",
+      "ru": "Виннипег: мэр",
+      "uk": "Вінніпег: мер"
+     },
+     "value": {
+      "en": "Scott Gillingham (re-elected October 28, 2026)",
+      "ru": "Скотт Гиллингем (переизбран 28 октября 2026 г.)",
+      "uk": "Скотт Гіллінгем (переобраний 28 жовтня 2026 р.)"
+     },
+     "source": "https://globalnews.ca/news/12122725/election-day-winnipeg-2026/"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MLA)",
+      "ru": "Ваш депутат провинции (MLA)",
+      "uk": "Ваш депутат провінції (MLA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.gov.mb.ca/legislature/members/mla_list_constituency.html"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-winnipeg-mayor",
+     "question": "Who is the mayor of Winnipeg?",
+     "options": [
+      "Scott Gillingham",
+      "Soraya Martinez Ferrada",
+      "Steve Hicks",
+      "Pete Fry"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто мэр города Виннипег?",
+      "uk": "Хто мер міста Вінніпег?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Скотт Гиллингем",
+       "Сорайя Мартинес Феррада",
+       "Стив Хикс",
+       "Пит Фрай"
+      ],
+      "uk": [
+       "Скотт Гіллінгем",
+       "Сорая Мартінес Феррада",
+       "Стів Хікс",
+       "Піт Фрай"
+      ]
+     },
+     "explanation": {
+      "en": "Scott Gillingham (re-elected October 28, 2026)",
+      "ru": "Скотт Гиллингем (переизбран 28 октября 2026 г.)",
+      "uk": "Скотт Гіллінгем (переобраний 28 жовтня 2026 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "mississauga",
+   "province": "ON",
+   "name": {
+    "en": "Mississauga",
+    "ru": "Миссиссога",
+    "uk": "Міссісага"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Mississauga",
+      "ru": "Миссиссога: мэр",
+      "uk": "Міссісага: мер"
+     },
+     "value": {
+      "en": "Alvin Tedjo (elected October 26, 2026; the new council term begins November 15, 2026; previous mayor Carolyn Parrish)",
+      "ru": "Элвин Теджо (избран 26 октября 2026 г.; новый срок совета начинается 15 ноября 2026 г.; прежний мэр — Кэролин Пэрриш)",
+      "uk": "Елвін Теджо (обраний 26 жовтня 2026 р.; нова каденція ради починається 15 листопада 2026 р.; попередня мерка — Керолін Перріш)"
+     },
+     "source": "https://en.wikipedia.org/wiki/2026_Mississauga_municipal_election"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MPP)",
+      "ru": "Ваш депутат провинции (MPP)",
+      "uk": "Ваш депутат провінції (MPP)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.ola.org/en/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-mississauga-mayor",
+     "question": "Who was elected mayor of Mississauga in October 2026?",
+     "options": [
+      "Carolyn Parrish",
+      "Alvin Tedjo",
+      "Marianne Alto",
+      "Josh Morgan"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Кто избран мэром города Миссиссога в октябре 2026 года?",
+      "uk": "Кого обрано мером міста Міссісага у жовтні 2026 року?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Кэролин Пэрриш",
+       "Элвин Теджо",
+       "Марианна Альто",
+       "Джош Морган"
+      ],
+      "uk": [
+       "Керолін Перріш",
+       "Елвін Теджо",
+       "Маріанна Альто",
+       "Джош Морган"
+      ]
+     },
+     "explanation": {
+      "en": "Alvin Tedjo (elected October 26, 2026; the new council term begins November 15, 2026; previous mayor Carolyn Parrish)",
+      "ru": "Элвин Теджо (избран 26 октября 2026 г.; новый срок совета начинается 15 ноября 2026 г.; прежний мэр — Кэролин Пэрриш)",
+      "uk": "Елвін Теджо (обраний 26 жовтня 2026 р.; нова каденція ради починається 15 листопада 2026 р.; попередня мерка — Керолін Перріш)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "brampton",
+   "province": "ON",
+   "name": {
+    "en": "Brampton",
+    "ru": "Брамптон",
+    "uk": "Брамптон"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Brampton",
+      "ru": "Брамптон: мэр",
+      "uk": "Брамптон: мер"
+     },
+     "value": {
+      "en": "Patrick Brown (re-elected October 26, 2026, third term)",
+      "ru": "Патрик Браун (переизбран 26 октября 2026 г., третий срок)",
+      "uk": "Патрік Браун (переобраний 26 жовтня 2026 р., третя каденція)"
+     },
+     "source": "https://www.insauga.com/patrick-brown-wins-third-mayoral-victory-in-brampton/"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MPP)",
+      "ru": "Ваш депутат провинции (MPP)",
+      "uk": "Ваш депутат провінції (MPP)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.ola.org/en/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-brampton-mayor",
+     "question": "Who is the mayor of Brampton?",
+     "options": [
+      "Andrew Knack",
+      "Richard Carpenter",
+      "Alvin Tedjo",
+      "Patrick Brown"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Кто мэр города Брамптон?",
+      "uk": "Хто мер міста Брамптон?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Эндрю Нэк",
+       "Ричард Карпентер",
+       "Элвин Теджо",
+       "Патрик Браун"
+      ],
+      "uk": [
+       "Ендрю Нек",
+       "Річард Карпентер",
+       "Елвін Теджо",
+       "Патрік Браун"
+      ]
+     },
+     "explanation": {
+      "en": "Patrick Brown (re-elected October 26, 2026, third term)",
+      "ru": "Патрик Браун (переизбран 26 октября 2026 г., третий срок)",
+      "uk": "Патрік Браун (переобраний 26 жовтня 2026 р., третя каденція)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hamilton",
+   "province": "ON",
+   "name": {
+    "en": "Hamilton",
+    "ru": "Гамильтон",
+    "uk": "Гамільтон"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Hamilton",
+      "ru": "Гамильтон: мэр",
+      "uk": "Гамільтон: мер"
+     },
+     "value": {
+      "en": "Keanin Loomis (elected October 26, 2026; the new council term begins November 15, 2026; previous mayor Andrea Horwath)",
+      "ru": "Кинан Лумис (избран 26 октября 2026 г.; новый срок совета начинается 15 ноября 2026 г.; прежний мэр — Андреа Хорват)",
+      "uk": "Кінан Луміс (обраний 26 жовтня 2026 р.; нова каденція ради починається 15 листопада 2026 р.; попередня мерка — Андреа Горват)"
+     },
+     "source": "https://en.wikipedia.org/wiki/2026_Hamilton,_Ontario,_municipal_election"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MPP)",
+      "ru": "Ваш депутат провинции (MPP)",
+      "uk": "Ваш депутат провінції (MPP)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.ola.org/en/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-hamilton-mayor",
+     "question": "Who was elected mayor of Hamilton in October 2026?",
+     "options": [
+      "Keanin Loomis",
+      "Andrea Horwath",
+      "Amir Zuccolo",
+      "Richard Carpenter"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто избран мэром города Гамильтон в октябре 2026 года?",
+      "uk": "Кого обрано мером міста Гамільтон у жовтні 2026 року?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Кинан Лумис",
+       "Андреа Хорват",
+       "Амир Зукколо",
+       "Ричард Карпентер"
+      ],
+      "uk": [
+       "Кінан Луміс",
+       "Андреа Горват",
+       "Амір Зукколо",
+       "Річард Карпентер"
+      ]
+     },
+     "explanation": {
+      "en": "Keanin Loomis (elected October 26, 2026; the new council term begins November 15, 2026; previous mayor Andrea Horwath)",
+      "ru": "Кинан Лумис (избран 26 октября 2026 г.; новый срок совета начинается 15 ноября 2026 г.; прежний мэр — Андреа Хорват)",
+      "uk": "Кінан Луміс (обраний 26 жовтня 2026 р.; нова каденція ради починається 15 листопада 2026 р.; попередня мерка — Андреа Горват)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "quebec-city",
+   "province": "QC",
+   "name": {
+    "en": "Québec City",
+    "ru": "Квебек (город)",
+    "uk": "Квебек (місто)"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Québec City",
+      "ru": "Квебек (город): мэр",
+      "uk": "Квебек (місто): мер"
+     },
+     "value": {
+      "en": "Bruno Marchand (re-elected November 2, 2025)",
+      "ru": "Бруно Маршан (переизбран 2 ноября 2025 г.)",
+      "uk": "Бруно Маршан (переобраний 2 листопада 2025 р.)"
+     },
+     "source": "https://en.wikipedia.org/wiki/2025_Quebec_City_municipal_election"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MNA)",
+      "ru": "Ваш депутат провинции (MNA)",
+      "uk": "Ваш депутат провінції (MNA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.assnat.qc.ca/en/deputes/index.html"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-quebec-city-mayor",
+     "question": "Who is the mayor of Québec City?",
+     "options": [
+      "Pete Fry",
+      "Scott Gillingham",
+      "Bruno Marchand",
+      "Richard Carpenter"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто мэр города Квебек?",
+      "uk": "Хто мер міста Квебек?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Пит Фрай",
+       "Скотт Гиллингем",
+       "Бруно Маршан",
+       "Ричард Карпентер"
+      ],
+      "uk": [
+       "Піт Фрай",
+       "Скотт Гіллінгем",
+       "Бруно Маршан",
+       "Річард Карпентер"
+      ]
+     },
+     "explanation": {
+      "en": "Bruno Marchand (re-elected November 2, 2025)",
+      "ru": "Бруно Маршан (переизбран 2 ноября 2025 г.)",
+      "uk": "Бруно Маршан (переобраний 2 листопада 2025 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "halifax",
+   "province": "NS",
+   "name": {
+    "en": "Halifax",
+    "ru": "Галифакс",
+    "uk": "Галіфакс"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Halifax",
+      "ru": "Галифакс: мэр",
+      "uk": "Галіфакс: мер"
+     },
+     "value": {
+      "en": "Andy Fillmore (since November 2024)",
+      "ru": "Энди Филмор (с ноября 2024 г.)",
+      "uk": "Енді Філмор (з листопада 2024 р.)"
+     },
+     "source": "https://www.halifax.ca/city-hall/mayor-andy-fillmore"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MLA)",
+      "ru": "Ваш депутат провинции (MLA)",
+      "uk": "Ваш депутат провінції (MLA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://nslegislature.ca/members/profiles"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-halifax-mayor",
+     "question": "Who is the mayor of Halifax?",
+     "options": [
+      "Richard Carpenter",
+      "Olivia Chow",
+      "Andy Fillmore",
+      "Andrew Knack"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто мэр города Галифакс?",
+      "uk": "Хто мер міста Галіфакс?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Ричард Карпентер",
+       "Оливия Чоу",
+       "Энди Филмор",
+       "Эндрю Нэк"
+      ],
+      "uk": [
+       "Річард Карпентер",
+       "Олівія Чоу",
+       "Енді Філмор",
+       "Ендрю Нек"
+      ]
+     },
+     "explanation": {
+      "en": "Andy Fillmore (since November 2024)",
+      "ru": "Энди Филмор (с ноября 2024 г.)",
+      "uk": "Енді Філмор (з листопада 2024 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "london",
+   "province": "ON",
+   "name": {
+    "en": "London (Ontario)",
+    "ru": "Лондон (Онтарио)",
+    "uk": "Лондон (Онтаріо)"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of London (Ontario)",
+      "ru": "Лондон (Онтарио): мэр",
+      "uk": "Лондон (Онтаріо): мер"
+     },
+     "value": {
+      "en": "Josh Morgan (re-elected October 26, 2026)",
+      "ru": "Джош Морган (переизбран 26 октября 2026 г.)",
+      "uk": "Джош Морган (переобраний 26 жовтня 2026 р.)"
+     },
+     "source": "https://en.wikipedia.org/wiki/2026_London,_Ontario,_municipal_election"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MPP)",
+      "ru": "Ваш депутат провинции (MPP)",
+      "uk": "Ваш депутат провінції (MPP)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.ola.org/en/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-london-mayor",
+     "question": "Who is the mayor of London (Ontario)?",
+     "options": [
+      "Danny Breen",
+      "Soraya Martinez Ferrada",
+      "Chad Bachynski",
+      "Josh Morgan"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Кто мэр города Лондон (Онтарио)?",
+      "uk": "Хто мер міста Лондон (Онтаріо)?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Дэнни Брин",
+       "Сорайя Мартинес Феррада",
+       "Чед Бачински",
+       "Джош Морган"
+      ],
+      "uk": [
+       "Денні Брін",
+       "Сорая Мартінес Феррада",
+       "Чед Бачинський",
+       "Джош Морган"
+      ]
+     },
+     "explanation": {
+      "en": "Josh Morgan (re-elected October 26, 2026)",
+      "ru": "Джош Морган (переизбран 26 октября 2026 г.)",
+      "uk": "Джош Морган (переобраний 26 жовтня 2026 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "kitchener",
+   "province": "ON",
+   "name": {
+    "en": "Kitchener",
+    "ru": "Китченер",
+    "uk": "Кітченер"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Kitchener",
+      "ru": "Китченер: мэр",
+      "uk": "Кітченер: мер"
+     },
+     "value": {
+      "en": "Berry Vrbanovic (re-elected October 26, 2026, fourth term)",
+      "ru": "Берри Врбанович (переизбран 26 октября 2026 г., четвёртый срок)",
+      "uk": "Беррі Врбанович (переобраний 26 жовтня 2026 р., четверта каденція)"
+     },
+     "source": "https://www.kitchener.ca/news/posts/unofficial-city-of-kitchener-2026-municipal-and-school-board-election-results/"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MPP)",
+      "ru": "Ваш депутат провинции (MPP)",
+      "uk": "Ваш депутат провінції (MPP)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.ola.org/en/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-kitchener-mayor",
+     "question": "Who is the mayor of Kitchener?",
+     "options": [
+      "Marianne Alto",
+      "Josh Morgan",
+      "Berry Vrbanovic",
+      "Patrick Brown"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто мэр города Китченер?",
+      "uk": "Хто мер міста Кітченер?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Марианна Альто",
+       "Джош Морган",
+       "Берри Врбанович",
+       "Патрик Браун"
+      ],
+      "uk": [
+       "Маріанна Альто",
+       "Джош Морган",
+       "Беррі Врбанович",
+       "Патрік Браун"
+      ]
+     },
+     "explanation": {
+      "en": "Berry Vrbanovic (re-elected October 26, 2026, fourth term)",
+      "ru": "Берри Врбанович (переизбран 26 октября 2026 г., четвёртый срок)",
+      "uk": "Беррі Врбанович (переобраний 26 жовтня 2026 р., четверта каденція)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "victoria",
+   "province": "BC",
+   "name": {
+    "en": "Victoria",
+    "ru": "Виктория",
+    "uk": "Вікторія"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Victoria",
+      "ru": "Виктория: мэр",
+      "uk": "Вікторія: мер"
+     },
+     "value": {
+      "en": "Marianne Alto (re-elected October 17, 2026)",
+      "ru": "Марианна Альто (переизбрана 17 октября 2026 г.)",
+      "uk": "Маріанна Альто (переобрана 17 жовтня 2026 р.)"
+     },
+     "source": "https://www.timescolonist.com/2026-civic-election-victoria/victoria-election-results-2026-alto-re-elected-mayor-council-gets-a-refresh-12907386"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MLA)",
+      "ru": "Ваш депутат провинции (MLA)",
+      "uk": "Ваш депутат провінції (MLA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.leg.bc.ca/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-victoria-mayor",
+     "question": "Who is the mayor of Victoria?",
+     "options": [
+      "Berry Vrbanovic",
+      "Amir Zuccolo",
+      "Marianne Alto",
+      "Olivia Chow"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто мэр города Виктория?",
+      "uk": "Хто мер міста Вікторія?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Берри Врбанович",
+       "Амир Зукколо",
+       "Марианна Альто",
+       "Оливия Чоу"
+      ],
+      "uk": [
+       "Беррі Врбанович",
+       "Амір Зукколо",
+       "Маріанна Альто",
+       "Олівія Чоу"
+      ]
+     },
+     "explanation": {
+      "en": "Marianne Alto (re-elected October 17, 2026)",
+      "ru": "Марианна Альто (переизбрана 17 октября 2026 г.)",
+      "uk": "Маріанна Альто (переобрана 17 жовтня 2026 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "regina",
+   "province": "SK",
+   "name": {
+    "en": "Regina",
+    "ru": "Реджайна",
+    "uk": "Реджайна"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Regina",
+      "ru": "Реджайна: мэр",
+      "uk": "Реджайна: мер"
+     },
+     "value": {
+      "en": "Chad Bachynski (elected November 13, 2024)",
+      "ru": "Чед Бачински (избран 13 ноября 2024 г.)",
+      "uk": "Чед Бачинський (обраний 13 листопада 2024 р.)"
+     },
+     "source": "https://en.wikipedia.org/wiki/Chad_Bachynski"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MLA)",
+      "ru": "Ваш депутат провинции (MLA)",
+      "uk": "Ваш депутат провінції (MLA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.legassembly.sk.ca/mlas/"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-regina-mayor",
+     "question": "Who is the mayor of Regina?",
+     "options": [
+      "Chad Bachynski",
+      "Alvin Tedjo",
+      "Patrick Brown",
+      "Steve Hicks"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто мэр города Реджайна?",
+      "uk": "Хто мер міста Реджайна?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Чед Бачински",
+       "Элвин Теджо",
+       "Патрик Браун",
+       "Стив Хикс"
+      ],
+      "uk": [
+       "Чед Бачинський",
+       "Елвін Теджо",
+       "Патрік Браун",
+       "Стів Хікс"
+      ]
+     },
+     "explanation": {
+      "en": "Chad Bachynski (elected November 13, 2024)",
+      "ru": "Чед Бачински (избран 13 ноября 2024 г.)",
+      "uk": "Чед Бачинський (обраний 13 листопада 2024 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "saskatoon",
+   "province": "SK",
+   "name": {
+    "en": "Saskatoon",
+    "ru": "Саскатун",
+    "uk": "Саскатун"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Saskatoon",
+      "ru": "Саскатун: мэр",
+      "uk": "Саскатун: мер"
+     },
+     "value": {
+      "en": "Cynthia Block (elected November 13, 2024)",
+      "ru": "Синтия Блок (избрана 13 ноября 2024 г.)",
+      "uk": "Синтія Блок (обрана 13 листопада 2024 р.)"
+     },
+     "source": "https://en.wikipedia.org/wiki/Cynthia_Block"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MLA)",
+      "ru": "Ваш депутат провинции (MLA)",
+      "uk": "Ваш депутат провінції (MLA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.legassembly.sk.ca/mlas/"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-saskatoon-mayor",
+     "question": "Who is the mayor of Saskatoon?",
+     "options": [
+      "Richard Carpenter",
+      "Cynthia Block",
+      "Soraya Martinez Ferrada",
+      "Alvin Tedjo"
+     ],
+     "answer": 1,
+     "questionTr": {
+      "ru": "Кто мэр города Саскатун?",
+      "uk": "Хто мер міста Саскатун?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Ричард Карпентер",
+       "Синтия Блок",
+       "Сорайя Мартинес Феррада",
+       "Элвин Теджо"
+      ],
+      "uk": [
+       "Річард Карпентер",
+       "Синтія Блок",
+       "Сорая Мартінес Феррада",
+       "Елвін Теджо"
+      ]
+     },
+     "explanation": {
+      "en": "Cynthia Block (elected November 13, 2024)",
+      "ru": "Синтия Блок (избрана 13 ноября 2024 г.)",
+      "uk": "Синтія Блок (обрана 13 листопада 2024 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "st-johns",
+   "province": "NL",
+   "name": {
+    "en": "St. John’s",
+    "ru": "Сент-Джонс",
+    "uk": "Сент-Джонс"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of St. John’s",
+      "ru": "Сент-Джонс: мэр",
+      "uk": "Сент-Джонс: мер"
+     },
+     "value": {
+      "en": "Danny Breen (re-elected October 2025, third term)",
+      "ru": "Дэнни Брин (переизбран в октябре 2025 г., третий срок)",
+      "uk": "Денні Брін (переобраний у жовтні 2025 р., третя каденція)"
+     },
+     "source": "https://www.stjohns.ca/en/city-hall/2025-election-results.aspx"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MHA)",
+      "ru": "Ваш депутат провинции (MHA)",
+      "uk": "Ваш депутат провінції (MHA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.assembly.nl.ca/Members/members.aspx"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-st-johns-mayor",
+     "question": "Who is the mayor of St. John’s?",
+     "options": [
+      "Danny Breen",
+      "Amir Zuccolo",
+      "Olivia Chow",
+      "Soraya Martinez Ferrada"
+     ],
+     "answer": 0,
+     "questionTr": {
+      "ru": "Кто мэр города Сент-Джонс?",
+      "uk": "Хто мер міста Сент-Джонс?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Дэнни Брин",
+       "Амир Зукколо",
+       "Оливия Чоу",
+       "Сорайя Мартинес Феррада"
+      ],
+      "uk": [
+       "Денні Брін",
+       "Амір Зукколо",
+       "Олівія Чоу",
+       "Сорая Мартінес Феррада"
+      ]
+     },
+     "explanation": {
+      "en": "Danny Breen (re-elected October 2025, third term)",
+      "ru": "Дэнни Брин (переизбран в октябре 2025 г., третий срок)",
+      "uk": "Денні Брін (переобраний у жовтні 2025 р., третя каденція)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fredericton",
+   "province": "NB",
+   "name": {
+    "en": "Fredericton",
+    "ru": "Фредериктон",
+    "uk": "Фредериктон"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Fredericton",
+      "ru": "Фредериктон: мэр",
+      "uk": "Фредериктон: мер"
+     },
+     "value": {
+      "en": "Steve Hicks (elected May 11, 2026; sworn in June 1, 2026)",
+      "ru": "Стив Хикс (избран 11 мая 2026 г.; вступил в должность 1 июня 2026 г.)",
+      "uk": "Стів Хікс (обраний 11 травня 2026 р.; вступив на посаду 1 червня 2026 р.)"
+     },
+     "source": "https://www.fredericton.ca/city-government/news/new-council-be-sworn-june-1"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MLA)",
+      "ru": "Ваш депутат провинции (MLA)",
+      "uk": "Ваш депутат провінції (MLA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.legnb.ca/en/members/current"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-fredericton-mayor",
+     "question": "Who is the mayor of Fredericton?",
+     "options": [
+      "Cynthia Block",
+      "Josh Morgan",
+      "Pete Fry",
+      "Steve Hicks"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Кто мэр города Фредериктон?",
+      "uk": "Хто мер міста Фредериктон?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Синтия Блок",
+       "Джош Морган",
+       "Пит Фрай",
+       "Стив Хикс"
+      ],
+      "uk": [
+       "Синтія Блок",
+       "Джош Морган",
+       "Піт Фрай",
+       "Стів Хікс"
+      ]
+     },
+     "explanation": {
+      "en": "Steve Hicks (elected May 11, 2026; sworn in June 1, 2026)",
+      "ru": "Стив Хикс (избран 11 мая 2026 г.; вступил в должность 1 июня 2026 г.)",
+      "uk": "Стів Хікс (обраний 11 травня 2026 р.; вступив на посаду 1 червня 2026 р.)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "charlottetown",
+   "province": "PE",
+   "name": {
+    "en": "Charlottetown",
+    "ru": "Шарлоттаун",
+    "uk": "Шарлоттаун"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Charlottetown",
+      "ru": "Шарлоттаун: мэр",
+      "uk": "Шарлоттаун: мер"
+     },
+     "value": {
+      "en": "Amir Zuccolo (elected November 2, 2026; takes office in December 2026, succeeding Philip Brown)",
+      "ru": "Амир Зукколо (избрана 2 ноября 2026 г.; вступает в должность в декабре 2026 г., сменяет Филипа Брауна)",
+      "uk": "Амір Зукколо (обрана 2 листопада 2026 р.; вступає на посаду в грудні 2026 р., змінює Філіпа Брауна)"
+     },
+     "source": "https://www.cbc.ca/news/canada/prince-edward-island/pei-charlottetown-municipal-election-mayor-council-2026-9.7406428"
+    },
+    {
+     "label": {
+      "en": "Your federal MP",
+      "ru": "Ваш федеральный депутат (MP)",
+      "uk": "Ваш федеральний депутат (MP)"
+     },
+     "value": {
+      "en": "Depends on your address — find it by postal code on the Elections Canada site",
+      "ru": "Зависит от вашего адреса — найдите по почтовому индексу на сайте Elections Canada",
+      "uk": "Залежить від вашої адреси — знайдіть за поштовим індексом на сайті Elections Canada"
+     },
+     "source": "https://www.elections.ca/Scripts/vis/FindED?L=e"
+    },
+    {
+     "label": {
+      "en": "Your provincial member (MLA)",
+      "ru": "Ваш депутат провинции (MLA)",
+      "uk": "Ваш депутат провінції (MLA)"
+     },
+     "value": {
+      "en": "Depends on your address — see the list of members and ridings on the legislature’s site",
+      "ru": "Зависит от вашего адреса — смотрите список депутатов и округов на сайте законодательного собрания",
+      "uk": "Залежить від вашої адреси — дивіться список депутатів і округів на сайті законодавчих зборів"
+     },
+     "source": "https://www.assembly.pe.ca/members"
+    }
+   ],
+   "questions": [
+    {
+     "id": "loc-charlottetown-mayor",
+     "question": "Who was elected mayor of Charlottetown in November 2026?",
+     "options": [
+      "Philip Brown",
+      "Bruno Marchand",
+      "Andrew Knack",
+      "Amir Zuccolo"
+     ],
+     "answer": 3,
+     "questionTr": {
+      "ru": "Кто избран мэром города Шарлоттаун в ноябре 2026 года?",
+      "uk": "Кого обрано мером міста Шарлоттаун у листопаді 2026 року?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Филип Браун",
+       "Бруно Маршан",
+       "Эндрю Нэк",
+       "Амир Зукколо"
+      ],
+      "uk": [
+       "Філіп Браун",
+       "Бруно Маршан",
+       "Ендрю Нек",
+       "Амір Зукколо"
+      ]
+     },
+     "explanation": {
+      "en": "Amir Zuccolo (elected November 2, 2026; takes office in December 2026, succeeding Philip Brown)",
+      "ru": "Амир Зукколо (избрана 2 ноября 2026 г.; вступает в должность в декабре 2026 г., сменяет Филипа Брауна)",
+      "uk": "Амір Зукколо (обрана 2 листопада 2026 р.; вступає на посаду в грудні 2026 р., змінює Філіпа Брауна)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "brantford",
+   "province": "ON",
+   "name": {
+    "en": "Brantford",
+    "ru": "Брантфорд",
+    "uk": "Брантфорд"
+   },
+   "facts": [
+    {
+     "label": {
+      "en": "Mayor of Brantford",
+      "ru": "Брантфорд: мэр",
+      "uk": "Брантфорд: мер"
+     },
+     "value": {
+      "en": "Richard Carpenter (elected October 26, 2026; the new council term begins November 15, 2026)",
+      "ru": "Ричард Карпентер (избран 26 октября 2026 г.; новый срок совета начинается 15 ноября 2026 г.)",
+      "uk": "Річард Карпентер (обраний 26 жовтня 2026 р.; нова каденція ради починається 15 листопада 2026 р.)"
+     },
+     "source": "https://www.brantford.ca/your-government/municipal-election/results/"
+    },
+    {
+     "label": {
+      "en": "Provincial riding / MPP for Brantford",
+      "ru": "Провинциальный округ / депутат (MPP) от Брантфорда",
+      "uk": "Провінційний округ / депутат (MPP) від Брантфорда"
+     },
+     "value": {
+      "en": "Brantford—Brant: Will Bouma (Progressive Conservative), re-elected 2025",
+      "ru": "Brantford—Brant: Уилл Баума (Прогрессивно-консервативная партия), переизбран в 2025 г.",
+      "uk": "Brantford—Brant: Вілл Баума (Прогресивно-консервативна партія), переобраний у 2025 р."
+     },
+     "source": "https://www.ola.org/en/members/all/will-bouma"
+    },
+    {
+     "label": {
+      "en": "Federal riding / MP for Brantford",
+      "ru": "Федеральный округ / депутат (MP) от Брантфорда",
+      "uk": "Федеральний округ / депутат (MP) від Брантфорда"
+     },
+     "value": {
+      "en": "Brantford—Brant South (renamed in 2026 from Brantford—Brant South—Six Nations). Seat vacant since September 18, 2026 (Larry Brock, Conservative, resigned). By-election: December 7, 2026",
+      "ru": "Brantford—Brant South (в 2026 г. переименован из Brantford—Brant South—Six Nations). Место вакантно с 18 сентября 2026 г. (Ларри Брок, консерватор, ушёл в отставку). Довыборы — 7 декабря 2026 г.",
+      "uk": "Brantford—Brant South (у 2026 р. перейменовано з Brantford—Brant South—Six Nations). Місце вакантне з 18 вересня 2026 р. (Ларрі Брок, консерватор, пішов у відставку). Додаткові вибори — 7 грудня 2026 р."
+     },
+     "source": "https://www.ourcommons.ca/members/en/constituencies/brantford-brant-south-six-nations(1067)"
+    }
+   ],
+   "questions": [
+    {
+     "id": "q-ontario-012",
+     "question": "Who was elected mayor of Brantford in October 2026?",
+     "options": [
+      "Kevin Davis",
+      "Alvin Tedjo",
+      "Richard Carpenter",
+      "Chad Bachynski"
+     ],
+     "answer": 2,
+     "questionTr": {
+      "ru": "Кто избран мэром города Брантфорд в октябре 2026 года?",
+      "uk": "Кого обрано мером міста Брантфорд у жовтні 2026 року?"
+     },
+     "optionsTr": {
+      "ru": [
+       "Кевин Дэвис",
+       "Элвин Теджо",
+       "Ричард Карпентер",
+       "Чед Бачински"
+      ],
+      "uk": [
+       "Кевін Девіс",
+       "Елвін Теджо",
+       "Річард Карпентер",
+       "Чед Бачинський"
+      ]
+     },
+     "explanation": {
+      "en": "Richard Carpenter (elected October 26, 2026; the new council term begins November 15, 2026)",
+      "ru": "Ричард Карпентер (избран 26 октября 2026 г.; новый срок совета начинается 15 ноября 2026 г.)",
+      "uk": "Річард Карпентер (обраний 26 жовтня 2026 р.; нова каденція ради починається 15 листопада 2026 р.)"
+     }
+    },
+    {
+     "id": "q-ontario-008",
+     "question": "Who is the MPP for Brantford—Brant?",
+     "options": [
+      "Larry Brock",
+      "Will Bouma",
+      "Richard Carpenter",
+      "Kevin Davis"
+     ],
+     "answer": 1,
+     "optionsTr": {
+      "ru": [
+       "Ларри Брок",
+       "Уилл Баума",
+       "Ричард Карпентер",
+       "Кевин Дэвис"
+      ],
+      "uk": [
+       "Ларрі Брок",
+       "Вілл Баума",
+       "Річард Карпентер",
+       "Кевін Девіс"
+      ]
+     },
+     "questionTr": {
+      "ru": "Кто депутат провинциального парламента (MPP) от Brantford—Brant?",
+      "uk": "Хто депутат провінційного парламенту (MPP) від Brantford—Brant?"
+     },
+     "explanation": {
+      "en": "Will Bouma (Progressive Conservative) is the MPP for Brantford—Brant; he was re-elected in 2025.",
+      "ru": "MPP от Brantford—Brant — Уилл Баума (Прогрессивно-консервативная партия), переизбран в 2025 году.",
+      "uk": "MPP від Brantford—Brant — Вілл Баума (Прогресивно-консервативна партія), переобраний у 2025 році."
+     }
+    }
+   ]
+  }
+ ]
+}

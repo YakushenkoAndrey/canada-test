@@ -54,8 +54,8 @@ export function renderAbout(host: HTMLElement): () => void {
 
     <h2 class="sub">${L('Актуальность', 'Up to date', 'Актуальність')}</h2>
     <p>${L(
-      'Раздел «Онтарио и Брантфорд» содержит данные, которые меняются после выборов; дата проверки указана на его странице. Перед экзаменом сверяйтесь с официальными источниками.',
-      'The Ontario and Brantford section contains facts that change after elections; the check date is shown on its page. Before the test, check official sources.', 'Розділ «Онтаріо і Брантфорд» містить дані, що змінюються після виборів; дату перевірки вказано на його сторінці. Перед іспитом звіряйтеся з офіційними джерелами.',
+      'Раздел «Мой город и провинция» содержит данные, которые меняются после выборов; дата проверки указана на его странице. Перед экзаменом сверяйтесь с официальными источниками.',
+      'The “My city and province” section contains facts that change after elections; the check date is shown on its page. Before the test, check official sources.', 'Розділ «Моє місто і провінція» містить дані, що змінюються після виборів; дату перевірки вказано на його сторінці. Перед іспитом звіряйтеся з офіційними джерелами.',
     )}</p>
   </div>`;
   return () => {};

@@ -14,7 +14,7 @@ import { applyTheme, watchTheme } from './theme';
 import { renderAbout } from './views/about';
 import { renderFavorites } from './views/favorites';
 import { renderHome, tocHtml } from './views/home';
-import { renderExam, renderMistakes, renderOntario, renderOntarioQuiz, renderPaywall, renderQuiz, renderQuizMenu } from './views/quiz';
+import { renderExam, renderMistakes, renderLocal, renderLocalQuiz, renderPaywall, renderQuiz, renderQuizMenu } from './views/quiz';
 import { Reader } from './views/reader';
 import { renderSettings } from './views/settings';
 
@@ -72,7 +72,7 @@ function renderShell() {
       <a class="dlink" href="#/">${L('Главная', 'Home', 'Головна')}</a>
       <a class="dlink" href="#/quiz">${L('Тест: экзамен, ошибки, главы', 'Tests: exam, mistakes, chapters', 'Тест: іспит, помилки, розділи')}</a>
       <a class="dlink" href="#/favorites">${L('★ Избранное', '★ Favourites', '★ Обране')}</a>
-      <a class="dlink" href="#/ontario">${L('Онтарио и Брантфорд', 'Ontario and Brantford', 'Онтаріо і Брантфорд')}</a>
+      <a class="dlink" href="#/local">${L('Мой город и провинция', 'My city and province', 'Моє місто і провінція')}</a>
       <a class="dlink" href="#/settings">${L('Настройки', 'Settings', 'Налаштування')}</a>
       <a class="dlink" href="#/about">${L('О сайте и условия', 'About and terms', 'Про сайт і умови')}</a>
     </nav>`;
@@ -157,8 +157,9 @@ async function route() {
     cleanup = renderExam(view, lang);
   } else if (parts[0] === 'mistakes') {
     cleanup = renderMistakes(view, lang);
-  } else if (parts[0] === 'ontario') {
-    cleanup = parts[1] === 'quiz' ? renderOntarioQuiz(view, lang) : renderOntario(view, lang);
+  } else if (parts[0] === 'local' || parts[0] === 'ontario') {
+    // #/ontario is the old address of this section (kept for saved links)
+    cleanup = parts[1] === 'quiz' ? renderLocalQuiz(view, lang) : renderLocal(view, lang);
   } else if (parts[0] === 'unlock') {
     cleanup = renderPaywall(view);
   } else if (parts[0] === 'about') {

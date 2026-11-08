@@ -32,8 +32,8 @@ export function renderHome(host: HTMLElement, lang: Lang) {
     <a class="btn-ghost wide" href="#/quiz">${L('Все тесты и «Мои ошибки» →', 'All tests and “My mistakes” →', 'Усі тести та «Мої помилки» →')}</a>
     <a class="btn-ghost wide" href="#/favorites">${L('★ Избранное →', '★ Favourites →', '★ Обране →')}</a>
     <p class="muted small">${L(
-      'Вся брошюра: 12 глав, ключевые факты, тренировка по главам, пробный экзамен, «Мои ошибки» и раздел «Онтарио и Брантфорд».',
-      'The whole brochure: 12 chapters, key facts, chapter practice, a practice exam, “My mistakes” and an Ontario and Brantford section.', 'Уся брошура: 12 розділів, ключові факти, тренування за розділами, пробний іспит, «Мої помилки» та розділ «Онтаріо і Брантфорд».',
+      'Вся брошюра: 12 глав, ключевые факты, тренировка по главам, пробный экзамен, «Мои ошибки» и раздел «Мой город и провинция» (21 город по всей Канаде).',
+      'The whole brochure: 12 chapters, key facts, chapter practice, a practice exam, “My mistakes” and a “My city and province” section (21 cities across Canada).', 'Уся брошура: 12 розділів, ключові факти, тренування за розділами, пробний іспит, «Мої помилки» та розділ «Моє місто і провінція» (21 місто по всій Канаді).',
     )}
     ${notice ? `<br>${esc(notice)}` : ''}</p>
   </div>`;

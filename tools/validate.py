@@ -110,26 +110,31 @@ def main() -> int:
         if {q["id"] for q in qs} != {q["id"] for q in banks["en"]}:
             err(f"question ids differ between en and {lang}")
 
-    ont = load("ontario.json")
-    if ont:
-        if not str(ont.get("checked", "")).startswith("20"):
-            err("ontario.json: 'checked' date missing")
-        for f in ont.get("facts", []):
-            if not (f.get("value") and f.get("valueRu") and f.get("valueUk") and f.get("ru") and f.get("uk") and str(f.get("source", "")).startswith("https://")):
-                err(f"ontario.json: fact {f.get('en')!r} needs ru/uk labels, value, valueRu, valueUk and https source")
+    loc = load("local.json")
+    if loc:
+        if not str(loc.get("checked", "")).startswith("20"):
+            err("local.json: 'checked' date missing")
+        tri = lambda d: isinstance(d, dict) and all(d.get(l) for l in ("en", "ru", "uk"))
+        groups = [("national", loc["national"])] + [(f"province {k}", p) for k, p in loc["provinces"].items()] + \
+            [(f"city {c['id']}", c) for c in loc["cities"]]
         qids = set()
-        for q in ont.get("questions", []):
-            where = f"ontario.json/{q.get('id')}"
-            if q["id"] in qids:
-                err(f"{where}: duplicate id")
-            qids.add(q["id"])
-            n = len(q["options"])
-            if n < 2 or len(set(q["options"])) != n or not 0 <= q["answer"] < n:
-                err(f"{where}: bad options/answer")
-            if len(q.get("optionsRu", [])) != n or not q.get("questionRu") or not q.get("explanationRu") or not q.get("explanationEn"):
-                err(f"{where}: RU/EN fields missing")
-            if len(q.get("optionsUk", [])) != n or not q.get("questionUk") or not q.get("explanationUk"):
-                err(f"{where}: UK fields missing")
+        for name, g in groups:
+            for f in g["facts"]:
+                if not (tri(f.get("label")) and tri(f.get("value")) and str(f.get("source", "")).startswith("https://")):
+                    err(f"local.json {name}: fact {f.get('label')!r} needs en/ru/uk label and value and an https source")
+            for q in g["questions"]:
+                where = f"local.json/{q.get('id')}"
+                if q["id"] in qids:
+                    err(f"{where}: duplicate id")
+                qids.add(q["id"])
+                n = len(q["options"])
+                if n < 2 or len(set(q["options"])) != n or not 0 <= q["answer"] < n:
+                    err(f"{where}: bad options/answer")
+                if not tri(q.get("explanation")) or any(len(q.get("optionsTr", {}).get(l, [])) != n or not q.get("questionTr", {}).get(l) for l in ("ru", "uk")):
+                    err(f"{where}: ru/uk translation missing")
+        for c in loc["cities"]:
+            if c["province"] not in loc["provinces"]:
+                err(f"local.json: city {c['id']} has unknown province {c['province']}")
 
     for lang in langs:
         path = DATA / f"tts-fixes.{lang}.json"

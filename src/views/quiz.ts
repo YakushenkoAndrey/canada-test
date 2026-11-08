@@ -1,12 +1,12 @@
-// Tests: chapter training, mock exam, "Мои ошибки" review and the Ontario / Brantford quiz.
+// Tests: chapter training, mock exam, "Мои ошибки" review and the "My city and province" quiz.
 // All share one question runner: one question at a time, immediate answer, explanation and a link to the brochure.
-import { chapter, chapters, chapterSize, chapterTitle, findBlock, ontario, ontarioQuestions, questions, TOC, type Question } from '../content';
+import { allLocalQuestions, chapter, chapters, chapterSize, chapterTitle, findBlock, local, localCity, localQuestions, questions, TOC, tri, type LocalFact, type Question } from '../content';
 import { ICON } from '../icons';
 import { L, langInfo, nQuestions, plural, ui, uiLocale, type Lang } from '../langs';
 import {
   activate,
   canMistakes,
-  canOntarioQuiz,
+  canLocalQuiz,
   canStartExam,
   canTrain,
   freeExamsLeft,
@@ -79,14 +79,20 @@ export function pickExam(lang: Lang, n = EXAM_SIZE): Question[] {
 
 /** Questions to review: answered wrong and not learned yet, the most overdue first. */
 export function mistakeQuestions(lang: Lang): Question[] {
-  const all = [...questions(lang), ...ontarioQuestions(lang)];
+  const all = [...questions(lang), ...allLocalQuestions(lang)];
   return all.filter((q) => isMistake(q.id)).sort((a, b) => dueAt(a.id) - dueAt(b.id));
 }
 
-const ontarioTitle = () => L('Онтарио и Брантфорд', 'Ontario and Brantford', 'Онтаріо і Брантфорд');
+const localTitle = () => L('Мой город и провинция', 'My city and province', 'Моє місто і провінція');
+
+/** "Brantford, Ontario" in the interface language. */
+function cityLine(cityId: string): string {
+  const c = localCity(cityId);
+  return `${tri(c.name, ui())}, ${tri(local.provinces[c.province].name, ui())}`;
+}
 
 function qChapterTitle(lang: Lang, id: string): string {
-  return id === 'ontario' ? ontarioTitle() : chapterTitle(lang, id);
+  return id === 'local' ? localTitle() : chapterTitle(lang, id);
 }
 
 function fmtDate(t: number): string {
@@ -133,8 +139,8 @@ function accessCard(): string {
   return `<section class="qcard buy-card">
     <h2>${L('Полный доступ к тестам', 'Full access to the tests', 'Повний доступ до тестів')} — ${PAYWALL.price}</h2>
     <p>${L(
-      'Бесплатно: вся брошюра с озвучкой, тренировка по главе «Кто мы» и один пробный экзамен. Полный доступ открывает все 12 глав, безлимитные экзамены, «Мои ошибки» и тест по Онтарио. Разовая покупка.',
-      'Free: the whole brochure with audio, practice on “Who We Are” and one practice exam. Full access unlocks all 12 chapters, unlimited exams, “My mistakes” and the Ontario quiz. One-time purchase.', 'Безкоштовно: уся брошура з озвученням, тренування з розділу «Хто ми» та один пробний іспит. Повний доступ відкриває всі 12 розділів, необмежені іспити, «Мої помилки» та тест про Онтаріо. Разова покупка.',
+      'Бесплатно: вся брошюра с озвучкой, тренировка по главе «Кто мы» и один пробный экзамен. Полный доступ открывает все 12 глав, безлимитные экзамены, «Мои ошибки» и тест «Мой город и провинция». Разовая покупка.',
+      'Free: the whole brochure with audio, practice on “Who We Are” and one practice exam. Full access unlocks all 12 chapters, unlimited exams, “My mistakes” and the “My city and province” quiz. One-time purchase.', 'Безкоштовно: уся брошура з озвученням, тренування з розділу «Хто ми» та один пробний іспит. Повний доступ відкриває всі 12 розділів, необмежені іспити, «Мої помилки» та тест «Моє місто і провінція». Разова покупка.',
     )}</p>
     <a class="btn-main wide" href="#/unlock">${L('Подробнее и купить →', 'Details and purchase →', 'Докладніше та купити →')}</a>
   </section>`;
@@ -189,9 +195,10 @@ export function renderQuizMenu(host: HTMLElement, lang: Lang): Cleanup {
     </section>
 
     <section class="qcard">
-      <h2>${ontarioTitle()}</h2>
-      <p>${L('Кто сейчас премьер Онтарио, вице-губернатор, ваш депутат и мэр.', 'Who is the Premier of Ontario, the Lieutenant Governor, your MP and your mayor now.', 'Хто зараз прем’єр Онтаріо, лейтенант-губернатор, ваш депутат і мер.')} ${L('Проверено', 'Checked', 'Перевірено')}: ${fmtDay(ontario.checked)}.</p>
-      <a class="btn-ghost wide" href="#/ontario">${L('Открыть раздел →', 'Open →', 'Відкрити розділ →')}</a>
+      <h2>${localTitle()}</h2>
+      <p>${L('Кто сейчас премьер вашей провинции, вице-губернатор, мэр и как найти своего депутата.', 'Who is the Premier of your province, the Lieutenant Governor, your mayor, and how to find your MP.', 'Хто зараз прем’єр вашої провінції, лейтенант-губернатор, мер і як знайти свого депутата.')}
+        ${L('Ваш город', 'Your city', 'Ваше місто')}: <b>${esc(cityLine(settings.city))}</b>. ${L('Проверено', 'Checked', 'Перевірено')}: ${fmtDay(local.checked)}</p>
+      <a class="btn-ghost wide" href="#/local">${L('Открыть раздел →', 'Open →', 'Відкрити розділ →')}</a>
     </section>
 
     <h2 class="sub">${L('Тренировка по главам', 'Practice by chapter', 'Тренування за розділами')}</h2>
@@ -219,7 +226,7 @@ export function renderQuizMenu(host: HTMLElement, lang: Lang): Cleanup {
 interface SessionOpts {
   title: string;
   questions: Question[];
-  mode: 'train' | 'exam' | 'mistakes' | 'ontario';
+  mode: 'train' | 'exam' | 'mistakes' | 'local';
   timerMin: number | null;
   back: string;
   restart: () => void;
@@ -444,43 +451,86 @@ export function renderMistakes(host: HTMLElement, lang: Lang): Cleanup {
   return start();
 }
 
-export function renderOntarioQuiz(host: HTMLElement, lang: Lang): Cleanup {
-  if (!canOntarioQuiz())
-    return renderPaywall(host, L('Тест «Онтарио и Брантфорд» входит в полный доступ. Сами факты на странице раздела — бесплатно.', 'The Ontario quiz is part of full access. The facts on the section page are free.', 'Тест «Онтаріо і Брантфорд» входить у повний доступ. Самі факти на сторінці розділу — безкоштовно.'));
+export function renderLocalQuiz(host: HTMLElement, lang: Lang): Cleanup {
+  if (!canLocalQuiz())
+    return renderPaywall(
+      host,
+      L(
+        'Тест «Мой город и провинция» входит в полный доступ. Сами факты на странице раздела — бесплатно.',
+        'The “My city and province” quiz is part of full access. The facts on the section page are free.',
+        'Тест «Моє місто і провінція» входить у повний доступ. Самі факти на сторінці розділу — безкоштовно.',
+      ),
+    );
   const start = (): Cleanup =>
     runSession(host, lang, {
-      title: ontarioTitle(),
-      questions: shuffle(ontarioQuestions(lang)),
-      mode: 'ontario',
+      title: `${localTitle()}: ${cityLine(settings.city)}`,
+      questions: shuffle(localQuestions(lang, settings.city)),
+      mode: 'local',
       timerMin: null,
-      back: '#/ontario',
+      back: '#/local',
       restart: () => start(),
     });
   return start();
 }
 
-export function renderOntario(host: HTMLElement, lang: Lang): Cleanup {
-  const n = ontario.questions.length;
-  const u = ui();
-  host.innerHTML = `<div class="page ontario">
+function factRows(facts: LocalFact[], lang: Lang): string {
+  return facts
+    .map(
+      (f) => `<div><dt>${esc(tri(f.label, ui()))}</dt>
+          <dd>${esc(tri(f.value, lang))}
+          <a class="src" href="${esc(f.source)}" target="_blank" rel="noopener">${L('источник', 'source', 'джерело')} ↗</a></dd></div>`,
+    )
+    .join('');
+}
+
+export function renderLocal(host: HTMLElement, lang: Lang): Cleanup {
+  const draw = () => {
+    const c = localCity(settings.city);
+    const prov = local.provinces[c.province];
+    const n = localQuestions(lang, c.id).length;
+    const byProv = Object.values(local.provinces)
+      .map((p) => ({ p, cities: local.cities.filter((x) => x.province === p.code).sort((a, b) => tri(a.name, ui()).localeCompare(tri(b.name, ui()))) }))
+      .filter((g) => g.cities.length);
+    host.innerHTML = `<div class="page local">
     <div class="kicker">${L('Раздел вне брошюры', 'Not in the brochure', 'Розділ поза брошурою')}</div>
-    <h1 class="ptitle">${ontarioTitle()}</h1>
+    <h1 class="ptitle">${localTitle()}</h1>
     <div class="redbar"></div>
     <p>${L(
-      'На экзамене могут спросить, кто сейчас возглавляет вашу провинцию и кто ваши депутаты. Этих данных нет в брошюре, и они меняются после выборов.',
-      'The test may ask who currently leads your province and who your representatives are. This is not in the brochure and changes after elections.', 'На іспиті можуть запитати, хто зараз очолює вашу провінцію і хто ваші депутати. Цих даних немає в брошурі, і вони змінюються після виборів.',
+      'На экзамене могут спросить, кто сейчас возглавляет вашу провинцию, кто мэр вашего города и кто ваши депутаты. Этих данных нет в брошюре, и они меняются после выборов.',
+      'The test may ask who currently leads your province, who your mayor is and who your representatives are. This is not in the brochure and changes after elections.',
+      'На іспиті можуть запитати, хто зараз очолює вашу провінцію, хто мер вашого міста і хто ваші депутати. Цих даних немає в брошурі, і вони змінюються після виборів.',
     )}</p>
-    <p class="checked">${L('Проверено по официальным источникам', 'Checked against official sources', 'Перевірено за офіційними джерелами')}: <b>${fmtDay(ontario.checked)}</b>${u === 'ru' ? ' ' + esc(ontario.recheckNote) : u === 'uk' ? ' ' + esc(ontario.recheckNoteUk) : '. Re-check after the December 7, 2026 by-election in Brantford—Brant South and after any election.'}</p>
-    <dl class="facts-table">${ontario.facts
-      .map(
-        (f) => `<div><dt>${esc(u === 'ru' ? f.ru : u === 'uk' ? f.uk : f.en)}</dt>
-          <dd>${esc(lang === 'ru' ? f.valueRu : lang === 'uk' ? f.valueUk : f.value)}
-          <a class="src" href="${esc(f.source)}" target="_blank" rel="noopener">${L('источник', 'source', 'джерело')} ↗</a></dd></div>`,
-      )
-      .join('')}</dl>
-    <a class="btn-main wide" href="#/ontario/quiz">${L('Пройти тест', 'Take the quiz', 'Пройти тест')} (${nQuestions(n)}) →</a>
+    <label class="field"><span>${L('Ваш город', 'Your city', 'Ваше місто')}</span><select data-city>
+      ${byProv
+        .map(
+          (g) => `<optgroup label="${esc(tri(g.p.name, ui()))}">${g.cities
+            .map((x) => `<option value="${x.id}" ${x.id === c.id ? 'selected' : ''}>${esc(tri(x.name, ui()))}</option>`)
+            .join('')}</optgroup>`,
+        )
+        .join('')}
+    </select></label>
+    <p class="muted small">${L(
+      'Вашего города нет в списке? Выберите ближайший город вашей провинции: премьер и вице-губернатор будут те же, а мэра и депутатов проверьте по ссылкам ниже.',
+      'Your city is not on the list? Pick the nearest city in your province: the Premier and Lieutenant Governor are the same; check your mayor and representatives with the links below.',
+      'Вашого міста немає у списку? Виберіть найближче місто вашої провінції: прем’єр і лейтенант-губернатор будуть ті самі, а мера й депутатів перевірте за посиланнями нижче.',
+    )}</p>
+    <p class="checked">${L('Проверено', 'Checked', 'Перевірено')}: <b>${fmtDay(local.checked)}</b> · ${esc(tri(local.recheckNote, ui()))}</p>
+    <h2 class="sub">${esc(tri(c.name, ui()))}</h2>
+    <dl class="facts-table">${factRows(c.facts, lang)}</dl>
+    <h2 class="sub">${esc(tri(prov.name, ui()))}</h2>
+    <dl class="facts-table">${factRows(prov.facts, lang)}</dl>
+    <h2 class="sub">${L('Канада', 'Canada', 'Канада')}</h2>
+    <dl class="facts-table">${factRows(local.national.facts, lang)}</dl>
+    <a class="btn-main wide" href="#/local/quiz">${L('Пройти тест', 'Take the quiz', 'Пройти тест')} (${nQuestions(n)}) →</a>
     <p class="muted small">${L('Если что-то изменилось (выборы, отставка), сверьтесь с источником по ссылке — сайт обновляется вручную.', 'If something has changed (an election, a resignation), check the linked source — the site is updated by hand.', 'Якщо щось змінилося (вибори, відставка), звіртеся з джерелом за посиланням — сайт оновлюється вручну.')}</p>
   </div>`;
+    host.querySelector<HTMLSelectElement>('select[data-city]')!.addEventListener('change', (e) => {
+      settings.city = (e.target as HTMLSelectElement).value;
+      saveSettings();
+      draw();
+    });
+  };
+  draw();
   return () => {};
 }
 
@@ -504,7 +554,7 @@ export function renderPaywall(host: HTMLElement, reason = ''): Cleanup {
       <li>${L('Тренировка по всем 12 главам — 263 вопроса с объяснениями и ссылками на брошюру', 'Practice on all 12 chapters — 263 questions with explanations and links to the brochure', 'Тренування з усіх 12 розділів — 263 питання з поясненнями та посиланнями на брошуру')}</li>
       <li>${L('Пробные экзамены без ограничений: 20 вопросов, таймер 30 минут, нужно 15 из 20', 'Unlimited practice exams: 20 questions, 30-minute timer, 15 of 20 to pass', 'Пробні іспити без обмежень: 20 питань, таймер 30 хвилин, потрібно 15 з 20')}</li>
       <li>${L('«Мои ошибки»: повторение вопросов, в которых вы ошиблись', '“My mistakes”: review the questions you got wrong', '«Мої помилки»: повторення питань, у яких ви помилилися')}</li>
-      <li>${L('История экзаменов и тест «Онтарио и Брантфорд»', 'Exam history and the Ontario and Brantford quiz', 'Історія іспитів і тест «Онтаріо і Брантфорд»')}</li>
+      <li>${L('История экзаменов и тест «Мой город и провинция»', 'Exam history and the “My city and province” quiz', 'Історія іспитів і тест «Моє місто і провінція»')}</li>
       <li>${L(`Работает без интернета; ключ подходит для ${devices}`, `Works offline; the key works on ${devices}`, `Працює без інтернету; ключ підходить для ${devices}`)}</li>
     </ul>
     <p class="muted small">${L(

@@ -382,7 +382,7 @@ figcaption { margin-top: 5px; font-size: 13px; line-height: 1.35; color: var(--r
 .hist li.pass i { color: var(--ok); }
 .hist li.fail i { color: var(--red); }
 .mistakes .was { color: var(--red); }
-.ontario .checked { background: var(--warn-bg); color: var(--warn-text); border-left: 4px solid #c77a12; padding: 10px 12px; font-size: 15px; line-height: 1.5; }
+.local .checked { background: var(--warn-bg); color: var(--warn-text); border-left: 4px solid #c77a12; padding: 10px 12px; font-size: 15px; line-height: 1.5; }
 .facts-table { margin: 14px 0; }
 .facts-table > div { border-top: 1px solid var(--line-soft); padding: 10px 0; }
 .facts-table dt { font-size: 13px; color: var(--text-2); text-transform: uppercase; letter-spacing: .4px; }

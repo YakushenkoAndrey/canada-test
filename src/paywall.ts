@@ -28,7 +28,7 @@ export const unlockInfo = (): Unlock | null => unlock;
 
 export const canTrain = (chapterId: string): boolean => isUnlocked() || chapterId === PAYWALL.freeChapter;
 export const canMistakes = (): boolean => isUnlocked();
-export const canOntarioQuiz = (): boolean => isUnlocked();
+export const canLocalQuiz = (): boolean => isUnlocked();
 export const freeExamsLeft = (): number => Math.max(0, PAYWALL.freeExams - freeExamsUsed);
 export const canStartExam = (): boolean => isUnlocked() || freeExamsLeft() > 0;
 

@@ -30,6 +30,8 @@ export interface Settings {
   factsOnly: boolean;
   showTranslation: boolean;
   examTimer: boolean;
+  /** City for the "Your city and province" section (id from data/local.json). */
+  city: string;
   theme: 'light' | 'dark' | 'auto';
   /** interface language when reading the English brochure */
   uiLang: 'ru' | 'en' | 'uk';
@@ -51,6 +53,7 @@ const DEFAULTS: Settings = {
   factsOnly: false,
   showTranslation: false,
   examTimer: true,
+  city: 'brantford',
   theme: 'light',
   uiLang: /^uk/i.test(navigator.language || '') ? 'uk' : /^(ru|be|kk)/i.test(navigator.language || '') ? 'ru' : 'en',
   voices: {},

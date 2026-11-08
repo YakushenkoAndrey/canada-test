@@ -1,5 +1,5 @@
 // Brochure data. Each language is loaded on demand (one file per language) to keep the app small.
-import ontarioJson from '../data/ontario.json';
+import localJson from '../data/local.json';
 import { L, langInfo, type Lang } from './langs';
 
 export type FactType = 'date' | 'person' | 'number' | 'definition' | 'place' | 'symbol' | 'right-duty';
@@ -92,28 +92,69 @@ export function questions(lang: Lang, chapterId?: string): Question[] {
   return (QUESTIONS[lang] ?? []).filter((q) => !chapterId || q.chapter === chapterId);
 }
 
-export interface OntarioFact { en: string; ru: string; uk: string; value: string; valueRu: string; valueUk: string; source: string }
-export const ontario = ontarioJson as {
+/** Text in English, Russian and Ukrainian. */
+export type Tri = { en: string; ru: string; uk: string };
+export interface LocalFact { label: Tri; value: Tri; source: string }
+interface LocalQ {
+  id: string;
+  question: string;
+  options: string[];
+  answer: number;
+  explanation: Tri;
+  questionTr: { ru: string; uk: string };
+  optionsTr: { ru: string[]; uk: string[] };
+}
+interface LocalGroup { facts: LocalFact[]; questions: LocalQ[] }
+export interface LocalProvince extends LocalGroup { code: string; name: Tri; members: string; membersLookup: string }
+export interface LocalCity extends LocalGroup { id: string; province: string; name: Tri }
+
+/** "Your city and province": who holds office now (data/local.json, built from content/local.json). */
+export const local = localJson as unknown as {
   checked: string;
-  recheckNote: string;
-  recheckNoteUk: string;
-  facts: OntarioFact[];
-  questions: { id: string; question: string; options: string[]; answer: number; explanationEn: string; explanationRu: string; questionRu: string; optionsRu: string[]; explanationUk: string; questionUk: string; optionsUk: string[] }[];
+  recheckNote: Tri;
+  federalLookup: string;
+  national: LocalGroup;
+  provinces: Record<string, LocalProvince>;
+  cities: LocalCity[];
 };
 
-/** Ontario / Brantford questions (not from the brochure; no blockId). English, with Russian and Ukrainian translations. */
-export function ontarioQuestions(lang: Lang): Question[] {
-  return ontario.questions.map((q) => ({
+export const DEFAULT_CITY = 'brantford';
+
+export function localCity(id: string): LocalCity {
+  return local.cities.find((c) => c.id === id) ?? local.cities.find((c) => c.id === DEFAULT_CITY)!;
+}
+
+/** Pick the en/ru/uk variant; other languages fall back to English. */
+export function tri(t: Tri, lang: string): string {
+  return lang === 'ru' || lang === 'uk' ? t[lang] : t.en;
+}
+
+function toQuestion(q: LocalQ, lang: Lang): Question {
+  const tr = lang === 'ru' || lang === 'uk' ? lang : null;
+  return {
     id: q.id,
-    chapter: 'ontario',
+    chapter: 'local',
     blockId: '',
     question: q.question,
     options: q.options,
     answer: q.answer,
-    explanation: lang === 'ru' ? q.explanationRu : lang === 'uk' ? q.explanationUk : q.explanationEn,
-    questionTr: lang === 'ru' ? q.questionRu : lang === 'uk' ? q.questionUk : undefined,
-    optionsTr: lang === 'ru' ? q.optionsRu : lang === 'uk' ? q.optionsUk : undefined,
-  }));
+    explanation: tri(q.explanation, lang),
+    questionTr: tr ? q.questionTr[tr] : undefined,
+    optionsTr: tr ? q.optionsTr[tr] : undefined,
+  };
+}
+
+/** Quiz for a city: national questions, the city's province and the city itself. */
+export function localQuestions(lang: Lang, cityId: string): Question[] {
+  const c = localCity(cityId);
+  const qs = [...local.national.questions, ...local.provinces[c.province].questions, ...c.questions];
+  return qs.map((q) => toQuestion(q, lang));
+}
+
+/** Every local question (for "My mistakes", which may hold questions of a city chosen earlier). */
+export function allLocalQuestions(lang: Lang): Question[] {
+  const qs = [...local.national.questions, ...Object.values(local.provinces).flatMap((p) => p.questions), ...local.cities.flatMap((c) => c.questions)];
+  return qs.map((q) => toQuestion(q, lang));
 }
 
 /** Size of a chapter's text, used to give the mock exam a proportional share of questions. */
