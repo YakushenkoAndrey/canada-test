@@ -1,0 +1,317 @@
+[
+ {
+  "id": "q-who-we-are-001",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-01",
+  "question": "What are the three founding peoples of Canada?",
+  "options": [
+   "Aboriginal, French and British",
+   "English, Scottish and Irish",
+   "French, Spanish and British",
+   "First Nations, Inuit and Métis"
+  ],
+  "answer": 0,
+  "explanation": "Три народа-основателя Канады — коренные народы, французы и британцы. Не путайте с тремя группами коренных народов (Первые нации, инуиты, метисы).",
+  "questionRu": "Какие три народа-основателя у Канады?",
+  "optionsRu": [
+   "Коренные народы, французы и британцы",
+   "Англичане, шотландцы и ирландцы",
+   "Французы, испанцы и британцы",
+   "Первые нации, инуиты и метисы"
+  ]
+ },
+ {
+  "id": "q-who-we-are-002",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-01",
+  "question": "Which key phrase from Canada’s original constitutional document of 1867 describes the commitment of Canadian institutions?",
+  "options": [
+   "Liberty, Equality, Fraternity",
+   "Peace, Order and Good Government",
+   "Life, Liberty and the Pursuit of Happiness",
+   "Strong and Free"
+  ],
+  "answer": 1,
+  "explanation": "«Мир, порядок и надлежащее управление» (Peace, Order and Good Government) — ключевая фраза Акта о Британской Северной Америке 1867 года.",
+  "questionRu": "Какая ключевая фраза из первого конституционного документа Канады 1867 года выражает приверженность канадских институтов?",
+  "optionsRu": [
+   "Свобода, равенство, братство",
+   "Мир, порядок и надлежащее управление",
+   "Жизнь, свобода и стремление к счастью",
+   "Сильная и свободная"
+  ]
+ },
+ {
+  "id": "q-who-we-are-003",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-01",
+  "question": "What was Canada’s original constitutional document of 1867 called?",
+  "options": [
+   "The Canadian Charter of Rights and Freedoms",
+   "The Royal Proclamation",
+   "The British North America Act",
+   "The Act of Union"
+  ],
+  "answer": 2,
+  "explanation": "Первый конституционный документ Канады 1867 года — Акт о Британской Северной Америке (British North America Act).",
+  "questionRu": "Как назывался первоначальный конституционный документ Канады 1867 года?",
+  "optionsRu": [
+   "Канадская хартия прав и свобод",
+   "Королевская прокламация",
+   "Акт о Британской Северной Америке",
+   "Акт о союзе"
+  ]
+ },
+ {
+  "id": "q-who-we-are-004",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-02",
+  "question": "What first guaranteed the territorial rights of Aboriginal peoples?",
+  "options": [
+   "The British North America Act of 1867",
+   "The Royal Proclamation of 1763 by King George III",
+   "The Quebec Act of 1774",
+   "A treaty signed in 2008"
+  ],
+  "answer": 1,
+  "explanation": "Территориальные права коренных народов впервые гарантировала Королевская прокламация 1763 года короля Георга III.",
+  "questionRu": "Чем впервые были гарантированы территориальные права коренных народов?",
+  "optionsRu": [
+   "Актом о Британской Северной Америке 1867 года",
+   "Королевской прокламацией 1763 года короля Георга III",
+   "Квебекским актом 1774 года",
+   "Договором 2008 года"
+  ]
+ },
+ {
+  "id": "q-who-we-are-005",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-02",
+  "question": "In what year did Ottawa formally apologize to the former students of residential schools?",
+  "options": [
+   "1982",
+   "1998",
+   "2008",
+   "2015"
+  ],
+  "answer": 2,
+  "explanation": "Школы-интернаты (residential schools) существовали с 1800-х до 1980-х годов. Официальные извинения — в 2008 году.",
+  "questionRu": "В каком году Оттава официально извинилась перед бывшими учениками школ-интернатов?",
+  "optionsRu": [
+   "1982",
+   "1998",
+   "2008",
+   "2015"
+  ]
+ },
+ {
+  "id": "q-who-we-are-006",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-03",
+  "question": "What are the three distinct groups of Aboriginal peoples?",
+  "options": [
+   "Cree, Mohawk and Inuit",
+   "First Nations, Inuit and Métis",
+   "Indians, Acadians and Métis",
+   "Haida, Dene and Inuit"
+  ],
+  "answer": 1,
+  "explanation": "«Коренные народы» — это три группы: Первые нации (First Nations, раньше «индейцы»), инуиты (Inuit) и метисы (Métis).",
+  "questionRu": "Какие три отдельные группы составляют коренные народы?",
+  "optionsRu": [
+   "Кри, мохоки и инуиты",
+   "Первые нации, инуиты и метисы",
+   "Индейцы, акадийцы и метисы",
+   "Хайда, дене и инуиты"
+  ]
+ },
+ {
+  "id": "q-who-we-are-007",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-03",
+  "question": "What does the word “Inuit” mean in the Inuktitut language?",
+  "options": [
+   "The people",
+   "The North",
+   "The hunters",
+   "Land of ice"
+  ],
+  "answer": 0,
+  "explanation": "Inuit на языке инуктитут значит «люди». Инуиты живут небольшими общинами по всей Арктике.",
+  "questionRu": "Что означает слово «инуиты» на языке инуктитут?",
+  "optionsRu": [
+   "Люди",
+   "Север",
+   "Охотники",
+   "Земля льда"
+  ]
+ },
+ {
+  "id": "q-who-we-are-008",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-03",
+  "question": "Who are the Métis?",
+  "options": [
+   "Descendants of French colonists in the Maritimes",
+   "People living in small communities across the Arctic",
+   "A distinct people of mixed Aboriginal and European ancestry",
+   "The first British settlers in the Prairies"
+  ],
+  "answer": 2,
+  "explanation": "Метисы (Métis) — народ смешанного коренного и европейского происхождения, большинство живёт в Прерийных провинциях, говорят на диалекте мичиф.",
+  "questionRu": "Кто такие метисы?",
+  "optionsRu": [
+   "Потомки французских колонистов в Приморских провинциях",
+   "Народ, живущий небольшими общинами в Арктике",
+   "Самобытный народ смешанного коренного и европейского происхождения",
+   "Первые британские поселенцы в Прериях"
+  ]
+ },
+ {
+  "id": "q-who-we-are-009",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-03",
+  "question": "About what percentage of Aboriginal people are First Nations?",
+  "options": [
+   "4%",
+   "30%",
+   "50%",
+   "65%"
+  ],
+  "answer": 3,
+  "explanation": "Около 65% — Первые нации, 30% — метисы, 4% — инуиты.",
+  "questionRu": "Какую примерно долю коренного населения составляют Первые нации?",
+  "optionsRu": [
+   "4%",
+   "30%",
+   "50%",
+   "65%"
+  ]
+ },
+ {
+  "id": "q-who-we-are-010",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-05",
+  "question": "What are the official languages of Canada?",
+  "options": [
+   "English and French",
+   "English and Inuktitut",
+   "French and Michif",
+   "English, French and Chinese"
+  ],
+  "answer": 0,
+  "explanation": "Официальные языки — английский и французский; федеральное правительство обязано обслуживать граждан на обоих языках.",
+  "questionRu": "Какие языки являются официальными в Канаде?",
+  "optionsRu": [
+   "Английский и французский",
+   "Английский и инуктитут",
+   "Французский и мичиф",
+   "Английский, французский и китайский"
+  ]
+ },
+ {
+  "id": "q-who-we-are-011",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-05",
+  "question": "Which is the only officially bilingual province?",
+  "options": [
+   "Quebec",
+   "Ontario",
+   "New Brunswick",
+   "Manitoba"
+  ],
+  "answer": 2,
+  "explanation": "Нью-Брансуик (New Brunswick) — единственная официально двуязычная провинция. Квебек — франкоязычный, но не двуязычный официально.",
+  "questionRu": "Какая провинция — единственная официально двуязычная?",
+  "optionsRu": [
+   "Квебек",
+   "Онтарио",
+   "Нью-Брансуик",
+   "Манитоба"
+  ]
+ },
+ {
+  "id": "q-who-we-are-012",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-05",
+  "question": "Who are the Acadians?",
+  "options": [
+   "Descendants of French colonists who began settling in the Maritime provinces in 1604",
+   "Descendants of British soldiers who settled in Ontario",
+   "An Aboriginal people of the Prairie provinces",
+   "French-speaking immigrants who arrived after the Second World War"
+  ],
+  "answer": 0,
+  "explanation": "Акадийцы (Acadians) — потомки французских колонистов, селившихся в Приморских провинциях с 1604 года.",
+  "questionRu": "Кто такие акадийцы?",
+  "optionsRu": [
+   "Потомки французских колонистов, которые начали селиться в Приморских провинциях в 1604 году",
+   "Потомки британских солдат, поселившихся в Онтарио",
+   "Коренной народ Прерийных провинций",
+   "Франкоязычные иммигранты, приехавшие после Второй мировой войны"
+  ]
+ },
+ {
+  "id": "q-who-we-are-013",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-05",
+  "question": "What is the deportation of more than two-thirds of the Acadians between 1755 and 1763 known as?",
+  "options": [
+   "The Quiet Revolution",
+   "The Great Upheaval",
+   "The Great Migration",
+   "The Long March"
+  ],
+  "answer": 1,
+  "explanation": "Депортация акадийцев во время войны Великобритании и Франции известна как «Великое изгнание» (Great Upheaval).",
+  "questionRu": "Как называется депортация более двух третей акадийцев в 1755–1763 годах?",
+  "optionsRu": [
+   "Тихая революция",
+   "Великое изгнание",
+   "Великое переселение",
+   "Великий поход"
+  ]
+ },
+ {
+  "id": "q-who-we-are-014",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-05",
+  "question": "What did the House of Commons recognize in 2006?",
+  "options": [
+   "That Quebec is an independent country",
+   "That French is the only official language of Quebec and Ontario",
+   "That the Quebecois form a nation within a united Canada",
+   "That New Brunswick is officially bilingual"
+  ],
+  "answer": 2,
+  "explanation": "В 2006 году Палата общин признала, что квебекцы образуют нацию в составе единой Канады.",
+  "questionRu": "Что признала Палата общин в 2006 году?",
+  "optionsRu": [
+   "Что Квебек — независимое государство",
+   "Что французский — единственный официальный язык Квебека и Онтарио",
+   "Что квебекцы образуют нацию в составе единой Канады",
+   "Что Нью-Брансуик официально двуязычен"
+  ]
+ },
+ {
+  "id": "q-who-we-are-015",
+  "chapter": "who-we-are",
+  "blockId": "who-we-are-07",
+  "question": "Since the 1970s, where have most immigrants to Canada come from?",
+  "options": [
+   "Europe",
+   "The United States",
+   "Asian countries",
+   "South America"
+  ],
+  "answer": 2,
+  "explanation": "С 1970-х годов большинство иммигрантов приезжает из азиатских стран.",
+  "questionRu": "Откуда приезжает большинство иммигрантов в Канаду с 1970-х годов?",
+  "optionsRu": [
+   "Из Европы",
+   "Из США",
+   "Из азиатских стран",
+   "Из Южной Америки"
+  ]
+ }
+]

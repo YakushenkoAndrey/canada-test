@@ -1,0 +1,23 @@
+{
+  "_comment": "Photos extracted from source/discover-canada-en.pdf by tools/extract_images.py. page = brochure page, xref = PDF image object id.",
+  "who-we-are/p10-metis.jpg": {"page": 10, "xref": 331},
+  "who-we-are/p10-cree.jpg": {"page": 10, "xref": 329},
+  "who-we-are/p10-inuit-children.jpg": {"page": 10, "xref": 325},
+  "who-we-are/p10-bill-reid.jpg": {"page": 10, "xref": 327},
+  "who-we-are/p11-buchan.jpg": {"page": 11, "xref": 333},
+  "who-we-are/p11-st-patricks.jpg": {"page": 11, "xref": 341},
+  "who-we-are/p11-highland.jpg": {"page": 11, "xref": 339},
+  "who-we-are/p11-fete-nationale.jpg": {"page": 11, "xref": 337},
+  "who-we-are/p11-acadian-fiddler.jpg": {"page": 11, "xref": 335},
+  "who-we-are/p12-celebration.jpg": {"page": 12, "xref": 369},
+  "who-we-are/p12-ismaili.jpg": {"page": 12, "xref": 367},
+  "who-we-are/p12-caribbean.jpg": {"page": 12, "xref": 356},
+  "who-we-are/p12-pysanka.jpg": {"page": 12, "xref": 354},
+  "who-we-are/p12-polish-dancers.jpg": {"page": 12, "xref": 352},
+  "who-we-are/p12-pipes.jpg": {"page": 12, "xref": 350},
+  "who-we-are/p13-christmas.jpg": {"page": 13, "xref": 348},
+  "who-we-are/p13-veterans.jpg": {"page": 13, "xref": 346},
+  "who-we-are/p13-notre-dame.jpg": {"page": 13, "xref": 344},
+  "who-we-are/p13-chinese-new-year.jpg": {"page": 13, "xref": 342},
+  "who-we-are/p13-turner-bailey.jpg": {"page": 13, "xref": 358}
+}
