@@ -4,7 +4,7 @@
 «Discover Canada: The Rights and Responsibilities of Citizenship».
 Две версии: **EN** — официальный оригинал, **RU** — неофициальный перевод.
 
-**Сайт:** https://yakushenkoandrey.github.io/canada-test/
+**Сайт:** https://discover-canada-test.github.io/
 
 Что умеет: показывает брошюру поблочно (заголовок, фото, текст), озвучивает каждый блок
 с подсветкой текущего предложения и слова, выделяет ключевые факты, режим «Только главное»,
@@ -22,7 +22,7 @@ EN (оригинал), RU (перевод автора), UK (машинный п
 
 ```bash
 npm install
-npm run dev        # http://localhost:5173/canada-test/
+npm run dev        # http://localhost:5173/
 npm run build      # сборка в dist/
 npm run preview    # открыть собранный dist/
 ```

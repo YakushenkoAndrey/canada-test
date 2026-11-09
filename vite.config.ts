@@ -32,10 +32,10 @@ function serviceWorker(): Plugin {
   };
 }
 
-// base must equal the GitHub repository name, otherwise styles and images
-// do not load on https://<user>.github.io/canada-test/
+// base must match where the site is served, otherwise styles and images
+// do not load (the site lives at the root of https://discover-canada-test.github.io/)
 export default defineConfig({
-  base: '/canada-test/',
+  base: '/',
   plugins: [serviceWorker()],
   // Brochure text for both languages is bundled (~1 MB, ~250 KB gzipped): raise the warning limit.
   build: { outDir: 'dist', assetsInlineLimit: 0, chunkSizeWarningLimit: 1500 },
